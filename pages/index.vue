@@ -185,9 +185,11 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import News from '~/components/News.vue'
 
 @Component({
   components: {
+    News
   },
 })
 export default class about extends Vue {

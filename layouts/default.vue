@@ -41,30 +41,12 @@
       <nav id="js_gnav" class="gnav">
         <GoogleCustomSearch v-if="isMobileMenuOpen" />
         <ul class="menu">
+          
           <template v-for="(menuMapLv1, key) in menuList">
-            <template
-              v-if="
-                (menuMapLv1.to || menuMapLv1.href) &&
-                !['ニュース', 'よくあるご質問'].includes(menuMapLv1.label)
-              "
-            >
-              <li v-if="menuMapLv1.lang.includes(lang)" :key="key">
-                <template v-if="menuMapLv1.href">
-                  <a :href="getHiPath(menuMapLv1.href)">{{
-                    $t(menuMapLv1.label)
-                  }}</a>
-                </template>
+              <!-- 言語があり、表示設定がある項目 -->
+              <li v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop" :key="key">
 
-                <template v-else>
-                  <!--
-                  <nuxt-link :to="localePath(item.to)">{{
-                    $t(item.label)
-                  }}</nuxt-link>
-                  //clickLv1Menu(key)
 
-                  isOpenLv1 = !isOpenLv1
-                      currentLv1Index = key
-                  -->
                   <span class="atag" @click="clickLv1Menu(key)">{{
                     $t(menuMapLv1.label)
                   }}</span>
@@ -87,9 +69,18 @@
                             : ''
                         "
                       >
-                        <nuxt-link :to="localePath(menuMapLv2.to)">{{
-                          $t(menuMapLv2.label)
-                        }}</nuxt-link>
+                        <template v-if="menuMapLv2.href">
+                          <a :href="menuMapLv2.href[lang]">{{
+                            $t(menuMapLv2.label)
+                          }}</a>
+                        </template>
+                        <template v-else>
+                          <nuxt-link :to="localePath(menuMapLv2.to)">{{
+                            $t(menuMapLv2.label)
+                          }}</nuxt-link>
+                        </template>
+                        
+                        <!-- 子供を持つ場合にはプラスボタンを追加 -->
                         <template v-if="menuMapLv2.children">
                           <i class="child-btn" @click="clickLv2Menu(key2)"></i>
                           <VueSlideToggle
@@ -106,7 +97,7 @@
                                 :key="key3"
                               >
                                 <template v-if="menuMapLv3.href">
-                                  <a :href="getHiPath(menuMapLv3.href)">{{
+                                  <a :href="menuMapLv3.href[lang]">{{
                                     $t(menuMapLv3.label)
                                   }}</a>
                                 </template>
@@ -122,9 +113,7 @@
                       </li>
                     </template>
                   </VueSlideToggle>
-                </template>
               </li>
-            </template>
           </template>
         </ul>
 
@@ -172,14 +161,6 @@
                   >■ HOME</nuxt-link
                 >
               </li>
-              <li v-if="false">
-                <a href="https://cliocyb.hi.u-tokyo.ac.jp/">■ STAFF ONLY</a>
-              </li>
-              <li v-if="false">
-                <nuxt-link :to="localePath({ name: 'inquery' })"
-                  >■ {{ $t('お問い合わせ') }}</nuxt-link
-                >
-              </li>
               <li>
                 <nuxt-link :to="localePath({ name: 'about-sitemap' })"
                   >■ {{ $t('サイトマップ') }}</nuxt-link
@@ -201,27 +182,20 @@
             </ul>
           </nav>
           <small
-            ><!-- Copyright © 1997 - 2020<br />-->
+            >
             © 1997 Historiographical Institute The University of Tokyo.
-            <!--©
-            東京大学--></small
+            </small
           >
         </aside>
       </div>
     </footer>
-    <!--
-    <script :src="baseUrl + '/assets/js/menu.js'"></script>
-    <script
-      type="text/javascript"
-      :src="baseUrl + '/assets/js/smoothScrollEx.js'"
-    ></script>
-    -->
-    <!-- v-scroll="onScroll" -->
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component, Watch } from 'nuxt-property-decorator'
+import LangSelect from '~/components/LangSelect.vue'
+import GoogleCustomSearch from '~/components/GoogleCustomSearch.vue'
 
 // tslint:disable-next-line:no-var-requires
 const { VueSlideToggle } = require('vue-slide-toggle')
@@ -229,6 +203,8 @@ const { VueSlideToggle } = require('vue-slide-toggle')
 @Component({
   components: {
     VueSlideToggle,
+    LangSelect,
+    GoogleCustomSearch
   },
 })
 export default class Layout extends Vue {
@@ -303,18 +279,6 @@ export default class Layout extends Vue {
 
   get lang() {
     return this.$i18n.locale
-  }
-
-  getHiPath(data: string) {
-    if (data.includes('hi.u-tokyo.ac.jp')) {
-      const lang = this.lang
-      if (lang !== 'ja') {
-        data = data.replace('/dev/', '/dev/' + lang + '/')
-      }
-      return data
-    }
-
-    return this.baseUrl + '/' + (this.lang === 'en' ? 'en/' : '') + data + '/'
   }
 
   get langStr() {

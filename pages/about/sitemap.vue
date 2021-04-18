@@ -1,10 +1,10 @@
 <template>
   <div>
-    <LayoutAbout :title="title">
+    <Layout :title="title">
       <h1 class="h02">{{ title }}</h1>
 
-      <template v-for="(obj, index) in items">
-        <div v-if="obj.lang.includes(lang)" :key="index" class="mb-10">
+      <template v-for="(obj, index) in menuList">
+        <div v-if="obj.lang.includes(lang)" :key="index" class="mb2">
           <h2 class="h03 mt-10">
             {{ $t(obj.label) }}
           </h2>
@@ -44,24 +44,24 @@
           </ul>
         </div>
       </template>
-    </LayoutAbout>
+    </Layout>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import LayoutAbout from '~/components/layout/Layout.vue'
+import Layout from '~/components/layout/Layout.vue'
 
 @Component({
   components: {
-    LayoutAbout,
+    Layout,
   },
 })
 export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
   title: any = this.$t('サイトマップ')
 
-  items: any = process.env.jsonData
+  menuList: any = process.env.menuList
 
   get lang() {
     return this.$i18n.locale

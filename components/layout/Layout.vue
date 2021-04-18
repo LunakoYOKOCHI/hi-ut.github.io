@@ -56,7 +56,7 @@
                           <a
                             :key="'parent_' + index"
                             :class="title == obj2.label ? 'current' : ''"
-                            :href="getHiUrl(obj2.href)"
+                            :href="obj2.href[lang]"
                             exact
                           >
                             {{ $t(obj2.label) }}
@@ -100,15 +100,6 @@ export default class ComponentLayout extends Vue {
 
   get lang() {
     return this.$i18n.locale
-  }
-
-  getHiUrl(data: any) {
-    if (data.includes('http')) {
-      return data
-    } else {
-      // 要修正
-      return this.baseUrl + '/' + (this.lang === 'en' ? 'en/' : '') + data + '/'
-    }
   }
 
   get menu(): any {
