@@ -968,7 +968,7 @@ img {
     overflow: auto; }
     @media print, screen and (min-width: 769px) {
       .top-topics .data {
-        height: 515px; } }
+        height: 700px; } }
   .top-topics dl {
     text-align: left;
     margin-right: 1em; }
