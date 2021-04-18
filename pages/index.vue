@@ -14,7 +14,7 @@
 
     <div class="contents-wrap">
       <main id="main-contents" class="main-contents">
-        <News :is-list-link="true" />
+        <News :isTop="true" :year="year" />
 
         <!-- InstanceBeginEditable name="main" -->
         <section v-if="false" class="top-topics">
@@ -201,6 +201,12 @@ export default class about extends Vue {
 
   set lg(value) {
     this.$store.commit('setLg', value)
+  }
+
+  get year(){
+    const currentYear = new Date().getFullYear()
+    const currentMonth = new Date().getMonth() + 1
+    return currentMonth < 4 ? currentYear - 1 : currentYear
   }
 
   head() {

@@ -34,7 +34,7 @@
             <h2>{{ label }}</h2>
             <ul>
               <li>
-                <nuxt-link :to="localePath({ name: 'news' })">
+                <nuxt-link :to="localePath({ name: 'news-year' })">
                   {{ $t('今年度のニュース') }}
                 </nuxt-link>
               </li>
@@ -42,7 +42,7 @@
                 <nuxt-link
                   :to="
                     localePath({
-                      name: 'news-list-year',
+                      name: 'news-year',
                       params: { year: value },
                     })
                   "
@@ -101,7 +101,7 @@ export default class LayoutAbout extends Vue {
       text: this.$t(this.label),
       disabled: false,
       to: this.localePath({
-        name: 'news',
+        name: 'news-year',
       }),
       exact: true,
     },

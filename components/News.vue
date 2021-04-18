@@ -1,32 +1,31 @@
 <template>
   <section class="top-topics">
-    <h2 class="h01">
+    <h2 class="h01" v-if="isTop">
       News &amp; Topics
       <nuxt-link
-        v-if="isListLink"
         class="list"
         style="text-decoration: none"
-        :to="localePath({ name: 'news' })"
+        :to="localePath({ name: 'news-year' })"
         >{{ $t('一覧') }}</nuxt-link
       >
     </h2>
 
-     <div class="page-link c4">
-<ul>
-<li><a @click="select = 'latest'">{{ $t('新着一覧') }}</a></li>
-<li><a @click="select = 'news'">{{ $t('news') }}</a</li>
-<li><a @click="select = 'event'">{{ $t('event') }}</a> </li>
-<li><a @click="select = 'data'">{{ $t('data') }}</a> </li>
-</ul>
-</div>
+    <div class="page-link" :class="isTop ? 'c4' : ''">
+      <ul>
+        <li v-if="isTop"><a @click="select = 'latest'">{{ $t('新着一覧') }}</a></li>
+        <li><a @click="select = 'news'">{{ $t('news') }}</a</li>
+        <li><a @click="select = 'event'">{{ $t('event') }}</a> </li>
+        <li><a @click="select = 'data'">{{ $t('data') }}</a> </li>
+      </ul>
+    </div>
 
 
-    <div class="data" style="height: 700px">
+    <div :class="isTop ? 'data' : ''"> <!-- style="height: 700px" -->
 
-     <template v-for="(newsMap, key) in newsList">
+      <template v-for="(newsMap, key) in newsList">
 
-      <dl :key="key" v-if="select === 'latest' || select === newsMap.tag">
-        
+        <dl :key="key" v-if="select === 'latest' || select === newsMap.tag">
+          
           <dt class="mb1">
             {{ newsMap.date }}
             <!-- <span class="chip1">{{ newsMap.featured }}</span> -->
@@ -36,8 +35,8 @@
           <dd>
             <span class="fc1">{{ newsMap.featured }}</span> <span v-html="newsMap.content"></span>
           </dd>
-        
-      </dl>
+          
+        </dl>
 
       </template>
     </div>
@@ -53,7 +52,10 @@ import axios from 'axios'
 })
 export default class NewsComponent extends Vue {
   @Prop({ default: false })
-  isListLink!: boolean
+  isTop!: boolean
+
+  @Prop()
+  year!: number
 
   newsList: any[] = []
 
@@ -66,8 +68,10 @@ export default class NewsComponent extends Vue {
   async mounted() {
     const prefix =
       this.baseUrl + '/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
+    
     try {
-      const res = await axios.get(prefix + 2020 + '.json')
+      
+      const res = await axios.get(prefix + this.year + '.json')
       
       //const res = await this.$axios.$get(prefix + 2020 + '.json')
       this.newsList = res.data

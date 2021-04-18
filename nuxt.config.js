@@ -210,7 +210,7 @@ export default {
     // Simple usage
     // '@nuxtjs/amp',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    // '@nuxt/content',
   ],
 
   sitemap: {
