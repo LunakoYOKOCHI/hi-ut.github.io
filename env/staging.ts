@@ -1,3 +1,3 @@
 module.exports = {
-  BASE_URL: 'https://hi-ut.github.io/dev',
+  BASE_URL: 'https://hi-ut.github.io',
 }
