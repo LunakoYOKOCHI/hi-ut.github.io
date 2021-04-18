@@ -4,17 +4,17 @@ const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.publicationLatestFiscalYear = 2019
 
-const menuList = JSON.parse(fs.readFileSync('static/data/menuList.json'))
+const menuList = JSON.parse(fs.readFileSync('static/assets/json/menuList.json'))
 env.menuList = menuList
 
-const people2 = JSON.parse(fs.readFileSync('static/data/people2.json'))
-env.people2 = people2
+const people = JSON.parse(fs.readFileSync('static/assets/json/people.json'))
+env.people = people
 
-const publication = JSON.parse(fs.readFileSync('static/data/publication.json'))
+const publication = JSON.parse(fs.readFileSync('static/assets/json/publication.json'))
 env.publication = publication
 
 const organization = JSON.parse(
-  fs.readFileSync('static/data/organization.json')
+  fs.readFileSync('static/assets/json/organization.json')
 )
 env.organization = organization
 
@@ -22,7 +22,7 @@ const latestSyhoVol = 54
 env.syoho = []
 for (let vol = 1; vol <= latestSyhoVol; vol++) {
   env.syoho[vol] = JSON.parse(
-    fs.readFileSync(`static/data/syoho/${('0000' + vol).slice(-4)}/data.json`)
+    fs.readFileSync(`static/assets/json/syoho/${('0000' + vol).slice(-4)}/data.json`)
   )
 }
 
@@ -43,8 +43,8 @@ const siteKeywords =
   '東京大学史料編纂所, Historiographical Institute, 東京大学, The University of Tokyo'
 
 // images
-const iconImages = basePath + 'img/icons/'
-const ogpImages = basePath + 'img/ogp/'
+const iconImages = basePath + 'assets/img/common/'
+const ogpImages = basePath + 'assets/img/common/'
 
 // pwa
 const shortName = 'HI'
@@ -227,7 +227,7 @@ export default {
     defaultLocale: 'ja',
     vueI18nLoader: true,
     lazy: true,
-    langDir: 'static/data/lang/',
+    langDir: 'static/assets/json/lang/',
     // strategy: 'no_prefix'
   },
 
@@ -264,7 +264,7 @@ export default {
 
       const fs = require('fs')
       const publication = JSON.parse(
-        fs.readFileSync('static/data/publication.json')
+        fs.readFileSync('static/assets/json/publication.json')
       )
 
       for (const year in publication) {

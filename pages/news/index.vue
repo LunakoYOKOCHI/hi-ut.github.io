@@ -67,50 +67,8 @@ export default class news extends Vue {
     return year
   }
 
-  /*
-  async asyncData({ $content, params, app }: any) {
-    let year = params.year
-    if (!year) {
-      const currentYear = new Date().getFullYear()
-      const currentMonth = new Date().getMonth() + 1
-      year = currentMonth < 4 ? currentYear - 1 : currentYear
-    }
-
-    const filterStartDate = new Date(year + '-01-01T00:00:00.000Z').valueOf()
-    const filterEndDate = new Date(
-      Number(year) + 1 + '-03-31T23:59:59.000Z'
-    ).valueOf()
-
-    const where = {
-      date: {
-        $between: [filterStartDate, filterEndDate],
-      },
-    }
-    const news = await $content(`${app.i18n.locale}/news`)
-      .where(where)
-      .sortBy('date', 'desc')
-      .fetch()
-
-    const items: any = {}
-
-    for (let i = 0; i < news.length; i++) {
-      const n = news[i]
-      const type = n.type || 'news'
-      const f = n.featured ? 'featured' : 'nonFeatured'
-      if (!items[type]) {
-        items[type] = {
-          featured: [],
-          nonFeatured: [],
-        }
-      }
-      items[type][f].push(n)
-    }
-    return { year, items }
-  }
-  */
-
   async created() {
-    const results = await axios.get(this.baseUrl + '/data/news/2020.json')
+    const results = await axios.get(this.baseUrl + '/assets/json/news/2020.json')
     const news = results.data
     this.news = news
   }

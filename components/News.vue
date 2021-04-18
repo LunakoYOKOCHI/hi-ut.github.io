@@ -65,7 +65,7 @@ export default class NewsComponent extends Vue {
 
   async mounted() {
     const prefix =
-      this.baseUrl + '/data/news/' + (this.lang === 'ja' ? '' : 'en/')
+      this.baseUrl + '/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
     try {
       const res = await axios.get(prefix + 2020 + '.json')
       

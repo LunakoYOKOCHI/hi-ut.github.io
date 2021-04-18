@@ -12,7 +12,7 @@
             <h1>
               <nuxt-link :to="localePath({ name: 'index' })">
                 <img
-                  :src="baseUrl + '/img/icons/hilogo.jpg'"
+                  :src="baseUrl + '/assets/img/common/hilogo.jpg'"
                   alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
                 />
               </nuxt-link>

@@ -5,7 +5,7 @@
     <div class="key-img">
       <!--  style="background-color: #e6e1d8" -->
       <img
-        :src="baseUrl + '/img/ogp/home.jpg'"
+        :src="baseUrl + '/assets/img/common/home.jpg'"
         width="1050"
         alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
       />
@@ -124,15 +124,6 @@
               />
             </a>
           </div>
-
-          <Timeline
-            v-if="false"
-            id="UTokyo_HI"
-            class="mt-10"
-            source-type="profile"
-            height="200px"
-            :options="{ height: '400' }"
-          ></Timeline>
         </aside>
       </div>
     </div>
@@ -194,13 +185,9 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-//import News2 from '~/components/news/List.vue'
-const { Timeline } = require('vue-tweet-embed')
 
 @Component({
   components: {
-    Timeline,
-    //News2,
   },
 })
 export default class about extends Vue {
@@ -234,57 +221,5 @@ export default class about extends Vue {
 
     return this.baseUrl + '/' + (this.lang === 'en' ? 'en/' : '') + data + '/'
   }
-
-  /*
-  async asyncData({ $content, app }: any) {
-    const types = ['latest', 'news', 'event', 'data']
-    const items: any = {}
-    const lang = app.i18n.locale
-    for (let i = 0; i < types.length; i++) {
-      const type = types[i]
-
-      let where: any = {
-        // lang,
-        featured: true,
-      }
-
-      if (type !== 'latest') {
-        where.type = type
-      }
-
-      let query = await $content(lang + '/news')
-        .where(where)
-        .sortBy('date', 'desc')
-      const featured = await query.fetch()
-
-      const filterStartDate = new Date('2015-01-01T00:00:00.000Z').valueOf()
-
-      where = {
-        // lang,
-        featured: false,
-        date: {
-          $gte: filterStartDate,
-        },
-      }
-
-      if (type !== 'latest') {
-        where.type = type
-      }
-
-      query = await $content(lang + '/news')
-        .where(where)
-        .sortBy('date', 'desc')
-        .limit(15)
-      const nonFeatured = await query.fetch()
-
-      items[type] = {
-        featured,
-        nonFeatured,
-      }
-    }
-
-    return { items }
-  }
-  */
 }
 </script>
