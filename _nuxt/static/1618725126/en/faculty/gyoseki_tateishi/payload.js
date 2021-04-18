@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/faculty/gyoseki_tateishi", {data:[{}],fetch:{},mutations:[]});
