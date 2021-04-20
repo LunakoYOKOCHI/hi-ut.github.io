@@ -16,7 +16,7 @@
 
     <p class="text-right" style="text-align: right">
       {{
-        lang === 'ja' ? '2020（令和2）年7月1日現在' : 'Compiled in 2020-07-01'
+        lang === 'ja' ? '2021（令和3）年5月1日現在' : 'Compiled in 2020-07-01'
       }}
     </p>
 

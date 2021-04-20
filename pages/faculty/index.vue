@@ -44,7 +44,7 @@ import Layout from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   title: any = this.$t('教員一覧')
 
-  people: any = process.env.people2
+  people: any = process.env.people
 
   lang: string = this.$i18n.locale || 'ja'
 
