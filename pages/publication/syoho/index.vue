@@ -11,13 +11,26 @@
         >。
       </p>
 
-      <ul>
+      <li>
+          <nuxt-link
+            :to="
+              localePath({
+                name: 'publication-syoho-vol',
+                params: { vol: 'syoho' + ('0000' + 55).slice(-4) },
+              })
+            "
+          >
+            東京大学史料編纂所報第{{ 55 }}号
+          </nuxt-link>
+        </li>
+
+      <ul v-if="false">
         <li v-for="(value, index) in items" :key="index">
           <nuxt-link
             :to="
               localePath({
                 name: 'publication-syoho-vol',
-                params: { vol: ('0000' + value).slice(-4) },
+                params: { vol: 'syoho' + ('0000' + value).slice(-4) },
               })
             "
           >

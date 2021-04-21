@@ -48,7 +48,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import LayoutPublication from '~/components/layout/LayoutPublication.vue'
+import LayoutPublication from '~/components/layout/Layout.vue'
 
 @Component({
   components: {
