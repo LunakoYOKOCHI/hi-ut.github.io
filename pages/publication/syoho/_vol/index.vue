@@ -32,7 +32,7 @@
                   <template v-if="obj.url">
                     <a :href="obj.url">{{obj.title}}</a>
                   </template>
-                  <template v-else>
+                  <template v-else-if="obj.id">
                     <nuxt-link :to="localePath({
                       name: 'publication-syoho-vol-slug',
                       params: {
@@ -41,6 +41,9 @@
                       }
                     })">{{obj.title}}
                     </nuxt-link>
+                  </template>
+                  <template v-else>
+                    {{obj.title}}
                   </template>
                 </td>
                 <td></td>

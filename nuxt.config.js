@@ -27,6 +27,7 @@ const organization = JSON.parse(
 )
 env.organization = organization
 
+/*
 const latestSyhoVol = 54
 env.syoho = []
 for (let vol = 1; vol <= latestSyhoVol; vol++) {
@@ -34,6 +35,9 @@ for (let vol = 1; vol <= latestSyhoVol; vol++) {
     fs.readFileSync(`static/assets/json/syoho/${('0000' + vol).slice(-4)}/data.json`)
   )
 }
+*/
+
+env.latestSyohoVol = 55
 
 const GOOGLE_ANALYTICS_ID = 'abc'
 
@@ -300,9 +304,14 @@ export default {
 
       //
 
-      const syoho_list = [55]
+      // 所報
 
-      for(const vol of syoho_list){
+      for(let vol = 1; vol <= env.latestSyohoVol; vol++){
+
+        if(vol === 16){
+          continue
+        }
+
         const item = JSON.parse(
           fs.readFileSync(`static/assets/json/publication/syoho/${vol}.json`)
         )

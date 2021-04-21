@@ -11,16 +11,16 @@
         >。
       </p>
 
-      <li>
+      <li v-for="i of latestSyohoVol" :key="i">
           <nuxt-link
             :to="
               localePath({
                 name: 'publication-syoho-vol',
-                params: { vol: 'syoho' + ('0000' + 55).slice(-4) },
+                params: { vol: 'syoho' + ('0000' + (latestSyohoVol - i + 1)).slice(-4) },
               })
             "
           >
-            東京大学史料編纂所報第{{ 55 }}号
+            東京大学史料編纂所報第{{ latestSyohoVol - i + 1 }}号
           </nuxt-link>
         </li>
 
@@ -54,8 +54,6 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   title: any = this.$t('所報')
 
-  latest: number = 54
-
   head() {
     const title = this.title
     return {
@@ -70,6 +68,10 @@ export default class about extends Vue {
     },
   ]
 
+
+  latestSyohoVol: any = process.env.latestSyohoVol
+
+  /*
   get items(): number[] {
     const items: any = []
     for (let i = this.latest; i >= 1; i--) {
@@ -77,5 +79,6 @@ export default class about extends Vue {
     }
     return items
   }
+  */
 }
 </script>
