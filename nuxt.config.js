@@ -4,6 +4,15 @@ const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.publicationLatestFiscalYear = 2019
 
+const routerBase =
+  process.env.DEPLOY_ENV === 'hi'
+    ? {
+        router: {
+          base: '/dev/',
+        },
+      }
+    : {}
+
 const menuList = JSON.parse(fs.readFileSync('static/assets/json/menuList.json'))
 env.menuList = menuList
 
