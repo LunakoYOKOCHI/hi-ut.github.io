@@ -262,7 +262,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "kikuchi": {
+    "h-kikuchi": {
         "position": "教授",
         "name_ja": "菊地 大樹",
         "name_en": "KIKUCHI Hiroki",
@@ -277,7 +277,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "kinoshita": {
+    "r-kinoshita": {
         "position": "助教",
         "name_ja": "木下 竜馬",
         "name_en": "KINOSHITA Ryuma",
@@ -292,7 +292,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "kuroshima": {
+    "kurosima": {
         "position": "准教授",
         "name_ja": "黒嶋 敏",
         "name_en": "KUROSHIMA Satoru",
@@ -355,7 +355,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "shibutani": {
+    "ashibutani": {
         "position": "特任助教",
         "name_ja": "渋谷 綾子",
         "name_en": "SHIBUTANI Ayako",
@@ -409,7 +409,7 @@
         "sex": "f",
         "list_flag": true
     },
-    "sugimori": {
+    "reiko": {
         "position": "教授",
         "name_ja": "杉森 玲子",
         "name_en": "SUGIMORI Reiko",
@@ -484,7 +484,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "tateishi": {
+    "s-tateishi": {
         "position": "助教",
         "name_ja": "立石 了",
         "name_en": "TATEISHI Satoru",
@@ -529,7 +529,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "nishida": {
+    "tomohiro": {
         "position": "准教授",
         "name_ja": "西田 友広",
         "name_en": "NISHIDA Tomohiro",
@@ -722,7 +722,7 @@
         "sex": "f",
         "list_flag": true
     },
-    "matsuzawa": {
+    "matuzawa": {
         "position": "准教授",
         "name_ja": "松澤 克行",
         "name_en": "MATSUZAWA Yoshiyuki",
@@ -851,7 +851,7 @@
         "sex": "m",
         "list_flag": true
     },
-    "watanabe": {
+    "masao": {
         "position": "准教授",
         "name_ja": "渡邉 正男",
         "name_en": "WATANABE Masao",
