@@ -249,6 +249,8 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 
+  ...routerBase,
+
   generate: {
     routes() {
       let currentYear = new Date().getFullYear()
