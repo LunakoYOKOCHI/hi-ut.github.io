@@ -71,6 +71,11 @@ export default class about extends Vue {
 
       for (const key in people) {
         const child = people[key]
+
+        if(!child.list_flag){
+          continue
+        }
+
         const kana = child.name_kana
         const first = kana.substring(0, 1).normalize('NFD')[0]
 

@@ -26,7 +26,7 @@
           </tr>
           <tr>
             <th>{{ $t('職位・学位') }}</th>
-            <td>{{ $t(gyoseki.degree) }}</td>
+            <td>{{ $t(gyoseki["【学位】"][0]) }}</td>
           </tr>
           <tr v-if="lang === 'ja'">
             <th>{{ $t('研究テーマ') }}</th>
@@ -38,13 +38,18 @@
               </ul>
             </td>
           </tr>
-          <tr>
-            <th>{{ $t('著書・論文') }}</th>
-            <td>
-              <nuxt-content v-if="false" :document="gyoseki" />
-              <p class="fc1">TODO</p>
-            </td>
-          </tr>
+
+          <template v-for="(field, key2) in fields">
+
+            <tr :key="key2" v-if="gyoseki['【'+field+'】'] && gyoseki['【'+field+'】'].length > 0">
+              <th>{{ $t(field) }}</th>
+              <td>
+                <ul>
+                  <li v-for="(value, key) in gyoseki['【'+field+'】']" :key="key">{{ value }}</li>
+                  </ul>
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
     </Layout>
@@ -61,18 +66,21 @@ import Layout from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
-  /*
-  async asyncData({ $content, params, app }: any) {
-    const gyoseki = await $content(
-      `${app.i18n.locale}/faculty`,
-      params.slug || 'index'
-    ).fetch()
-    return { gyoseki }
+  
+  async asyncData({ params, $axios }: any) {
+    const id = params.slug.split('gyoseki_')[1]
+    const gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
+    
+    return {
+      gyoseki,
+      id
+    }
   }
-  */
 
-  gyoseki: any = {
-    degree: 'TODO',
+  fields: string[] = ["著書・論文", "講演・報告", "史料編纂", "その他"]
+
+  mounted(){
+    console.log(this.gyoseki)
   }
 
   breadcrumbs: any[] = [
@@ -86,7 +94,7 @@ export default class about extends Vue {
     },
   ]
 
-  people: any = process.env.people2
+  people: any = process.env.people
 
   organization: any = process.env.organization
 
@@ -94,7 +102,7 @@ export default class about extends Vue {
 
   get person() {
     const people = this.people
-    const slug = this.$route.params.slug.split('gyoseki_')[1]
+    const slug = this.id
     return people[slug] || {}
   }
 
@@ -111,7 +119,9 @@ export default class about extends Vue {
     return this.lang === 'ja' ? person.name_ja : person.name_en
   }
 
-  title: any = this.$t('研究業績') + '（' + this.name + '）'
+  get title() {
+    return this.$t('研究業績') + '（' + this.name + '）'
+  }
 
   head() {
     const title = this.title

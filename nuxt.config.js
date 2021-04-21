@@ -16,8 +16,8 @@ const routerBase =
 const menuList = JSON.parse(fs.readFileSync('static/assets/json/menuList.json'))
 env.menuList = menuList
 
-const people = JSON.parse(fs.readFileSync('static/assets/json/people.json'))
-env.people = people
+const faculty = JSON.parse(fs.readFileSync('static/assets/json/faculty.json'))
+env.people = faculty
 
 const publication = JSON.parse(fs.readFileSync('static/assets/json/publication.json'))
 env.publication = publication
