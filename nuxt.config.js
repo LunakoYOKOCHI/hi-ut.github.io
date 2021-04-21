@@ -272,7 +272,8 @@ export default {
       }
 
       // ---------
-
+      
+      /*
       const fs = require('fs')
       const publication = JSON.parse(
         fs.readFileSync('static/assets/json/publication.json')
@@ -286,6 +287,7 @@ export default {
           },
         })
       }
+      */
 
       /*
       pages.push({
@@ -295,6 +297,40 @@ export default {
         },
       })
       */
+
+      //
+
+      const faculty = JSON.parse(
+        fs.readFileSync('static/assets/json/faculty.json')
+      )
+
+      for (const id in faculty) {
+
+        try{
+          const gyoseki = JSON.parse(
+            fs.readFileSync(`static/assets/json/faculty/${id}.json`)
+          )
+  
+          pages.push({
+            route: `/faculty/gyoseki_${id}`,
+            payload: {
+              id,
+              gyoseki,
+            },
+          })
+  
+          pages.push({
+            route: `/en/faculty/gyoseki_${id}`,
+            payload: {
+              id,
+              gyoseki,
+            },
+          })
+          
+        } catch(e) {
+          console.log(e)
+        }
+      }
 
       return pages
     },

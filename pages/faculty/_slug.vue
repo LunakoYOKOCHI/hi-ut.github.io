@@ -67,21 +67,24 @@ import Layout from '~/components/layout/Layout.vue'
 })
 export default class about extends Vue {
   
-  async asyncData({ params, $axios }: any) {
-    const id = params.slug.split('gyoseki_')[1]
-    const gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
-    
-    return {
-      gyoseki,
-      id
+  async asyncData({ payload, params, $axios }: any) {
+    if (payload) {
+      return {
+        id: payload.id,
+        gyoseki: payload.gyoseki
+      }
+    } else {
+      const id = params.slug.split('gyoseki_')[1]
+      const gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
+      
+      return {
+        gyoseki,
+        id
+      }
     }
   }
 
   fields: string[] = ["著書・論文", "講演・報告", "史料編纂", "その他"]
-
-  mounted(){
-    console.log(this.gyoseki)
-  }
 
   breadcrumbs: any[] = [
     {
@@ -102,7 +105,7 @@ export default class about extends Vue {
 
   get person() {
     const people = this.people
-    const slug = this.id
+    const slug = (this as any).id
     return people[slug] || {}
   }
 
