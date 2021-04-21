@@ -300,6 +300,55 @@ export default {
 
       //
 
+      const syoho_list = [55]
+
+      for(const vol of syoho_list){
+        const item = JSON.parse(
+          fs.readFileSync(`static/assets/json/publication/syoho/${vol}.json`)
+        )
+
+        const slug = 'syoho' + ('0000' + vol).slice(-4)
+
+        pages.push({
+          route: `/publication/syoho/${slug}`,
+          payload: {
+            vol,
+            data: item
+          },
+        })
+
+        pages.push({
+          route: `/en/publication/syoho/${slug}`,
+          payload: {
+            vol,
+            data: item
+          },
+        })
+
+        for(const e of item.slice(1)){
+          if(item.head !== ""){
+            pages.push({
+              route: `/publication/syoho/${vol}/${e.id}`,
+              payload: {
+                vol,
+                item: e
+              },
+            })
+    
+            pages.push({
+              route: `/en/publication/syoho/${vol}/${e.id}`,
+              payload: {
+                vol,
+                item: e
+              },
+            })
+          }
+        }
+
+      }
+
+      //
+
       const faculty = JSON.parse(
         fs.readFileSync('static/assets/json/faculty.json')
       )
