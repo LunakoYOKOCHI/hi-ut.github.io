@@ -3,11 +3,9 @@
     <!-- :head="title" 要検討 -->
     <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
       <h1 class="h02">{{ title }}</h1>
-      <p>史料編纂所の諸業務に関する報告。1966 年度より毎年度発行。</p>
-      <p>
-        申込書は<a
-          href="https://www.hi.u-tokyo.ac.jp/publication/moshikomi201911.pdf"
-          >【PDFファイル要コピー】こちら</a
+      <p>史料編纂所の諸業務に関する報告。1966 年度より毎年度発行。<br />申込書は<a
+          :href="this.baseUrl + '/publication/moshikomi20201228.pdf'"
+          >こちら</a
         >。
       </p>
 
@@ -52,6 +50,8 @@ import LayoutPublication from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
+  baseUrl: any = process.env.BASE_URL
+
   title: any = this.$t('所報')
 
   head() {
