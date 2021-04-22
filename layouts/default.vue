@@ -338,4 +338,18 @@ export default class Layout extends Vue {
 .gnav .sub-menu2 {
   display: block !important;
 }
+
+
+  .table04 {
+    width: 100%;
+  }
+  .table04 th,  .table04 td {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: .6em;
+  }
+
+  .table04 th {
+    color: #fff;
+    background-color: #5cc2d0;
+  }
 </style>

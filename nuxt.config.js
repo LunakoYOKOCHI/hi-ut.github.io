@@ -27,6 +27,11 @@ const organization = JSON.parse(
 )
 env.organization = organization
 
+let currentYear = new Date().getFullYear()
+const currentMonth = new Date().getMonth() + 1
+currentYear = currentMonth < 4 ? currentYear - 1 : currentYear
+env.currentFiscalYear = currentYear 
+
 /*
 const latestSyhoVol = 54
 env.syoho = []
