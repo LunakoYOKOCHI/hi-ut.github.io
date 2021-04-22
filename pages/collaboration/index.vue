@@ -56,22 +56,26 @@ export default class about extends Vue {
   title: any = this.$t('共同研究')
   currentFiscalYear: any = process.env.currentFiscalYear
 
-  mapping: any = {
-    "S": "基盤研究(S)",
-    "A": "基盤研究(A)",
-    "B": "基盤研究(B)",
-    "C": "基盤研究(C)",
-    "hoga": "挑戦的萌芽研究",
-    "wakate_b": "若手研究(B)",
-    "wakate" : "若手研究",
-    "start" : "研究活動スタート支援"
-  }
-
   async asyncData({ payload, app, $axios }: any) {
     if (payload) {
       return payload
     } else {
-      const types = ["S", "A", "B", "C", "hoga", "wakate_b", "wakate", "start"]
+      const types = [
+        'COE',
+        'sosei',
+        'S',
+        'A',
+        'B',
+        'C',
+        'hoga',
+        'wakate_a',
+        'wakate_b',
+        'wakate',
+        'wakate_start',
+        'start',
+        "shorei",
+        "tokutei"
+      ]
 
       const res = []
 

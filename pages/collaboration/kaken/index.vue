@@ -4,7 +4,7 @@
       <Layout :title="title" :index="2" :breadcrumbs="breadcrumbs">
         <h1 class="h02">{{ title }}</h1>
 
-        <KakenList :data="data"></KakenList>
+        <KakenList :data="data" :past="true"></KakenList>
 
         <h3 class="h04">研究成果公開促進費（データベース）</h3>
 
@@ -62,22 +62,7 @@ export default class about extends Vue {
   title: any = this.$t('科学研究費補助金による共同研究（研究期間終了分）')
   currentFiscalYear: any = process.env.currentFiscalYear
 
-  mapping: any = {
-    COE: '中核的研究拠点（COE）形成基礎研究費',
-    sosei: '学術創成研究費',
-    S: '基盤研究(S)',
-    A: '基盤研究(A)',
-    B: '基盤研究(B)',
-    C: '基盤研究(C)',
-    hoga: '挑戦的萌芽研究',
-    wakate_a: '若手研究(A)',
-    wakate_b: '若手研究(B)',
-    wakate: '若手研究',
-    wakate_start: '若手研究(スタートアップ)',
-    start: '研究活動スタート支援',
-    shorei: '奨励研究',
-    tokutei: '特定領域研究',
-  }
+  
 
   async asyncData({ payload, app, $axios }: any) {
     if (payload) {
@@ -91,9 +76,13 @@ export default class about extends Vue {
         'B',
         'C',
         'hoga',
+        'wakate_a',
         'wakate_b',
         'wakate',
+        'wakate_start',
         'start',
+        "shorei",
+        "tokutei"
       ]
 
       const res = []
