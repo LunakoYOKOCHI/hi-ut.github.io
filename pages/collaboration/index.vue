@@ -13,69 +13,10 @@
 
       <h2 class="h03">科学研究費補助金による共同研究</h2>
 
-      <div v-for="(item, i) in data" :key="item.type" class="mb2">
+      <p>研究期間終了分は<nuxt-link :to="localePath({name : 'collaboration-kaken'})">こちら</nuxt-link></p>
 
-        <h3 class="h04">{{mapping[item.type]}}</h3>
-
-        <ul>
-
-          <template v-for="(obj, j) in item.data">
-            <li  :key="j" v-if="obj.end >= currentFiscalYear">
-              <template v-if="obj.kaken">
-                <a :href="`https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-${obj.kaken}/`">{{obj.title}}</a>
-              </template>
-              <template v-else>
-                {{obj.title}}
-              </template>
-              （{{obj.start}}～{{obj.end}}年度）
-              <p v-if="obj.url2"><a :href="obj.url2">プロジェクトのページへ</a></p>
-            </li>
-          </template>
-
-        </ul>
-
-      </div>
-
-      
-      <template v-if="false">
-        <ul>
-          <li>
-            <a
-              href="https://www.hi.u-tokyo.ac.jp/collaboration/kaken/17H06117.html"
-              >天皇家・公家文庫収蔵史料の高度利用化と日本目録学の進展―知の体系の構造伝来の解明―</a
-            >（2017 ～ 2021年度）
-          </li>
-          <ul>
-            <li>
-              <a href="https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html"
-                >プロジェクトページ</a
-              >
-            </li>
-            <li>
-              <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17H06117/"
-                >KAKEN</a
-              >
-            </li>
-          </ul>
-        </ul>
-
-        <h3 class="h04">基盤研究 (A)</h3>
-
-        <ul>
-          <li>
-            コンテキストに応じた人文科学データパッケージ化に関する研究（2020 ～
-            2024年度）
-          </li>
-          <ul>
-            <li>
-              <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H00010/"
-                >KAKEN</a
-              >
-            </li>
-          </ul>
-          
-        </ul>
-      </template>
+      <KakenList :data="data"></KakenList>
+    
 
       <p class="mt3">
         <div class="flex col2">
@@ -101,12 +42,13 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import LayoutPublication from '~/components/layout/Layout.vue'
-
+import KakenList from '~/components/collaboration/kaken/KakenList.vue'
 //const fs = require('fs')
 
 @Component({
   components: {
     LayoutPublication,
+    KakenList
   },
 })
 export default class about extends Vue {

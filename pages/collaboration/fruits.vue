@@ -107,10 +107,6 @@ export default class about extends Vue {
     }
   }
 
-  mounted(){
-    console.log(this.data)
-  }
-
   items: any[] = [
     {
       label: '入来院家文書',
