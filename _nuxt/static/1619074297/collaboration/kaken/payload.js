@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/collaboration/kaken", {data:[{data:[]}],fetch:{},mutations:[]});
