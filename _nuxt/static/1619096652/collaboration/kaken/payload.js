@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/collaboration/kaken", (function(a){return {data:[{data:[{type:"S",data:[{title:"マルチアーカイヴァル的手法による在外日本関係史料の調査と研究資源化の研究",start:"2014",end:"2018",url:a,url2:a,kaken:"26220402"}]},{type:"A",data:[]}]}],fetch:{},mutations:[]}}("")));
