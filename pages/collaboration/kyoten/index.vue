@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="my-5">
-      <LayoutPublication :title="title">
+      <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
         <h1 class="h02">{{ title }}</h1>
         <template v-if="$i18n.locale == 'en'"> Japanese text only </template>
         <template v-else>
@@ -19,11 +19,11 @@
           </p>
 
           <p>
-            これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、こちらをご覧ください。
+            これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、<nuxt-link :to="localePath({name : 'collaboration-kyoten-kadai'})">こちら</nuxt-link>をご覧ください。
           </p>
 
           <p>
-            2020年度の拠点の事業として、東京大学史料編纂所協議会の審議に基づき、以下の共同研究を採択決定し、活動を開始しました。
+            {{year}}年度の拠点の事業として、東京大学史料編纂所協議会の審議に基づき、以下の共同研究を採択決定し、活動を開始しました。
           </p>
 
           <h1 style="color: red">TODO</h1>
@@ -59,11 +59,26 @@ export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
   title: any = this.$t('共同利用・共同研究拠点の活動について')
 
+  year: number = 2021
+
   head() {
     const title = this.title
     return {
       title,
     }
+  }
+
+  get breadcrumbs(): any[] {
+    return [
+      {
+        text: this.$t('編纂・研究・公開'),
+        name: 'publication',
+      },
+      {
+        text: this.$t('共同研究'),
+        name: 'collaboration',
+      }
+    ]
   }
 }
 </script>

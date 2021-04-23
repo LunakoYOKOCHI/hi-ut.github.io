@@ -11,7 +11,7 @@
         >
       </p>
 
-      <h2 class="h03">科学研究費補助金による共同研究</h2>
+      <h2 class="h03 mt3">科学研究費補助金による共同研究</h2>
 
       <p>研究期間終了分は<nuxt-link :to="localePath({name : 'collaboration-kaken'})">こちら</nuxt-link></p>
 

@@ -70,6 +70,9 @@ const manifestIcon = 'img/icons/icon-512.png'
 // const splashscreens = cdnPath + 'img/splashscreens/'
 
 export default {
+  server: {
+    port: 8000 // デフォルト: 3000
+  },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   ssr: true,
