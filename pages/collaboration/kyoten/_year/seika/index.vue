@@ -86,10 +86,6 @@ export default class about extends Vue {
     }
   }
 
-  mounted(){
-    console.log(this.data)
-  }
-
   get breadcrumbs(): any[] {
     return [
       {
