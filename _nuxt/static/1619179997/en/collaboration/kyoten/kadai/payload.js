@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/collaboration/kyoten/kadai", {data:[{data:[]}],fetch:{},mutations:[]});
