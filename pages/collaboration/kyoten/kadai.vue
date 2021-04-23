@@ -8,7 +8,36 @@
 
           <h2 class="h03">特定共同研究課題一覧</h2>
 
-          
+          <table class="table04">
+                <tr>
+                  <th width="20%">【領域】</th>
+                  <th width="20%"> 柱</th>
+                  <th>課題名</th>
+                </tr>
+                <template v-for="(obj, j) in tokutei">
+                  <template v-for="(item, i) in obj.data">
+                    <tr :key="`${j}-${i}`">
+                      <template v-if="i === 0">
+                        <td :rowspan="obj.data.length">【{{mapping[obj.key]}}】</td>
+                      </template>
+                      <td>{{item["柱"]}}</td>
+                      <td>{{item["研究課題"]}}（{{item.start}}〜{{item.end}}年度）</td>
+                    </tr>
+                  </template>
+                </template>
+                <tr v-for="(obj, j) in tokutei" v-if="false">
+                  <td>【{{obj.key}}】</td>
+                  <td v-if="false">
+                    <template v-if="obj['研究の概要']">
+                      <nuxt-link :to="localePath({name: 'collaboration-kyoten-year-seika', params: {year: item.year}, hash: `#${obj.no}`})">{{obj["研究課題名"]}}</nuxt-link>
+                    </template>
+                    <template v-else>
+                      {{obj["研究課題名"]}}
+                    </template>
+                    
+                  </td>
+                </tr>
+              </table>
 
           <h2 class="h03 mt3">一般共同研究課題一覧</h2>
 
@@ -67,6 +96,11 @@ export default class about extends Vue {
     }
   }
 
+  mapping: any = {
+    "kodai" : "古代史料領域",
+    "chusei" : "中世史料領域"
+  }
+
   currentFiscalYear: any = process.env.currentFiscalYear
 
   async asyncData({ payload, app, $axios, $context, }: any) {
@@ -80,7 +114,7 @@ export default class about extends Vue {
         try {
           const data = await $axios.$get(
             process.env.BASE_URL +
-              '/assets/json/collaboration/kyoten/' +
+              '/assets/json/collaboration/kyoten/ippan/' +
               year +
               '.json'
           )
@@ -92,8 +126,29 @@ export default class about extends Vue {
         } catch (err) {}
       }
 
+      const tokutei = []
+
+      const keys = ['kodai', 'chusei']
+
+      for (const key of keys) {
+        try {
+          const data = await $axios.$get(
+            process.env.BASE_URL +
+              '/assets/json/collaboration/kyoten/tokutei/' +
+              key +
+              '.json'
+          )
+
+          tokutei.push({
+            key,
+            data,
+          })
+        } catch (err) {}
+      }
+
       return {
         data: res,
+        tokutei
       }
     }
   }
