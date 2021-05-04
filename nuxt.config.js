@@ -408,21 +408,21 @@ export default {
 
       for (const key in mapping) {
         try {
-          const data = JSON.parse(
+          const jsonKyotenTokuteiKey = JSON.parse(
             fs.readFileSync(`static/assets/json/collaboration/kyoten/tokutei/
             ${key}.json`)
           )
 
           res.push({
             key,
-            data,
+            data: jsonKyotenTokuteiKey,
           })
         } catch (err) {}
       }
 
       
 
-      const data = JSON.parse(
+      const jsonKyotenIppanCurrent = JSON.parse(
         fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
         env.currentFiscalYear +
         '.json')
@@ -431,7 +431,7 @@ export default {
       const payload = {
         year: env.currentFiscalYear,
         tokutei: res,
-        data
+        data: jsonKyotenIppanCurrent
       }
 
       pages.push({
