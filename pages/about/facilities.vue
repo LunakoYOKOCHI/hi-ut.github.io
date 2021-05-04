@@ -18,8 +18,8 @@
     <h3 class="h04">略史</h3>
 
     <div class="txtImg_right-Cpt">
-      <div class="mb-5">
-        <img :src="baseUrl + '/about/images/about_hi_akamon.jpg'" />
+      <div class="mb1">
+        <img src="~/assets/img/about/about_hi_akamon.jpeg" />
         <p class="stx">小石川植物園へ移築される前の赤門庁舎</p>
       </div>
       <p>
