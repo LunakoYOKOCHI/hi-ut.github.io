@@ -70,6 +70,7 @@ export default class about extends Vue {
 
   async asyncData({ payload, app, $axios, $context, }: any) {
     if (payload) {
+      payload.payload = true
       return payload
     } else {
       const year = app.context.route.params.year
@@ -83,6 +84,7 @@ export default class about extends Vue {
 
       return {
         data,
+        payload: false
       }
     }
   }
