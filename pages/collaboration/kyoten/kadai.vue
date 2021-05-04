@@ -10,33 +10,28 @@
 
           <table class="table04">
                 <tr>
-                  <th width="20%">【領域】</th>
-                  <th width="20%"> 柱</th>
+                  <th width="30%">【領域】</th>
                   <th>課題名</th>
                 </tr>
                 <template v-for="(obj, j) in tokutei">
                   <template v-for="(item, i) in obj.data">
                     <tr :key="`${j}-${i}`">
                       <template v-if="i === 0">
-                        <td :rowspan="obj.data.length">【{{mapping[obj.key]}}】</td>
+                        <td :rowspan="obj.data.length">【{{mapping[obj.key]}}】<br/>{{item["柱"]}}</td>
                       </template>
-                      <td>{{item["柱"]}}</td>
-                      <td>{{item["研究課題"]}}（{{item.start}}〜{{item.end}}年度）</td>
+                      <td>
+                        <template v-if="item['研究の概要[0]']">
+                          <nuxt-link :to="localePath({name: 'collaboration-kyoten-tokutei-slug-id-seika', params: {slug: obj.key, id: item.no}})">
+                            {{item["研究課題"]}}（{{item.start}}〜{{item.end}}年度）
+                          </nuxt-link>
+                        </template>
+                        <template v-else>
+                          {{item["研究課題"]}}（{{item.start}}〜{{item.end}}年度）
+                        </template>
+                      </td>
                     </tr>
                   </template>
                 </template>
-                <tr v-for="(obj, j) in tokutei" v-if="false">
-                  <td>【{{obj.key}}】</td>
-                  <td v-if="false">
-                    <template v-if="obj['研究の概要']">
-                      <nuxt-link :to="localePath({name: 'collaboration-kyoten-year-seika', params: {year: item.year}, hash: `#${obj.no}`})">{{obj["研究課題名"]}}</nuxt-link>
-                    </template>
-                    <template v-else>
-                      {{obj["研究課題名"]}}
-                    </template>
-                    
-                  </td>
-                </tr>
               </table>
 
           <h2 class="h03 mt3">一般共同研究課題一覧</h2>
@@ -56,7 +51,7 @@
                   <td>{{obj.no}}</td>
                   <td>
                     <template v-if="obj['研究の概要']">
-                      <nuxt-link :to="localePath({name: 'collaboration-kyoten-year-seika', params: {year: item.year}, hash: `#${obj.no}`})">{{obj["研究課題名"]}}</nuxt-link>
+                      <nuxt-link :to="localePath({name: 'collaboration-kyoten-ippan-year-seika', params: {year: item.year}, hash: `#${obj.no}`})">{{obj["研究課題名"]}}</nuxt-link>
                     </template>
                     <template v-else>
                       {{obj["研究課題名"]}}
@@ -96,10 +91,7 @@ export default class about extends Vue {
     }
   }
 
-  mapping: any = {
-    "kodai" : "古代史料領域",
-    "chusei" : "中世史料領域"
-  }
+  mapping: any = process.env.tokuteiMapping
 
   currentFiscalYear: any = process.env.currentFiscalYear
 
@@ -128,9 +120,8 @@ export default class about extends Vue {
 
       const tokutei = []
 
-      const keys = ['kodai', 'chusei']
-
-      for (const key of keys) {
+      const mapping: any = process.env.tokuteiMapping
+      for (const key in mapping) {
         try {
           const data = await $axios.$get(
             process.env.BASE_URL +

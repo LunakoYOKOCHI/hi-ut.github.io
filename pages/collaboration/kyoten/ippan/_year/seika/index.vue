@@ -1,6 +1,5 @@
 <template>
   <div>
-    <v-container class="my-5">
       <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
         <h1 class="h02">{{ title }}</h1>
         <template v-if="$i18n.locale == 'en'"> Japanese text only </template>
@@ -41,7 +40,6 @@
           </div>
         </template>
       </LayoutPublication>
-    </v-container>
   </div>
 </template>
 
@@ -75,7 +73,7 @@ export default class about extends Vue {
 
       const data = await $axios.$get(
           process.env.BASE_URL +
-            '/assets/json/collaboration/kyoten/' +
+            '/assets/json/collaboration/kyoten/ippan/' +
             year +
             '.json'
         )

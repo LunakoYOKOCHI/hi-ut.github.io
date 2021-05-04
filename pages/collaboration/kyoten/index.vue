@@ -51,12 +51,12 @@
 
         <table class="table04">
           <tr>
-            <th>【領域】</th>
+            <th width="10%">【領域】</th>
             <th width="20%">テーマ</th>
             <th width="20%">研究期間</th>
             <th width="20%">所内共同研究者</th>
             <th width="20%">所外共同研究員(所属)</th>
-            <th>所要経費</th>
+            <th>所要経費(円)</th>
           </tr>
           <tr v-for="(obj, j) in tokutei">
             <td>【{{ mapping[obj.key] }}】</td>
@@ -76,14 +76,12 @@
 
             <td>
               <span
-                v-html="obj.data[0]['所外共同研究員\n(所属)'].split('\n').join('<br/>')"
+                v-html="obj.data[0]['所外共同研究員'].split('\n').join('<br/>')"
               ></span>
             </td>
 
             <td>
-              <span
-                v-html="obj.data[0]['所要経費'].split('\n').join('<br/>')"
-              ></span>
+              {{getMoney(obj)}}
             </td>
           </tr>
         </table>
@@ -153,10 +151,7 @@ export default class about extends Vue {
     }
   }
 
-  mapping: any = {
-    "kodai" : "古代史料領域",
-    "chusei" : "中世史料領域"
-  }
+  mapping: any = process.env.tokuteiMapping
 
   tokutei: any = []
 
@@ -164,11 +159,10 @@ export default class about extends Vue {
     if (payload) {
       return payload
     } else {
-      const keys = ['kodai', 'chusei']
-
       const res = []
 
-      for (const key of keys) {
+      const mapping: any = process.env.tokuteiMapping
+      for (const key in mapping) {
         try {
           const data = await $axios.$get(
             process.env.BASE_URL +
@@ -215,7 +209,6 @@ export default class about extends Vue {
       const items = []
       for (const obj of data) {
         if (obj.end >= year) {
-          console.log(obj['研究課題'])
           items.push(obj)
         }
       }
@@ -240,6 +233,19 @@ export default class about extends Vue {
         name: 'collaboration',
       },
     ]
+  }
+
+  getMoney(obj: any){
+    let value = ""
+    for(let key in obj.data[0]){
+      if(key.includes("所要経費")){
+        let spl = obj.data[0][key].split(">")
+        if(Number(spl[0].trim()) === year){
+          value = Number(spl[1].trim()).toLocaleString()
+        }
+      }
+    }
+    return value
   }
 }
 </script>

@@ -32,6 +32,14 @@ const currentMonth = new Date().getMonth() + 1
 currentYear = currentMonth < 4 ? currentYear - 1 : currentYear
 env.currentFiscalYear = currentYear 
 
+env.tokuteiMapping = {
+  "kodai" : "古代史料領域",
+  "chusei" : "中世史料領域",
+  "kinsei" : "近世史料領域",
+  "kaigai" : "海外史料領域",
+  "fukugo" : "複合史料領域",
+}
+
 /*
 const latestSyhoVol = 54
 env.syoho = []
