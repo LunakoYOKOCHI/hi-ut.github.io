@@ -30,8 +30,13 @@ env.organization = organization
 let currentYear = new Date().getFullYear()
 const currentMonth = new Date().getMonth() + 1
 currentYear = currentMonth < 4 ? currentYear - 1 : currentYear
-env.currentFiscalYear = currentYear 
+env.currentFiscalYear = currentYear
 
+env.kyotenLatest = 2021
+env.kyotenOldest = 2010
+env.newsOldest = 1997
+env.currentFiscalYear = currentYear
+env.latestSyohoVol = 55
 env.tokuteiMapping = {
   "kodai" : "古代史料領域",
   "chusei" : "中世史料領域",
@@ -39,18 +44,6 @@ env.tokuteiMapping = {
   "kaigai" : "海外史料領域",
   "fukugo" : "複合史料領域",
 }
-
-/*
-const latestSyhoVol = 54
-env.syoho = []
-for (let vol = 1; vol <= latestSyhoVol; vol++) {
-  env.syoho[vol] = JSON.parse(
-    fs.readFileSync(`static/assets/json/syoho/${('0000' + vol).slice(-4)}/data.json`)
-  )
-}
-*/
-
-env.latestSyohoVol = 55
 
 const GOOGLE_ANALYTICS_ID = 'abc'
 
@@ -275,19 +268,7 @@ export default {
     routes() {
       const pages = []
 
-      const config = {
-        "kyotenLatest" : 2019,
-        "kyotenOldest" : 2010,
-        "newsOldest" : 1997
-      }
-
-      /*
-      pages.push({
-        route: `/news/`,
-      })
-      */
-
-      for (let i = env.currentFiscalYear - 1; i >= config.newsOldest; i--) {
+      for (let i = env.currentFiscalYear - 1; i >= env.newsOldest; i--) {
         pages.push({
           route: `/news/list/${i}`,
         })
@@ -450,7 +431,7 @@ export default {
 
       // ----------
 
-      for(let year = config.kyotenLatest; year >= config.kyotenOldest; year--){
+      for(let year = env.kyotenLatest; year >= env.kyotenOldest; year--){
         try {
           const jsonKyotenIppanYear = JSON.parse(
             fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
@@ -461,8 +442,7 @@ export default {
           pages.push({
             route: `/collaboration/kyoten/ippan/${year}/seika`,
             payload: {
-              data: jsonKyotenIppanYear,
-              aaa: "test"
+              data: jsonKyotenIppanYear
             }
           })
   

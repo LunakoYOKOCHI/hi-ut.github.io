@@ -50,6 +50,7 @@
         </p>
 
         <table class="table04">
+          <tbody>
           <tr>
             <th width="10%">【領域】</th>
             <th width="20%">テーマ</th>
@@ -84,6 +85,7 @@
               {{getMoney(obj)}}
             </td>
           </tr>
+          </tbody>
         </table>
 
         <h2 class="h03 mt3">{{ year }}年度一般共同研究課題一覧</h2>
@@ -93,6 +95,7 @@
         </p>
 
         <table class="table04">
+          <tbody>
           <tr>
             <th>No.</th>
             <th width="30%">課題名</th>
@@ -121,6 +124,7 @@
               {{ Number(obj['研究経費']).toLocaleString() }}
             </td>
           </tr>
+          </tbody>
         </table>
       </template>
     </LayoutPublication>
@@ -131,8 +135,6 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 import LayoutPublication from '~/components/layout/Layout.vue'
 
-const year = 2021
-
 @Component({
   components: {
     LayoutPublication,
@@ -141,8 +143,6 @@ const year = 2021
 export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
   title: any = this.$t('共同利用・共同研究拠点の活動について')
-
-  // year: number = 2021
 
   head() {
     const title = this.title
@@ -161,6 +161,8 @@ export default class about extends Vue {
     } else {
       const res = []
 
+      const year = process.env.kyotenLatest
+
       const mapping: any = process.env.tokuteiMapping
       for (const key in mapping) {
         try {
@@ -178,12 +180,6 @@ export default class about extends Vue {
         } catch (err) {}
       }
 
-      //const year2 = app.context.app
-
-      //console.log({year2})
-
-      //const year = 2021
-
       const data = await $axios.$get(
         process.env.BASE_URL +
           '/assets/json/collaboration/kyoten/ippan/' +
@@ -192,6 +188,7 @@ export default class about extends Vue {
       )
 
       return {
+        //mapping,
         year,
         tokutei: res,
         data,
@@ -200,7 +197,7 @@ export default class about extends Vue {
   }
 
   created() {
-    const res = (this as any).tokutei
+    const res = this.$data.tokutei
     const arr = []
     for (const item of res) {
       const key = item.key
@@ -208,7 +205,7 @@ export default class about extends Vue {
 
       const items = []
       for (const obj of data) {
-        if (obj.end >= year) {
+        if (obj.end >= this.$data.year) {
           items.push(obj)
         }
       }
@@ -239,9 +236,9 @@ export default class about extends Vue {
     let value = ""
     for(let key in obj.data[0]){
       if(key.includes("所要経費")){
-        let spl = obj.data[0][key].split(">")
-        if(Number(spl[0].trim()) === year){
-          value = Number(spl[1].trim()).toLocaleString()
+        const spl = this.$utils.split(obj.data[0][key])
+        if(Number(spl[0]) === this.$data.year){
+          value = Number(spl[1]).toLocaleString()
         }
       }
     }

@@ -45,6 +45,12 @@ export class Utils {
     const currentMonth = new Date().getMonth() + 1
     return currentMonth < 4 ? currentYear - 1 : currentYear
   }
+
+  split(data: string){
+    const delimiter = "=>"
+    const index = data.indexOf(delimiter)
+    return [data.substring(0, index).trim(), data.substring(index + delimiter.length, data.length).trim()]
+  }
 }
 
 export default (_: any, inject: any) => {

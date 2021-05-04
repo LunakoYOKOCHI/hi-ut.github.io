@@ -4,6 +4,7 @@
     <template v-if="$i18n.locale == 'en'"> Japanese text only </template>
     <template v-else>
       <table class="table04">
+        <tbody>
         <tr>
           <th width="20%">研究課題</th>
           <td colspan="2">{{item["研究課題"]}}</td>
@@ -61,6 +62,7 @@
             </template>
           </td>
         </tr>
+        </tbody>
       </table>
     </template>
   </LayoutPublication>
@@ -136,11 +138,11 @@ export default class about extends Vue {
     for(let i = 0; i <= num; i++){
       //summary
       const value = item["研究の概要["+i+"]"]
-      const index = value.indexOf(">")
+      const spl = this.$utils.split(value)
 
-      if(index !== -1){
-        const year = Number(value.substring(0, index).trim())
-        const text = value.substring(index + 1, value.length).trim()
+      if(spl[0] !== ""){
+        const year = Number(spl[0])
+        const text = spl[1]
 
         map[year] = text
 
@@ -150,11 +152,11 @@ export default class about extends Vue {
 
       //money
       const value2 = item["所要経費["+i+"]"]
-      const index2 = value2.indexOf(">")
+      const spl2 = this.$utils.split(value2)
 
-      if(index2 !== -1){
-        const year2 = Number(value2.substring(0, index2).trim())
-        const text2 = value2.substring(index2 + 1, value2.length).trim()
+      if(spl2[0] !== ""){
+        const year2 = Number(spl2[0])
+        const text2 = spl2[1]
         money[year2] = "（" + year2 + "年度）" + Number(text2).toLocaleString() + "円"
       }
     }
