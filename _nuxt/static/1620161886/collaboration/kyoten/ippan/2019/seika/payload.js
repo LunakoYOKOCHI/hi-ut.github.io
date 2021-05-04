@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/collaboration/kyoten/ippan/2019/seika", {data:[{data:void 0,payload:{}}],fetch:{},mutations:[]});
