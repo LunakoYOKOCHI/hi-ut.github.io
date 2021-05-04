@@ -420,8 +420,6 @@ export default {
         } catch (err) {}
       }
 
-      
-
       const jsonKyotenIppanCurrent = JSON.parse(
         fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
         env.currentFiscalYear +
@@ -443,6 +441,35 @@ export default {
         route: `/en/collaboration/kyoten`,
         payload
       })
+
+      // ----------
+
+      const dirKyotenIppan = 'static/assets/json/collaboration/kyoten/ippan/'
+
+      fs.readdir(dirKyotenIppan, (err, files) => {
+          files.forEach(file => {
+              const jsonKyotenIppanYear = JSON.parse(
+                fs.readFileSync(dirKyotenIppan + file)
+              )
+
+              const spl = file.split("/")
+              const year = spl[spl.length - 1].split(".")[0]
+
+              pages.push({
+                route: `/collaboration/kyoten/ippan/${year}/seika`,
+                payload: {
+                  data: jsonKyotenIppanYear
+                }
+              })
+
+              pages.push({
+                route: `/en/collaboration/kyoten/ippan/${year}/seika`,
+                payload: {
+                  data: jsonKyotenIppanYear
+                }
+              })
+          });
+      });
 
       return pages
     },

@@ -56,6 +56,7 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 })
 export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
+  
   title: any = this.$t(
     this.$route.params.year + '年度に実施された一般共同研究の研究概要（成果）'
   )
@@ -78,13 +79,9 @@ export default class about extends Vue {
             year +
             '.json'
 
-      const data = await $axios.$get(
-          url
-        )
+      const data = await $axios.$get(url)
 
       return {
-        year,
-        url,
         data,
       }
     }
@@ -109,10 +106,8 @@ export default class about extends Vue {
   }
 
   mounted(){
-    console.log("abc 2 ")
+    console.log("abc 3")
     console.log(this.$data)
-    console.log((this as any).data)
-    console.log(this.$route)
   }
 }
 </script>
