@@ -105,7 +105,7 @@ export default class about extends Vue {
   }
 
   mounted(){
-    console.log(this.data)
+    console.log((this as any).data)
   }
 }
 </script>
