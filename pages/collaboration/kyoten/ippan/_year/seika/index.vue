@@ -83,6 +83,7 @@ export default class about extends Vue {
         )
 
       return {
+        year,
         url,
         data,
       }
@@ -108,8 +109,10 @@ export default class about extends Vue {
   }
 
   mounted(){
-    console.log("abc")
+    console.log("abc 2 ")
     console.log(this.$data)
+    console.log((this as any).data)
+    console.log(this.$route)
   }
 }
 </script>
