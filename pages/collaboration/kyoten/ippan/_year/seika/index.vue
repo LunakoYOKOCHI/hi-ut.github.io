@@ -72,7 +72,6 @@ export default class about extends Vue {
     if (payload) {
       return {
         data: payload.data,
-        payload: payload
       }
     } else {
       const year = app.context.route.params.year
@@ -107,11 +106,6 @@ export default class about extends Vue {
         name: 'collaboration-kyoten',
       }
     ]
-  }
-
-  mounted(){
-    console.log("abc 5")
-    console.log(this.$data)
   }
 }
 </script>

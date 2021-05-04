@@ -275,13 +275,19 @@ export default {
     routes() {
       const pages = []
 
+      const config = {
+        "kyotenLatest" : 2019,
+        "kyotenOldest" : 2010,
+        "newsOldest" : 1997
+      }
+
       /*
       pages.push({
         route: `/news/`,
       })
       */
 
-      for (let i = env.currentFiscalYear - 1; i >= 1997; i--) {
+      for (let i = env.currentFiscalYear - 1; i >= config.newsOldest; i--) {
         pages.push({
           route: `/news/list/${i}`,
         })
@@ -444,32 +450,32 @@ export default {
 
       // ----------
 
-      const dirKyotenIppan = 'static/assets/json/collaboration/kyoten/ippan/'
+      for(let year = config.kyotenLatest; year >= config.kyotenOldest; year--){
+        try {
+          const jsonKyotenIppanYear = JSON.parse(
+            fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
+            year +
+            '.json')
+          )
 
-      fs.readdir(dirKyotenIppan, (err, files) => {
-          files.forEach(file => {
-              const jsonKyotenIppanYear = JSON.parse(
-                fs.readFileSync(dirKyotenIppan + file)
-              )
-
-              const spl = file.split("/")
-              const year = spl[spl.length - 1].split(".")[0]
-
-              pages.push({
-                route: `/collaboration/kyoten/ippan/${year}/seika`,
-                payload: {
-                  data: jsonKyotenIppanYear
-                }
-              })
-
-              pages.push({
-                route: `/en/collaboration/kyoten/ippan/${year}/seika`,
-                payload: {
-                  data: jsonKyotenIppanYear
-                }
-              })
-          });
-      });
+          pages.push({
+            route: `/collaboration/kyoten/ippan/${year}/seika`,
+            payload: {
+              data: jsonKyotenIppanYear,
+              aaa: "test"
+            }
+          })
+  
+          pages.push({
+            route: `/en/collaboration/kyoten/ippan/${year}/seika`,
+            payload: {
+              data: jsonKyotenIppanYear
+            }
+          })
+        } catch (err) {
+          console.log(err)
+        }
+      }
 
       return pages
     },

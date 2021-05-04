@@ -71,7 +71,7 @@ export default class about extends Vue {
     if (payload) {
       return {
         id: payload.id,
-        gyoseki: payload.gyoseki
+        gyoseki: payload.gyoseki,
       }
     } else {
       const id = params.slug.split('gyoseki_')[1]
