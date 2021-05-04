@@ -273,10 +273,6 @@ export default {
 
   generate: {
     routes() {
-      let currentYear = new Date().getFullYear()
-      const currentMonth = new Date().getMonth() + 1
-      currentYear = currentMonth < 4 ? currentYear - 1 : currentYear
-
       const pages = []
 
       /*
@@ -285,7 +281,7 @@ export default {
       })
       */
 
-      for (let i = currentYear - 1; i >= 1997; i--) {
+      for (let i = env.currentFiscalYear - 1; i >= 1997; i--) {
         pages.push({
           route: `/news/list/${i}`,
         })
@@ -372,7 +368,7 @@ export default {
 
       }
 
-      //
+      //教員
 
       const faculty = JSON.parse(
         fs.readFileSync('static/assets/json/faculty.json')
@@ -405,6 +401,48 @@ export default {
           console.log(e)
         }
       }
+
+      //共同研究
+      const res = []
+      const mapping = env.tokuteiMapping
+
+      for (const key in mapping) {
+        try {
+          const data = JSON.parse(
+            fs.readFileSync(`static/assets/json/collaboration/kyoten/tokutei/
+            ${key}.json`)
+          )
+
+          res.push({
+            key,
+            data,
+          })
+        } catch (err) {}
+      }
+
+      
+
+      const data = JSON.parse(
+        fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
+        env.currentFiscalYear +
+        '.json')
+      )
+
+      const payload = {
+        year: env.currentFiscalYear,
+        tokutei: res,
+        data
+      }
+
+      pages.push({
+        route: `/collaboration/kyoten`,
+        payload
+      })
+
+      pages.push({
+        route: `/en/collaboration/kyoten`,
+        payload
+      })
 
       return pages
     },
