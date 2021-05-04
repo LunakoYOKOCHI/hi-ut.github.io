@@ -73,14 +73,17 @@ export default class about extends Vue {
     } else {
       const year = app.context.route.params.year
 
-      const data = await $axios.$get(
-          process.env.BASE_URL +
+      const url = process.env.BASE_URL +
             '/assets/json/collaboration/kyoten/ippan/' +
             year +
             '.json'
+
+      const data = await $axios.$get(
+          url
         )
 
       return {
+        url,
         data,
       }
     }
@@ -105,7 +108,7 @@ export default class about extends Vue {
   }
 
   mounted(){
-    console.log((this as any).data)
+    console.log(this.$data)
   }
 }
 </script>
