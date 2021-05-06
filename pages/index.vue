@@ -5,7 +5,7 @@
     <div class="key-img">
       <!--  style="background-color: #e6e1d8" -->
       <img
-        :src="baseUrl + '/assets/img/common/home.jpg'"
+        src="~/assets/img/common/home.jpg"
         width="1050"
         alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
       />

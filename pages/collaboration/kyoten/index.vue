@@ -49,44 +49,46 @@
           古代史料・中世史料・近世史料・海外史料・複合史料の各領域について、本所で設定した共同研究の柱および研究課題のもとに、所外から公募した共同研究員とともに研究を進めるものです。
         </p>
 
-        <table class="table04">
-          <tbody>
-          <tr>
-            <th width="10%">【領域】</th>
-            <th width="20%">テーマ</th>
-            <th width="20%">研究期間</th>
-            <th width="20%">所内共同研究者</th>
-            <th width="20%">所外共同研究員(所属)</th>
-            <th>所要経費(円)</th>
-          </tr>
-          <tr v-for="(obj, j) in tokutei">
-            <td>【{{ mapping[obj.key] }}】</td>
-            <td>{{ obj.data[0]['研究課題'] }}</td>
+        <div class="scroll-table">
+          <table class="table04">
+            <tbody>
+              <tr>
+                <th width="10%">【領域】</th>
+                <th width="20%">テーマ</th>
+                <th width="20%">研究期間</th>
+                <th width="20%">所内共同研究者</th>
+                <th width="20%">所外共同研究員(所属)</th>
+                <th>所要経費(円)</th>
+              </tr>
+              <tr v-for="(obj, j) in tokutei">
+                <td>【{{ mapping[obj.key] }}】</td>
+                <td>{{ obj.data[0]['研究課題'] }}</td>
 
-            <td>
-              {{ obj.data[0].start }}～{{ obj.data[0].end }}年度<br />
-              （{{ Number(obj.data[0].end) - Number(obj.data[0].start) + 1 }}年間）
-            </td>
-            <td>
-              {{obj.data[0]['代表者']}}<br/><small>（代表者）</small><br/>
+                <td>
+                  {{ obj.data[0].start }}～{{ obj.data[0].end }}年度<br />
+                  （{{ Number(obj.data[0].end) - Number(obj.data[0].start) + 1 }}年間）
+                </td>
+                <td>
+                  {{obj.data[0]['代表者']}}<br/><small>（代表者）</small><br/>
 
-              <span
-                v-html="obj.data[0]['所内共同研究者'].split('\n').join('<br/>')"
-              ></span>
-            </td>
+                  <span
+                    v-html="obj.data[0]['所内共同研究者'].split('\n').join('<br/>')"
+                  ></span>
+                </td>
 
-            <td>
-              <span
-                v-html="obj.data[0]['所外共同研究員'].split('\n').join('<br/>')"
-              ></span>
-            </td>
+                <td>
+                  <span
+                    v-html="obj.data[0]['所外共同研究員'].split('\n').join('<br/>')"
+                  ></span>
+                </td>
 
-            <td>
-              {{getMoney(obj)}}
-            </td>
-          </tr>
-          </tbody>
-        </table>
+                <td>
+                  {{getMoney(obj)}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h2 class="h03 mt3">{{ year }}年度一般共同研究課題一覧</h2>
 

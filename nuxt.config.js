@@ -16,16 +16,14 @@ const routerBase =
 const menuList = JSON.parse(fs.readFileSync('static/assets/json/menuList.json'))
 env.menuList = menuList
 
-const faculty = JSON.parse(fs.readFileSync('static/assets/json/faculty.json'))
-env.people = faculty
+//const faculty = JSON.parse(fs.readFileSync('static/assets/json/faculty.json'))
+//env.people = faculty
 
-const publication = JSON.parse(fs.readFileSync('static/assets/json/publication.json'))
-env.publication = publication
+//const publication = JSON.parse(fs.readFileSync('static/assets/json/publication.json'))
+//env.publication = publication
 
-const organization = JSON.parse(
-  fs.readFileSync('static/assets/json/organization.json')
-)
-env.organization = organization
+//const organization = JSON.parse(fs.readFileSync('static/assets/json/organization.json'))
+//env.organization = organization
 
 let currentYear = new Date().getFullYear()
 const currentMonth = new Date().getMonth() + 1

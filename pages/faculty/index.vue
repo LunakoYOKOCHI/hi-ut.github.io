@@ -42,16 +42,42 @@ import Layout from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
-  title: any = this.$t('教員一覧')
+  async asyncData({ $axios }: any) {
+    const people = await $axios.$get(
+      process.env.BASE_URL +
+        '/assets/json/faculty.json'
+    )
 
-  people: any = process.env.people
+    const map: any = {}
+
+    for(const obj of people){
+      const id = obj.slug
+      obj.list_flag = obj.list_flg === "-1" ? false : true
+      obj.also = obj.also.split("|")
+      obj.name_ja = obj.surname + " " + obj.forename
+      obj.name_kana = obj.surname_kana + " " + obj.forename_kana
+      obj.name_en = obj.surname_en + " " + obj.forename_en
+      map[obj.slug] = obj
+    }
+
+    const organization = await $axios.$get(
+      process.env.BASE_URL +
+        '/assets/json/organization.json'
+    )
+
+    return {
+      people: map,
+      organization
+    }
+  }
+
+  title: any = this.$t('教員一覧')
 
   lang: string = this.$i18n.locale || 'ja'
 
-  organization: any = process.env.organization
-
   get items(): any {
-    const people = this.people
+    const people = this.$data.people
+    const organization = this.$data.organization
 
     const items: any = {}
 
@@ -86,18 +112,10 @@ export default class about extends Vue {
               items[key2] = {}
             }
 
-            const researches = []
-            for (let i = 0; i < child.researches.length; i++) {
-              const research = child.researches[i]
-              if (research[this.lang]) {
-                researches.push(research[this.lang])
-              }
-            }
-
             items[key2][kana] = {
               label: this.lang === 'ja' ? child.name_ja : child.name_en,
               id: key,
-              main: '（' + this.$t(this.organization[child.main]) + '）',
+              main: '（' + this.$t(organization[child.main]) + '）',
             }
 
             break
@@ -116,7 +134,7 @@ export default class about extends Vue {
         items[first][key] = {
           label: this.lang === 'ja' ? child.name_ja : child.name_en,
           id: key,
-          main: '（' + this.$t(this.organization[child.main]) + '）',
+          main: '（' + this.$t(organization[child.main]) + '）',
         }
       }
     }

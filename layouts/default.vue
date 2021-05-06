@@ -340,16 +340,24 @@ export default class Layout extends Vue {
 }
 
 
-  .table04 {
-    width: 100%;
-  }
-  .table04 th,  .table04 td {
-    border: 1px solid rgba(0,0,0,.1);
-    padding: .6em;
-  }
+.table04 {
+  width: 100%;
+}
+.table04 th,  .table04 td {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: .6em;
+}
 
-  .table04 th {
-    color: #fff;
-    background-color: #5cc2d0;
+.table04 th {
+  color: #fff;
+  background-color: #5cc2d0;
+}
+
+@media (max-width: 768px) {
+  .scroll-table {
+    overflow: auto;
+    white-space: nowrap;
   }
+}
+
 </style>

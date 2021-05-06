@@ -68,6 +68,8 @@ export default class NewsComponent extends Vue {
   async mounted() {
     const prefix =
       this.baseUrl + '/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
+      //'/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
+      //'~/json/news/' + (this.lang === 'ja' ? '' : 'en/')
     
     try {
       
