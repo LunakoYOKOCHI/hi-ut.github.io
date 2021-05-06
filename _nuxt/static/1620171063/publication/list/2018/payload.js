@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/list/2018", {data:[{}],fetch:{},mutations:[]});
