@@ -27,9 +27,9 @@
             </tr>
             <tr>
               <th>{{ $t('職位・学位') }}</th>
-              <td>{{ $t(gyoseki["【職位】"][0]) }}／{{ $t(gyoseki["【学位】"][0]) }}</td>
+              <td>{{ $t(gyoseki["【職位】"][0]) }}／{{ gyoseki["【学位】"][0] }}</td>
             </tr>
-            <tr v-if="lang === 'ja'">
+            <tr v-if="lang === 'ja' && gyoseki['【研究テーマ】'].length > 0">
               <th>{{ $t('研究テーマ') }}</th>
               <td>
                 <ul>
@@ -47,8 +47,10 @@
                 <th>{{ $t(field) }}</th>
                 <td>
                   <ul>
-                    <li v-for="(value, key) in gyoseki['【'+field+'】']" :key="key">{{ value }}</li>
-                    </ul>
+                    <template v-for="(value, key) in gyoseki['【'+field+'】']">
+                      <li v-if="value" :key="key">{{ value }}</li>
+                    </template>
+                  </ul>
                 </td>
               </tr>
             </template>
@@ -90,7 +92,12 @@ export default class about extends Vue {
       //const id = params.slug.split('gyoseki_')[1]
       //const gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
       id = params.slug.split('gyoseki_')[1]
-      gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
+      const all /*gyoseki*/ = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/all.json")
+      for(const obj of all){
+        if(obj.label === id){
+          gyoseki = obj.value
+        }
+      }
 
       const people_ = await $axios.$get(
         process.env.BASE_URL +
@@ -140,7 +147,9 @@ export default class about extends Vue {
       if(!map[label]){
         map[label] = []
       }
-      map[label].push(value)
+      if(value){
+        map[label].push(value)
+      }
     }
 
     return {
