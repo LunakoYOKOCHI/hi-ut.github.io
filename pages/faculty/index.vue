@@ -42,32 +42,28 @@ import Layout from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
-  async asyncData({ $axios }: any) {
-    const people = await $axios.$get(
-      process.env.BASE_URL +
-        '/assets/json/faculty.json'
-    )
+  async asyncData() {
+    const organizationMap: any = process.env.organizationMap
+
+    const facultyList2 = await import(`~/static/assets/json/faculty/facultyList.json`)
+    const facultyList: any[] = facultyList2.default
 
     const map: any = {}
 
-    for(const obj of people){
+    for(const obj of facultyList){
       const id = obj.slug
       obj.list_flag = obj.list_flg === "-1" ? false : true
-      obj.also = obj.also.split("|")
+      obj.also = [] //obj.also.split("|")
       obj.name_ja = obj.surname + " " + obj.forename
       obj.name_kana = obj.surname_kana + " " + obj.forename_kana
       obj.name_en = obj.surname_en + " " + obj.forename_en
       map[obj.slug] = obj
     }
 
-    const organization = await $axios.$get(
-      process.env.BASE_URL +
-        '/assets/json/organization.json'
-    )
-
     return {
       people: map,
-      organization
+      organizationMap,
+      facultyList2
     }
   }
 
@@ -77,7 +73,7 @@ export default class about extends Vue {
 
   get items(): any {
     const people = this.$data.people
-    const organization = this.$data.organization
+    const organizationMap = this.$data.organizationMap
 
     const items: any = {}
 
@@ -115,7 +111,7 @@ export default class about extends Vue {
             items[key2][kana] = {
               label: this.lang === 'ja' ? child.name_ja : child.name_en,
               id: key,
-              main: '（' + this.$t(organization[child.main]) + '）',
+              main: '（' + this.$t(organizationMap[child.main]) + '）',
             }
 
             break
@@ -134,7 +130,7 @@ export default class about extends Vue {
         items[first][key] = {
           label: this.lang === 'ja' ? child.name_ja : child.name_en,
           id: key,
-          main: '（' + this.$t(organization[child.main]) + '）',
+          main: '（' + this.$t(organizationMap[child.main]) + '）',
         }
       }
     }

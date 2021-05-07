@@ -1,5 +1,7 @@
 import fs from 'fs'
 
+const jsonDir = "static/assets/json"
+
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.publicationLatestFiscalYear = 2019
@@ -13,17 +15,11 @@ const routerBase =
       }
     : {}
 
-const menuList = JSON.parse(fs.readFileSync('static/assets/json/menuList.json'))
+const menuList = JSON.parse(fs.readFileSync(jsonDir + '/menuList.json'))
 env.menuList = menuList
 
-//const faculty = JSON.parse(fs.readFileSync('static/assets/json/faculty.json'))
-//env.people = faculty
-
-//const publication = JSON.parse(fs.readFileSync('static/assets/json/publication.json'))
-//env.publication = publication
-
-//const organization = JSON.parse(fs.readFileSync('static/assets/json/organization.json'))
-//env.organization = organization
+const organizationMap = JSON.parse(fs.readFileSync('static/assets/json/organizationMap.json'))
+env.organizationMap = organizationMap
 
 let currentYear = new Date().getFullYear()
 const currentMonth = new Date().getMonth() + 1
@@ -264,42 +260,15 @@ export default {
 
   generate: {
     routes() {
-      const pages = []
+      let pages = []
+
+      /*
 
       for (let i = env.currentFiscalYear - 1; i >= env.newsOldest; i--) {
         pages.push({
           route: `/news/list/${i}`,
         })
       }
-
-      // ---------
-      
-      /*
-      const fs = require('fs')
-      const publication = JSON.parse(
-        fs.readFileSync('static/assets/json/publication.json')
-      )
-
-      for (const year in publication) {
-        pages.push({
-          route: `/publication/list/${year}`,
-          payload: {
-            items: publication[year],
-          },
-        })
-      }
-      */
-
-      /*
-      pages.push({
-        route: `/publication/`,
-        payload: {
-          items: publication[env.publicationLatestFiscalYear],
-        },
-      })
-      */
-
-      //
 
       // 所報
 
@@ -455,7 +424,74 @@ export default {
         }
       }
 
+      */
+
+      const facultyList = JSON.parse(
+        fs.readFileSync(`${jsonDir}/faculty/facultyList.json`)
+      )
+
+      const gyosekiList = JSON.parse(
+        fs.readFileSync(`${jsonDir}/faculty/gyosekiList.json`)
+      )
+
+      //pages = pages.concat(getFaculty(facultyList))
+      //pages = pages.concat(getGyoseki(facultyList, gyosekiList))
+
       return pages
     },
   },
+}
+
+function getFaculty(facultyList){
+
+  const pages = []
+
+  pages.push({
+    route: `/faculty`,
+    payload: {
+      facultyList
+    }
+  })
+
+  pages.push({
+    route: `/en/faculty`,
+    payload: {
+      facultyList
+    }
+  })
+
+  return pages
+
+}
+
+function getGyoseki(facultyList, gyosekiList){
+
+  const pages = []
+
+
+  for (const obj of facultyList) {
+
+    const id = obj.slug
+
+    pages.push({
+      route: `/faculty/gyoseki_${id}`,
+      payload: {
+        id,
+        gyosekiList,
+        facultyList
+      },
+    })
+
+    pages.push({
+      route: `/en/faculty/gyoseki_${id}`,
+      payload: {
+        id,
+        gyosekiList,
+        facultyList
+      },
+    })
+  }
+
+  return pages
+
 }

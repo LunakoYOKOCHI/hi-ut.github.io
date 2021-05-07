@@ -23,7 +23,7 @@
             </tr>
             <tr>
               <th>{{ $t('所属') }}</th>
-              <td>{{ $t(organization[person.main]) }}</td>
+              <td>{{ $t(organizationMap[person.main]) }}</td>
             </tr>
             <tr>
               <th>{{ $t('職位・学位') }}</th>
@@ -72,73 +72,39 @@ import Layout from '~/components/layout/Layout.vue'
 })
 export default class about extends Vue {
   
-  async asyncData({ payload, params, $axios }: any) {
-    let gyoseki: any = []
-    let id = ""
-    let people: any = {}
-    let organization: any = {}
-    if (payload) {
-      /*
-      return {
-        id: payload.id,
-        gyoseki: payload.gyoseki,
+  async asyncData({ params }: any) {
+    const id = params.slug.split('gyoseki_')[1]
+
+    const facultyList_ = await import(`~/static/assets/json/faculty/facultyList.json`)
+    const facultyList = facultyList_.default
+
+    const gyosekiList_ = await import(`~/static/assets/json/faculty/gyosekiList.json`)
+    const gyosekiList= gyosekiList_.default
+
+    const organizationMap: any = process.env.organizationMap
+
+    let gyoseki: any = {}
+
+    for(const obj of gyosekiList){
+      if(obj.label === id){
+        gyoseki = obj.value
       }
-      */
-      id = payload.id
-      gyoseki = payload.gyoseki
-      people = payload.people
-      organization = payload.organization
-    } else {
-      //const id = params.slug.split('gyoseki_')[1]
-      //const gyoseki = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/" + id + ".json")
-      id = params.slug.split('gyoseki_')[1]
-      const all /*gyoseki*/ = await $axios.$get(process.env.BASE_URL + "/assets/json/faculty/all.json")
-      for(const obj of all){
-        if(obj.label === id){
-          gyoseki = obj.value
-        }
-      }
-
-      const people_ = await $axios.$get(
-        process.env.BASE_URL +
-          '/assets/json/faculty.json'
-      )
-
-      const map: any = {}
-
-      for(const obj of people_){
-        const id = obj.slug
-        obj.list_flag = obj.list_flg === "-1" ? false : true
-        obj.also = obj.also.split("|")
-        obj.name_ja = obj.surname + " " + obj.forename
-        obj.name_kana = obj.surname_kana + " " + obj.forename_kana
-        obj.name_en = obj.surname_en + " " + obj.forename_en
-        map[obj.slug] = obj
-      }
-
-      people = map
-
-      organization = await $axios.$get(
-        process.env.BASE_URL +
-          '/assets/json/organization.json'
-      )
-
-      /*
-      return {
-        people: map,
-        organization
-      }
-      */
-
-      /*
-      return {
-        gyoseki,
-        id
-      }
-      */
     }
 
     const map: any = {}
+
+    for(const obj2 of facultyList){
+      const obj: any = JSON.parse(JSON.stringify(obj2))
+      const id = obj.slug
+      obj.list_flag = obj.list_flg === "-1" ? false : true
+      obj.also = [] //obj.also ? obj.also.split("|") : []
+      obj.name_ja = obj.surname + " " + obj.forename
+      obj.name_kana = obj.surname_kana + " " + obj.forename_kana
+      obj.name_en = obj.surname_en + " " + obj.forename_en
+      map[obj.slug] = obj
+    }
+
+    const people = map
 
     for(const obj of gyoseki){
       const label = obj["項目"]
@@ -156,10 +122,12 @@ export default class about extends Vue {
       gyoseki: map,
       id,
       people,
-      organization
+      organizationMap
     }
 
   }
+
+  people: any = {}
 
   fields: string[] = ["著書・論文", "講演・報告", "史料編纂", "その他"]
 
@@ -173,10 +141,6 @@ export default class about extends Vue {
       name: 'faculty',
     },
   ]
-
-  //people: any = process.env.people
-
-  //organization: any = process.env.organization
 
   lang: string = this.$i18n.locale || 'ja'
 
