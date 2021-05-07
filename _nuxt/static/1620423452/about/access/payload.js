@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/about/access", {data:[{}],fetch:{},mutations:[]});
