@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[43],{332:function(n){n.exports=JSON.parse('[{"title":"目録学の構築と古典学の再生－天皇家・公家文庫の実態復原と伝統的知識体系の解明－(19GS0102)","start":"2007","end":"2011","kaken":"19GS0102","url2":"https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html"}]')}}]);
