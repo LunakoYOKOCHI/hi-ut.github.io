@@ -31,6 +31,7 @@ env.kyotenOldest = 2010
 env.newsOldest = 1997
 env.currentFiscalYear = currentYear
 env.latestSyohoVol = 55
+env.latestReportYear = 2018
 env.tokuteiMapping = {
   "kodai" : "古代史料領域",
   "chusei" : "中世史料領域",
