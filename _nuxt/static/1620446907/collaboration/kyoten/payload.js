@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/collaboration/kyoten", {data:[{}],fetch:{},mutations:[]});

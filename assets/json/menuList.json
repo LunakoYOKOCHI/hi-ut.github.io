@@ -17,7 +17,7 @@
       },
       {
         "label": "事業",
-        "to": { "name": "about-mission"},
+        "to": { "name": "about-slug", "params": {"slug" : "mission"}},
         "lang": ["ja", "en"]
       },
       {
@@ -115,20 +115,22 @@
       },
       {
         "label": "施設",
-        "to": { "name": "about-facilities" },
+        "to": { "name": "about-slug", "params": {"slug" : "facilities"}},
         "lang": ["ja"]
       },
       {
         "label": "点検・評価",
-        "to": { "name": "about-evaluation"},
+        "to": { "name": "about-slug", "params": {"slug" : "evaluation"}},
         "lang": ["ja"]
       },
       {
         "label": "アクセスマップ",
-        "to": { "name": "about-access" },
+        "to": { "name": "about-access"},
         "lang": ["ja", "en"]
       },
-      { "label": "リンク", "to": { "name": "about-link" }, "lang": ["ja"] },
+      { "label": "リンク", 
+        "to": { "name": "about-slug", "params": {"slug" : "link"}},
+        "lang": ["ja"] },
       {
         "label": "サイトマップ",
         "to": { "name": "about-sitemap" },
@@ -158,64 +160,68 @@
         "children": [
           {
             "label": "大日本史料・史料綜覧",
-            "to": { "name": "publication-dainihonshiryo_shiryosoran"},
+            "to": { "name": "publication-slug", "params": {"slug" : "dainihonshiryo_shiryosoran"}},
             "lang": ["ja", "en"]
           },
           {
             "label": "大日本古文書",
-            "to": { "name": "publication-komonjo"},
+            
+            "to": { "name": "publication-slug", "params": {"slug" : "komonjo"}},
             "lang": ["ja", "en"]
           },
           {
             "label": "大日本古記録",
-            "to": { "name": "publication-kokiroku"},
+            "to": { "name": "publication-slug", "params": {"slug" : "kokiroku"}},
             "lang": ["ja", "en"]
           },
           {
             "label": "大日本近世史料",
-            "to": { "name": "publication-kinsei"},
+            "to": { "name": "publication-slug", "params": {"slug" : "kinsei"}},
+            
             "lang": ["ja", "en"]
           },
           {
             "label": "大日本維新史料",
-            "to": { "name": "publication-ishin"},
             
+            "to": { "name": "publication-slug", "params": {"slug" : "ishin"}},
             "lang": ["ja", "en"]
           },
           {
             "label": "維新史料綱要",
-            "to": { "name": "publication-ishinkoyo"},
             
+            "to": { "name": "publication-slug", "params": {"slug" : "ishinkoyo"}},
             "lang": ["ja"]
           },
           {
             "label": "日本関係海外史料",
-            "to": { "name": "publication-kaigai"},
+            
+            "to": { "name": "publication-slug", "params": {"slug" : "kaigai"}},
             
             "lang": ["ja", "en"]
           },
           {
             "label": "日本関係海外史料目録",
-            "to": { "name": "publication-kaigaimokuroku"},
+            
+            "to": { "name": "publication-slug", "params": {"slug" : "kaigaimokuroku"}},
             
             "lang": ["ja", "en"]
           },
           {
             "label": "正倉院文書目録",
-            "to": { "name": "publication-shosoin"},
             
+            "to": { "name": "publication-slug", "params": {"slug" : "shosoin"}},
             "lang": ["ja", "en"]
           },
           {
             "label": "日本荘園絵図聚影",
-            "to": { "name": "publication-shoenezu"},
+            
+            "to": { "name": "publication-slug", "params": {"slug" : "shoenezu"}},
             
             "lang": ["ja", "en"]
           },
           {
             "label": "花押かがみ",
-            "to": { "name": "publication-kao" },
-            
+            "to": { "name": "publication-slug", "params": {"slug" : "kao"}},
             "lang": ["ja", "en"]
           },
           {
@@ -228,7 +234,8 @@
           },
           {
             "label": "その他の出版物",
-            "to": { "name": "publication-kakushu"},
+            
+            "to": { "name": "publication-slug", "params": {"slug" : "kakushu"}},
             
             "lang": ["ja"]
           },
