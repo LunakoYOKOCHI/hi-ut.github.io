@@ -5,7 +5,7 @@
     <div class="key-img">
       <!--  style="background-color: #e6e1d8" -->
       <img
-        src="~/assets/img/common/home.jpg"
+        src="/assets/img/common/home.jpg"
         width="1050"
         alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
       />
@@ -14,31 +14,45 @@
 
     <div class="contents-wrap">
       <main id="main-contents" class="main-contents">
-        <News :isTop="true" :year="year" />
+        <template v-if="lang === 'ja'">
+          <News :isTop="true" :year="year" />
 
-        <!-- InstanceBeginEditable name="main" -->
-        <section v-if="false" class="top-topics">
-          <h2 class="h01">
-            News &amp; Topics
-            <nuxt-link class="list" :to="localePath({ name: 'news' })">{{
-              $t('一覧')
-            }}</nuxt-link>
-          </h2>
+          <!-- InstanceBeginEditable name="main" -->
+          <section v-if="false" class="top-topics">
+            <h2 class="h01">
+              News &amp; Topics
+              <nuxt-link class="list" :to="localePath({ name: 'news' })">{{
+                $t('一覧')
+              }}</nuxt-link>
+            </h2>
 
-          <News2 :items="items" :top="true"></News2>
-        </section>
-        <section v-if="false" class="top-link">
-          <a class="btn01 v1" href="https://clioteam.hi.u-tokyo.ac.jp/share/"
-            >共同研究に<br />
-            参加されている皆様へ</a
-          ><nuxt-link class="btn01 v1" :to="localePath({ name: 'faq-slug' })"
-            >よくあるご質問</nuxt-link
-          ><a
-            class="btn01 v1"
-            href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
-            >所内用サイト</a
-          >
-        </section>
+            <News2 :items="items" :top="true"></News2>
+          </section>
+          <section v-if="false" class="top-link">
+            <a class="btn01 v1" href="https://clioteam.hi.u-tokyo.ac.jp/share/"
+              >共同研究に<br />
+              参加されている皆様へ</a
+            ><nuxt-link class="btn01 v1" :to="localePath({ name: 'faq-slug' })"
+              >よくあるご質問</nuxt-link
+            ><a
+              class="btn01 v1"
+              href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
+              >所内用サイト</a
+            >
+          </section>
+        </template>
+        <template v-else>
+          <p class="mt2 mb1">
+            Shiryo Hensan-jo (the Historiographical Institute, HI), the
+            University of Tokyo, has as its primary objective, rather than
+            historiography in general, analysis, compilation, and publication of
+            historical source materials concerning Japan. The Institute has
+            become a major center of Japanese historical research, and makes
+            historical sources available through its <a href="library">library</a>, <nuxt-link :to="localePath({name : 'publication-slug'})">publications</nuxt-link>, and
+            recently, <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.
+          </p>
+        </template>
+
         <!-- InstanceEndEditable -->
       </main>
       <div id="sidebar">
@@ -99,12 +113,16 @@
             >
           </p>
 
-          <div class="frame02 mt2">
+          <p class="mt2">
+          <a href="https://utf.u-tokyo.ac.jp/project/pjt10"
+                ><img src="/assets/img/common/btn_kihu.png" style="height: 90px" alt="東京大学基金"
+              /></a>
+          </p>
+
+          <div class="frame02 mt2" v-if="false">
             <p>
               <a href="https://utf.u-tokyo.ac.jp/"
-                ><img
-                  :src="baseUrl + '/assets/img/common/btn_kihu.png'"
-                  alt="東京大学基金"
+                ><img src="/assets/img/common/btn_kihu.png" alt="東京大学基金"
               /></a>
             </p>
             <a class="btn01 v2" href="https://utf.u-tokyo.ac.jp/project/pjt10"
@@ -116,11 +134,11 @@
           <div v-if="false" class="mt-10"></div>
           <!-- InstanceEndEditable -->
 
-          <div class="mt1">
+          <div class="mt2 mb2">
             <a href="https://twitter.com/UTokyo_HI" target="_blank">
               <img
-                src="https://www.hi.u-tokyo.ac.jp/common/images/Twitter_Social_Icon_Square_Color.png"
-                width="45px"
+                src="/assets/img/common/twitter.svg"
+                width="30px"
               />
             </a>
           </div>
@@ -147,10 +165,10 @@
           ><i
             ><img
               class="img-a"
-              :src="baseUrl + '/assets/img/common/foot_link_icon01.svg'"
+              :src="'/assets/img/common/foot_link_icon01.svg'"
               alt="" /><img
               class="img-b"
-              :src="baseUrl + '/assets/img/common/foot_link_icon01_h.svg'"
+              :src="'/assets/img/common/foot_link_icon01_h.svg'"
               alt="" /></i
           >{{ $t('データベース検索') }}</a
         >
@@ -171,10 +189,10 @@
           ><i
             ><img
               class="img-a"
-              :src="baseUrl + '/assets/img/common/foot_link_icon03.svg'"
+              :src="'/assets/img/common/foot_link_icon03.svg'"
               alt="" /><img
               class="img-b"
-              :src="baseUrl + '/assets/img/common/foot_link_icon03_h.svg'"
+              :src="'/assets/img/common/foot_link_icon03_h.svg'"
               alt="" /></i
           >{{ $t('編纂・研究・公開') }}</nuxt-link
         >
@@ -189,7 +207,7 @@ import News from '~/components/News.vue'
 
 @Component({
   components: {
-    News
+    News,
   },
 })
 export default class about extends Vue {
@@ -205,7 +223,7 @@ export default class about extends Vue {
     this.$store.commit('setLg', value)
   }
 
-  get year(){
+  get year() {
     const currentYear = new Date().getFullYear()
     const currentMonth = new Date().getMonth() + 1
     return currentMonth < 4 ? currentYear - 1 : currentYear
