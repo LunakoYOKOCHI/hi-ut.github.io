@@ -38,6 +38,23 @@ env.tokuteiMapping = {
   "kaigai" : "海外史料領域",
   "fukugo" : "複合史料領域",
 }
+env.kakenMap = {
+  COE: '中核的研究拠点（COE）形成基礎研究費',
+  sosei: '学術創成研究費',
+  S: '基盤研究(S)',
+  A: '基盤研究(A)',
+  B: '基盤研究(B)',
+  C: '基盤研究(C)',
+  hoga: '挑戦的萌芽研究',
+  wakate_a: '若手研究(A)',
+  wakate_b: '若手研究(B)',
+  wakate: '若手研究',
+  wakate_start: '若手研究(スタートアップ)',
+  start: '研究活動スタート支援',
+  shorei: '奨励研究',
+  tokutei: '特定領域研究',
+}
+
 env.compiledDateOfStaff = "2021-05-01"
 
 const GOOGLE_ANALYTICS_ID = 'abc'
