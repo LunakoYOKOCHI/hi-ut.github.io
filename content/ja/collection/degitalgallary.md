@@ -14,36 +14,26 @@ title: 	デジタルギャラリー
     「時を越えて語るもの―史料と美術の名宝―」ホームページへ</a
     >
 
-<v-img
-    class="mb-5"
-    src="/collection/images/collect_ezu.jpg"
-    ></v-img>
+![](/assets/img/collection/collect_ezu.jpeg)
 
-<h2 class="h03 mt-10">入来院家文書ギャラリー</h2>
+<h2 class="h03 mt2">入来院家文書ギャラリー</h2>
 
 本所所蔵の入来院家文書は、薩摩の地頭領主入来院家に伝来したものです。エール大学の朝河貫一によって欧米に紹介されたことでも知られています。
 
 →<a href="http://www.hi.u-tokyo.ac.jp/iriki-j.html">入来院家文書ギャラリーへ</a>
 
+![](/assets/img/collection/collect_irikiin.jpeg)
 
-<v-img
-    class="mb-5"
-    src="/collection/images/collect_irikiin.jpg"
-    ></v-img>
-
-<h2 class="h03 mt-10">錦絵ギャラリー</h2>
+<h2 class="h03 mt2">錦絵ギャラリー</h2>
 
 本所が所蔵する『維新前後諷刺画』を紹介します。なおこのギャラリーは、東京大学史料編纂所画像史料解析センターの９７年度事業によるものです。
 
 →<a href="http://www.hi.u-tokyo.ac.jp/personal/yokoyama/nishikie/cover.html">錦絵ギャラリーへ</a>
 
 
-<v-img
-    class="mb-5"
-    src="/collection/images/collect_nishikie.jpg"
-    ></v-img>
+![](/assets/img/collection/collect_nishikie.jpeg)
 
-<h2 class="h03 mt-10">ひらめき☆ときめきサイエンス　史料からみる日本の歴史</h2>
+<h2 class="h03 mt2">ひらめき☆ときめきサイエンス　史料からみる日本の歴史</h2>
 
 2005年12月に、日本学術振興会による研究成果の社会還元・普及事業として、「史料からみる日本の歴史」を実施し、高校生の方々に史料やデータベースから歴史を探る楽しみを紹介しました。
 

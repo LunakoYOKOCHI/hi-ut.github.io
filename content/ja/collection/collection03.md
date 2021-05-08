@@ -1,13 +1,12 @@
 ---
-title: 	特殊蒐書
+title: 特殊蒐書
 ---
 
-
-一括して伝来した史料・図書、あるいは内容に特色のある個人の蒐書などは、「特殊蒐書」と呼び、その史資料のまとまりをくずさずに管理しています。国宝島津家文書や重要文化財近藤重蔵関係資料・林家史料もその一部です。特殊蒐書は全部で64 件あり、史料総数は約１万点を数えます。
+一括して伝来した史料・図書、あるいは内容に特色のある個人の蒐書などは、「特殊蒐書」と呼び、その史資料のまとまりをくずさずに管理しています。国宝島津家文書や重要文化財近藤重蔵関係資料・林家史料もその一部です。特殊蒐書は全部で 64 件あり、史料総数は約１万点を数えます。
 
 <a href="https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shusho.html" target="_blank">こちら</a>に特殊蒐書案内のページがあります。
 
-<h2 class="h03 mt-10"><strong>公家史料</strong></h2>
+<h2 class="h03 mt2"><strong>公家史料</strong></h2>
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T01.html', 'newwin','width=640,height=640')">
 <strong>徳大寺家本</strong></a>（中世～近世の徳大寺家歴代当主の日記など、約4400 点）<br>
@@ -20,7 +19,7 @@ title: 	特殊蒐書
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T15.html', 'newwin','width=640,height=640')"><strong>正親町家本</strong></a>（正親町家伝来の書籍・文書類、約600 点）　ほか
 </p>
 
-<h2 class="h03 mt-10"><strong>武家史料</strong></h2>
+<h2 class="h03 mt2"><strong>武家史料</strong></h2>
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T21.html', 'newwin','width=640,height=640')">
 <strong>益田家文書</strong></a>（中世石見の豪族～近世萩藩永代家老家の史料、約9000点）<br>
@@ -36,22 +35,24 @@ title: 	特殊蒐書
 <strong>溝口家史料</strong></a>（越後新発田藩主溝口家伝来の江戸時代後期の史料、約400 点）　　ほか
 </p>
 
-<v-img
-    class="mb-5"
-    src="/collection/images/collect_mizoguchi.jpg"
-    caption="大森演砲記付図（溝口家史料のうち）"></v-img>
+<figure class="mb1">
+    <img
+       src="/assets/img/collection/collect_mizoguchi.jpeg"
+        alt="大森演砲記付図（溝口家史料のうち）"
+    />
+    <figcaption>大森演砲記付図（溝口家史料のうち）</figcaption>
+</figure>
 
-<h2 class="h03 mt-10"><strong>維新史料</strong></h2>
-<div class="txtImg_right-Cpt">
-<div>
+<h2 class="h03 mt2"><strong>維新史料</strong></h2>
 
-<v-img
-    class="mb-5"
-    src="/collection/images/collect_youkairo.jpg"
-    caption="3トン溶解炉（ルボン家関係資料のうち）"></v-img>
+<figure class="mb1">
+    <img
+       src="/assets/img/collection/collect_youkairo.jpeg"
+        alt="3トン溶解炉（ルボン家関係資料のうち）"
+    />
+    <figcaption>3トン溶解炉（ルボン家関係資料のうち）</figcaption>
+</figure>
 
-
-</div>
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T16.html', 'newwin','width=640,height=640')">
 <strong>維新史料引継本</strong></a><br>（文部省維新史料編纂事務局旧蔵史料、約20600 点）<br>
@@ -72,15 +73,15 @@ title: 	特殊蒐書
 <strong>諸新聞切張物（西南事件関係）</strong></a><br>（修史館が西南戦争を「征西始末」としてまとめる際、材料として各新聞から西南戦争関係の記事を切り取り作成したスクラップブック、31 点）
 　　ほか</p>
 
-</div>
+<figure class="mb1">
+    <img
+       src="/assets/img/collection/collect_fukkoki.jpeg"
+        alt="復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）"
+    />
+    <figcaption>復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）</figcaption>
+</figure>
 
-<v-img
-    class="mb-5 mt-5"
-    src="/collection/images/collect_fukkoki.jpg"
-    caption="復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）"></v-img>
-
-
-<h2 class="h03 mt-10"><strong>個人蒐書</strong></h2>
+<h2 class="h03 mt2"><strong>個人蒐書</strong></h2>
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T56.html', 'newwin','width=640,height=640')">
 <strong>森潤三郎氏旧蔵史料</strong></a>（森鴎外の弟・潤三郎氏蒐集の以酊庵関係史料等、154 点）<br>

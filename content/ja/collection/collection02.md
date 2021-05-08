@@ -15,7 +15,7 @@ title: 	貴重書
 <strong>島津家文書</strong></a>（848 巻、752 帖、2689 冊、4908 通、160 鋪、207 枚、2 幅、附 文書箱32 合）</div>
 <div class="mtx" style="text-indent: 1em;">平安時代より江戸時代に至る薩摩藩島津家重代相伝の文書群。原本。（平成14 年指定）</div>
 
-<h2 class="h03 mt-10"><strong>重要文化財</strong></h2>
+<h2 class="h03 mt2"><strong>重要文化財</strong></h2>
 <div class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB02.html',
 'newwin','width=640,height=640')">
@@ -128,11 +128,11 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">明の神宗の萬暦23年（文祿4年）2月、神宗が前田玄以に都督僉事の官職を授けた際の辭令書。</div><div class="mtx" style="text-indent: 1em;">（平成29 年指定）</div>
 <br>
 
-<div class="flex col2">
-        <v-img class="mb-10"
-    src="/collection/images/collect_jukkin.jpg"
-    caption="拾芥抄"></v-img>
-        <v-img class="mb-10"
-    src="/collection/images/collect_namu.jpg"
-    caption="南無阿弥陀仏作善集"></v-img>
-      </div>
+<div class="flex col2 mt2">
+<figure><img src="/assets/img/collection/collect_jukkin.jpeg" width="100%" alt="拾芥抄"/>
+<figcaption>拾芥抄</figcaption>
+</figure>
+<figure><img src="/assets/img/collection/collect_namu.jpeg" width="100%" alt="南無阿弥陀仏作善集"/>
+<figcaption>南無阿弥陀仏作善集</figcaption>
+</figure>
+</div>
