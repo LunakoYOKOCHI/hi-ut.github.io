@@ -1,120 +1,40 @@
 ---
-title: 	所長挨拶
+title: 所長挨拶
 ---
 
-<h2 class="h03">Pursuing our core mission for continued growth</h2>
+<h2 class="h03"></h2>
 
-<figure>
-<img
-    style="height: 300px"
-    src="https://www.hi.u-tokyo.ac.jp/about_hi/images/mes_img01.jpg"
-    alt="Director Toru Hoya"
-/>
-<figcaption>Director Toru Hoya</figcaption>
+<figure class="mb1">
+    <img
+        width="183"
+        src="/assets/img/about/mes_img01.jpeg"
+        alt="本郷 恵子 / Keiko Hongo"
+    />
+    <figcaption>Director Keiko Hongo</figcaption>
 </figure>
 
-<br />
+　The Historiographical Institute of the University of Tokyo is a research institution for the study of historical documents that span Japan’s pre-modern history from ancient times through to the Meiji Restoration. Our mission is to collect and analyze various historical documents from holdings both in Japan and overseas and compile and publish these as key collections of Japanese historical documents for the benefit of academia and society.
 
-<p>
-The Historiographical Institute of the University of Tokyo is a research
-institution for the study of historical documents that span Japan’s
-pre-modern history from ancient times through to the Meiji Restoration
-of 1868. We survey, collect and analyze various historical documents
-from holdings both in Japan and overseas and compile and disseminate
-these as key historical documents of Japanese history.
-</p>
-<p>
-Our institute has a long history, and its origins stretch back to the
-Institute for Japanese Studies (Wagaku Kōdansho) in the Edo period. The
-Meiji Government took over the operation of this institute in the second
-year of the Meiji Era (1869) and embarked on historiographical
-undertakings. Counting from this time gives our institute a history of
-approximately 150 years. Our forerunner was under the jurisdiction of
-the Imperial University, which instituted the current style of compiling
-and studying Japanese historical materials. Since the end of World War
-II, we have been a research institute attached to the University of
-Tokyo. Since 1901 we have published a total of more than 1,100 volumes,
-including the collections of Japanese historical materials and archives
-Dai Nihon Shiryō and Dai Nihon Komonjo.
-</p>
-<p>
-The scope of surveys by the Historiographical Institute takes in both
-Japan and overseas. Surveys of materials relating to Japanese history
-outside Japan began before World War II and these have been conducted
-with international support since the war, in particular that of the
-Japan Academy. In 1997, we established the Center for the Study of
-Visual Sources to complement an increasing academic interest in visual
-images such as illustrations, maps, and old photographs. Last year the
-center celebrated the 20th anniversary of its establishment. In
-addition, we have since the 1980s worked to introduce computerization.
-Along with creating and disseminating all kinds of databases, we have
-made available our holdings of historical images on the web. The
-International Center for the Digitization of Premodern Japanese Sources
-was established in 2006. It aims to discover new sources of Japanese
-historical materials both in Japan and abroad and convert these into
-research resources, thus spurring the advancement of historical
-information science.
-</p>
-<p>
-Collection by means of reproduction is fundamental to the collection of
-historical materials by the Historiographical Institute. To date we have
-accumulated a vast repository of reproductions using methods such as
-tracing, copying and photography. With the digitalization of photography
-of recent years, we have established a new framework for visits to
-collect historical materials based on digital photography. We share vast
-amounts of our digital archive of historical images (Hi-CAT Plus), which
-have been collected and accumulated to date, from our library reading
-room on the web. At the same time, we have archived holdings of many
-historical source materials at our institute over our long history. We
-are endeavoring to roll out the dissemination of historical images from
-our 200,000 precious historical source materials on our website along
-with taking the necessary measures for their conservation, particularly
-a national treasure, the Shimazu-ke Monjo (Documents of the Shimazu
-Family).
-</p>
-<p>
-In this way, along with galvanizing the foundation for the research of
-premodern Japanese historical materials through the compilation and
-publication of key historical volumes of Japanese history, our institute
-have made extensive efforts to provide and disseminate information on
-historical materials and the outcomes we have built up through this
-throughout academia and to the general public. Researchers from our
-institute are engaged in diverse undertakings such as joint research on
-an individual and project basis. In addition, they participate in the
-educational planning at faculties and graduate schools of universities
-and contribute to the development of Japanese historical materials
-researchers who can hold their own on the international stage through
-hosting of post doctoral fellows, and novice and overseas researchers.
-There are increasing opportunities for our staff in the conservation
-laboratory to participate in joint research projects using their
-specialist knowledge. In this way they are bolstering the research
-systems to integrate conservation laboratory with libraries and
-administrative offices.
-</p>
-<p>
-Since 2009 we have been certified as the “base of research operations
-for converting Japanese historical materials into research resources.”
-We have moved to enhance our collaborative surveys and research
-activities for holdings of Japanese historical materials both in Japan
-and overseas and have benefitted from the participation of many museums
-and regional authorities throughout Japan. As a result, we have made
-these into research resources for joint use. Surveys and research of our
-institute have expanded over a broad international scope, and we have
-deepened our research exchanges and ties with diverse countries,
-including not only those in Europe, the United States, and Russia but
-also China and Korea. In recent years we have led the way in the
-international field of historiographical research as the secretariat
-organization for the East Asian Association of the Organizations for
-Historical Materials Research and Documents Compilation.
-</p>
-<p>
-Along with methodically and systematically collecting and stockpiling
-Japanese historical materials from both Japan and overseas over a long
-time scale, the Historiographical Institute of the University of Tokyo
-has aimed for early adoption of the latest historical information
-systems and digital technologies and their use in research undertakings.
-We are an institute of Japanese history at the forefront of
-historiographical research using ever-evolving traditions and the latest
-techniques. We request your renewed understanding and support for all
-such efforts.
-</p>
+　Our institute has a long history, and its origins stretch back to the Institute for Japanese Studies (Wagaku Kōdansho) in the Edo period. The Meiji Government took over the operation of this institute in the second year of the Meiji period (1869) and embarked on historiographical undertakings. The institute was subsequently transferred to the Imperial University, which adopted the current style of compiling and studying Japanese historical materials. Starting with the first volumes of Dai Nihon Shiryō and Dai Nihon Komonjo published in 1901, we have published a total of more than 1,200 volumes of Japanese historical materials and archives.
+
+　Many historical materials related to Japanese history can be found in both Japan and overseas. Investigation and collection of these materials are the first steps to historiographical undertakings. In recording such historical information, we have adopted the most appropriate method available at the time such as calligraphic reproduction, copying, and photography, according to the characteristics of the historical material. With the digitalization of photography of recent years, we have established a new framework to systematically accumulate and publish high-definition photographs of historical materials. In addition to reproduced materials, the Historiographical Institute also has a vast archive of 200,000 precious original source materials including a designated National Treasure, the Shimazu-ke Monjo (Documents of the Shimazu Family). We repair and conserve these materials to pass them down to the next generation and also analyze the unique information only original materials bear, integrating conservation and research together as a consistent endeavor.
+
+　The Historiographical Institute has made active efforts to expand our scope of research and to innovate the ways we disseminate information. In 1997, we established the Center for the Study of Visual Sources to engage in full-fledged research of pictorial sources such as picture scrolls, shoen-ezu (ancient and medieval estate maps) and old photographs. The International Center for the Digitization of Premodern Japanese Sources was established in 2006 to expand the Siryohensansho Historical Information Processing System (SHIPS) we have built and evolved since the 1980s and pioneer the new field of historical informatics. We also contribute to the internationalization of Japanese history such as investigations of Japanese historical materials held overseas and international dissemination of Japanese history information. Through these activities, we have deepened collaboration with overseas institutions that hold historical materials or engage in historiography in diverse countries, including those in China, Korea and Russia. Certified as a “research center for converting Japanese historical materials into research resources” since 2009, we have promoted collaborative research with researchers, museums, and regional authorities throughout Japan and the findings from such collaborations are offered as research resources for joint use. In 2019, we were selected as the only humanities institute in the Program for Constructing Data Infrastructure for the Humanities and Social Sciences by the Japan Society for the Promotion of Science and have embarked on the construction of data infrastructure on Japanese historical materials, aiming to strengthen the core values of data sharing, internationalization, and connectivity. In AY2020, we received an “S” rating for comprehensive performance in an evaluation conducted by the steering committee of the program.
+
+　The Historiographical Institute seeks to deliver various information related to historical materials to everyone interested in history. In addition to historiographical work, our affiliated researchers are working to disseminate their research findings through diverse activities ranging from research by individual researchers or collaborative teams to university education and extension lectures open to the public. Research support departments including the Library responsible for managing and utilizing books and historical materials, the Conservation Laboratory equipped with advanced technologies and expertise, and the Administration Office that oversees the operation of the entire institute cooperate to support the research system.
+
+　Due to the spread of COVID-19 since 2020, the activities of the Historiographical Institute have been significantly restricted like everyone else. We have not been able to make much progress in the collection of historical materials, an important pillar of our operations, and we cannot deny that the pandemic has affected research communications both within and outside of the institute. On the other hand, access to our SHIPS database has significantly increased, indicating heightened expectations for the roles of the Historiographical Institute to support research activities under the curfew.
+
+　The Historiographical Institute, as the central organization of Japanese historiographical research, not only builds the foundations but also drives research efforts at the forefront of historical and historiographical research, based on tradition and introducing state-of-art technologies. We request your renewed understanding and support for all such efforts.　The Historiographical Institute of the University of Tokyo is a research institution for the study of historical documents that span Japan’s pre-modern history from ancient times through to the Meiji Restoration. Our mission is to collect and analyze various historical documents from holdings both in Japan and overseas and compile and publish these as key collections of Japanese historical documents for the benefit of academia and society.
+
+　Our institute has a long history, and its origins stretch back to the Institute for Japanese Studies (Wagaku Kōdansho) in the Edo period. The Meiji Government took over the operation of this institute in the second year of the Meiji period (1869) and embarked on historiographical undertakings. The institute was subsequently transferred to the Imperial University, which adopted the current style of compiling and studying Japanese historical materials. Starting with the first volumes of Dai Nihon Shiryō and Dai Nihon Komonjo published in 1901, we have published a total of more than 1,200 volumes of Japanese historical materials and archives.
+
+　Many historical materials related to Japanese history can be found in both Japan and overseas. Investigation and collection of these materials are the first steps to historiographical undertakings. In recording such historical information, we have adopted the most appropriate method available at the time such as calligraphic reproduction, copying, and photography, according to the characteristics of the historical material. With the digitalization of photography of recent years, we have established a new framework to systematically accumulate and publish high-definition photographs of historical materials. In addition to reproduced materials, the Historiographical Institute also has a vast archive of 200,000 precious original source materials including a designated National Treasure, the Shimazu-ke Monjo (Documents of the Shimazu Family). We repair and conserve these materials to pass them down to the next generation and also analyze the unique information only original materials bear, integrating conservation and research together as a consistent endeavor.
+
+　The Historiographical Institute has made active efforts to expand our scope of research and to innovate the ways we disseminate information. In 1997, we established the Center for the Study of Visual Sources to engage in full-fledged research of pictorial sources such as picture scrolls, shoen-ezu (ancient and medieval estate maps) and old photographs. The International Center for the Digitization of Premodern Japanese Sources was established in 2006 to expand the Siryohensansho Historical Information Processing System (SHIPS) we have built and evolved since the 1980s and pioneer the new field of historical informatics. We also contribute to the internationalization of Japanese history such as investigations of Japanese historical materials held overseas and international dissemination of Japanese history information. Through these activities, we have deepened collaboration with overseas institutions that hold historical materials or engage in historiography in diverse countries, including those in China, Korea and Russia. Certified as a “research center for converting Japanese historical materials into research resources” since 2009, we have promoted collaborative research with researchers, museums, and regional authorities throughout Japan and the findings from such collaborations are offered as research resources for joint use. In 2019, we were selected as the only humanities institute in the Program for Constructing Data Infrastructure for the Humanities and Social Sciences by the Japan Society for the Promotion of Science and have embarked on the construction of data infrastructure on Japanese historical materials, aiming to strengthen the core values of data sharing, internationalization, and connectivity. In AY2020, we received an “S” rating for comprehensive performance in an evaluation conducted by the steering committee of the program.
+
+　The Historiographical Institute seeks to deliver various information related to historical materials to everyone interested in history. In addition to historiographical work, our affiliated researchers are working to disseminate their research findings through diverse activities ranging from research by individual researchers or collaborative teams to university education and extension lectures open to the public. Research support departments including the Library responsible for managing and utilizing books and historical materials, the Conservation Laboratory equipped with advanced technologies and expertise, and the Administration Office that oversees the operation of the entire institute cooperate to support the research system.
+
+　Due to the spread of COVID-19 since 2020, the activities of the Historiographical Institute have been significantly restricted like everyone else. We have not been able to make much progress in the collection of historical materials, an important pillar of our operations, and we cannot deny that the pandemic has affected research communications both within and outside of the institute. On the other hand, access to our SHIPS database has significantly increased, indicating heightened expectations for the roles of the Historiographical Institute to support research activities under the curfew.
+
+　The Historiographical Institute, as the central organization of Japanese historiographical research, not only builds the foundations but also drives research efforts at the forefront of historical and historiographical research, based on tradition and introducing state-of-art technologies. We request your renewed understanding and support for all such efforts.
