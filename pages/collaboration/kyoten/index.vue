@@ -155,37 +155,33 @@ export default class about extends Vue {
 
   tokutei: any = []
 
-  async asyncData({ payload, app, $axios, $context }: any) {
-    if (payload) {
-      return payload
-    } else {
-      const res = []
+  async asyncData() {
+    const res = []
 
-      const year = process.env.kyotenLatest
+    const year = process.env.kyotenLatest
 
-      const mapping: any = process.env.tokuteiMapping
-      for (const key in mapping) {
-        try {
+    const mapping: any = process.env.tokuteiMapping
+    for (const key in mapping) {
+      try {
 
-          const tokuteiList_ = await import(`~/static/assets/json/collaboration/kyoten/tokutei/${key}.json`)
-          const tokuteiList = tokuteiList_.default
+        const tokuteiList_ = await import(`~/static/assets/json/collaboration/kyoten/tokutei/${key}.json`)
+        const tokuteiList = tokuteiList_.default
 
-          res.push({
-            key,
-            data: tokuteiList,
-          })
-        } catch (err) {}
-      }
+        res.push({
+          key,
+          data: tokuteiList,
+        })
+      } catch (err) {}
+    }
 
-      const ippanList_ = await import(`~/static/assets/json/collaboration/kyoten/ippan/${year}.json`)
-      const ippanList = ippanList_.default
+    const ippanList_ = await import(`~/static/assets/json/collaboration/kyoten/ippan/${year}.json`)
+    const ippanList = ippanList_.default
 
-      return {
-        //mapping,
-        year,
-        tokutei: res,
-        data: ippanList,
-      }
+    return {
+      //mapping,
+      year,
+      tokutei: res,
+      data: ippanList,
     }
   }
 
