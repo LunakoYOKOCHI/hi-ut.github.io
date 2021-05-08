@@ -21,23 +21,17 @@
 
 
     <div :class="isTop ? 'data' : ''"> <!-- style="height: 700px" -->
-
       <template v-for="(newsMap, key) in newsList">
-
         <dl :key="key" v-if="select === 'latest' || select === newsMap.tag">
-          
           <dt class="mb1">
-            {{ newsMap.date }}
-            <!-- <span class="chip1">{{ newsMap.featured }}</span> -->
+            <span>{{ newsMap.date }}</span>
             <span class="chip2">{{ $t(newsMap.tag) }}</span>
           </dt>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <dd>
             <span class="fc1">{{ newsMap.featured }}</span> <span v-html="newsMap.content"></span>
           </dd>
-          
         </dl>
-
       </template>
     </div>
   </section>
@@ -55,32 +49,10 @@ export default class NewsComponent extends Vue {
   isTop!: boolean
 
   @Prop()
-  year!: number
-
-  newsList: any[] = []
-
-  baseUrl: string = process.env.BASE_URL || ''
+  newsList!: any[]
 
   lang: string = this.$i18n.locale
 
   select: string = "latest"
-
-  async mounted() {
-    const prefix =
-      this.baseUrl + '/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
-      //'/assets/json/news/' + (this.lang === 'ja' ? '' : 'en/')
-      //'~/json/news/' + (this.lang === 'ja' ? '' : 'en/')
-    
-    try {
-      
-      const res = await axios.get(prefix + this.year + '.json')
-      
-      //const res = await this.$axios.$get(prefix + 2020 + '.json')
-      this.newsList = res.data
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.error(error)
-    }
-  }
 }
 </script>

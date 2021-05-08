@@ -15,31 +15,7 @@
     <div class="contents-wrap">
       <main id="main-contents" class="main-contents">
         <template v-if="lang === 'ja'">
-          <News :isTop="true" :year="year" />
-
-          <!-- InstanceBeginEditable name="main" -->
-          <section v-if="false" class="top-topics">
-            <h2 class="h01">
-              News &amp; Topics
-              <nuxt-link class="list" :to="localePath({ name: 'news' })">{{
-                $t('一覧')
-              }}</nuxt-link>
-            </h2>
-
-            <News2 :items="items" :top="true"></News2>
-          </section>
-          <section v-if="false" class="top-link">
-            <a class="btn01 v1" href="https://clioteam.hi.u-tokyo.ac.jp/share/"
-              >共同研究に<br />
-              参加されている皆様へ</a
-            ><nuxt-link class="btn01 v1" :to="localePath({ name: 'faq-slug' })"
-              >よくあるご質問</nuxt-link
-            ><a
-              class="btn01 v1"
-              href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
-              >所内用サイト</a
-            >
-          </section>
+          <News :isTop="true" :newsList="newsList" />
         </template>
         <template v-else>
           <p class="mt2 mb1">
@@ -48,8 +24,12 @@
             historiography in general, analysis, compilation, and publication of
             historical source materials concerning Japan. The Institute has
             become a major center of Japanese historical research, and makes
-            historical sources available through its <a href="library">library</a>, <nuxt-link :to="localePath({name : 'publication-slug'})">publications</nuxt-link>, and
-            recently, <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.
+            historical sources available through its
+            <a href="library">library</a>,
+            <nuxt-link :to="localePath({ name: 'publication-slug' })"
+              >publications</nuxt-link
+            >, and recently,
+            <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.
           </p>
         </template>
 
@@ -106,40 +86,20 @@
               </li>
             </ul>
           </nav>
-          <p v-if="false">
-            <a class="fc2" href="shakairenkei/srindex.html"
-              >社会連携研究部門は<br />
-              2013年3月に時限を迎えました。</a
-            >
-          </p>
 
           <p class="mt2">
-          <a href="https://utf.u-tokyo.ac.jp/project/pjt10"
-                ><img src="/assets/img/common/btn_kihu.png" style="height: 90px" alt="東京大学基金"
-              /></a>
+            <a href="https://utf.u-tokyo.ac.jp/project/pjt10">
+              <img
+                src="/assets/img/common/btn_kihu.png"
+                style="height: 90px"
+                alt="東京大学基金"
+              />
+            </a>
           </p>
-
-          <div class="frame02 mt2" v-if="false">
-            <p>
-              <a href="https://utf.u-tokyo.ac.jp/"
-                ><img src="/assets/img/common/btn_kihu.png" alt="東京大学基金"
-              /></a>
-            </p>
-            <a class="btn01 v2" href="https://utf.u-tokyo.ac.jp/project/pjt10"
-              ><em>{{ $t('史料編纂所基金') }}</em
-              ><template v-if="lang === 'ja'">（部局基金）</template></a
-            >
-          </div>
-
-          <div v-if="false" class="mt-10"></div>
-          <!-- InstanceEndEditable -->
 
           <div class="mt2 mb2">
             <a href="https://twitter.com/UTokyo_HI" target="_blank">
-              <img
-                src="/assets/img/common/twitter.svg"
-                width="30px"
-              />
+              <img src="/assets/img/common/twitter.svg" width="30px" />
             </a>
           </div>
         </aside>
@@ -158,52 +118,12 @@
         >
       </div>
     </div>
-
-    <div v-if="false" class="foot-link">
-      <div class="inner">
-        <a class="btn02" href="https://wwwap.hi.u-tokyo.ac.jp/ships/"
-          ><i
-            ><img
-              class="img-a"
-              :src="'/assets/img/common/foot_link_icon01.svg'"
-              alt="" /><img
-              class="img-b"
-              :src="'/assets/img/common/foot_link_icon01_h.svg'"
-              alt="" /></i
-          >{{ $t('データベース検索') }}</a
-        >
-        <a
-          class="btn02"
-          :href="baseUrl + (lang != 'ja' ? '/' + lang : '') + '/tosho'"
-          ><i
-            ><img
-              class="img-a"
-              :src="baseUrl + '/assets/img/common/foot_link_icon02.svg'"
-              alt="" /><img
-              class="img-b"
-              :src="baseUrl + '/assets/img/common/foot_link_icon02_h.svg'"
-              alt="" /></i
-          >{{ $t('史料の利用') }}</a
-        >
-        <nuxt-link class="btn02" :to="localePath({ name: 'publication' })"
-          ><i
-            ><img
-              class="img-a"
-              :src="'/assets/img/common/foot_link_icon03.svg'"
-              alt="" /><img
-              class="img-b"
-              :src="'/assets/img/common/foot_link_icon03_h.svg'"
-              alt="" /></i
-          >{{ $t('編纂・研究・公開') }}</nuxt-link
-        >
-      </div>
-    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import News from '~/components/News.vue'
+import News from '~/components/news/News.vue'
 
 @Component({
   components: {
@@ -223,10 +143,11 @@ export default class about extends Vue {
     this.$store.commit('setLg', value)
   }
 
-  get year() {
-    const currentYear = new Date().getFullYear()
-    const currentMonth = new Date().getMonth() + 1
-    return currentMonth < 4 ? currentYear - 1 : currentYear
+  async asyncData() {
+    const year = process.env.currentFiscalYear
+    const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
+    const newsList = newsList_.default
+    return {year, newsList}
   }
 
   head() {
