@@ -125,7 +125,7 @@
       },
       {
         "label": "アクセスマップ",
-        "to": { "name": "about-access"},
+        "to": { "name": "about-slug", "params": {"slug" : "access"}},
         "lang": ["ja", "en"]
       },
       { "label": "リンク", 

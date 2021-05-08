@@ -166,13 +166,13 @@
                   >■ {{ $t('サイトマップ') }}</nuxt-link
                 >
               </li>
-              <li>
+              <li v-if="lang === 'ja'">
                 <nuxt-link :to="localePath({ name: 'about-slug', params: {slug: 'link'} })"
                   >■ {{ $t('リンク') }}</nuxt-link
                 >
               </li>
               <li>
-                <nuxt-link :to="localePath({ name: 'about-access' })"
+                <nuxt-link :to="localePath({ name: 'about-slug', params: {slug: 'access'} })"
                   >■ {{ $t('アクセスマップ') }}</nuxt-link
                 >
               </li>

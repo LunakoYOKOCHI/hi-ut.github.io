@@ -8,7 +8,7 @@ title: 	点検・評価
 
 <h2 class="h03">過去の評価</h2>
 
-<table class="table02">
+<table class="table04 mt2">
     <tbody>
     <tr>
         <th class="mtx" colspan="2">対象者</th>
@@ -112,11 +112,9 @@ title: 	点検・評価
     </tbody>
 </table>
 
-<p class="mtx mt-10">
-    所全体を対象とした外部評価は、1996年（平成８）第１回、2001年（平成13）第２回、2003年（平成15）第３回、2009年（平成21）第４回を実施しました。<br />
-    <span style="color: red">要修正</span>
-    <a
-    href="https://www.hi.u-tokyo.ac.jp/news/2018/2018gaibuhyouka.pdf"
-    >第５回外部評価報告書 [PDF1.1MB]</a
-    >
-</p>
+<br/>
+
+
+
+所全体を対象とした外部評価は、1996年（平成８）第１回、2001年（平成13）第２回、2003年（平成15）第３回、2009年（平成21）第４回を実施しました。<br/>
+[第５回外部評価報告書 [PDF1.1MB]](https://www.hi.u-tokyo.ac.jp/news/2018/2018gaibuhyouka.pdf)
