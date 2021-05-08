@@ -391,17 +391,17 @@
       { "label": "よくあるご質問", "to": { "name": "faq-slug" }, "lang": ["ja"] },
       {
         "label": "ビューアについて",
-        "to": { "name": "faq-viewer" },
+        "to": { "name": "faq-slug", "params" : {"slug" : "viewer"} },
         "lang": ["ja"]
       },
       {
         "label": "データベースにおける文字について",
-        "to": { "name": "faq-kanjiv" },
+        "to": { "name": "faq-slug", "params" : {"slug" : "kanjiv"} },
         "lang": ["ja"]
       },
       {
         "label": "利用条件：史料画像データの利用",
-        "to": { "name": "faq-reuse" },
+        "to": { "name": "faq-slug", "params" : {"slug" : "reuse"} },
         "lang": ["ja"]
       }
     ]

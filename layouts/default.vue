@@ -363,4 +363,8 @@ export default class Layout extends Vue {
 .text-right {
   text-align: right !important;
 }
+
+.text-center {
+  text-align: center !important;
+}
 </style>
