@@ -38,6 +38,7 @@ env.tokuteiMapping = {
   "kaigai" : "海外史料領域",
   "fukugo" : "複合史料領域",
 }
+env.compiledDateOfStaff = "2021-05-01"
 
 const GOOGLE_ANALYTICS_ID = 'abc'
 
