@@ -2,7 +2,7 @@
 title: 所長挨拶
 ---
 
-<h2 class="h03"></h2>
+<h2 class="h03">Pursuing our core mission for continued growth</h2>
 
 <figure class="mb1">
     <img
