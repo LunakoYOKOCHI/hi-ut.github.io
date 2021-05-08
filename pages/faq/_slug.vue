@@ -1,10 +1,8 @@
 <template>
-  <div>
     <LayoutAbout :title="title" :index="7">
       <h1 class="h02">{{ title }}</h1>
       <nuxt-content :document="document" />
     </LayoutAbout>
-  </div>
 </template>
 
 <script lang="ts">
