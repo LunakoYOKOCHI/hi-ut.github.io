@@ -2,17 +2,17 @@
   {
     "label": "ご案内",
     "lang": ["ja", "en"],
-    "to": { "name": "about"},
+    "to": { "name": "about-slug"},
     "isDisplayTop" : true,
     "children": [
       {
         "label": "所長挨拶",
-        "to": { "name": "about"},
+        "to": { "name": "about-slug"},
         "lang": ["ja", "en"]
       },
       {
         "label": "沿革",
-        "to": { "name": "about-history"},
+        "to": { "name": "about-slug", "params": {"slug" : "history"}},
         "lang": ["ja", "en"]
       },
       {

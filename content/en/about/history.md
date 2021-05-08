@@ -1,11 +1,14 @@
 ---
-title: 	History
+title: 沿革
 ---
 
-<v-img class="mb-10"
-    src="/about/images/about_hi_shiryo.jpg"
-    caption="The Institute in 1903"></v-img>
-
+<figure class="mb1">
+    <img
+        src="/assets/img/about/about_hi_shiryo.jpeg"
+        alt="The Institute in 1903"
+    />
+    <figcaption>The Institute in 1903</figcaption>
+</figure>
 
 The origins of the Historiographical Institute may be found in the late Edo period. In 1793, Hanawa Hokiichi, a scholar of "National Learning" (kokugaku) proposed to the Tokugawa bakufu that his Institute for Japanese Studies (Wagaku Kodansho) begin compiling historical records. By 1861, Hanawa's institute produced 430 volumes of source books covering the years 887 to 1024. The starting year 887 was chosen because it was the last year of the ancient Japanese governmental histories. The manuscripts compiled by Hanawa's institute became the basis for the project called Dai Nihon Shiryo, which continues at the Historiographical Institute to the present day. In 1869 the new Meiji government established a new bureau to compile an official national history of Japan that would take up where the ancient official histories left off, and in 1876 the new bureau began to compile historical records using Hanawa's methods; in 1882, the bureau started to write an official history based on the documents it had collected. This official history was abandoned in 1893, but the compilation of source materials continued and led to the publication of the first volume of the Dai Nihon Shiryo series in 1901.
 
@@ -19,60 +22,60 @@ The Institute's mission has continued to expand. Over the years, the range of ma
 
 The Institute continues to be the leading facility for research on primary sources related to Japanese history. History is the study of the past; but that study is always situated in the present, and looks to the future. As typified by the Center for the Study of Visual Sources and the International Center for the Digitization of Premodern Japanese Sources,the Institute is committed to expanding the frontiers of its activities to meet the challenges and possibilities of the twenty-first century.
 
-<h2 class="h03">KEY DATES IN HISTORIOGRAPHICAL INSTITUTE HISTORY</h2>
+<h2 class="h03 mt-2">KEY DATES IN HISTORIOGRAPHICAL INSTITUTE HISTORY</h2>
 
-<table cellspacing="0" summary="" class="table01">
+<table class="table04">
 <tbody><tr>
-<td class="mtx lead_cel">1801</td>
-<td class="mtx">Hanawa Hokiichi proposes to the Tokugawa bakufu that his Institute for Japanese Studies (Wagaku Kodansho, established in 1793) begin compiling historical records.</td>
+<th class="mtx lead_cel">1801</th>
+<td>Hanawa Hokiichi proposes to the Tokugawa bakufu that his Institute for Japanese Studies (Wagaku Kodansho, established in 1793) begin compiling historical records.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1801-1861</td>
-<td class="mtx">The Institute for Japanese Studies produces 430 volumes covering the years 887 to 1024. The Institute ceases activity after 1861.</td>
+<th>1801-1861</th>
+<td>The Institute for Japanese Studies produces 430 volumes covering the years 887 to 1024. The Institute ceases activity after 1861.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1869</td>
-<td class="mtx">The Meiji government plans to start compiling an official national history of Japan.</td>
+<th>1869</th>
+<td>The Meiji government plans to start compiling an official national history of Japan.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1885</td>
-<td class="mtx">Activities begin to investigate historical source materials from all over Japan.</td>
+<th>1885</th>
+<td>Activities begin to investigate historical source materials from all over Japan.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1888</td>
-<td class="mtx">Responsibility for compiling historical materials is transferred from the Cabinet to the Imperial University.</td>
+<th>1888</th>
+<td>Responsibility for compiling historical materials is transferred from the Cabinet to the Imperial University.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1901</td>
-<td class="mtx">Publication of the first volumes of the series: Dai Nihon Shiryo and Dai Nihon Komonjo.</td>
+<th>1901</th>
+<td>Publication of the first volumes of the series: Dai Nihon Shiryo and Dai Nihon Komonjo.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1906</td>
-<td class="mtx">The Foreign Ministry assigns the publication of late Edo diplomatic materials to the Historiographical Section.</td>
+<th>1906</th>
+<td>The Foreign Ministry assigns the publication of late Edo diplomatic materials to the Historiographical Section.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1929</td>
-<td class="mtx">Historiographical Institute (Shiryo Hensan-jo) takes the current name.</td>
+<th>1929</th>
+<td>Historiographical Institute (Shiryo Hensan-jo) takes the current name.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1949</td>
-<td class="mtx">The Ministry of Education assigns the Historiographical Institute to work on Meiji Restoration documents.</td>
+<th>1949</th>
+<td>The Ministry of Education assigns the Historiographical Institute to work on Meiji Restoration documents.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1950</td>
-<td class="mtx">The Institute becomes an independent affiliate of the University of Tokyo.</td>
+<th>1950</th>
+<td>The Institute becomes an independent affiliate of the University of Tokyo.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1984 </td>
-<td class="mtx">The Institute starts working with computerized database and document management.</td>
+<th>1984 </th>
+<td>The Institute starts working with computerized database and document management.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">1997</td>
-<td class="mtx">Establishment of the Center for the Study of Visual Sources.</td>
+<th>1997</th>
+<td>Establishment of the Center for the Study of Visual Sources.</td>
 </tr>
 <tr>
-<td class="mtx lead_cel">2006</td>
-<td class="mtx">Establishment of the International Center for the Digitization of Premodern Japanese Sources.</td>
+<th>2006</th>
+<td>Establishment of the International Center for the Digitization of Premodern Japanese Sources.</td>
 </tr>
 
 </tbody></table>
