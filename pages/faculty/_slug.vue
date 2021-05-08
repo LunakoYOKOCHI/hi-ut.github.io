@@ -1,5 +1,4 @@
 <template>
-  <div>
     <Layout :title="title" :index="0" :breadcrumbs="breadcrumbs">
       <h1 class="h02">{{ title }}</h1>
 
@@ -58,7 +57,6 @@
         </table>
       </div>
     </Layout>
-  </div>
 </template>
 
 <script lang="ts">

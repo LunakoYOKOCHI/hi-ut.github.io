@@ -1,35 +1,33 @@
 <template>
-  <div>
-    <Layout :title="title">
-      <h1 class="h02">{{ title }}</h1>
+  <Layout :title="title">
+    <h1 class="h02">{{ title }}</h1>
 
-      <div
-        v-for="(item, key) in Object.keys(items).sort()"
-        :key="key"
-        class="mt2"
-      >
-        <h2 class="h03">{{ item }}{{ lang == 'ja' ? '行' : '' }}</h2>
+    <div
+      v-for="(item, key) in Object.keys(items).sort()"
+      :key="key"
+      class="mt2"
+    >
+      <h2 class="h03">{{ item }}{{ lang == 'ja' ? '行' : '' }}</h2>
 
-        <ul>
-          <li
-            v-for="(item2, index2) in Object.keys(items[item]).sort()"
-            :key="index2"
+      <ul>
+        <li
+          v-for="(item2, index2) in Object.keys(items[item]).sort()"
+          :key="index2"
+        >
+          <nuxt-link
+            :to="
+              localePath({
+                name: 'faculty-slug',
+                params: { slug: 'gyoseki_' + items[item][item2].id },
+              })
+            "
+            >{{ items[item][item2].label }}</nuxt-link
           >
-            <nuxt-link
-              :to="
-                localePath({
-                  name: 'faculty-slug',
-                  params: { slug: 'gyoseki_' + items[item][item2].id },
-                })
-              "
-              >{{ items[item][item2].label }}</nuxt-link
-            >
-            {{ items[item][item2].main }}
-          </li>
-        </ul>
-      </div>
-    </Layout>
-  </div>
+          {{ items[item][item2].main }}
+        </li>
+      </ul>
+    </div>
+  </Layout>
 </template>
 
 <script lang="ts">
@@ -53,7 +51,6 @@ export default class about extends Vue {
     for(const obj of facultyList){
       const id = obj.slug
       obj.list_flag = obj.list_flg === "-1" ? false : true
-      obj.also = [] //obj.also.split("|")
       obj.name_ja = obj.surname + " " + obj.forename
       obj.name_kana = obj.surname_kana + " " + obj.forename_kana
       obj.name_en = obj.surname_en + " " + obj.forename_en
@@ -63,7 +60,7 @@ export default class about extends Vue {
     return {
       people: map,
       organizationMap,
-      facultyList2
+      facultyList
     }
   }
 

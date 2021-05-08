@@ -4,9 +4,14 @@ title: 所長挨拶
 
 <h2 class="h03">ごあいさつ</h2>
 
-<v-img class="mb-10" height="300px"
-    src="/about/images/mes_img01.jpg"
-    caption="保谷 徹（ほうや　とおる）"></v-img>
+<figure class="mb1">
+    <img
+        width="183"
+        src="/assets/img/about/mes_img01.jpeg"
+        alt="本郷 恵子 / Keiko Hongo"
+    />
+    <figcaption>本郷 恵子（ほんごう　けいこ）</figcaption>
+</figure>
 
 東京大学史料編纂所は、古代から明治維新期にいたる前近代の日本史史料を研究する研究所です。国内外に所在する史料の調査・収集と分析をおこない、これを日本史の基幹史料集として編纂・公開しています。
 

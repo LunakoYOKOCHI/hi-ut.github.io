@@ -214,7 +214,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
+    
     [
       '@nuxtjs/google-analytics',
       {
@@ -222,16 +222,27 @@ export default {
       },
     ],
 
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content',
+
     'nuxt-i18n',
+    '@nuxtjs/sitemap',
     // Simple usage
     // '@nuxtjs/amp',
-    // https://go.nuxtjs.dev/content
-    // '@nuxt/content',
+    
   ],
 
   sitemap: {
     path: '/sitemap.xml',
     hostname: baseUrl,
+    routes: async () => {
+      
+
+      let pages = []
+      pages = pages.concat(getFaculty())
+      
+      return pages
+    }
   },
 
   i18n: {
@@ -426,6 +437,7 @@ export default {
 
       */
 
+      /*
       const facultyList = JSON.parse(
         fs.readFileSync(`${jsonDir}/faculty/facultyList.json`)
       )
@@ -433,6 +445,7 @@ export default {
       const gyosekiList = JSON.parse(
         fs.readFileSync(`${jsonDir}/faculty/gyosekiList.json`)
       )
+      */
 
       //pages = pages.concat(getFaculty(facultyList))
       //pages = pages.concat(getGyoseki(facultyList, gyosekiList))
@@ -442,54 +455,18 @@ export default {
   },
 }
 
-function getFaculty(facultyList){
+function getFaculty(){
 
   const pages = []
 
-  pages.push({
-    route: `/faculty`,
-    payload: {
-      facultyList
-    }
-  })
+  const facultyList = JSON.parse(
+    fs.readFileSync(`static/assets/json/faculty/facultyList.json`)
+  )
 
-  pages.push({
-    route: `/en/faculty`,
-    payload: {
-      facultyList
-    }
-  })
-
-  return pages
-
-}
-
-function getGyoseki(facultyList, gyosekiList){
-
-  const pages = []
-
-
-  for (const obj of facultyList) {
-
-    const id = obj.slug
-
-    pages.push({
-      route: `/faculty/gyoseki_${id}`,
-      payload: {
-        id,
-        gyosekiList,
-        facultyList
-      },
-    })
-
-    pages.push({
-      route: `/en/faculty/gyoseki_${id}`,
-      payload: {
-        id,
-        gyosekiList,
-        facultyList
-      },
-    })
+  for(const faculty of facultyList){
+    const id = faculty.slug
+    pages.push("/faculty/gyoseki_" + id)
+    pages.push("/en/faculty/gyoseki_" + id)
   }
 
   return pages
