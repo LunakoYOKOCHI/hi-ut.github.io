@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/faq/del/reuse", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/faq/del/viewer", {data:[{}],fetch:{},mutations:[]});
