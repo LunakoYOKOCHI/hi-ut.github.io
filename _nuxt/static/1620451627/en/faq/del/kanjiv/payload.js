@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/faq/del/kanjiv", {data:[{}],fetch:{},mutations:[]});
