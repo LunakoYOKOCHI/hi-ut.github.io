@@ -17,7 +17,7 @@ import News from '~/components/news/News.vue'
 })
 export default class news extends Vue {
   get title() {
-    return String(this.year) + this.$t('年度のニュース')
+    return String(this.$data.year) + this.$t('年度のニュース')
   }
 
   async asyncData({params}: any) {

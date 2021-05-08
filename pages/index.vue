@@ -26,7 +26,7 @@
             become a major center of Japanese historical research, and makes
             historical sources available through its
             <a href="library">library</a>,
-            <nuxt-link :to="localePath({ name: 'publication-slug' })"
+            <nuxt-link :to="localePath({ name: 'publication' })"
               >publications</nuxt-link
             >, and recently,
             <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.

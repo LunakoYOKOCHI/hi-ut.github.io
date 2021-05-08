@@ -1,5 +1,5 @@
 ---
-title: 	概要
+title: 概要
 ---
 
 <h2 class="h03">

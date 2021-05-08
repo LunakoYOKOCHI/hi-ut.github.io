@@ -1,5 +1,5 @@
 ---
-title: 	Overview
+title: 概要
 ---
 
 The Historiographical Institute has an extensive collection of documents, diaries, and other historical materials, including a National Treasure and designated Important Cultural Properties. The Institute also maintains an up-to-date collection of modern scholarly monographs and academic journals related to Japanese history. All of these items are cared for and managed by the Institute's Library.

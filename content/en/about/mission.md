@@ -1,5 +1,5 @@
 ---
-title: 	Mission
+title: 事業
 ---
 
 <h2 class="h03">RESEARCH</h2>

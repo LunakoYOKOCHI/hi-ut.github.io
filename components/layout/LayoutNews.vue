@@ -72,11 +72,14 @@ export default class LayoutAbout extends Vue {
   @Prop()
   title!: string
 
-  currentFiscalYear: number = process.env.currentFiscalYear
+  currentFiscalYear: any = process.env.currentFiscalYear
 
   get years() {
     const years = []
     for (let i = this.currentFiscalYear - 1; i >= 1997; i--) {
+      if(i === 2000){
+        continue
+      }
       years.push(i)
     }
     return years

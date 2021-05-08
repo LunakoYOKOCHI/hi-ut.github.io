@@ -167,7 +167,7 @@
                 >
               </li>
               <li>
-                <nuxt-link :to="localePath({ name: 'about-link' })"
+                <nuxt-link :to="localePath({ name: 'about-slug', params: {slug: 'link'} })"
                   >■ {{ $t('リンク') }}</nuxt-link
                 >
               </li>
