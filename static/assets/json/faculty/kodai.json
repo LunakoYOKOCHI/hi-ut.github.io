@@ -1,22 +1,22 @@
 [
-    {
-        "room": "編年第一",
-        "id": "yamaguchi|inada"
-    },
-    {
-        "room": "編年第二",
-        "id": "yamaguchi|kurosu"
-    },
-    {
-        "room": "編年第三",
-        "id": "tajima|fujiwara|oshio"
-    },
-    {
-        "room": "編年第四",
-        "id": "kazuto|horikawa"
-    },
-    {
-        "room": "編年第五",
-        "id": "kazuto|tomohiro"
-    }
+  {
+    "room": "編年第一",
+    "id": "hideo|inada"
+  },
+  {
+    "room": "編年第二",
+    "id": "hideo|kurosu"
+  },
+  {
+    "room": "編年第三",
+    "id": "tajima|fujiwara|oshio"
+  },
+  {
+    "room": "編年第四",
+    "id": "kazuto|horikawa"
+  },
+  {
+    "room": "編年第五",
+    "id": "kazuto|tomohiro"
+  }
 ]
