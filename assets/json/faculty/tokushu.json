@@ -1,0 +1,22 @@
+[
+    {
+        "room": "特殊史料第一",
+        "id": "kawamoto"
+    },
+    {
+        "room": "特殊史料第二",
+        "id": "komiya|yanbe"
+    },
+    {
+        "room": "海外史料第一",
+        "id": "mihoko"
+    },
+    {
+        "room": "海外史料第二",
+        "id": "yoko|fuyuko|ndaito"
+    },
+    {
+        "room": "中世禅籍史料研究プロジェクト",
+        "id": "yanbe|maegawa|kawamoto|mokamoto"
+    }
+]
