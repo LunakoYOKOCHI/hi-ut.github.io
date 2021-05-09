@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/46/saiho_46_036", (function(a){return {data:[{vol:"46",item:{head:"史料採訪",title:"36.仁和寺所蔵史料（御経蔵）の調査・撮影",creator:a,page:a,id:"saiho_46_036",url:a,content:"二〇一一年三月一三日から一七日までの期間、総本山仁和寺（京都市右京\n区御室大内三十三）を訪れ、御経蔵第六十二箱、第六十七箱から第六十九箱\nまでを調査し、マイクロカメラによる全文撮影と花押の採取を行った。\n\n（高橋典幸・前川祐一郎・川本慎自・林　譲）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/52/saiho_52_016", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"16.大日本史料第二編之三十二編纂のための原本調査",creator:a,page:a,id:"saiho_52_016",url:a,content:"二〇一七年一月二九日～三〇日、京都大学総合博物館に出張し、『左経記』（特／き／別置）を閲覧し『大日本史料第二編之三十二』収載史料の調査・原本校正を行った。\n（黒須友里江）"}}],fetch:{},mutations:[]}}("")));

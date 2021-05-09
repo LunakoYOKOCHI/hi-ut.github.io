@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/45/saiho_45_037", (function(a){return {data:[{vol:"45",item:{head:"史料採訪",title:"37.武田科学振興財団所蔵古記録原本の調査",creator:a,page:a,id:"saiho_45_037",url:a,content:"〇九年一二月一四日より一六日まで、大阪府大阪市武田科学振興財団杏雨書屋において、『実躬卿記』自筆本を中心とする、紙背文書を含む古記録原本の調査を行った。なお、本調査には学術支援専門職員宮崎肇も同行し、共同して調査を行った。\n\n（菊地大樹・遠藤珠紀）"}}],fetch:{},mutations:[]}}("")));

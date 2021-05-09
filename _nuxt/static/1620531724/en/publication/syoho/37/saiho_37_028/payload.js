@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/37/saiho_37_028", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"28.『中右記』諸本の調査",creator:a,page:a,id:"saiho_37_028",url:a,content:"二〇〇二年三月二九－二二日に、京都市京都大学附属図書館等において、\n『中右記』 諸本の調査を行った。\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/47/saiho_47_029", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"29.醍醐寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_47_029",url:a,content:"二〇一一年八月十七日より二十一日までの五日間、京都市伏見区醍醐寺に\n出張し、継続事業として文書・聖教の原本調査およびマイクロフィルム撮影\nを行い、第四四三函の撮影を終了した。\n\n（高山さやか・金子　拓・伴瀬明美・高橋典幸・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/15/saiho_hosokawake%20shiryou", (function(a){return {data:[{vol:"15",item:{head:"史料採訪",title:"細川家史料調査",creator:a,page:a,id:"saiho_hosokawake shiryou",url:a,content:"昭和五十四年十二月三日から八日にいたる間、熊本大学附属図書館におもむき、同館に寄託されている財団法人永青文庫所蔵の細川家史料を調査した。この調査は、『大日本近世史料　細川家史料七』の編纂のための関連史料の調査が主な目的であった。閲覧したのは左の諸史料である。"}}],fetch:{},mutations:[]}}("")));

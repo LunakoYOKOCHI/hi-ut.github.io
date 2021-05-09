@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/1/saiho_daigoji", (function(a){return {data:[{vol:"1",item:{head:"史料採訪",title:"醍醐寺出張報告",creator:a,page:a,id:"saiho_daigoji",url:a,content:"八月二十七日より九月二日まで八日間、昭和三十七年よりはじめられた醍醐寺所蔵の古文書聖教等に関する調査撮影の後を承け、第三十三函より第四十九函までを撮影した。\n　（臼井信義・鈴木圭吾・高沢実）"}}],fetch:{},mutations:[]}}("")));

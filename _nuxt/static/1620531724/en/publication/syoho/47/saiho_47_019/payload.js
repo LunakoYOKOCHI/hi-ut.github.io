@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/47/saiho_47_019", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"19.真珠庵文書の調査",creator:a,page:a,id:"saiho_47_019",url:a,content:"二〇一二年一月一六日から一八日、三月二六日から二八日の二回、京都市\n大徳寺真珠庵に出張し、軸物別置分などについて編纂原稿の校正を行った。\n\n（保立道久）"}}],fetch:{},mutations:[]}}("")));

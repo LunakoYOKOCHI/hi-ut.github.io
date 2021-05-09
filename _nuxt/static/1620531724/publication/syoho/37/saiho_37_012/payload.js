@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/37/saiho_37_012", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"12.彦根藩井伊家文書（井伊家伝来古文書）の返却",creator:a,page:a,id:"saiho_37_012",url:a,content:"二〇〇二年三月一四日～一五日、彦根城博物館（滋賀県彦根市金亀町一－一）に出張し、『大日本維新史料　類纂之部　井伊家史料二十二』（二〇〇〇年度刊行）の編纂・出版のために借用していた彦根藩井伊家文書（井伊家伝来古文書）一七八点を返却した。\n（箱石 大）"}}],fetch:{},mutations:[]}}("")));

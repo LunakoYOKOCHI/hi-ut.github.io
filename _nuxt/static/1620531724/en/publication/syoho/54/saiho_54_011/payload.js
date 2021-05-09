@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/54/saiho_54_011", (function(a){return {data:[{vol:"54",item:{head:"史料採訪",title:"11.京都大学附属図書館所蔵・寄託史料の調査",creator:a,page:a,id:"saiho_54_011",url:a,content:"二〇一九年三月三日、京都大学附属図書館にて下記書目を閲覧した。複写申請をしておらず倉卒のノートに拠るが、簡単な報告を行う。所蔵館には閲覧につきご高配を賜った。記して謝意を表す。\n〈中略〉\n（藤原重雄）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/47/saiho_47_033", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"33.東大寺文書の原本校正",creator:a,page:a,id:"saiho_47_033",url:a,content:"二〇一二年三月二六～三〇日、奈良市東大寺図書館において、『大日本古\n文書　家わけ第十八　東大寺文書之二十二』編纂のため、東大寺文書未成巻\n文書第一部第一八（越中高瀬荘）～第二四（雑荘）他の原本校正を行った。\n\n（久留島典子・高橋敏子・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

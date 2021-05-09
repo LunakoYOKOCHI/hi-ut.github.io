@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/39/saiho_39_021", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"21.勧修寺所蔵聖教の調査",creator:a,page:a,id:"saiho_39_021",url:a,content:"二〇〇三年十二月・翌年三月、京都市勧修寺に出張し、『大日本史料』関係の史料、とりわけ第三編之二十七に卒伝を収録予定の勧修寺大僧都厳覚関係の史料を調査した。勧修寺門跡筑波常遍様および勧修寺文書・聖教調査団の各位には格段の御高配を賜った。記して謝意を表す。\n　　　　　　　　　　　　　　　　　　（田島　公・末柄　豊・藤原重雄）"}}],fetch:{},mutations:[]}}("")));

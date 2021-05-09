@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/44/saiho_44_045", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"45.『中右記部類』の調査及び原本校正",creator:a,page:a,id:"saiho_44_045",url:a,content:"二〇〇八年一〇月二二―二四日に、天理市天理大学附属天理図書館において、同図書館所蔵の九条家旧蔵『中右記部類』の古写本の調査と、『大日本古記録　中右記』別冊「中右記部類」のための原本校正を行なった。\n\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/43/saiho_43_064", (function(a){return {data:[{vol:"43",item:{head:"史料採訪",title:"西大寺所蔵文書・記録・聖教の調査・撮影",creator:a,page:a,id:"saiho_43_064",url:a,content:"二〇〇八年三月一七日より二一日まで奈良市西大寺芝町一丁目一―五、西\n大寺に出張し、同寺所蔵文書・記録・聖教を調査・撮影した。本年度は第二\n五箱～第二七箱第五号を撮影した。\n　　　　　　　　（近藤成一・山口英男・渡邉正男・西田友広・山田太造・高島晶彦・山口悟史）"}}],fetch:{},mutations:[]}}("")));

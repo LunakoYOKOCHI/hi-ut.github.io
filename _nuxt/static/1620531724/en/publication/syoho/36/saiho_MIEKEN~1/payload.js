@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/36/saiho_MIEKEN~1", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"三重県伊勢市神宮文庫所蔵古記録諸本の調査",creator:a,page:a,id:"saiho_MIEKEN~1",url:a,content:"二〇〇〇年一一月二〇日から二二日まで、三重県伊勢市神宮文庫に出張し、『実躬卿記』その他の古記録諸本の調査を行うとともに、大日本古記録『実躬卿記』第四冊の出版に必要な原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菊地大樹）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/50/saiho_50_023", (function(a){return {data:[{vol:"50",item:{head:"史料採訪",title:"23.「近衛文書」の調査・撮影",creator:a,page:a,id:"saiho_50_023",url:a,content:"平成二十六年（二〇一四）十二月十七日から十九日まで京都に出張し、公益財団法人陽明文庫が所蔵する「近衛文書」のうち、左記の史料を調査・撮影した。\n家門篇（六）　七九六袋、七九七袋、二二四袋、七九八袋、七九九袋、二二五袋、四四五袋、八〇〇袋\n\n（松澤克行・荒木裕行）"}}],fetch:{},mutations:[]}}("")));

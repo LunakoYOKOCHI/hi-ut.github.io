@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/28/saiho_MIEKEN~1", (function(a){return {data:[{vol:"28",item:{head:"史料採訪",title:"三重県神宮文庫所蔵史料の調査",creator:a,page:a,id:"saiho_MIEKEN~1",url:a,content:"一九九二年一月二十四日から二十五日までの間、三重県神宮文庫において、『大日本史料』第三編之二十三原稿作成のため、同所所蔵「氏経卿引付」紙背文書を調査した。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（岡田隆夫・上杉和彦）"}}],fetch:{},mutations:[]}}("")));

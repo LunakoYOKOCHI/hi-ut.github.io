@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/20/saiho_KOKURI~1", (function(a){return {data:[{vol:"20",item:{head:"史料採訪",title:"国立国会図書館所蔵文書の調査・撮影",creator:a,page:a,id:"saiho_KOKURI~1",url:a,content:"昭和六十年一月十日、国立国会図書館に出張、左記の文書を調査・撮影し、あわせて花押の採集を行なった。\n　　瀬多文書　　五巻（四十一通）\n　　佐々木文書　一巻  （十一通）\n　　　　　　　　　　　　　　　　　　　（皆川完一・近藤成一・藤原良章・林　譲）"}}],fetch:{},mutations:[]}}("")));

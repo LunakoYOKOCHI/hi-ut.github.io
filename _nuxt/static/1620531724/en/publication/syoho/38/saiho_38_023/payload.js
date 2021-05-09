@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/38/saiho_38_023", (function(a){return {data:[{vol:"38",item:{head:"史料採訪",title:"23.陽明文庫蔵『御法成寺関白記』の原本調査",creator:a,page:a,id:"saiho_38_023",url:a,content:"二〇〇三年二月二十六日より二十八日まで、大日本古記録『後法成寺関白\n記』二編纂のため、原本調香を行った。\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（田中博美・兼柄 豊）"}}],fetch:{},mutations:[]}}("")));

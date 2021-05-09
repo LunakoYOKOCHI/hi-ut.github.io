@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/44/saiho_44_037", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"37.武田科学振興財団所蔵『実躬卿記』自筆本および神宮文庫所蔵『実躬卿記』三条本の調査",creator:a,page:a,id:"saiho_44_037",url:a,content:"〇九年二月一七日より十九日まで、大阪府大阪市武田科学振興財団杏雨書屋において、また同二〇日、三重県伊勢市神宮文庫において、大日本古記録『実躬卿記』第六冊の出版に必要な原本校正を行った。\n\n（菊地大樹）"}}],fetch:{},mutations:[]}}("")));

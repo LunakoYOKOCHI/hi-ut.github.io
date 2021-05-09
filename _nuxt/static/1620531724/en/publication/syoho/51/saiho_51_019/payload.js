@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/51/saiho_51_019", (function(a){return {data:[{vol:"51",item:{head:"史料採訪",title:"19.『薩戒記』の原本校正",creator:a,page:a,id:"saiho_51_019",url:a,content:"二〇一六年正月六日・七日、京都大学附属図書館に出張し、『大日本古記録　薩戒記』六出版のため、原本校正を行った。\n（遠藤珠紀）"}}],fetch:{},mutations:[]}}("")));

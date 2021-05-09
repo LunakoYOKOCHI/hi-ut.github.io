@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/15/saiho_kyotodaigaku%20%20kokiroku", (function(a){return {data:[{vol:"15",item:{head:"史料採訪",title:"京都大学古記録調査",creator:a,page:a,id:"saiho_kyotodaigaku  kokiroku",url:a,content:"昭和五十四年九月一日から三日まで京都大学に出張し、同大学文学部所蔵の「勧修寺家旧蔵記録文書」の調査（継続）を行ない、記録を中心にして次の二十六点をマイクロフィルムに撮影した。\n光豊公記（三五六）"}}],fetch:{},mutations:[]}}("")));

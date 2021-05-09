@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/46/saiho_46_024", (function(a){return {data:[{vol:"46",item:{head:"史料採訪",title:"24.醍醐寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_46_024",url:a,content:"二〇一〇年八月十七日より二十一日までの五日間、京都市伏見区醍醐寺に\n出張し、継続事業として文書・聖教の原本調査を行い、第四四〇函のマイク\nロフィルム撮影を終了した。\n\n（谷　昭佳・高山さやか・久留島典子・須田牧子・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/38/saiho_38_034", (function(a){return {data:[{vol:"38",item:{head:"史料採訪",title:"34.勧修寺家本「薩戒記」の調査",creator:a,page:a,id:"saiho_38_034",url:a,content:"二〇〇二年十月二十九日に京都大学に赴き、総合博物館所蔵「勧修寺家旧蔵記録」のうちの「薩戒記」の調査および原本校正を行った。調査にあたっては文学部古文書室の野田泰三氏にご助力をいただいた。記して謝意を表する。\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（本郷恵子）"}}],fetch:{},mutations:[]}}("")));

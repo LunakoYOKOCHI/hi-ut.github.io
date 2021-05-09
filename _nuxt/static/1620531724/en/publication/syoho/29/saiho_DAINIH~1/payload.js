@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/29/saiho_DAINIH~1", (function(a){return {data:[{vol:"29",item:{head:"史料採訪",title:"『大日本古記録　實躬卿記二』原本校正",creator:a,page:a,id:"saiho_DAINIH~1",url:a,content:"一九九四年一月三一日から二月三日までの四日間、伊勢市神宮文庫に赴いて、同文庫所蔵三条家本實躬卿記を閲覧し、標記の作業を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（龍福義友）"}}],fetch:{},mutations:[]}}("")));

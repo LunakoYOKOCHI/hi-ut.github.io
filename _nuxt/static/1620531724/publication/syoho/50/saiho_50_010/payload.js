@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/50/saiho_50_010", (function(a){return {data:[{vol:"50",item:{head:"史料採訪",title:"10.浄光明寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_50_010",url:a,content:"二〇一四年七月三十日より三十一日までの二日間、鎌倉市扇ガ谷の浄光明寺に出張し、同寺所蔵史料の原本調査およびデジタル写真撮影を行った。\n\n（谷昭佳・高山さやか・山口悟史・井上　聡・西田友広・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

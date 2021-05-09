@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/22/saiho_TOUJIY~1", (function(a){return {data:[{vol:"22",item:{head:"史料採訪",title:"東寺百合文書の原本校正",creator:a,page:a,id:"saiho_TOUJIY~1",url:a,content:"一九八七年二月十七日から二十日までと三月二十三日から二十七日までの二回、京都府立総合資料館に出張し、『大日本古文書』家わけ第十東寺文書出版に備えて、東寺百合文書の原本校正を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（保立道久・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

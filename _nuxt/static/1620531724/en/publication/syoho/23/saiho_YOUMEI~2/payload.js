@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/23/saiho_YOUMEI~2", (function(a){return {data:[{vol:"23",item:{head:"史料採訪",title:"陽明文庫所蔵岡屋関白記の調査",creator:a,page:a,id:"saiho_YOUMEI~2",url:a,content:"十一月四日より六日まで、陽明文庫において、『大日本古記録』岡屋関白記刊行のため、同文庫所蔵『岡屋関白記』の原本校正を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

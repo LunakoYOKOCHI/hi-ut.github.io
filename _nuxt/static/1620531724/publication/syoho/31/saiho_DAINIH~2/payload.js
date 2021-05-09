@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/31/saiho_DAINIH~2", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"大日本古文書東大寺文書之十六の挿入図版撮影及び原本校正",creator:a,page:a,id:"saiho_DAINIH~2",url:a,content:"一九九五年一〇月一七・一八日に、奈良市東大寺図書館に出張し、大日本古文書東大寺文書之十六出版のための挿入図版撮影と若干の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　（保立道久・針生邦男・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

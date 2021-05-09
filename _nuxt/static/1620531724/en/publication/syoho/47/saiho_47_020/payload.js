@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/47/saiho_47_020", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"20.「東寺百合文書」の原本校正",creator:a,page:a,id:"saiho_47_020",url:a,content:"二〇一二年三月一三日から一五日まで京都府立総合資料館に出張し、『大\n日本古文書』東寺文書編纂のため、同館所蔵「東寺百合文書　れ函」の原本\n校正を行った。\n\n（保立道久・遠藤基郎・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

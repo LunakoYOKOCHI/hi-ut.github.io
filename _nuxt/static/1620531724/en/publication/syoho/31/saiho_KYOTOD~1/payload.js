@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/31/saiho_KYOTOD~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"京都大学文学部博物館所蔵勧修寺家旧蔵記録の調査・撮影",creator:a,page:a,id:"saiho_KYOTOD~1",url:a,content:"一九九六年一月三十一日から二月二日まで、京都大学文学部博物館古文書室に出張して「勧修寺家旧蔵記録」を調査し、前年度に引き続き近世の堂上公家勧修寺家の家司、雑掌らが輪番で書き継ぎ、「家司日記」と総称されている数種の職掌日記を調査・撮影した。撮影史料の番号・表題・年代等を次に掲げる。"}}],fetch:{},mutations:[]}}("")));

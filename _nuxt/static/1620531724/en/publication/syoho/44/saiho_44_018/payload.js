@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/44/saiho_44_018", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"18.『大日本維新史料　類纂之部　井伊家史料二十六』の原本校正",creator:a,page:a,id:"saiho_44_018",url:a,content:"二〇〇九年三月二日～三日、彦根城博物館（滋賀県彦根市金亀町一―一）に出張し、彦根藩井伊家文書を閲覧して『大日本維新史料　類纂之部　井伊家史料二十六』（二〇〇九年度刊行）の原本校正を行なった。\n\n（杉本史子・箱石　大）"}}],fetch:{},mutations:[]}}("")));

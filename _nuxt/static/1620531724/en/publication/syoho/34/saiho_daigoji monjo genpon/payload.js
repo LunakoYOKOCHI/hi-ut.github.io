@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/34/saiho_daigoji%20monjo%20genpon", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"醍醐寺文書原本の返却・借用",creator:a,page:a,id:"saiho_daigoji monjo genpon",url:a,content:"一九九八年十月五日から七日まで、京都市伏見区醍醐寺に出張し、『大日本古文書　醍醐寺文書之十一』所収分原本の返却・確認作業および次冊所収予定原本の借用・確認作業を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　（高橋慎一朗・保立道久）"}}],fetch:{},mutations:[]}}("")));

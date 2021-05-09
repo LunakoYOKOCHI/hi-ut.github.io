@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/35/saiho_YOUEIB~1", (function(a){return {data:[{vol:"35",item:{head:"史料採訪",title:"陽明文庫所蔵『後法成寺関白記』等の原本調査",creator:a,page:a,id:"saiho_YOUEIB~1",url:a,content:"二〇〇〇年三月十二日より十五日まで、大日本古記録『後法成寺関白記　一』編纂のため、京都市陽明文庫において、同文庫所蔵の『後法成寺関白記』『雑事要録』『雑々記』等の原本調査を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　        （田中博美）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/12/saiho_myouhouin%20shiryou", (function(a){return {data:[{vol:"12",item:{head:"史料採訪",title:"妙法院史料調査",creator:a,page:a,id:"saiho_myouhouin shiryou",url:a,content:"昭和五十一年九月六日より同月十日までの五日間、前年に引き続き京都市東山区の妙法院門跡の史料調査を行ない、左記の史料を撮影した。\n　　　整理ノ符号ハ本所架蔵ノ『妙法院所蔵重書目録』（四一〇〇／六五／一〜一〇）ノ符号ニ准ジタ、併セテ参照サレタイ\n第二十三ノ箱"}}],fetch:{},mutations:[]}}("")));

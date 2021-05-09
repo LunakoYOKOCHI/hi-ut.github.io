@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/25/saiho_KAGOSH~1", (function(a){return {data:[{vol:"25",item:{head:"史料採訪",title:"鹿児島県下幕末維新期史料調査",creator:a,page:a,id:"saiho_KAGOSH~1",url:a,content:"一九八九年十月二十二日から二十八日まで、鹿児島大学附属図書館・鹿児島県歴史資料センター黎明館・鹿児島県立図書館において、幕末維新期の史料調査をおこなった。なおこの調査には、保谷徹・松本良太および旧所員稲垣敏子が同行した。\n一、鹿児島大学附属図書館玉里文庫"}}],fetch:{},mutations:[]}}("")));

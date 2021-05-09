@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/50/saiho_50_015", (function(a){return {data:[{vol:"50",item:{head:"史料採訪",title:"15.愛知県所在幕末維新期史料の調査",creator:a,page:a,id:"saiho_50_015",url:a,content:"二〇一四年十二月九日から十二日にかけて豊橋市美術博物館に赴き、同館寄託大河内家文書の調査を行った。閲覧した史料は、左の通り。\n(個々の史料内容は略)\n\n（小野　将・佐藤雄介・箱石　大・保谷　徹・横山伊徳）"}}],fetch:{},mutations:[]}}("")));

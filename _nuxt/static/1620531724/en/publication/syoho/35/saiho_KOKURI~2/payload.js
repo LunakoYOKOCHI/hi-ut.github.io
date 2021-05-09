@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/35/saiho_KOKURI~2", (function(a){return {data:[{vol:"35",item:{head:"史料採訪",title:"国立歴史民俗博物館所蔵高松宮家旧蔵本の調査",creator:a,page:a,id:"saiho_KOKURI~2",url:a,content:"一九九九年八月九・十日、国立歴史民俗博物館に赴き、高松宮家旧蔵本の調査を行った。実施にあたっては、同館教授吉岡真之氏のご高配を賜った。対象とした書目は以下の通り。（同館作成『高松宮家禁裏本目録』により、［書写年代　装丁　員数］を示す。）"}}],fetch:{},mutations:[]}}("")));

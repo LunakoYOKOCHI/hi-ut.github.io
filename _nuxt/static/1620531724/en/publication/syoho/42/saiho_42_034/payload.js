@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/42/saiho_42_034", (function(a){return {data:[{vol:"42",item:{head:"史料採訪",title:"京都国立博物館における『拾芥抄』原本の調査・撮影",creator:a,page:a,id:"saiho_42_034",url:a,content:"二〇〇六年八月二一―二二日に、京都市京都国立博物館において、同館修\n理所で解体修理中の本所所蔵重要文化財『拾芥抄』原本の調査・撮影を行っ\nた。\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（谷昭佳・中村尚暁・吉田早苗）"}}],fetch:{},mutations:[]}}("")));

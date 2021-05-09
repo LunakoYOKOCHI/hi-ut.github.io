@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/36/saiho_TAKEDA~2", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"武田科学振興財団杏雨書屋所蔵『実躬卿記』自筆本の原本校正",creator:a,page:a,id:"saiho_TAKEDA~2",url:a,content:"二〇〇一年二月二五日より二七日まで、大阪府大阪市武田科学振興財団杏雨書屋において、大日本古記録『実躬卿記』第四冊の出版に必要な原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菊地大樹）"}}],fetch:{},mutations:[]}}("")));

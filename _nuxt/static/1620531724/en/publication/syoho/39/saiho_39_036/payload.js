@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/39/saiho_39_036", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"36.『後法成寺関白記』の原本校正",creator:a,page:a,id:"saiho_39_036",url:a,content:"二〇〇三年十一月十日から十二日まで、及び二〇〇四年二月四日から六日までの期間、大日本古記録『後法成寺関自記』二出版のため、陽明文庫において原本校正を行った。\n\n　　　　　　　　（榎原雅治・本郷恵子・及川　亘・井上　聡・田中博美）"}}],fetch:{},mutations:[]}}("")));

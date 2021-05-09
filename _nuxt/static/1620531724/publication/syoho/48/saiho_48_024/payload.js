@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/48/saiho_48_024", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"24.東寺百合文書の原本校正",creator:a,page:a,id:"saiho_48_024",url:a,content:"二〇一二年八月二七日から二九日及び二〇一三年二月一三日から一五日の\n二度にわたって、京都府立総合資料館に出張し、『大日本古文書』東寺文書\nおよび『日本荘園絵図聚影』釈文編（中世）編纂のため、同館所蔵「東寺百\n合文書」中の関係文書の原本校正を行った。\n\n（久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

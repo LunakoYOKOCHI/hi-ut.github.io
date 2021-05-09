@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/18/saiho_daigoji%20shiryou", (function(a){return {data:[{vol:"18",item:{head:"史料採訪",title:"醍醐寺史料調査",creator:a,page:a,id:"saiho_daigoji shiryou",url:a,content:"昭和五十七年八月十七日より二十一日まで五日間、京都市伏見区醍醐伽藍町の醍醐寺に出張し、昨年に引き続き第一五二函から第一五五函まで調査撮影した。\n　　　　　　　　　　　　　　　　　　　　　　　（今泉淑夫・近藤成一・八木威雄）"}}],fetch:{},mutations:[]}}("")));

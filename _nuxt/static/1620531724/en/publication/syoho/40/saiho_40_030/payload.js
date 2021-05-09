@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/40/saiho_40_030", (function(a){return {data:[{vol:"40",item:{head:"史料採訪",title:"３０　『南無阿弥陀仏作善集』修補過程での調査・撮影",creator:a,page:a,id:"saiho_40_030",url:a,content:"〇四年九月六日より八日まで、京都国立博物館文化財修理所に出張し、『南無阿弥陀仏作善集』修補過程での調査・撮影を行った。\n\n（菊地大樹・谷昭佳・仲村尚暁）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/syoho/39/saiho_39_031", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"31.東山御文庫所蔵史料の調査",creator:a,page:a,id:"saiho_39_031",url:a,content:"二〇〇三年一〇月二七日～二九日及び十一月七日～一〇日に、京都御所東山御文庫において、収蔵史料の調査を行った。調査した史料は左記のとおりである\n（中略）\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗・田島　公・末柄　豊・藤原重雄）"}}],fetch:{},mutations:[]}}("")));

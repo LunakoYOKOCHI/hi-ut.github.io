@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/43/saiho_43_048", (function(a){return {data:[{vol:"43",item:{head:"史料採訪",title:"武田科学振興財団所蔵『実躬卿記』自筆本の調査",creator:a,page:a,id:"saiho_43_048",url:a,content:"〇八年三月一六日より一九日まで、大阪府大阪市武田科学振興財団杏雨書\n屋において、『実躬卿記』自筆本および紙背文書の調査、ならびに大日本古\n記録『実躬卿記』第六冊の出版に必要な原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菊地大樹・遠藤珠紀・尾上陽介・本郷恵子）"}}],fetch:{},mutations:[]}}("")));
