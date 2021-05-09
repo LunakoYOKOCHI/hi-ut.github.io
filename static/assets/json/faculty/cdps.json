@@ -1,18 +1,18 @@
 [
-  {
-    "room": "センター長",
-    "id": "keiko"
-  },
-  {
-    "room": "史料情報集約化",
-    "id": "hakoishi|inoue|yamada"
-  },
-  {
-    "room": "史料情報資源化",
-    "id": "kaneko|entama|ashibutani"
-  },
-  {
-    "room": "歴史知識高度利用化",
-    "id": "hoya|keiko|nakamura"
-  }
+    {
+        "room": "センター長",
+        "id": "keiko"
+    },
+    {
+        "room": "史料情報集約化",
+        "id": "hakoishi|inoue|yamada"
+    },
+    {
+        "room": "史料情報資源化",
+        "id": "kaneko|entama|ashibutani"
+    },
+    {
+        "room": "歴史知識高度利用化",
+        "id": "hoya|keiko|nakamura"
+    }
 ]
