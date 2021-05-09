@@ -51,7 +51,7 @@ export default class about extends Vue {
   }
 
   get parent(): string {
-    const vol = (this as any).vol
+    const vol = this.$data.vol
     //const item = (this as any).item
     return `『東京大学史料編纂所報』第${vol}号`
   }
@@ -70,7 +70,9 @@ export default class about extends Vue {
         text: this.parent,
         to: this.localePath({
           name: 'publication-syoho-vol',
-          params: (this as any).vol,
+          params: {
+            vol: "syoho" + this.$utils.zfill(Number(this.$data.vol), 4)
+          },
         }),
       },
     ]

@@ -1,27 +1,6 @@
 [
     {
-        "year": 1993,
-        "head": "",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
         "head": "口絵",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "『俵かさね耕作絵巻』",
         "creator": "",
         "page": "i-iv",
@@ -30,8 +9,7 @@
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "口絵",
         "title": "徳大寺家旧蔵『三槐抄』古写本",
         "creator": "",
         "page": "v",
@@ -40,18 +18,7 @@
         "content": ""
     },
     {
-        "vol": "",
         "head": "口絵解説",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "徳大寺家旧蔵『三槐抄』古写本",
         "creator": "吉田、早苗",
         "page": "vi",
@@ -60,148 +27,97 @@
         "content": ""
     },
     {
-        "vol": "",
         "head": "研究報告",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "十七世紀中葉連合東インド会社の対日交渉と情報伝達網（第二部）　：　ヤハト船リロ号の東京航海をめぐって",
         "creator": "加藤、榮一",
         "page": "1-21",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-katoe.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "江戸幕府「老中奉書」の発給形態とその変遷　：　毛利氏宛「老中奉書」による分析",
         "creator": "佐藤、孝之",
         "page": "22-38",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-sato.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "江戸幕府書札礼におけるいわゆる「下馬札」伝授について",
         "creator": "小宮、木代良",
         "page": "39-54",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-komiya.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "醍醐寺所蔵『諸尊道場観集』紙背文書を読む",
         "creator": "本郷、和人",
         "page": "55-64",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-hongo.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "室町幕府評定衆摂津之親の日記「長禄四年記」の研究",
         "creator": "設楽、薫",
         "page": "65-81",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-shitara.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "『俵かさね耕作絵巻』考",
         "creator": "加藤、秀幸",
         "page": "82-105",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-katohi.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "研究報告",
         "title": "『大日本古記録　後愚昧記』所収文書編年目録",
         "creator": "菅原、昭英",
         "page": "106-124",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-sugawara.pdf",
         "content": ""
     },
     {
-        "vol": "",
         "head": "史料紹介（翻訳）",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "一六二六年、日本イエズス会のトンキン報告書",
         "creator": "五野井、隆史",
         "page": "125-139",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-gonoi.pdf",
         "content": ""
     },
     {
-        "vol": "",
         "head": "史料保存技術室報告",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "写真の保存に影響する三つの因子",
         "creator": "吉田、成",
         "page": "140-146",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-yoshida.pdf",
         "content": ""
     },
     {
-        "vol": "",
-        "head": "",
+        "head": "史料保存技術室報告",
         "title": "陸奥国骨寺村絵図模写記録",
         "creator": "宮本、尚彦／村岡、ゆかり",
         "page": "147-150",
         "id": "",
-        "url": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/publication/kiyo/03/kiyo0003-miyamoto.pdf",
         "content": ""
     },
     {
-        "vol": "",
         "head": "調査報告",
-        "title": "",
-        "creator": "",
-        "page": "",
-        "id": "",
-        "url": "",
-        "content": ""
-    },
-    {
-        "vol": "",
-        "head": "",
         "title": "荘園絵図調査報告（五）　：　山城国葛野郡班田図　一",
         "creator": "荘園絵図研究グループ",
         "page": "151-165",

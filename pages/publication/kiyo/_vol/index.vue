@@ -1,7 +1,7 @@
 <template>
   <div>
     <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
-      <h1 class="h02">{{ $t('所報') }}</h1>
+      <h1 class="h02">{{ $t('研究紀要') }}</h1>
       <h2 class="h03">{{ title }}</h2>
 
       <table class="table04 mt2">
@@ -13,7 +13,7 @@
           </tr>
 
           <template v-for="(obj, key) in data">
-            <tr :key="`th-${key}`" :id="key === '史料採訪' ? 'saiho' : ''">
+            <tr :key="`th-${key}`">
               <th>{{ key }}</th>
               <th></th>
               <th></th>
@@ -42,7 +42,7 @@
                   {{ item.title }}
                 </template>
               </td>
-              <td>{{item.creator}}</td>
+              <td>{{ item.creator }}</td>
               <td>{{ item.page }}</td>
             </tr>
           </template>
@@ -64,10 +64,10 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   async asyncData({ app }: any) {
     const slug = app.context.params.vol
-    const vol = Number(slug.replace('syoho', ''))
+    const vol = Number(slug.replace('kiyo', ''))
 
     const syohoList_ = await import(
-      `~/static/assets/json/publication/syoho/${vol}.json`
+      `~/static/assets/json/publication/kiyo/${vol}.json`
     )
     const syohoList = syohoList_.default
 
@@ -90,7 +90,7 @@ export default class about extends Vue {
   get title() {
     const vol = this.$data.vol
     const year = this.$utils.calcYearFromSyohoVol(vol)
-    return `東京大学史料編纂所報第${vol}号（${year}）`
+    return `東京大学史料編纂所研究紀要第${vol}号（${year}）`
   }
 
   breadcrumbs: any[] = [
@@ -99,8 +99,8 @@ export default class about extends Vue {
       name: 'publication',
     },
     {
-      text: this.$t('所報'),
-      name: 'publication-syoho',
+      text: this.$t('研究紀要'),
+      name: 'publication-kiyo',
     },
   ]
 

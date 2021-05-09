@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
+    <LayoutPublication :title="title" :index="2">
       <h1 class="h02">{{$t("編纂・出版")}}</h1>
 
       <template v-for="(obj, key) in years">
@@ -37,13 +37,13 @@
           <ul>
             <li v-for="(item, key2) in obj" :key="key2">
               <template v-if="item['所報Vol']">
-                <nuxt-link :to="localePath({name: 'publication-syoho-vol', params: {vol: $utils.zfill(item['所報Vol'], 4)}})">
+                <nuxt-link :to="localePath({name: 'publication-syoho-vol', params: {vol: 'syoho' + $utils.zfill(item['所報Vol'], 4)}})">
                   {{item.title}}
                 </nuxt-link>
                 
               </template>
               <template v-else>
-                <nuxt-link :to="localePath({name: 'publication-kiyo-vol', params: {vol: $utils.zfill(item['紀要Vol'], 4)}})">
+                <nuxt-link :to="localePath({name: 'publication-kiyo-vol', params: {vol: 'kiyo' + $utils.zfill(item['紀要Vol'], 4)}})">
                   {{item.title}}
                 </nuxt-link>
               </template>
@@ -86,27 +86,6 @@ export default class about extends Vue {
       }
       map[publisher].push(obj)
     }
-
-    /*
-
-    const map: any = {}
-
-    for(const obj of facultyList){
-      const id = obj.slug
-      obj.list_flag = obj.list_flg === "-1" ? false : true
-      obj.name_ja = obj.surname + " " + obj.forename
-      obj.name_kana = obj.surname_kana + " " + obj.forename_kana
-      obj.name_en = obj.surname_en + " " + obj.forename_en
-      map[obj.slug] = obj
-    }
-
-    return {
-      people: map,
-      organizationMap,
-      facultyList
-    }
-
-    */
 
     return {data: map, year}
   }

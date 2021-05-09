@@ -5,7 +5,7 @@
 
       <div v-if="lang === 'ja'" class="mb2">
         <h2 class="h03">年度別出版物</h2>
-        <ul v-if="false">
+        <ul>
           <template v-for="(obj, key) in years">
             <li :key="key">
               <nuxt-link
