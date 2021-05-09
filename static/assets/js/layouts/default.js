@@ -31,6 +31,8 @@ Vue.component("Layout", {
     await axios.get(this.baseUrl + "/assets/json/menuList.json").then(function (res) {
       self.menuList = res.data;
     });
+
+    
   },
   async mounted() {
     this.lg = this.getLg();
@@ -255,84 +257,78 @@ Vue.component("Layout", {
 
       <ul class="menu">
         <template v-for="(menuMapLv1, key) in menuList">
-          <template
-            v-if="
-              (menuMapLv1.to || menuMapLv1.href) &&
-              !['ニュース', 'よくあるご質問'].includes(menuMapLv1.label)
-            "
-          >
-            <li v-if="menuMapLv1.lang.includes(lang)" :key="key">
-              <template v-if="menuMapLv1.href">
-                <a :href="getHiPath(menuMapLv1.href)">{{
-                  $t(menuMapLv1.label)
-                }}</a>
-              </template>
 
-              <template v-else>
-                <span class="atag" @click="clickLv1Menu(key)">{{
-                  $t(menuMapLv1.label)
-                }}</span>
+          <li v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop" :key="key">
+            <span class="atag" @click="clickLv1Menu(key)">{{
+              $t(menuMapLv1.label)
+            }}</span>
 
-                <i class="child-btn" @click="clickLv1Menu(key)"></i>
-                
-                <transition name="slide">
-                  <ul
-                    :duration="500"
-                    v-show="isOpenLv1 && currentLv1Index === key"
-                    class="sub-menu"
-                    style="display: block"
+            <i class="child-btn" @click="clickLv1Menu(key)"></i>
+            
+            <transition name="slide">
+              <ul
+                :duration="500"
+                v-show="isOpenLv1 && currentLv1Index === key"
+                class="sub-menu"
+                style="display: block"
+              >
+                <template v-for="(menuMapLv2, key2) in menuMapLv1.children">
+                  <li
+                    v-if="menuMapLv2.lang.includes(lang)"
+                    :key="key2"
+                    :class="
+                      isOpenLv2 && currentLv2Index === key2
+                        ? 'child-open'
+                        : ''
+                    "
                   >
-                    <template v-for="(menuMapLv2, key2) in menuMapLv1.children">
-                      <li
-                        v-if="menuMapLv2.lang.includes(lang)"
-                        :key="key2"
-                        :class="
-                          isOpenLv2 && currentLv2Index === key2
-                            ? 'child-open'
-                            : ''
-                        "
-                      >
-                        <a :href="localePath(menuMapLv2.to)">{{
-                          $t(menuMapLv2.label)
-                        }}</a>
-                        <template v-if="menuMapLv2.children">
-                          <i class="child-btn" @click="clickLv2Menu(key2)"></i>
-                          <transition name="slide">
-                            <ul
-                              :duration="500"
-                              v-show="isOpenLv2 && currentLv2Index === key2"
-                              class="sub-menu2"
-                              style="display: block"
-                            >
-                              <template
-                                v-for="(menuMapLv3, key3) in menuMapLv2.children"
-                              >
-                                <li
-                                  v-if="menuMapLv3.lang.includes(lang)"
-                                  :key="key3"
-                                >
-                                  <template v-if="menuMapLv3.href">
-                                    <a :href="getHiPath(menuMapLv3.href)">{{
-                                      $t(menuMapLv3.label)
-                                    }}</a>
-                                  </template>
-                                  <template v-else>
-                                    <a :href="localePath(menuMapLv3.to)">{{
-                                      $t(menuMapLv3.label)
-                                    }}</a>
-                                  </template>
-                                </li>
-                              </template>
-                            </ul>
-                          </transition>
-                        </template>
-                      </li>
+                    <template v-if="menuMapLv2.href">
+                      <a :href="getHiPath(menuMapLv2.href)">{{
+                        $t(menuMapLv2.label)
+                      }}</a>
                     </template>
-                  </ul>
-                </transition>
-              </template>
-            </li>
-          </template>
+                    <template v-else>
+                      <a :href="localePath(menuMapLv2.to)">{{
+                        $t(menuMapLv2.label)
+                      }}</a>
+                    </template>
+                    
+                    <template v-if="menuMapLv2.children">
+                      <i class="child-btn" @click="clickLv2Menu(key2)"></i>
+                      <transition name="slide">
+                        <ul
+                          :duration="500"
+                          v-show="isOpenLv2 && currentLv2Index === key2"
+                          class="sub-menu2"
+                          style="display: block"
+                        >
+                          <template
+                            v-for="(menuMapLv3, key3) in menuMapLv2.children"
+                          >
+                            <li
+                              v-if="menuMapLv3.lang.includes(lang)"
+                              :key="key3"
+                            >
+                              <template v-if="menuMapLv3.href">
+                                <a :href="getHiPath(menuMapLv3.href)">{{
+                                  $t(menuMapLv3.label)
+                                }}</a>
+                              </template>
+                              <template v-else>
+                                <a :href="localePath(menuMapLv3.to)">{{
+                                  $t(menuMapLv3.label)
+                                }}</a>
+                              </template>
+                            </li>
+                          </template>
+                        </ul>
+                      </transition>
+                    </template>
+                  </li>
+                </template>
+              </ul>
+            </transition>
+          </li>
         </template>
       </ul>
 

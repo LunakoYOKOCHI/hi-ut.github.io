@@ -45,8 +45,6 @@
           <template v-for="(menuMapLv1, key) in menuList">
               <!-- 言語があり、表示設定がある項目 -->
               <li v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop" :key="key">
-
-
                   <span class="atag" @click="clickLv1Menu(key)">{{
                     $t(menuMapLv1.label)
                   }}</span>
