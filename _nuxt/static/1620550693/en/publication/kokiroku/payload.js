@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/kokiroku", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/kao", {data:[{}],fetch:{},mutations:[]});

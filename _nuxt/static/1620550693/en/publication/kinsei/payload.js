@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/kinsei", {data:[{}],fetch:{},mutations:[]});

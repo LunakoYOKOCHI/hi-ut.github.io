@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/shosoin", {data:[{}],fetch:{},mutations:[]});

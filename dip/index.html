@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        font-size: 62.5%;
+        /* 16pxに625%を掛けると100pxになるよ！ */
+        /*height: 100%; */
+      }
+
+      body {
+        font-size: 1.4em;
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+          "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium",
+          "Yu Gothic", Verdana, Meiryo, sans-serif;
+        font-weight: 400;
+        -webkit-text-size-adjust: 100%;
+      }
+      @media print, screen and (min-width: 769px) {
+        body {
+          font-size: 1.6em;
+        }
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <v-app-bar v-if="!inline">
+        <h2>{{title}}</h2>
+        <v-spacer></v-spacer>
+
+        <v-btn icon :href="url" v-if="false"
+          ><img
+            height="20px"
+            src="https://cultural.jp/img/icons/iiif-logo.svg"
+          />
+        </v-btn>
+
+        <v-btn icon :href="'?u='+url"><v-icon>mdi-home</v-icon> </v-btn>
+      </v-app-bar>
+      <v-app>
+        <v-container :class="inline ? 'mb-5' : 'my-10'">
+          <p v-if="description" class="mb-10">
+            <v-sheet class="pa-4" color="grey lighten-3" v-html="description">
+            </v-sheet>
+          </p>
+
+          <template v-if="vhint == 'flat'">
+            <v-row>
+              <v-col
+                cols="12"
+                sm="2"
+                v-for="(child, index) in treeData.collections || treeData.manifests"
+                :key="index"
+              >
+                <template v-if="child['@type'] == 'sc:Collection'">
+                  <b
+                    ><a :href="'?u='+url+'&id='+child['@id']"
+                      >{{child.label}}</a
+                    ></b
+                  >
+                </template>
+                <template v-else>
+                  <a
+                    target="_blank"
+                    :href="child['@type'] == 'sc:Manifest' ? 'http://mirador.cultural.jp/?manifest='+child['@id'] : child['@id']"
+                    >{{child.label}}</a
+                  >
+                  <v-icon small>mdi-open-in-new</v-icon>
+                </template>
+              </v-col>
+            </v-row>
+          </template>
+          <template v-else>
+            <ul>
+              <tree-item
+                class="item"
+                v-for="(child, index) in treeData.collections || treeData.manifests"
+                :key="index"
+                :item="child"
+                :vhint="vhint"
+                :url="url"
+              ></tree-item>
+            </ul>
+          </template>
+        </v-container>
+
+        <v-footer :dark="true" v-if="!inline">
+          <v-container class="text-center my-5">
+            <span>東京大学史料編纂所</span>
+          </v-container>
+        </v-footer>
+      </v-app>
+    </div>
+
+    <!-- item template -->
+    <script type="text/x-template" id="item-template">
+
+      <li class="mt-2">
+        <div>
+          <template v-if="isFolder">
+            <a @click="toggle">
+              <b>
+              {{ item.label }}
+              </b>
+
+              <span v-if="isFolder">[{{ isOpen ? '-' : '+' }}]</span>
+            </a>
+
+            <a v-if="isFolder" class="ml-2" style="text-decoration: none;" :href="`?u=${url}&id=${item['@id']}`"><v-icon small>mdi-link</v-icon></a>
+          </template>
+          <template v-else>
+            <a :href="item['@id']">
+              {{ item.label }}
+            </a>
+            <v-icon small>mdi-open-in-new</v-icon>
+          </template>
+        </div>
+        <ul v-show="isOpen" v-if="isFolder" class="my-2">
+          <template v-if="item.collections">
+            <tree-item
+              class="item"
+              v-for="(child, index) in item.collections"
+              :key="index"
+              :item="child"
+              :vhint="vhint"
+              :url="url"
+            ></tree-item>
+          </template>
+          <template v-else>
+            <v-row dense>
+              <v-col :cols="12" :sm="6" :md="4" v-for="(manifest, index) in item.manifests" :item="manifest" :key="index">
+                <template v-if="vhint == 'use-thumb'">
+                  <v-card>
+                    <a :href="manifest['@type'] == 'sc:Manifest' ? 'http://mirador.cultural.jp/?manifest='+manifest['@id'] : manifest['@id']">
+                      <v-img
+                        height="200px"
+                        style="background-color : lightgrey;"
+                        :src="manifest.thumbnail"
+                        contain
+                      >
+                      </v-img>
+                    </a>
+
+                    <v-card-text class="text--primary">
+                      <a target="_blank" :href="manifest['@type'] == 'sc:Manifest' ? 'http://mirador.cultural.jp/?manifest='+manifest['@id'] : manifest['@id']">{{manifest.label}}</a>
+                    </v-card-text>
+
+
+                  </v-card>
+                </template>
+                <template v-else>
+                <li>
+                  <a target="_blank" :href="manifest['@type'] == 'sc:Manifest' ? 'http://mirador.cultural.jp/?manifest='+manifest['@id'] : manifest['@id']">{{manifest.label}}</a> <v-icon small>mdi-open-in-new</v-icon>
+                </li>
+                </template>
+              </v-col>
+            </v-row>
+          </template>
+        </ul>
+      </li>
+    </script>
+
+    <script>
+      // define the tree-item component
+      Vue.component("tree-item", {
+        template: "#item-template",
+        props: {
+          item: Object,
+          url: String,
+          vhint: String,
+        },
+        data: function () {
+          return {
+            isOpen: false,
+          };
+        },
+        computed: {
+          isFolder: function () {
+            return this.item.manifests || this.item.collections;
+          },
+        },
+        methods: {
+          toggle: function () {
+            if (this.isFolder) {
+              this.isOpen = !this.isOpen;
+            }
+          },
+        },
+      });
+
+      function getUriMap(data) {
+        const uriMap = {};
+        uriMap[data["@id"]] = data;
+
+        const children = data.collections || data.manifests;
+        if (!children) {
+          return uriMap;
+        }
+        children.map((collection) => {
+          const map2 = getUriMap(collection);
+          for (let key in map2) {
+            uriMap[key] = map2[key];
+          }
+        });
+        return uriMap;
+      }
+
+      const router = new VueRouter({
+        mode: "history",
+      });
+
+      new Vue({
+        router,
+        el: "#app",
+        vuetify: new Vuetify(),
+        data: {
+          vhint: "",
+          treeData: {},
+          title: "",
+          description: "",
+          url: "",
+          inline: true,
+        },
+        async created() {
+          const u =
+            this.$route.query.u ||
+            "https://raw.githubusercontent.com/nakamura196/dip/master/docs/top.json";
+
+          this.url = u;
+
+          this.inline = this.$route.query.inline || false;
+
+          let collection = await axios.get(u).then(function (res) {
+            return res.data;
+          });
+
+          this.description = collection.description;
+
+          let vhint = collection.vhint || "";
+          vhint = this.$route.query.vhint || vhint;
+
+          this.vhint = vhint;
+
+          let id = this.$route.query.id || "";
+
+          const uriMap = getUriMap(collection);
+
+          if (id != "") {
+            collection = uriMap[id];
+            if(collection.description){
+              this.description = collection.description;
+            }
+            
+          }
+
+          this.title = collection.label;
+          
+
+          this.treeData = collection;
+        },
+      });
+    </script>
+  </body>
+</html>
