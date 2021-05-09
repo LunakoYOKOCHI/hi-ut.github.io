@@ -8,6 +8,7 @@ Vue.component("Layout", {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
+      dataUrl: process.env.DATA_URL,
       isPageTopBtnActive: false,
 
       isMobileMenuOpen: false,
@@ -24,11 +25,11 @@ Vue.component("Layout", {
   },
   async created() {
     const self = this;
-    await axios.get(this.baseUrl + `/assets/json/lang/${this.lang}.json`).then(function (res) {
+    await axios.get(this.dataUrl + `/assets/json/lang/${this.lang}.json`).then(function (res) {
       self.langMap = res.data;
     });
 
-    await axios.get(this.baseUrl + "/assets/json/menuList.json").then(function (res) {
+    await axios.get(this.dataUrl + "/assets/json/menuList.json").then(function (res) {
       self.menuList = res.data;
     });
 
@@ -185,7 +186,7 @@ Vue.component("Layout", {
           <h1>
             <a :href="localePath({ name: 'index' })">
               <img
-                :src="baseUrl + '/assets/img/common/hilogo.jpg'"
+                :src="dataUrl + '/assets/img/common/hilogo.jpg'"
                 alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
               />
             </a>
@@ -448,7 +449,7 @@ Vue.component("Layout", {
         <p class="logo">
           <a :href="localePath({ name: 'index' })"
             ><img
-              :src="baseUrl + '/assets/img/common/logo_foot.png'"
+              :src="dataUrl + '/assets/img/common/logo_foot.png'"
               alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
           /></a>
         </p>
