@@ -6,15 +6,16 @@ Vue.component('Members', {
       langMap: {},
       order: [],
       baseUrl: process.env.BASE_URL,
+      dataUrl: process.env.DATA_URL,
     }
   },
   async created() {
     const self = this
-    await axios.get(this.baseUrl + `/assets/json/lang/${this.lang}.json`).then(function (res) {
+    await axios.get(this.dataUrl + `/assets/json/lang/${this.lang}.json`).then(function (res) {
       self.langMap = res.data;
     });
 
-    await axios.get(this.baseUrl + '/assets/json/faculty/facultyList.json').then(function (res) {
+    await axios.get(this.dataUrl + '/assets/json/faculty/facultyList.json').then(function (res) {
       const peopleList = res.data
       const people = {}
       for(const obj of peopleList){
@@ -23,7 +24,7 @@ Vue.component('Members', {
       self.people = people
     })
 
-    await axios.get(this.baseUrl + `/assets/json/faculty/${this.id}.json`).then(function (res) {
+    await axios.get(this.dataUrl + `/assets/json/faculty/${this.id}.json`).then(function (res) {
       self.order = res.data
     })
   },
