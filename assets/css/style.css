@@ -1933,3 +1933,59 @@ hr {
 hr.sample {
   border-top: 3px double #ff0000;
   margin: 0 0 3em; }
+
+/* 以下、独自追加 */
+
+.chip1 {
+  background-color: #ff0101;
+  padding: 4px;
+  margin-left: 4px;
+  color: white;
+}
+.chip2 {
+  background-color: #5cc2d0;
+  padding: 4px;
+  margin-left: 4px;
+  color: white;
+}
+
+.lang-select .child {
+  display: block !important;
+}
+
+.gnav .sub-menu {
+  display: block !important;
+}
+
+.gnav .sub-menu2 {
+  display: block !important;
+}
+
+
+.table04 {
+  width: 100%;
+}
+.table04 th,  .table04 td {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: .6em;
+}
+
+.table04 th {
+  color: #fff;
+  background-color: #5cc2d0;
+}
+
+@media (max-width: 768px) {
+  .scroll-table {
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
