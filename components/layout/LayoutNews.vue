@@ -61,11 +61,9 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'nuxt-property-decorator'
-import LayoutOrganization from '~/components/layout/LayoutOrganization.vue'
 
 @Component({
   components: {
-    LayoutOrganization,
   },
 })
 export default class LayoutAbout extends Vue {

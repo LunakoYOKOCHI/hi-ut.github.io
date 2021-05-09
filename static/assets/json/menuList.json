@@ -297,25 +297,41 @@
     "lang": ["ja", "en"],
     "isDisplayTop" : true,
     "children": [
-      { "label": "お知らせ", "href": "tosho", "lang": ["ja", "en"] },
+      { "label": "お知らせ", 
+        "href": {
+          "ja": "https://www.hi.u-tokyo.ac.jp/dev/tosho/",
+          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/tosho/"
+        }, "lang": ["ja", "en"] },
       {
         "label": "図書室利用（閲覧手続き）",
-        "href": "https://www.hi.u-tokyo.ac.jp/dev/tosho/etsuran",
+        "href": {
+          "ja": "https://www.hi.u-tokyo.ac.jp/dev/tosho/etsuran",
+          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/tosho/etsuran"
+        },
         "lang": ["ja"]
       },
       {
         "label": "図書室利用（複製・掲載・放映等）",
-        "href": "https://www.hi.u-tokyo.ac.jp/dev/tosho/shiryoriyo",
+        "href": {
+          "ja": "https://www.hi.u-tokyo.ac.jp/dev/tosho/shiryoriyo",
+          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/tosho/shiryoriyo"
+        },
         "lang": ["ja"]
       },
       {
         "label": "所蔵史料の検索",
-        "href": "https://www.hi.u-tokyo.ac.jp/dev/tosho/kensaku",
+        "href": {
+          "ja": "https://www.hi.u-tokyo.ac.jp/dev/tosho/kensaku",
+          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/tosho/kensaku"
+        },
         "lang": ["ja"]
       },
       {
         "label": "お問い合わせ・連絡先",
-        "href": "https://www.hi.u-tokyo.ac.jp/dev/tosho/toiawase",
+        "href": {
+          "ja": "https://www.hi.u-tokyo.ac.jp/dev/tosho/toiawase",
+          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/tosho/toiawase"
+        },
         "lang": ["ja"]
       }
     ]
