@@ -460,5 +460,13 @@
   "客員教授" : "客員教授",
   "特殊蒐書に関する史料画像データの利用": "特殊蒐書に関する史料画像データの利用",
   "1階展示案内" : "1階展示案内",
-  "共同利用・共同研究拠点の活動について": "共同利用・共同研究拠点の活動について"
+  "共同利用・共同研究拠点の活動について": "共同利用・共同研究拠点の活動について",
+  "kodai" : "Ancient Materials Department",
+  "chusei" : "Medieval Materials Department",
+  "kinsei" : "Early Modern Materials Department",
+  "komo" : "Old Documents and Diaries Department",
+  "tokushu" : "Special Materials Department",
+  "gazo" : "Center for the Study of Visual Sources",
+  "cdps" : "International Center for the Digitization of Premodern Japanese Sources (CDPS)",
+  "センター長" : "Director"
 }
