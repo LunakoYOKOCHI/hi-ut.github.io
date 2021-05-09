@@ -92,3 +92,5 @@ sw.*
 .github2
 
 gen.sh
+
+dist.zip
