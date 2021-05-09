@@ -19,11 +19,11 @@
       <p class="mt3">
         <div class="flex col2">
         <figure>
-      <img width="100%" :src="'/assets/img/collaboration/collabo_satsuei.jpeg'" />
+      <img width="100%" :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" />
       <figcaption>現地での史料撮影（島根県）</figcaption>
     </figure>
     <figure>
-      <img width="100%" :src="'/assets/img/collaboration/collabo_chosa.jpeg'" />
+      <img width="100%" :src="baseUrl + '/assets/img/collaboration/collabo_chosa.jpeg'" />
       <figcaption>国立歴史民俗博物館との共同調査（新潟県）</figcaption>
     </figure>
     </div>
@@ -52,6 +52,7 @@ import KakenList from '~/components/collaboration/kaken/KakenList.vue'
 export default class about extends Vue {
   title: any = this.$t('共同研究')
   currentFiscalYear: any = process.env.currentFiscalYear
+  baseUrl: any = process.env.BASE_URL
 
   async asyncData() {
     const kakenMap: any = process.env.kakenMap

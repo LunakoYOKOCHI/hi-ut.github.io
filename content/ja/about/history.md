@@ -4,13 +4,7 @@ title: 沿革
 
 <h2 class="h03">創生期</h2>
 
-<figure class="mb1">
-    <img
-        src="/assets/img/about/about_hi_hanawa.jpeg"
-        alt="塙 保己一（本所所蔵模写本）"
-    />
-    <figcaption>塙 保己一（本所所蔵模写本）</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/about/about_hi_hanawa.jpeg" caption="塙 保己一（本所所蔵模写本）"></v-img>
 
 史料編纂所の歴史は江戸時代にまで遡ります。1793 年（寛政5年）、国学者塙保己一は幕府の援助をうけて和学講談所を開設しました。明治政府の修史事業はこの事業を引き継ぐかたちで始められ、1869年（明治2 年） 3月、和学講談所跡（現千代田区六番町）に史料編輯国史校正局が開設されました。翌4月、明治天皇は三条実美に宸筆の勅書を下し、同局の総裁に任じています。
 
@@ -18,13 +12,7 @@ title: 沿革
 
 <h2 class="h03 mt2">拡充期</h2>
 
-<figure class="mb1">
-    <img
-        src="/assets/img/about/about_hi_meiji.jpeg"
-        alt="輔相三条実美に修史事業の総裁を命じた明治2年4月4日の明治天皇宸翰"
-    />
-    <figcaption>輔相三条実美に修史事業の総裁を命じた明治2年4月4日の明治天皇宸翰</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/about/about_hi_meiji.jpeg" caption="輔相三条実美に修史事業の総裁を命じた明治2年4月4日の明治天皇宸翰"></v-img>
 
 1888 年（明治21 年） 10月、帝国大学に国史科を創設するに際し、修史事業は帝国大学に移管されます。当初は臨時編年史編纂掛と呼ばれました。
 

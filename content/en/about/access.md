@@ -4,7 +4,7 @@ title: アクセスマップ
 
 <h2 class="h03 mt2">東京大学史料編纂所の位置</h2>
 
-![](/assets/img/about/access_01.gif)
+<v-img src="/assets/img/about/access_01.gif"></v-img>
 
 <h2 class="h03 mt2">交通機関のご利用</h2>
 
@@ -14,4 +14,4 @@ title: アクセスマップ
 * 東京メトロ千代田線 湯島駅・根津駅
 * 東京メトロ南北線 東大前駅
 
-![](/assets/img/about/access_02.gif)
+<v-img src="/assets/img/about/access_02.gif"></v-img>

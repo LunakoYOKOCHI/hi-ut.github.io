@@ -39,7 +39,7 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 })
 export default class PublicationDip extends Vue {
   title: any = this.$t('史料集版面ギャラリー')
-  baseUrl: string = process.env.BASE_URL || ''
+  baseUrl: any = process.env.BASE_URL
 
   head() {
     const title = this.title

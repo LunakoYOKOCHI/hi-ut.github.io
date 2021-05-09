@@ -13,13 +13,7 @@ title: 施設
 
 <h3 class="h04 mt2">略史</h3>
 
-<figure class="mb1">
-    <img
-        src="/assets/img/about/about_hi_akamon.jpeg"
-        alt="小石川植物園へ移築される前の赤門庁舎"
-    />
-    <figcaption>小石川植物園へ移築される前の赤門庁舎</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/about/about_hi_akamon.jpeg" caption="小石川植物園へ移築される前の赤門庁舎"></v-img>
 
 #### 1911年（明治44年）赤門庁舎への移転
 

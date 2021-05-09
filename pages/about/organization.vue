@@ -7,7 +7,7 @@
     </div>
 
     <figure class="mb1">
-      <img src="/assets/img/about/about_hi_soshiki_hi-def.png" />
+      <img :src="baseUrl + '/assets/img/about/about_hi_soshiki_hi-def.png'" />
     </figure>
 
     <h2 id="keisai" class="h03 mt-10">{{ $t('常勤職員数') }}</h2>
@@ -85,6 +85,7 @@ import LayoutAbout from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
+  baseUrl: any = process.env.BASE_URL
   title: any = this.$t('組織')
 
   lang: any = this.$i18n.locale

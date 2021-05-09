@@ -194,7 +194,6 @@
 import { Vue, Component, Watch } from 'nuxt-property-decorator'
 import LangSelect from '~/components/common/LangSelect.vue'
 import GoogleCustomSearch from '~/components/common/GoogleCustomSearch.vue'
-
 // tslint:disable-next-line:no-var-requires
 const { VueSlideToggle } = require('vue-slide-toggle')
 

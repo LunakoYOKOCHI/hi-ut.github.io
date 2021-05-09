@@ -14,7 +14,7 @@ title: 	デジタルギャラリー
     「時を越えて語るもの―史料と美術の名宝―」ホームページへ</a
     >
 
-![](/assets/img/collection/collect_ezu.jpeg)
+<v-img src="/assets/img/collection/collect_ezu.jpeg"></v-img>
 
 <h2 class="h03 mt2">入来院家文書ギャラリー</h2>
 
@@ -22,7 +22,7 @@ title: 	デジタルギャラリー
 
 →<a href="http://www.hi.u-tokyo.ac.jp/iriki-j.html">入来院家文書ギャラリーへ</a>
 
-![](/assets/img/collection/collect_irikiin.jpeg)
+<v-img src="/assets/img/collection/collect_irikiin.jpeg"></v-img>
 
 <h2 class="h03 mt2">錦絵ギャラリー</h2>
 
@@ -31,7 +31,7 @@ title: 	デジタルギャラリー
 →<a href="http://www.hi.u-tokyo.ac.jp/personal/yokoyama/nishikie/cover.html">錦絵ギャラリーへ</a>
 
 
-![](/assets/img/collection/collect_nishikie.jpeg)
+<v-img src="/assets/img/collection/collect_nishikie.jpeg"></v-img>
 
 <h2 class="h03 mt2">ひらめき☆ときめきサイエンス　史料からみる日本の歴史</h2>
 

@@ -37,59 +37,22 @@ Plus）。また、原本所蔵者の許可を得て、可能な部分はウェ�
 </p>
 
 <div class="flex col3">
-<figure>
-    <img
-        src="/assets/img/about/simg1.png"
-        alt="古写真調査(オーストリア)"
-    />
-    <figcaption>古写真調査(オーストリア)</figcaption>
-    
-</figure>
-
-<figure>
-    <img
-        src="/assets/img/about/simg2.png"
-        alt="古文書調査(山形)"
-    />
-    <figcaption>古文書調査(山形)</figcaption>
-    
-</figure>
-
-<figure>
-    <img
-        src="/assets/img/about/simg3.png"
-        alt="2018年1月10日・読売新聞朝刊"
-    />
-    <figcaption>2018年1月10日・読売新聞朝刊</figcaption>
-    
-</figure>
+<v-img src="/assets/img/about/simg1.png" caption="古写真調査(オーストリア)"></v-img>
+<v-img src="/assets/img/about/simg2.png" caption="古文書調査(山形)"></v-img>
+<v-img src="/assets/img/about/simg3.png" caption="2018年1月10日・読売新聞朝刊"></v-img>
 </div>
 
 <h2 class="h03 mt2">編纂</h3>
 
 史料を研究素材として翻刻・再編成する作業が「編纂」です。史料編纂所では、事件が起きた時間の流れに沿って関連史料を集める編年史料と、史料群の構成と内容を精密に復元する編纂史料とに分けて編纂を行っています。『大日本史料』『大日本維新史料　編年之部』は編年史料集であり、『大日本古文書』『大日本古記録』『大日本近世史料』『大日本維新史料　類纂之部』『日本関係海外史料』などは編纂史料集です。
 
-<figure>
-    <img
-        src="/assets/img/about/about_hi_shiryo.jpeg"
-        alt="文科大学時代の史料編纂掛（1930年）"
-    />
-    <figcaption>文科大学時代の史料編纂掛（1930年）</figcaption>
-    
-</figure>
+<v-img src="/assets/img/about/about_hi_shiryo.jpeg" caption="文科大学時代の史料編纂掛（1930年）"></v-img>
 
 <h2 class="h03 mt2">出版</h3>
 
 蒐集、整理、研究した史料を広く一般の利用に供するために、史料集の出版を行っています。史料編纂所では 1901（明治 34 年）から、第二次世界大戦末期と終戦後の一時期を除き、出版事業を続けてきました。現在も年間十数冊を刊行し、総点数は 1100 冊以上に及んでいます。
 
-<figure>
-    <img
-        src="/assets/img/about/about_hi_dainihon.jpeg"
-        alt="明治34年刊行の『大日本史料』（第六編・第十二編）『大日本古文書』（編年文書）"
-    />
-    <figcaption>明治34年刊行の『大日本史料』（第六編・第十二編）『大日本古文書』（編年文書）</figcaption>
-    
-</figure>
+<v-img src="/assets/img/about/about_hi_dainihon.jpeg" caption="明治34年刊行の『大日本史料』（第六編・第十二編）『大日本古文書』（編年文書）"></v-img>
 
 <h2 class="h03 mt2">新しい分野の研究事業</h3>
 

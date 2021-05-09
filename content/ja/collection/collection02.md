@@ -129,10 +129,6 @@ title: 	貴重書
 <br>
 
 <div class="flex col2 mt2">
-<figure><img src="/assets/img/collection/collect_jukkin.jpeg" width="100%" alt="拾芥抄"/>
-<figcaption>拾芥抄</figcaption>
-</figure>
-<figure><img src="/assets/img/collection/collect_namu.jpeg" width="100%" alt="南無阿弥陀仏作善集"/>
-<figcaption>南無阿弥陀仏作善集</figcaption>
-</figure>
+<v-img src="/assets/img/collection/collect_jukkin.jpeg" width="100%" caption="拾芥抄"></v-img>
+<v-img src="/assets/img/collection/collect_namu.jpeg" width="100%" caption="南無阿弥陀仏作善集"></v-img>
 </div>

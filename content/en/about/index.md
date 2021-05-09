@@ -4,14 +4,7 @@ title: 所長挨拶
 
 <h2 class="h03">Pursuing our core mission for continued growth</h2>
 
-<figure class="mb1">
-    <img
-        width="183"
-        src="/assets/img/about/mes_img01.jpeg"
-        alt="本郷 恵子 / Keiko Hongo"
-    />
-    <figcaption>Director Keiko Hongo</figcaption>
-</figure>
+<v-img width="183" class="mb1" src="/assets/img/about/mes_img01.jpeg" caption="Director Keiko Hongo"></v-img>
 
 　The Historiographical Institute of the University of Tokyo is a research institution for the study of historical documents that span Japan’s pre-modern history from ancient times through to the Meiji Restoration. Our mission is to collect and analyze various historical documents from holdings both in Japan and overseas and compile and publish these as key collections of Japanese historical documents for the benefit of academia and society.
 

@@ -2,13 +2,7 @@
 title: 沿革
 ---
 
-<figure class="mb1">
-    <img
-        src="/assets/img/about/about_hi_shiryo.jpeg"
-        alt="The Institute in 1903"
-    />
-    <figcaption>The Institute in 1903</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/about/about_hi_shiryo.jpeg" caption="The Institute in 1903"></v-img>
 
 The origins of the Historiographical Institute may be found in the late Edo period. In 1793, Hanawa Hokiichi, a scholar of "National Learning" (kokugaku) proposed to the Tokugawa bakufu that his Institute for Japanese Studies (Wagaku Kodansho) begin compiling historical records. By 1861, Hanawa's institute produced 430 volumes of source books covering the years 887 to 1024. The starting year 887 was chosen because it was the last year of the ancient Japanese governmental histories. The manuscripts compiled by Hanawa's institute became the basis for the project called Dai Nihon Shiryo, which continues at the Historiographical Institute to the present day. In 1869 the new Meiji government established a new bureau to compile an official national history of Japan that would take up where the ancient official histories left off, and in 1876 the new bureau began to compile historical records using Hanawa's methods; in 1882, the bureau started to write an official history based on the documents it had collected. This official history was abandoned in 1893, but the compilation of source materials continued and led to the publication of the first volume of the Dai Nihon Shiryo series in 1901.
 

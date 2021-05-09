@@ -54,7 +54,7 @@
       </div>
 
       <figure class="mt2">
-        <img :src="'/assets/img/publication/pub_list.gif'" />
+        <img :src="baseUrl + '/assets/img/publication/pub_list.gif'" />
       </figure>
     </LayoutPublication>
   </div>
@@ -70,6 +70,8 @@ import LayoutPublication from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
+
+  baseUrl: any = process.env.BASE_URL
 
    async asyncData({params}: any) {
     

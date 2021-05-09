@@ -6,13 +6,7 @@ title: 概要
     史料編纂所には、史料の研究と編纂のために蒐集・購入した多くの史料・図書が収蔵されています。
 </h2>
 
-<figure class="mb1">
-    <img
-        src="/assets/img/collection/collect_tokubetsu.jpeg"
-        alt="特別収蔵庫"
-    />
-    <figcaption>特別収蔵庫</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/collection/collect_tokubetsu.jpeg" caption="特別収蔵庫"></v-img>
 
 史料編纂所には、100年以上にわたって全国を採訪し、本所において作成した複製史料が多数所蔵されています。複製史料には複製方法によって影写本・謄写本・写真帳などの種類があります。
 

@@ -13,8 +13,7 @@ title: よくあるご質問
 
 <h3 class="h04 mt2 mb2">画像一覧画面</h3>
 
-![](/assets/img/faq/viewer_sample01.jpeg)
-
+<v-img src="/assets/img/faq/viewer_sample01.jpeg"></v-img>
 
 <table class="table04 mt2">
 
@@ -61,8 +60,7 @@ title: よくあるご質問
 
 1. サイドバー表示なし
 
-![](/assets/img/faq/viewer_sample02_1.jpeg)
-
+<v-img src="/assets/img/faq/viewer_sample02_1.jpeg"></v-img>
 
 <table class="table04 mt2">
 
@@ -162,8 +160,7 @@ URLをコピーし、ブラウザのアドレスバーに張り付けると、�
 
 2. サイドバー表示あり
 
-![](/assets/img/faq/viewer_sample02_2.jpeg)
-
+<v-img src="/assets/img/faq/viewer_sample02_2.jpeg"></v-img>
 
 <table class="table04 mt2">
 
@@ -303,11 +300,11 @@ URLをコピーし、ブラウザのアドレスバーに張り付けると、�
 
 1.ツールメニューから互換表示設定を選択して下さい。
 
-![](/assets/img/faq/viewer_sample03.jpeg)
+<v-img src="/assets/img/faq/viewer_sample03.jpeg"></v-img>
 
 2.「互換表示に追加したWebサイト」欄にu-tokyo.ac.jpがある場合、選択し削除して下さい。
 
-![](/assets/img/faq/viewer_sample04.jpeg)
+<v-img src="/assets/img/faq/viewer_sample04.jpeg"></v-img>
 
 <h3 class="h04 mt2">印刷機能</h3>
 
@@ -318,4 +315,4 @@ SHIPS Image Viewerから印刷する場合、以下の手順で印刷を実行�
 
 2.PDFが出力される為、印刷を実行して下さい。
 
-![](/assets/img/faq/viewer_sample05.jpeg)
+<v-img src="/assets/img/faq/viewer_sample05.jpeg"></v-img>

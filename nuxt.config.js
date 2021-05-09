@@ -182,12 +182,6 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
       },
-      /*
-      {
-        rel: 'stylesheet',
-        href: 'https://www.ssl-system.jp/hi-u-tokyo/assets/css/style.css',
-      },
-      */
       {
         rel: 'stylesheet',
         href: basePath + 'assets/css/style.css',
@@ -218,7 +212,7 @@ export default {
   plugins: ['@/plugins/utils.ts'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  // components: true,
+  components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [

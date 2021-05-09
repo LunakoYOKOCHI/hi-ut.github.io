@@ -1,7 +1,6 @@
 <template>
   <div>
     <LayoutAbout :title="title">
-
       <section>
         <p id="ttl" class="hsample1">タイトル</p>
         <p class="fc1">h1,h2,h3,h4,h5,pタグ等に使用可能</p>

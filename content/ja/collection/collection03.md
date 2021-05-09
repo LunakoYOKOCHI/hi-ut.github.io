@@ -35,23 +35,11 @@ title: 特殊蒐書
 <strong>溝口家史料</strong></a>（越後新発田藩主溝口家伝来の江戸時代後期の史料、約400 点）　　ほか
 </p>
 
-<figure class="mb1">
-    <img
-       src="/assets/img/collection/collect_mizoguchi.jpeg"
-        alt="大森演砲記付図（溝口家史料のうち）"
-    />
-    <figcaption>大森演砲記付図（溝口家史料のうち）</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/collection/collect_mizoguchi.jpeg" caption="大森演砲記付図（溝口家史料のうち）"></v-img>
 
 <h2 class="h03 mt2"><strong>維新史料</strong></h2>
 
-<figure class="mb1">
-    <img
-       src="/assets/img/collection/collect_youkairo.jpeg"
-        alt="3トン溶解炉（ルボン家関係資料のうち）"
-    />
-    <figcaption>3トン溶解炉（ルボン家関係資料のうち）</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/collection/collect_youkairo.jpeg" caption="3トン溶解炉（ルボン家関係資料のうち）"></v-img>
 
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T16.html', 'newwin','width=640,height=640')">
@@ -73,13 +61,8 @@ title: 特殊蒐書
 <strong>諸新聞切張物（西南事件関係）</strong></a><br>（修史館が西南戦争を「征西始末」としてまとめる際、材料として各新聞から西南戦争関係の記事を切り取り作成したスクラップブック、31 点）
 　　ほか</p>
 
-<figure class="mb1">
-    <img
-       src="/assets/img/collection/collect_fukkoki.jpeg"
-        alt="復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）"
-    />
-    <figcaption>復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）</figcaption>
-</figure>
+<v-img class="mb1" src="/assets/img/collection/collect_fukkoki.jpeg" caption="復古記原史料（内国事務諸達留、慶応4 年正月27 日の条）"></v-img>
+
 
 <h2 class="h03 mt2"><strong>個人蒐書</strong></h2>
 <p class="mtx">

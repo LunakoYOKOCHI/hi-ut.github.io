@@ -4,7 +4,7 @@ title: 事業
 
 <h2 class="h03">RESEARCH</h2>
 
-![](/assets/img/about/about_hi_mission_01.jpeg)
+<v-img src="/assets/img/about/about_hi_mission_01.jpeg"></v-img>
 
 The Historiographical Institute's mission is to conduct research on, compile, and publish primary source materials dealing with Japanese history. The foundations of all historical understanding lie in the preservation and precise reading of primary source materials. Because it is a basic principle of the Institute that source materials should be preserved where they are found, research staff spend several weeks each year investigating and examining historical records wherever they are kept, both in Japan and abroad. Staff have over 100 years' experience conducting these examinations, and their journeys have taken them all over Japan as well as to many different parts of the globe.
 
@@ -26,4 +26,4 @@ Recently many of these research projects have become international in scope. For
 
 An area where the Historiographical Institute has been a leader in recent decades is the development of computer applications for the management of historical records and data. Research began in 1984, and quickly progressed to include multiple Internet databases, computerized records and search devices, and worldwide accessibility to certain scanned images of original documents. Computers have become an essential part of Institute research. To ensure that the Institute remains at the forefront of technological applications, staff are active in symposia and meetings to exchange findings with other scholars and computer professionals. The Online Glossary of Japanese Historical Terms and the Online Dictionary of Sources of Classical Japan were established particularly for foreign users by the Japan Memory Project(2000-2004). And, in 2006, on the basis of such achievements, the International Center for the Digitization of Premodern Japanese Sources was established, which aims at new way of scholarly and international approaching to historical materials in cooperation with information science.
 
-![](/assets/img/about/about_hi_mission_02.jpeg)
+<v-img src="/assets/img/about/about_hi_mission_02.jpeg" width="300px"></v-img>
