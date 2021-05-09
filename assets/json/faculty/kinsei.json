@@ -1,26 +1,30 @@
 [
-    {
-        "room": "近世第一",
-        "id": "komiya|oikawa|ishizu"
-    },
-    {
-        "room": "近世第二",
-        "id": "kazuo|a-hayasi"
-    },
-    {
-        "room": "近世第三",
-        "id": "tsuruta|reiko"
-    },
-    {
-        "room": "近世第四",
-        "id": "matuzawa|araki|k-yamamoto"
-    },
-    {
-        "room": "維新第一",
-        "id": "sugimoto|hakoishi"
-    },
-    {
-        "room": "維新第二",
-        "id": "hoya|ono|mizukami|s-tateishi"
-    }
+  {
+    "room": "近世第一",
+    "id": "komiya|oikawa|ishizu"
+  },
+  {
+    "room": "近世第二",
+    "id": "kazuo|a-hayasi"
+  },
+  {
+    "room": "近世第三",
+    "id": "tsuruta|reiko"
+  },
+  {
+    "room": "近世第四",
+    "id": "matuzawa|araki|k-yamamoto"
+  },
+  {
+    "room": "維新第一",
+    "id": "sugimoto|hakoishi"
+  },
+  {
+    "room": "維新第二",
+    "id": "hoya|ono|mizukami|s-tateishi"
+  },
+  {
+    "room": "地震史料プロジェクト",
+    "id": "ebara"
+  }
 ]
