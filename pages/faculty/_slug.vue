@@ -8,8 +8,8 @@
             <tr>
               <th width="20%">{{ $t('氏名（かな）') }}</th>
               <td>
-                <template v-if="person.rmap">
-                  <a :href="rmap">{{ name }}</a>
+                <template v-if="person.url">
+                  <a :href="person.url">{{ name }}</a>
                 </template>
 
                 <template v-else>
