@@ -39,6 +39,9 @@ Vue.component('Members', {
     localePath(data) {
       return this.baseUrl + '/' + data.name.replace('-', '/')
     },
+    test(item){
+      console.log(item)
+    },
     elog(err){
       console.log({err})
     }
@@ -54,7 +57,15 @@ Vue.component('Members', {
           <div :key="key2" class="mb2 frame01">
             <template v-if="lang === 'ja'">
               <div>
-                {{$t(people[index].position)}} {{$t(people[index].surname)}} {{$t(people[index].forename)}}
+                {{$t(people[index].position)}} 
+                <template v-if="people[index].url">
+                  <a :href="people[index].url">
+                    {{$t(people[index].surname)}} {{$t(people[index].forename)}}
+                  </a>
+                </template>
+                <template v-else>
+                  {{$t(people[index].surname)}} {{$t(people[index].forename)}}
+                </template>
               </div>
               
               <template v-if="people[index].also !== ''">
@@ -79,7 +90,14 @@ Vue.component('Members', {
             </template>
             <template v-else>
               <div>
-                {{$t(people[index].surname_en)}} {{$t(people[index].forename_en)}}, {{$t(people[index].position)}}
+                <template v-if="people[index].url">
+                  <a :href="people[index].url">
+                    {{$t(people[index].surname_en)}} {{$t(people[index].forename_en)}}
+                  </a>
+                </template>
+                <template v-else>
+                  {{$t(people[index].surname_en)}} {{$t(people[index].forename_en)}}
+                </template>, {{$t(people[index].position)}}
               </div>
               <template v-if="people[index].also !== ''">
                 <div v-for="(value, key3) in people[index].also.split('|')" :key="key3" v-if="value !== id">

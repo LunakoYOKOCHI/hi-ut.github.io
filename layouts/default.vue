@@ -311,3 +311,16 @@ export default class Layout extends Vue {
   }
 }
 </script>
+<style>
+.lang-select .child {
+  display: block !important;
+}
+
+.gnav .sub-menu {
+  display: block !important;
+}
+
+.gnav .sub-menu2 {
+  display: block !important;
+}
+</style>
