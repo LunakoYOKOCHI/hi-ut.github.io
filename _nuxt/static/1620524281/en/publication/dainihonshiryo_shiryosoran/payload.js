@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/dainihonshiryo_shiryosoran", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/publication/ishin", {data:[{}],fetch:{},mutations:[]});
