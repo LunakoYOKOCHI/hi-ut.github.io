@@ -413,7 +413,7 @@
   "大日本古記録": "Dai Nihon Kokiroku (Old Diaries of Japan)",
   "大日本近世史料": "Dai Nihon Kinsei Shiryo (Historical Materials of the Edo Period)",
   "大日本維新史料": "Dai Nihon Ishin Shiryo (Historical Materials of the Meiji Restoration)",
-  "史料集版面ギャラリー": "史料集版面ギャラリー",
+  "史料集版面ギャラリー": "Historical Materials Collection Gallery",
   "氏名（かな）": "Name",
   "所属": "Department",
   "職位・学位": "Affiliation / Degree",
@@ -468,5 +468,6 @@
   "tokushu" : "Special Materials Department",
   "gazo" : "Center for the Study of Visual Sources",
   "cdps" : "International Center for the Digitization of Premodern Japanese Sources (CDPS)",
-  "センター長" : "Director"
+  "センター長" : "Director",
+  "別ウインドウで開く" : "Open in a new window"
 }

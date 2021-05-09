@@ -1,13 +1,15 @@
 <template>
   <div>
-    slug
+    <LayoutPublication :title="title" :index="2">
+      <h1 class="h02">{{ title }}</h1>
+      <nuxt-content :document="document" />
+    </LayoutPublication>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import LayoutPublication from '~/components/layout/Layout.vue'
-// import axios from 'axios'
 
 @Component({
   components: {
@@ -15,16 +17,20 @@ import LayoutPublication from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
+  baseUrl: string = process.env.BASE_URL || ''
 
-  get lang() {
-    return this.$i18n.locale
+  async asyncData({ $content, app, params }: any): Promise<any> {
+    const slug = params.slug
+    const document = await $content(
+      `${app.i18n.locale}/publication`,
+      slug || 'index'
+    ).fetch()
+    return { document }
   }
 
-  title: any = this.$t('編纂・研究・公開') // (this.$route.params.year || this.latestFiscalYear) + '年度出版物'
-
-  // title2: any = this.$t('編纂・研究・公開')
-
-  breadcrumbs: any[] = []  
+  get title(): any {
+    return (this as any).document.title
+  }
 
   head() {
     const title = this.title
