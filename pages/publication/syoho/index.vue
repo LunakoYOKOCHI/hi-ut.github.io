@@ -9,13 +9,13 @@
         >。
       </p>
 
-      <ul v-if="false">
+      <ul>
         <li v-for="i of latestSyohoVol" :key="i">
           <nuxt-link
             :to="
               localePath({
                 name: 'publication-syoho-vol',
-                params: { vol: 'syoho' + ('0000' + (latestSyohoVol - i + 1)).slice(-4) },
+                params: { vol: 'syoho' + $utils.zfill(latestSyohoVol - i + 1, 4)},
               })
             "
           >

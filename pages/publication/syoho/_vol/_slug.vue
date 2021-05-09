@@ -25,27 +25,23 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 })
 export default class about extends Vue {
   async asyncData({ payload, app, $axios }: any) {
-    if (payload) {
-      return payload
-    } else {
-      const vol = app.context.params.vol
+    const vol = app.context.params.vol
       
-      const slug = app.context.params.slug
-      const data_ = await import(`~/static/assets/json/publication/syoho/${vol}.json`)
-      const data: any[] = data_.default
-      
-      let item = {}
+    const slug = app.context.params.slug
+    const data_ = await import(`~/static/assets/json/publication/syoho/${vol}.json`)
+    const data: any[] = data_.default
+    
+    let item = {}
 
-      for(const obj of data){
-        if(obj.id === slug){
-          item = obj
-        }
+    for(const obj of data){
+      if(obj.id === slug){
+        item = obj
       }
-      
-      return {
-        vol,
-        item
-      }
+    }
+    
+    return {
+      vol,
+      item
     }
   }
 
