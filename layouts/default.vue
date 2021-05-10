@@ -138,11 +138,11 @@
           </p>
           <p>
             <template v-if="lang == 'ja'">
-              東京大学史料編纂所 所長：保谷 徹<br />
+              東京大学史料編纂所 所長：本郷 恵子<br />
               所在地：〒113-0033 東京都文京区本郷７丁目３番１号
             </template>
             <template v-else>
-              Director : Hoya, Toru<br />
+              Director : Hongo, Keiko<br />
               Address: 3-1, Hongo 7-chome, Bunkyo-ku, Tokyo 113-0033, JAPAN
             </template>
           </p>
