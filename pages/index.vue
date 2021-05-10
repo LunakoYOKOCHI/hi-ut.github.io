@@ -6,7 +6,8 @@
       <!--  style="background-color: #e6e1d8" -->
       <img
         :src="baseUrl + '/assets/img/common/home.jpg'"
-        width="1050"
+        width="1050px"
+        height="202px"
         alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
       />
     </div>
@@ -91,7 +92,8 @@
             <a href="https://utf.u-tokyo.ac.jp/project/pjt10">
               <img
                 :src="baseUrl + '/assets/img/common/btn_kihu.png'"
-                style="height: 90px"
+                height="114px"
+                width="184px"
                 alt="東京大学基金"
               />
             </a>
@@ -99,7 +101,7 @@
 
           <div class="mt2 mb2">
             <a href="https://twitter.com/UTokyo_HI" target="_blank">
-              <img :src="baseUrl + '/assets/img/common/twitter.svg'" width="30px" />
+              <img :src="baseUrl + '/assets/img/common/twitter.svg'" width="40px" height="40px"/>
             </a>
           </div>
         </aside>

@@ -177,16 +177,20 @@ export default {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
+      /*
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
+          "~/assets/css/css2.css"
+          //'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
       },
       {
         rel: 'stylesheet',
-        href: basePath + 'assets/css/style.css',
+        href: "~/assets/css/style.css", //basePath + 'assets/css/style.css',
       },
+      */
     ],
+    
   },
 
   manifest: {
@@ -206,7 +210,10 @@ export default {
   loading: { color: '#E64A19', height: '5px' },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css : [
+    "~/assets/css/css2.css",
+    "~/assets/css/style.css"
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['@/plugins/utils.ts'],
