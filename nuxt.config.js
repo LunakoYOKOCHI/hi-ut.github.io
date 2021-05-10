@@ -177,18 +177,10 @@ export default {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
-      /*
       {
         rel: 'stylesheet',
-        href: basePath + 'assets/css/css2.css',
-      },
-      */
-      /*
-      {
-        rel: 'stylesheet',
-        href: basePath + 'assets/css/style.css',
-      },
-      */
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
+      }
     ],
     
   },
@@ -211,7 +203,6 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css : [
-    //"~/assets/css/css2.css",
     "~/assets/css/style.css"
   ],
 
