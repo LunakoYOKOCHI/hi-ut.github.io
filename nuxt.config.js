@@ -177,17 +177,16 @@ export default {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
+      
+      {
+        rel: 'stylesheet',
+        href: basePath + 'assets/css/css2.css',
+      },
+      {
+        rel: 'stylesheet',
+        href: basePath + 'assets/css/style.css',
+      },
       /*
-      {
-        rel: 'stylesheet',
-        href:
-          "~/assets/css/css2.css"
-          //'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
-      },
-      {
-        rel: 'stylesheet',
-        href: "~/assets/css/style.css", //basePath + 'assets/css/style.css',
-      },
       */
     ],
     
@@ -211,8 +210,8 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css : [
-    "~/assets/css/css2.css",
-    "~/assets/css/style.css"
+    //"~/assets/css/css2.css",
+    //"~/assets/css/style.css"
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -287,7 +286,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    standalone: true, //これを追加！
+    //standalone: true, //これを追加！
   },
 
   ...routerBase,
