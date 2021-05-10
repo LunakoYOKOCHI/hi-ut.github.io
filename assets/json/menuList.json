@@ -85,8 +85,8 @@
           {
             "label": "技術部・史料保存技術室",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/gijyutsu",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/gijyutsu"
+              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/gijyutu",
+              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/gijyutu"
             },
             "lang": ["ja", "en"]
           },
