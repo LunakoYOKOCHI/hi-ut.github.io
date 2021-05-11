@@ -21,7 +21,7 @@ export default class about extends Vue {
   async asyncData({ $content, app, params }: any): Promise<any> {
     const slug = params.slug
     const document = await $content(
-      `${app.i18n.locale}/inquery`,
+      `${app.i18n.locale}/inquiry`,
       slug || 'index'
     ).fetch()
     return { document }

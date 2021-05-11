@@ -148,7 +148,7 @@
           </p>
           <br />
           <p class="contct">
-            <nuxt-link class="btn01 v3" :to="localePath({ name: 'inquery' })">{{
+            <nuxt-link class="btn01 v3" :to="localePath({ name: 'inquiry' })">{{
               $t('お問い合わせ')
             }}</nuxt-link>
           </p>
