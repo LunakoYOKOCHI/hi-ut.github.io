@@ -467,7 +467,7 @@ Vue.component("Layout", {
         </p>
         <br />
         <p class="contct">
-          <a class="btn01 v3" :href="localePath({ name: 'inquery' })"
+          <a class="btn01 v3" :href="localePath({ name: 'inquiry' })"
             >{{$t("お問い合わせ")}}</a
           >
         </p>
