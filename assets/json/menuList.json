@@ -302,6 +302,11 @@
           "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/",
           "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/"
         }, "lang": ["ja", "en"] },
+      { "label": "図書室のサービス案内", 
+          "href": {
+            "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/service",
+            "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/service"
+          }, "lang": ["ja", "en"] },
       {
         "label": "図書室利用（閲覧手続き）",
         "href": {
