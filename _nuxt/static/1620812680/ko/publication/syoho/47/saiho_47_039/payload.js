@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/47/saiho_47_039", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"39.天理図書館における『愚管記断簡』の原本調査",creator:a,page:a,id:"saiho_47_039",url:a,content:"二〇一二年二月一〇日、大日本古記録『後深心院関白記』第五巻出版のた\nめ、天理大学附属天理図書館において、同館所蔵の『愚管記断簡』（架番号\n２１０・４―イ７）の原本調査を行い、原本校正を行った。\n\n（田中博美）"}}],fetch:{},mutations:[]}}("")));

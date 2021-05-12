@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/17/saiho_OMURAS~1", (function(a){return {data:[{vol:"17",item:{head:"史料採訪",title:"大村市立史料館文書の調査",creator:a,page:a,id:"saiho_OMURAS~1",url:a,content:"昭和五十六年十一月二十三日より十二月一日までの九日間、昨年度に引続き長崎県下大村市立史料館において、主として大村藩キリシタン関係史料の調査撮影を行なった。\n　　蒐集文書目録\n○大村家史料"}}],fetch:{},mutations:[]}}("")));

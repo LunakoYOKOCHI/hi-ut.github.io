@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/42/saiho_42_060", (function(a){return {data:[{vol:"42",item:{head:"史料採訪",title:"奈良国立博物館における『愚昧記』原本の調査・撮影",creator:a,page:a,id:"saiho_42_060",url:a,content:"二〇〇六年一一月一三―一四日に、奈良市奈良国立博物館において、同館\n修理所で解体修理中の本所所蔵重要文化財『愚昧記』第五巻の調査・撮影を\n行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（尾上陽介・谷昭佳・吉田早苗）"}}],fetch:{},mutations:[]}}("")));

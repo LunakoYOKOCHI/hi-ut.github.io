@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/31/saiho_YOUMEI~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"陽明文庫所蔵古記録の調査・撮影",creator:a,page:a,id:"saiho_YOUMEI~1",url:a,content:"一九九五年一一月一三日から一五日まで、京都市陽明文庫において、大日本古記録編纂のため、同文庫所蔵の深心院関白記と二水記別記（寓記）の原本校正を行なうとともに、大日本古記録『深心院関白記』および『二水記　四』の巻頭図版を撮影した。\n　　　　　　　　　　　　　　　　　　（針生邦男・菅原昭英・尾上陽介・菊地大樹）"}}],fetch:{},mutations:[]}}("")));

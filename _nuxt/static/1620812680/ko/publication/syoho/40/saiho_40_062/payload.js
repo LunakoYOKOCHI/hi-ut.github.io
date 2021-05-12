@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/40/saiho_40_062", (function(a){return {data:[{vol:"40",item:{head:"史料採訪",title:"６２　大分県立博物館所蔵金石文拓本の調査",creator:a,page:a,id:"saiho_40_062",url:a,content:"〇五年二月一四日より一六日まで、大分県宇佐市大分県立博物館に出張し、同館所蔵で主として県指定重要文化財となっている金石文の拓本について調査し、カードを作成した。\n\n（菊地大樹）"}}],fetch:{},mutations:[]}}("")));

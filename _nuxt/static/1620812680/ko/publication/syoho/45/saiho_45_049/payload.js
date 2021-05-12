@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/45/saiho_45_049", (function(a){return {data:[{vol:"45",item:{head:"史料採訪",title:"49.東大寺文書の原本調査",creator:a,page:a,id:"saiho_45_049",url:a,content:"二〇一〇年三月二三～二六日、奈良市東大寺図書館において、『大日本古文書　家わけ第十九　東大寺文書之二十一』編纂のための原本調査を行った。\n\n（保立道久・久留島典子・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

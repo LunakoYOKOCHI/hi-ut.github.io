@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/54/saiho_54_007", (function(a){return {data:[{vol:"54",item:{head:"史料採訪",title:"7.鎌倉国宝館寄託史料の調査・撮影",creator:a,page:a,id:"saiho_54_007",url:a,content:"二〇一九年二月二十七日より二十八日までの二日間、鎌倉国宝館に出張し、同館に寄託される、『妙本寺文書』（妙本寺所蔵）のうち日蓮筆曼荼羅本尊十幅、および『円覚寺文書』（円覚寺所蔵）のうち十六点につき、原本調査およびデジタル写真撮影を行った。\n（村井祐樹・井上聡・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

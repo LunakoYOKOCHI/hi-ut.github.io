@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/9/saiho_kyotodaigaku", (function(a){return {data:[{vol:"9",item:{head:"史料採訪",title:"京都大学",creator:a,page:a,id:"saiho_kyotodaigaku",url:a,content:"昭和四十八年七月十六日から同二十日まで京都大学に出張し、中断していた同大学文学部所蔵の「勧修寺家文書」の調査を再開し、記録の部のうち、次の三十点を調査撮影した。"}}],fetch:{},mutations:[]}}("")));

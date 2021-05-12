@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/25/saiho_NARAYA~1", (function(a){return {data:[{vol:"25",item:{head:"史料採訪",title:"奈良薬師寺所蔵史料の調査",creator:a,page:a,id:"saiho_NARAYA~1",url:a,content:"一九八九年七月十六日より二十一日まで、奈良国立文化財研究所との共同事業によって継続してきた、奈良薬師寺所蔵史料の調査・撮影を実施した。調書採取・撮影作業のまとまりを待ち、後日、調査史料目録を報告する予定である。\n　　　　　　　　　　　　　　　　　　　　　　　（永村　眞・山本博文・榎原雅治）"}}],fetch:{},mutations:[]}}("")));

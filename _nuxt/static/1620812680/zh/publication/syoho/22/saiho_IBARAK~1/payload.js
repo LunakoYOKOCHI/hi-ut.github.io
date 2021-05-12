@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/22/saiho_IBARAK~1", (function(a){return {data:[{vol:"22",item:{head:"史料採訪",title:"茨城県歴史館荘園絵図の調査・撮影",creator:a,page:a,id:"saiho_IBARAK~1",url:a,content:"一九八六年九月二十五日、『日本荘園絵図聚影』作成作業の一環として、茨城県歴史館（水戸市緑町二—一—一五）において、菅孝次郎氏旧蔵の左の三点の史料を調査・撮影した。"}}],fetch:{},mutations:[]}}("")));

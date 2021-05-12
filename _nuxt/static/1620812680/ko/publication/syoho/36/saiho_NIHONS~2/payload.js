@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/36/saiho_NIHONS~2", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"『日本荘園絵図聚影』収録絵図の調査・撮影",creator:a,page:a,id:"saiho_NIHONS~2",url:a,content:"二〇〇〇年九月三〇日、神奈川県立金沢文庫において、同文庫所蔵絵図につき調査ならびに（株）便利堂に委託して撮影を行った。以下、調査・撮影した史料を掲げる。"}}],fetch:{},mutations:[]}}("")));

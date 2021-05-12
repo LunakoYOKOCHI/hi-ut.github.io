@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/23/saiho_SHOURE~1", (function(a){return {data:[{vol:"23",item:{head:"史料採訪",title:"青蓮院吉水蔵聖教調査",creator:a,page:a,id:"saiho_SHOURE~1",url:a,content:"一九八七年九月六日より十二日まで七日間、文化庁文化財保護部美術工芸課の依頼により、京都市東山区青蓮院の吉水蔵聖教の調査に参加し、調書の作成に従事した。調査目録は後日報告の予定である。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（厚谷和雄）"}}],fetch:{},mutations:[]}}("")));

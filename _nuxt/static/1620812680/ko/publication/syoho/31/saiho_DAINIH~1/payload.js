@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/31/saiho_DAINIH~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"『大日本古記録　中右記』の原本校正",creator:a,page:a,id:"saiho_DAINIH~1",url:a,content:"一九九六年三月二三〜二五日に、陽明文庫において『大日本古記録　中右記』の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

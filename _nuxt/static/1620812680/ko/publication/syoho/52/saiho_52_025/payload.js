@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/52/saiho_52_025", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"25.醍醐寺文書の原本校正",creator:a,page:a,id:"saiho_52_025",url:a,content:"二〇一七年二月二八日より三月三日までの四日間、京都市伏見区醍醐寺に出張し、『大日本古文書　家わけ第十九　醍醐寺文書之十七』の出版準備のため、第二六函後半部分の原本校正を行った。\n（高橋敏子・小瀬玄士・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/1/saiho_kyoto%20daigaku02", (function(a){return {data:[{vol:"1",item:{head:"史料採訪",title:"京都大学出張報告",creator:a,page:a,id:"saiho_kyoto daigaku02",url:a,content:"十一月一日より同月三日まで昭和四十年度出版のため編纂に利用した京都大学附属図書館保管菊亭家蔵建内記（原本）および、同文学部国史研究室蔵建内記（原本）の返却と、同研究室蔵勧修寺本建内記の調査をした。\n　（百瀬今朝雄）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/11/saiho_daigoji%20shiryou", (function(a){return {data:[{vol:"11",item:{head:"史料採訪",title:"醍醐寺史料調査",creator:a,page:a,id:"saiho_daigoji shiryou",url:a,content:"昭和五十年八月十八日より二十一日まで四日間、京都市伏見区醍醐寺に出張し、同寺所蔵の古文書・記録・聖教の調査並びに撮影を行なった。本年度の撮影は、前年度に引続き、第一〇七凾二八号より第一一四凾の最後までで、すべてマイクロフィルムに収めた。（皆川完一・石上英一・高沢実）"}}],fetch:{},mutations:[]}}("")));

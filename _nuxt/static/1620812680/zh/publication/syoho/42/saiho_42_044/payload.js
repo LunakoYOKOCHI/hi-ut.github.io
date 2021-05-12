@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/42/saiho_42_044", (function(a){return {data:[{vol:"42",item:{head:"史料採訪",title:"醍醐寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_42_044",url:a,content:"二〇〇六年八月一七日より二一日までの五日間、京都市伏見区醍醐寺に出\n張し、継続事業として第四二〇函、第四二二函、第四二三函、第四二五函、\n第四二六函、第四二七函の文書・聖教を調査し、マイクロフィルム撮影を終\n了した。\n\n　　　　　　　　　　　　　　（谷昭佳・中村尚暁・和田幸大・川本慎自・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

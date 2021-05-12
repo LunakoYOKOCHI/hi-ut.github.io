@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/48/saiho_48_020", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"20.真珠庵文書の調査",creator:a,page:a,id:"saiho_48_020",url:a,content:"二〇一三年二月一九日より二月二〇日に真珠庵に出張し、『大日本古文書　\n大徳寺文書別集　真珠庵文書之八』の原本校正を行った。\n\n（保立道久・小瀬玄士）"}}],fetch:{},mutations:[]}}("")));

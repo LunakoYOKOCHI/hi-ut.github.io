@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/44/saiho_44_055", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"55.奈良国立博物館における『愚昧記』原本の調査・撮影",creator:a,page:a,id:"saiho_44_055",url:a,content:"二〇〇九年二月一六～一八日・三月一六～一九日、奈良国立博物館において、（株）文化財保存による解体修理が終了した本所所蔵重要文化財『愚昧記』原本第二・第六・第七巻の調査・撮影を行なった。\n\n（尾上陽介）"}}],fetch:{},mutations:[]}}("")));

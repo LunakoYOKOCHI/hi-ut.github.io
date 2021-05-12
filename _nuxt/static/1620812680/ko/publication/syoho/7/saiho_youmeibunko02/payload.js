@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/7/saiho_youmeibunko02", (function(a){return {data:[{vol:"7",item:{head:"史料採訪",title:"陽明文庫出張報告",creator:a,page:a,id:"saiho_youmeibunko02",url:a,content:"昭和四十七年三月二十日より二十三日まで、京都陽明文庫に出張して、同文庫所蔵の「猪隈関白記」の自筆本・古写本及び予楽院本（江戸中期写）について調査（年紀については出版物の項参看）し、大日本古記録「猪隈関白記一」の校正を行なった。（近衛通隆）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/46/saiho_46_046", (function(a){return {data:[{vol:"46",item:{head:"史料採訪",title:"46.東大寺文書の原本調査",creator:a,page:a,id:"saiho_46_046",url:a,content:"二〇一〇年一二月六〜一〇日、奈良市東大寺図書館において、『大日本古\n文書　家わけ第十八　東大寺文書之二十一』編纂のため、東大寺文書未成巻\n文書第一部第一五（兵庫関）・第一六（観世音寺）・第一七（燈油田并大湯屋\n田）他の原本調査を行った。\n\n（久留島典子・高橋敏子・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

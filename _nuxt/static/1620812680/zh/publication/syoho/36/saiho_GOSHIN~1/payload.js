@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/36/saiho_GOSHIN~1", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"後深心院関白記等古記録の調査",creator:a,page:a,id:"saiho_GOSHIN~1",url:a,content:"二〇〇一年三月一六日より一八日まで、京都市陽明文庫に出張し、大日本古記録『後深心院関白記　二』の原稿作成に必要な、原本調査を行つた。\n　　　　　　　　　　　　　　　　　　　　　　　（菅原昭英・本郷恵子・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

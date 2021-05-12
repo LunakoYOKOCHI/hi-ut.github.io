@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/45/saiho_45_020", (function(a){return {data:[{vol:"45",item:{head:"史料採訪",title:"20.京都大学附属図書館における「薩戒記」原本の調査",creator:a,page:a,id:"saiho_45_020",url:a,content:"二〇一〇年一月二十六・二十七日の両日、京都大学附属図書館に赴き、『大日本古記録　薩戒記』編纂のための調査を行なった。今回は、菊亭文庫所藏の原本（嘉吉元年八月巻、菊亭巻四〇）について、原本校正を行なった。\n\n（本郷恵子）"}}],fetch:{},mutations:[]}}("")));

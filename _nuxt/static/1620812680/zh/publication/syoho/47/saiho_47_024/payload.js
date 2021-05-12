@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/47/saiho_47_024", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"24.『中右記』諸本の調査",creator:a,page:a,id:"saiho_47_024",url:a,content:"二〇一一年一一月六―八日に、京都市東山御文庫において、『大日本古記\n録　中右記』編纂のため、『中右記』諸本の調査として、嘉承二年記の写本\nである『践祚記　中右記』（勅封一五七―二六）の調査を行なった。\n\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

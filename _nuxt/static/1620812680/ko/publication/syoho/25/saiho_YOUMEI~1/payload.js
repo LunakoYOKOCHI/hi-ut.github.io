@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/25/saiho_YOUMEI~1", (function(a){return {data:[{vol:"25",item:{head:"史料採訪",title:"陽明文庫所蔵史料の調査",creator:a,page:a,id:"saiho_YOUMEI~1",url:a,content:"十一月十四日から十六日まで、陽明文庫において、『大日本古記録』出版のための調査を行った。\n　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

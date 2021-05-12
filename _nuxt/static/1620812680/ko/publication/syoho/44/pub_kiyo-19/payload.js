@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/44/pub_kiyo-19", (function(a){return {data:[{vol:"44",item:{head:"史料編纂　刊行物紹介",title:"東京大学史料編纂所研究紀要　第十九号",creator:a,page:"41-42",id:"pub_kiyo-19",url:a,content:"口絵\nライデン大学図書館所蔵『備中国絵図』\nライデン大学民族学博物館所蔵『大日本諸国名産紙集』"}}],fetch:{},mutations:[]}}("")));

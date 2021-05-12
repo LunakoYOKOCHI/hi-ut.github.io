@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/21/saiho_KYOTOD~2", (function(a){return {data:[{vol:"21",item:{head:"史料採訪",title:"東北大学付属図書館・宮城県図書館所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_KYOTOD~2",url:a,content:"昭和六十一年三月十二日—十四日の間、仙台市川内、東北大学付属図書館、同市榴ケ岡五番地、宮城県図書館に出張し、所蔵史料の調査・撮影をした。撮影目録は左記の通り。\n一、東北大学付属図書館"}}],fetch:{},mutations:[]}}("")));

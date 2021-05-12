@@ -1,24 +1,24 @@
 [
   {
     "label": "ご案内",
-    "lang": ["ja", "en"],
+    "lang": ["ja", "en", "zh", "ko"],
     "to": { "name": "about-slug"},
     "isDisplayTop" : true,
     "children": [
       {
         "label": "所長挨拶",
         "to": { "name": "about-slug"},
-        "lang": ["ja", "en"]
+        "lang": ["ja", "en", "zh", "ko"]
       },
       {
         "label": "沿革",
         "to": { "name": "about-slug", "params": {"slug" : "history"}},
-        "lang": ["ja", "en"]
+        "lang": ["ja", "en", "zh", "ko"]
       },
       {
         "label": "事業",
         "to": { "name": "about-slug", "params": {"slug" : "mission"}},
-        "lang": ["ja", "en"]
+        "lang": ["ja", "en", "zh", "ko"]
       },
       {
         "label": "組織",

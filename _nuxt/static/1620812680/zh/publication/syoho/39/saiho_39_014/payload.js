@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/39/saiho_39_014", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"14.岩瀬文庫所蔵史料の調査",creator:a,page:a,id:"saiho_39_014",url:a,content:"二〇〇三年七月四日、西尾市岩瀬文庫に赴き、『大日本史料』および史料編纂所所蔵史料の関係史科を調査した。主だったものにつき、簡単な所見を記して報告に代える。\n（中略）\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（藤原重雄）"}}],fetch:{},mutations:[]}}("")));

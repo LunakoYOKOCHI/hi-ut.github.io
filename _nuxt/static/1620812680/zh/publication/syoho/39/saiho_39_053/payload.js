@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/39/saiho_39_053", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"53.広瀬先賢文庫所蔵史料の調査",creator:a,page:a,id:"saiho_39_053",url:a,content:"広瀬先賢文庫の調査（全体像は所報37号参照）について（1）二階「家宝」分、（2）一階「近世史料」、（3）一階新発見分に分けて報告する。\n（中略）\n　　　　　　　　　　　　　　　　　　　　　（小野　将・杉本史子・箱石　大・保谷　徹・柗澤裕作・横山伊徳）"}}],fetch:{},mutations:[]}}("")));

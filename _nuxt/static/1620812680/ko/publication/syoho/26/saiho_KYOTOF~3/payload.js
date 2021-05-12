@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/26/saiho_KYOTOF~3", (function(a){return {data:[{vol:"26",item:{head:"史料採訪",title:"東寺百合文書の原本校正",creator:a,page:a,id:"saiho_KYOTOF~3",url:a,content:"一九九〇年十一月五日から八日まで、および一九九一年三月十八日から二十日までの二回、京都府立総合資料館に出張し、『大日本古文書　家わけ第十　東寺文書』出版のために、同館所蔵の東寺百合文書の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　（笠松宏至・久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

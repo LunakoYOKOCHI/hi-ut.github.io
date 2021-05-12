@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/33/saiho_sakkaiki%20shohon", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"『薩戒記』諸本の調査",creator:a,page:a,id:"saiho_sakkaiki shohon",url:a,content:"以下の機関に所蔵される『薩戒記』諸本および同記の逸文を含む部類記の調査を行った。"}}],fetch:{},mutations:[]}}("")));

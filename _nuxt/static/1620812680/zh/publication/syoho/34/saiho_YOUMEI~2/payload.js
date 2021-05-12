@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/34/saiho_YOUMEI~2", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"陽明文庫における『中右記』諸本の調査",creator:a,page:a,id:"saiho_YOUMEI~2",url:a,content:"一九九九年三月一九—二二日に、京都市陽明文庫において、同文庫所蔵『中右記』の古写本と新写本の調査を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

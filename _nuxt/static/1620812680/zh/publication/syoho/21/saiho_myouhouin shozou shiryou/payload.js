@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/21/saiho_myouhouin%20shozou%20shiryou", (function(a){return {data:[{vol:"21",item:{head:"史料採訪",title:"妙法院所蔵史料調査（追加）",creator:a,page:a,id:"saiho_myouhouin shozou shiryou",url:a,content:"第六回（昭和五十四年）調査撮影目録追加"}}],fetch:{},mutations:[]}}("")));

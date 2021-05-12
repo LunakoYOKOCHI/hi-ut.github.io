@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/52/saiho_52_024", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"24.醍醐寺文書の原本借用",creator:a,page:a,id:"saiho_52_024",url:a,content:"二〇一六年一〇月二四日より二五日までの二日間、京都市伏見区醍醐寺に出張し、『大日本古文書　家わけ第十九　醍醐寺文書之十七』の編纂のために、第二六函前半部分の原本の借用作業を行った。\n（高橋慎一朗・小瀬玄士）"}}],fetch:{},mutations:[]}}("")));

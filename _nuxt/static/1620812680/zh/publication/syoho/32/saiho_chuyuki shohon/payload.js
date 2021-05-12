@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/32/saiho_chuyuki%20shohon", (function(a){return {data:[{vol:"32",item:{head:"史料採訪",title:"『中右記』諸本の調査",creator:a,page:a,id:"saiho_chuyuki shohon",url:a,content:"一〇月二九〜三一日に、京都御所東山御文庫において、『中右記』新写本の写真照合（未了）と、関連史料の調査を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

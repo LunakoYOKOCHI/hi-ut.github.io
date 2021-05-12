@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/37/saiho_37_014", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"14.醍醐寺文書原本の返却・借用",creator:a,page:a,id:"saiho_37_014",url:a,content:"二〇〇一年十月二十九日より三十一日まで、京都市伏見区醍醐寺に出張し、『大日本古文書　醍醐寺文書之十二』所収分原本の返却作業および次冊所収予定原本の借用作業を行った。\n（高橋慎一朗・保立道久）"}}],fetch:{},mutations:[]}}("")));

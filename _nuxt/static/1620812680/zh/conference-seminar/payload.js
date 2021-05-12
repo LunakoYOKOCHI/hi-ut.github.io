@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/conference-seminar", {data:[{}],fetch:{},mutations:[]});

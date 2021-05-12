@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/32/saiho_FUKUSH~1", (function(a){return {data:[{vol:"32",item:{head:"史料採訪",title:"福島県歴史資料館所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_FUKUSH~1",url:a,content:"『大日本史料』第十二編の編纂のため、一九九六年九月二六日から二七日まで福島県歴史資料館に出張し、同館所蔵史料の調査・撮影を行った。マイクロ撮影した史料は以下の通りである（史料名等は同館の目録に従った）。"}}],fetch:{},mutations:[]}}("")));

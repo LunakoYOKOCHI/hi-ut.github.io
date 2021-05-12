@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/29/saiho_nimizuki%20shoshahon", (function(a){return {data:[{vol:"29",item:{head:"史料採訪",title:"二水記諸写本の調査",creator:a,page:a,id:"saiho_nimizuki shoshahon",url:a,content:"一九九三年一一月一六日から二〇日まで、名古屋市蓬左文庫・鶴舞図書館、伊勢市神宮文庫、松阪市本居宣長記念館、京都市京都大学文学部博物館に出張し、大日本古記録編纂のため、二水記諸写本の調査をおこなった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（尾上陽介）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/38/saiho_38_064", (function(a){return {data:[{vol:"38",item:{head:"史料採訪",title:"64.台湾に所在する前近代日本関係史料の調査・蒐集",creator:a,page:a,id:"saiho_38_064",url:a,content:"平成十四年十二月九日から十三日までの五日間、台北の台湾大学図書館ならびに中央研究院近代史研究所に出張し、前近代日本関係史料の調査と蒐集を行った。\n\n（中略）\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山本博文・松井洋子・松澤克行・前川祐一郎・高橋典幸・黒嶋 敏）"}}],fetch:{},mutations:[]}}("")));

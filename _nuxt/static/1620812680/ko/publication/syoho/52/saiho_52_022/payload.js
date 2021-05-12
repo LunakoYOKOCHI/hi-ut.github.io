@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/52/saiho_52_022", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"22.陽明文庫所蔵史料の調査・原本校正",creator:a,page:a,id:"saiho_52_022",url:a,content:"二〇一七年二月、京都市右京区の公益財団法人陽明文庫において大日本古記録『愚昧記』『後法興院記』『薩戒記』編纂のため、同文庫所蔵の『愚昧記』『後法興院記』『薩戒記』の調査、原本校正を行った。\n（尾上陽介・井上　聡・遠藤珠紀）"}}],fetch:{},mutations:[]}}("")));

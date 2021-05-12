@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/13/saiho_daitokuji%20honbou%20monjo", (function(a){return {data:[{vol:"13",item:{head:"史料採訪",title:"大徳寺本坊文書の撮影",creator:a,page:a,id:"saiho_daitokuji honbou monjo",url:a,content:"一九七七年十一月二四日より二五日まで大徳寺本坊に出張し、既編纂の大徳寺文書、『大日本古文書』番号一六四九号より二〇四八号までの写真撮影を行なった。\n　　　　　　　　　　　　　　（百瀬今朝雄・針生邦男・千々和到・保立道久）"}}],fetch:{},mutations:[]}}("")));

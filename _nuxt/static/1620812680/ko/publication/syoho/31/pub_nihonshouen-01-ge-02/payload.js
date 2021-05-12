@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/31/pub_nihonshouen-01-ge-02", (function(a){return {data:[{vol:"31",item:{head:"史料編纂　刊行物紹介",title:"日本荘園絵図聚影一下",creator:a,page:"23**-24",id:"pub_nihonshouen-01-ge-02",url:a,content:"本冊は、『日本荘園絵図聚影』の第四冊目である。当初の刊行計画を変更して、東日本の荘園絵図を二冊に分冊したので、越前以南の荘園絵図を収録している。\n収録した荘園絵図とその所蔵者は以下の通りである。"}}],fetch:{},mutations:[]}}("")));

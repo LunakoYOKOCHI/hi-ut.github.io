@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/49/saiho_49_033", (function(a){return {data:[{vol:"49",item:{head:"史料採訪",title:"33.東大寺文書の原本調査",creator:a,page:a,id:"saiho_49_033",url:a,content:"二〇一三年一〇月七日より一一日まで、奈良市東大寺図書館において、『大\n日本古文書　家わけ第十八　東大寺文書之二十二』編纂のため、東大寺文書\n未成巻文書第一部第一八（越中高瀬荘）～第二四（雑荘）他の原本調査を行っ\nた。\n\n（小瀬玄士・高橋慎一朗・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

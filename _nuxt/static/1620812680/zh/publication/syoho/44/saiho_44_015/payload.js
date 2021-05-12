@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/44/saiho_44_015", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"15.神宮文庫所蔵史料の調査",creator:a,page:a,id:"saiho_44_015",url:a,content:"二〇〇八年一一月一二日・一三日、伊勢市神宮文庫に出張し、「善隣国宝記」（第五門一三四六号）・「具注暦」（第九門一〇一号）・「藤波氏秀官長引付」（第一門四三二六号）・「外宮引付」（第一門一一一七七号）・「檜垣貞佳日次略記」（第一門四一〇二号）他の史料調査を行なった。\n\n（遠藤珠紀・須田牧子）"}}],fetch:{},mutations:[]}}("")));

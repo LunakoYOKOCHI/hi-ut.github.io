@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/30/saiho_OKINAW~1", (function(a){return {data:[{vol:"30",item:{head:"史料採訪",title:"沖縄県下近世薩琉関係史料の調査",creator:a,page:a,id:"saiho_OKINAW~1",url:a,content:"一九九五年三月二二日から二五日にかけて沖縄県に出張し、近世薩琉関係史料の調査を行った。訪れた機関は琉球大学付属図書館および沖縄県立図書館である。前者では、「伊波普猷文庫」の調査を行った。後者では、「東恩納文庫」を中 心に調査し、以下の史料を同館架蔵の写真から複写した。"}}],fetch:{},mutations:[]}}("")));

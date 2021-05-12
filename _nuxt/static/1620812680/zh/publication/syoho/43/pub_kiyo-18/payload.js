@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/43/pub_kiyo-18", (function(a){return {data:[{vol:"43",item:{head:"史料編纂　刊行物紹介",title:"東京大学史料編纂所研究紀要第十八号",creator:a,page:"41*-41**",id:"pub_kiyo-18",url:a,content:"口絵\n東京理科大学近代科学資料館所蔵『具注暦仮名暦』"}}],fetch:{},mutations:[]}}("")));

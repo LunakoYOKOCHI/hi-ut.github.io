@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/50/saiho_50_020", (function(a){return {data:[{vol:"50",item:{head:"史料採訪",title:"20.醍醐寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_50_020",url:a,content:"二〇一四年八月十七日より二十一日までの五日間、京都市伏見区醍醐寺に出張し、継続事業として文書・聖教の原本調査およびデジタル写真撮影を行い、第四四六函・第四四八函の撮影を行った。\n\n（谷昭佳・高山さやか・川本慎自・畑山周平・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

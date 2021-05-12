@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/43/saiho_43_036", (function(a){return {data:[{vol:"43",item:{head:"史料採訪",title:"東寺百合文書の原本校正",creator:a,page:a,id:"saiho_43_036",url:a,content:"二〇〇八年三月十八・十九日、京都府立総合資料館に出張し、『大日本古\n文書』東寺文書編纂のため、同館所蔵の東寺百合文書「れ函」の原本校正を\n行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

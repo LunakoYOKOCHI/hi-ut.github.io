@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/20/saiho_MYOUHO~2", (function(a){return {data:[{vol:"20",item:{head:"史料採訪",title:"妙法院所蔵史料調査（追加）",creator:a,page:a,id:"saiho_MYOUHO~2",url:a,content:"すでに報告したように、妙法院の調査は昭和五十九年度で終了したが、その間調査報告に間に合わなかった分がある。以下その調査撮影目録を追加する。既発表分とあわせてご利用いただきたい。\n　第五回（昭和五十三年）調査撮影目録追加"}}],fetch:{},mutations:[]}}("")));

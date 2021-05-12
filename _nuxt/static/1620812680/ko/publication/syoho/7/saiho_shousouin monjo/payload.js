@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/7/saiho_shousouin%20monjo", (function(a){return {data:[{vol:"7",item:{head:"史料採訪",title:"正倉院文書調査",creator:a,page:a,id:"saiho_shousouin monjo",url:a,content:"昭和四十六年十月二十五日より三十日までの六日間、例年の如く奈良市正倉院事務所に出張し、正倉院文書の調査を行なった。（稲垣泰彦・土田直鎮・皆川完一・鈴木茂男）"}}],fetch:{},mutations:[]}}("")));

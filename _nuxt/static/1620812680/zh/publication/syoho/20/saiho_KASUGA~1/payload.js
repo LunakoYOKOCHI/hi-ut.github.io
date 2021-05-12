@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/20/saiho_KASUGA~1", (function(a){return {data:[{vol:"20",item:{head:"史料採訪",title:"春日大社所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_KASUGA~1",url:a,content:"一九八五年三月二十四日より同月二十八日まで、春日大社所蔵史料の調査・撮影を実施した。今年度は同社書庫架蔵仏事部の記録・文書を、調査対象とした。以下に撮影目録を掲げる。"}}],fetch:{},mutations:[]}}("")));

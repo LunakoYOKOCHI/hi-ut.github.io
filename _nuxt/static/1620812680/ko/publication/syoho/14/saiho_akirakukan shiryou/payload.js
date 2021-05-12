@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/14/saiho_akirakukan%20shiryou", (function(a){return {data:[{vol:"14",item:{head:"史料採訪",title:"彰考館史料調査",creator:a,page:a,id:"saiho_akirakukan shiryou",url:a,content:"昭和五十三年十一月二十九日から十二月二日まで、水戸市見川一ノ一二一五ノ一水府明徳会（彰考館）所蔵史料の第二回調査採訪を行なった。前回に引き続き中世近世の日記・典籍および系図類を主として調査・撮影した。採訪史料は以下の通りである。"}}],fetch:{},mutations:[]}}("")));

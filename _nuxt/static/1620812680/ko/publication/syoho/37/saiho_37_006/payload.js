@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/37/saiho_37_006", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"6.文化財新指定品撮影",creator:a,page:a,id:"saiho_37_006",url:a,content:"平成十二年度新指定重要文化財のうち、左記の重要文化財につき、所蔵者の承諾を得て、二〇〇一（平成十三）年四月二十五日、東京国立博物館文化庁分室を訪れ、写真撮影を行った。\n　　東慶寺文書 文化庁寄託分（神奈川県 東慶寺）\n（阿部晶彦・川本慎自・黒嶋 敏・近藤成一・谷昭佳・中藤靖之・山家浩樹・吉田 成・林 譲）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ko/publication/syoho/39/saiho_39_054", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"54.長崎市立シーボルト記念館中山文庫所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_39_054",url:a,content:"一昨年の科学研究費での撮影に引き続き、長崎オランダ通詞中山家の史料を、基本的に全点撮影する作業を継続した（所報三七号、参照）。以下撮影目録を掲げる。\n（中略）\n　　　　　　　　　　　　　　　　　　　　　　　（岡美穂子・木村直樹・松井洋子・松方冬子・横山伊徳）"}}],fetch:{},mutations:[]}}("")));

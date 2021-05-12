@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/23/saiho_YOUMEI~1", (function(a){return {data:[{vol:"23",item:{head:"史料採訪",title:"陽明文庫所蔵岡屋関白記の撮影",creator:a,page:a,id:"saiho_YOUMEI~1",url:a,content:"昭和六二年七月六日、陽明文庫（京都市宇多野）において、『大日本古記録』岡屋関白記（昭和六三年三月刊行）挿入図版の撮影を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山口英男・針生邦男）"}}],fetch:{},mutations:[]}}("")));

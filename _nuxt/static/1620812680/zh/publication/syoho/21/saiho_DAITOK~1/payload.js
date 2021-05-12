@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/21/saiho_DAITOK~1", (function(a){return {data:[{vol:"21",item:{head:"史料採訪",title:"大徳寺文書の返却及び真珠庵文書の調査・借入",creator:a,page:a,id:"saiho_DAITOK~1",url:a,content:"一九八五年十一月二十二日、編纂のため借用していた大徳寺本坊所蔵文書（己箱・庚箱・箱外）を返却した。また十一月三十日には、真珠庵所蔵文書（甲箱）の調査・借用を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（保立道久・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

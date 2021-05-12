@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zh/publication/syoho/34/saiho_DAIGOJ~2", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"醍醐寺所蔵文書聖教類の調査・撮影",creator:a,page:a,id:"saiho_DAIGOJ~2",url:a,content:"一九九八年八月十七日から二十一日までの五日間、京都市伏見区醍醐寺に出張、継続事業として二六七函、二六九函、二七二函、二七三函の文書聖教類の調査とマイクロフィルム撮影を行った。\n　　　　　　　　　　　　（榎原雅治・小林　聡・末柄　豊・金子　拓・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));
