@@ -59,8 +59,8 @@ env.kakenMap = {
 env.langMap = {
   "ja" : "日本語（Japanese）",
   "en" : "English",
-  "zh" : "简体中文 (Chinese)",
-  "ko" : "한국어（Koren）"
+  //"zh" : "简体中文 (Chinese)",
+  //"ko" : "한국어（Koren）"
 }
 
 env.compiledDateOfStaff = "2021-05-01"
