@@ -56,6 +56,12 @@ env.kakenMap = {
   shorei: '奨励研究',
   tokutei: '特定領域研究',
 }
+env.langMap = {
+  "ja" : "日本語（Japanese）",
+  "en" : "English",
+  "zh" : "简体中文 (Chinese)",
+  "ko" : "한국어（Koren）"
+}
 
 env.compiledDateOfStaff = "2021-05-01"
 
@@ -261,7 +267,8 @@ export default {
     locales: [
       { code: 'en', iso: 'en_US', file: 'en.json' },
       { code: 'ja', iso: 'ja_JP', file: 'ja.json' },
-      // { code: 'zh', iso: 'zh_CN', file: 'zh.json' },
+      { code: 'zh', iso: 'zh_CH', file: 'zh.json' },
+      { code: 'ko', iso: 'ko_KR', file: 'ko.json' },
     ],
     defaultLocale: 'ja',
     vueI18nLoader: true,
@@ -281,192 +288,7 @@ export default {
     //standalone: true, //これを追加！
   },
 
-  ...routerBase,
-
-  generate: {
-    routes() {
-      let pages = []
-
-      /*
-
-      for (let i = env.currentFiscalYear - 1; i >= env.newsOldest; i--) {
-        pages.push({
-          route: `/news/list/${i}`,
-        })
-      }
-
-      // 所報
-
-      for(let vol = 1; vol <= env.latestSyohoVol; vol++){
-
-        if(vol === 16){
-          continue
-        }
-
-        const item = JSON.parse(
-          fs.readFileSync(`static/assets/json/publication/syoho/${vol}.json`)
-        )
-
-        const slug = 'syoho' + ('0000' + vol).slice(-4)
-
-        pages.push({
-          route: `/publication/syoho/${slug}`,
-          payload: {
-            vol,
-            data: item
-          },
-        })
-
-        pages.push({
-          route: `/en/publication/syoho/${slug}`,
-          payload: {
-            vol,
-            data: item
-          },
-        })
-
-        for(const e of item.slice(1)){
-          if(item.head !== ""){
-            pages.push({
-              route: `/publication/syoho/${vol}/${e.id}`,
-              payload: {
-                vol,
-                item: e
-              },
-            })
-    
-            pages.push({
-              route: `/en/publication/syoho/${vol}/${e.id}`,
-              payload: {
-                vol,
-                item: e
-              },
-            })
-          }
-        }
-
-      }
-
-      //教員
-
-      const faculty = JSON.parse(
-        fs.readFileSync('static/assets/json/faculty.json')
-      )
-
-      for (const id in faculty) {
-
-        try{
-          const gyoseki = JSON.parse(
-            fs.readFileSync(`static/assets/json/faculty/${id}.json`)
-          )
-  
-          pages.push({
-            route: `/faculty/gyoseki_${id}`,
-            payload: {
-              id,
-              gyoseki,
-            },
-          })
-  
-          pages.push({
-            route: `/en/faculty/gyoseki_${id}`,
-            payload: {
-              id,
-              gyoseki,
-            },
-          })
-          
-        } catch(e) {
-          console.log(e)
-        }
-      }
-
-      //共同研究
-      const res = []
-      const mapping = env.tokuteiMapping
-
-      for (const key in mapping) {
-        try {
-          const jsonKyotenTokuteiKey = JSON.parse(
-            fs.readFileSync(`static/assets/json/collaboration/kyoten/tokutei/
-            ${key}.json`)
-          )
-
-          res.push({
-            key,
-            data: jsonKyotenTokuteiKey,
-          })
-        } catch (err) {}
-      }
-
-      const jsonKyotenIppanCurrent = JSON.parse(
-        fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
-        env.currentFiscalYear +
-        '.json')
-      )
-
-      const payload = {
-        year: env.currentFiscalYear,
-        tokutei: res,
-        data: jsonKyotenIppanCurrent
-      }
-
-      pages.push({
-        route: `/collaboration/kyoten`,
-        payload
-      })
-
-      pages.push({
-        route: `/en/collaboration/kyoten`,
-        payload
-      })
-
-      // ----------
-
-      for(let year = env.kyotenLatest; year >= env.kyotenOldest; year--){
-        try {
-          const jsonKyotenIppanYear = JSON.parse(
-            fs.readFileSync('static/assets/json/collaboration/kyoten/ippan/' +
-            year +
-            '.json')
-          )
-
-          pages.push({
-            route: `/collaboration/kyoten/ippan/${year}/seika`,
-            payload: {
-              data: jsonKyotenIppanYear
-            }
-          })
-  
-          pages.push({
-            route: `/en/collaboration/kyoten/ippan/${year}/seika`,
-            payload: {
-              data: jsonKyotenIppanYear
-            }
-          })
-        } catch (err) {
-          console.log(err)
-        }
-      }
-
-      */
-
-      /*
-      const facultyList = JSON.parse(
-        fs.readFileSync(`${jsonDir}/faculty/facultyList.json`)
-      )
-
-      const gyosekiList = JSON.parse(
-        fs.readFileSync(`${jsonDir}/faculty/gyosekiList.json`)
-      )
-      */
-
-      //pages = pages.concat(getFaculty(facultyList))
-      //pages = pages.concat(getGyoseki(facultyList, gyosekiList))
-
-      return pages
-    },
-  },
+  ...routerBase
 }
 
 function getFaculty(){

@@ -147,7 +147,7 @@
             </template>
           </p>
           <br />
-          <p class="contct">
+          <p class="contct" v-if="lang === 'ja' || lang === 'en'">
             <nuxt-link class="btn01 v3" :to="localePath({ name: 'inquiry' })">{{
               $t('お問い合わせ')
             }}</nuxt-link>
@@ -155,7 +155,7 @@
         </div>
         <aside class="foot-nav">
           <nav>
-            <ul>
+            <ul v-if="lang === 'ja' || lang === 'en'">
               <li>
                 <nuxt-link :to="localePath({ name: 'index' })"
                   >■ HOME</nuxt-link

@@ -7,16 +7,11 @@
       <span>Language</span>
       <VueSlideToggle :duration="500" :open="isOpenLanguageSelection">
         <ul class="child">
-          <li v-if="lang !== 'ja'">
-            <a :href="baseUrl + '/'">日本語</a>
-          </li>
-          <li v-if="lang !== 'en'">
-            <a :href="baseUrl + '/en/'">English</a>
-          </li>
-          <!-- 
-            <li><a :href="baseUrl + '/zh/'">中文</a></li>
-            <li><a :href="baseUrl + '/ko/'">한국어</a></li> 
-          -->
+          <template v-for="(value, label) in langMap">
+            <li v-if="lang !== label">
+              <a :href="getUrl(label)">{{value}}</a>
+            </li>
+          </template>
         </ul>
       </VueSlideToggle>
     </li>
@@ -37,10 +32,16 @@ const { VueSlideToggle } = require('vue-slide-toggle')
 export default class LangSelectComponent extends Vue {
   isOpenLanguageSelection: boolean = false
 
+  langMap: any = process.env.langMap
+
   baseUrl: string = process.env.BASE_URL || ''
 
   get lang() {
     return this.$i18n.locale
+  }
+
+  getUrl(label: string){
+    return this.baseUrl + '/' + (label === this.$i18n.defaultLocale ? '' : label + "/")
   }
 }
 </script>

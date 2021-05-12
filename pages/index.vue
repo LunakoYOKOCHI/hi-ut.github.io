@@ -26,11 +26,16 @@
             historical source materials concerning Japan. The Institute has
             become a major center of Japanese historical research, and makes
             historical sources available through its
-            <a href="library">library</a>,
-            <nuxt-link :to="localePath({ name: 'publication' })"
-              >publications</nuxt-link
-            >, and recently,
+            <a href="https://hi.u-tokyo.ac.jp/en/library/">library</a>,
+            <a href="https://hi.u-tokyo.ac.jp/en/publication/">publications</a>, and recently,
             <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.
+          </p>
+          <p class="mt2" v-if="lang !== 'en'">
+            <ul>
+              <li><nuxt-link :to="localePath({name : 'about-slug', params: {slug : 'index'}})">{{$t("所長挨拶")}}</nuxt-link></li>
+              <li><nuxt-link :to="localePath({name : 'about-slug', params: {slug : 'history'}})">{{$t("沿革")}}</nuxt-link></li>
+              <li><nuxt-link :to="localePath({name : 'about-slug', params: {slug : 'mission'}})">{{$t("事業")}}</nuxt-link></li>
+            </ul>
           </p>
         </template>
 
@@ -68,6 +73,19 @@
                 }}</a>
               </li>
               <li>
+                <a :href="getHiPath('gijyutu')">{{
+                  $t('技術部・史料保存技術室')
+                }}</a>
+              </li>
+              <li>
+                <a :href="getHiPath('library')">{{
+                  $t('図書部')
+                }}</a>
+              </li>
+              <li>
+                <a :href="getHiPath('ir')">{{ $t('IR・広報室') }}</a>
+              </li>
+              <li v-if="lang === 'ja' || lang === 'en'">
                 <nuxt-link :to="localePath({ name: 'faculty' })">{{
                   $t('教員一覧')
                 }}</nuxt-link>
@@ -76,14 +94,6 @@
                 <nuxt-link :to="localePath({ name: 'collaboration-kyoten' })">{{
                   $t('共同利用・共同研究拠点')
                 }}</nuxt-link>
-              </li>
-              <li>
-                <a :href="getHiPath('gijyutu')">{{
-                  $t('技術部・史料保存技術室')
-                }}</a>
-              </li>
-              <li>
-                <a :href="getHiPath('ir')">{{ $t('IR・広報室') }}</a>
               </li>
             </ul>
           </nav>
