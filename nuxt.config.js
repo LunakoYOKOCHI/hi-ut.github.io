@@ -267,8 +267,8 @@ export default {
     locales: [
       { code: 'en', iso: 'en_US', file: 'en.json' },
       { code: 'ja', iso: 'ja_JP', file: 'ja.json' },
-      { code: 'zh', iso: 'zh_CH', file: 'zh.json' },
-      { code: 'ko', iso: 'ko_KR', file: 'ko.json' },
+      //{ code: 'zh', iso: 'zh_CH', file: 'zh.json' },
+      //{ code: 'ko', iso: 'ko_KR', file: 'ko.json' },
     ],
     defaultLocale: 'ja',
     vueI18nLoader: true,
