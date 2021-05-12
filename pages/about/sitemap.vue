@@ -21,8 +21,8 @@
                     $t(child.label)
                   }}</nuxt-link>
                 </template>
-                <template v-else-if="child.href">
-                  <a :href="child.href">{{ $t(child.label) }}</a>
+                <template v-else-if="child.href && child.href[lang]">
+                  <a :href="child.href[lang]">{{ $t(child.label) }}</a>
                 </template>
 
                 <ul v-if="child.children">
@@ -33,8 +33,8 @@
                           $t(child2.label)
                         }}</nuxt-link>
                       </template>
-                      <template v-else-if="child2.href">
-                        <a :href="child2.href">{{ $t(child2.label) }}</a>
+                      <template v-else-if="child2.href && child2.href[lang]">
+                        <a :href="child2.href[lang]">{{ $t(child2.label) }}</a>
                       </template>
                     </li>
                   </template>
