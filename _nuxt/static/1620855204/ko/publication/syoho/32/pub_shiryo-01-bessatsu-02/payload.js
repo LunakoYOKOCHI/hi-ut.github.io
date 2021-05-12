@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/32/pub_shiryo-01-bessatsu-02", (function(a){return {data:[{vol:"32",item:{head:"史料編纂　刊行物紹介",title:"大日本史料第一編補遺（別冊二）",creator:a,page:"15",id:"pub_shiryo-01-bessatsu-02",url:a,content:a}}],fetch:{},mutations:[]}}("")));

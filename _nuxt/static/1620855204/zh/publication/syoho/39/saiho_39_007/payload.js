@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/39/saiho_39_007", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"7.栄山寺文書の調査",creator:a,page:a,id:"saiho_39_007",url:a,content:"二〇〇三年七月一日、国立歴史民俗博物館において『大日本史料』第二編之二十八収載予定の「栄山寺牒（長元二年九月廿八目）」（『栄山寺文書』）の調査を行った。なお、調査に際しては同館助教授仁藤敦史氏のお世話になった。銘記して謝意を表する。\n\n 　　　　　　　　　　（加藤友康・厚谷和雄）"}}],fetch:{},mutations:[]}}("")));

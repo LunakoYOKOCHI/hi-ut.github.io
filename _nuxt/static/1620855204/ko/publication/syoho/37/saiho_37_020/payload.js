@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/37/saiho_37_020", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"20.陽明文庫における『後法成寺関白記』原本の紙背文書調査",creator:a,page:a,id:"saiho_37_020",url:a,content:"二〇〇一年七月九日より十三日まで、大日本古記録『後法成寺関白記』編纂のため、原本の調査を行った。ことに切断によって分離してしまった紙背文書を中心に、その接続関係を検討した。\n（田中博美）"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/31/saiho_KYOTOS~3", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"京都市立芸術大学芸術資料館の絵巻物・肖像画の調査撮影",creator:a,page:a,id:"saiho_KYOTOS~3",url:a,content:"一九九六年三月二六日、二七日の両日で、京都市立芸術大学芸術資料館に出張し、絵巻物・肖像画等の模写本の観察・撮影を行った。今回の調査では、特に撮影・模写の観点から絵巻物の絵と文字に注目し、詳細な記録をとった。調査目録は次の通りである。"}}],fetch:{},mutations:[]}}("")));

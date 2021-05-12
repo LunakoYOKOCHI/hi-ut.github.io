@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/28/saiho_shourenin%20yoshimizukura", (function(a){return {data:[{vol:"28",item:{head:"史料採訪",title:"青蓮院吉水蔵の調査",creator:a,page:a,id:"saiho_shourenin yoshimizukura",url:a,content:"平成四年十一月二十四日より二十八日まで、京都市東山区粟田口三条坊町の青蓮院において、前年にひき続き所蔵文書・記録及び以前の調査で漏らした聖教の調査・撮影を行った。"}}],fetch:{},mutations:[]}}("")));

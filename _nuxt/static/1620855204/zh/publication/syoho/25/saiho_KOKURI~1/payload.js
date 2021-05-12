@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/25/saiho_KOKURI~1", (function(a){return {data:[{vol:"25",item:{head:"史料採訪",title:"国立歴史民俗博物館の史料閲覧",creator:a,page:a,id:"saiho_KOKURI~1",url:a,content:"平成元年十二月四日より八日迄の五日間、大日本古記録「民経記　六」の原稿作成のため、千葉県佐倉市の国立歴史民俗博物館に赴いて、同館所蔵の経光卿記（＝民経記）とその紙背文書を閲覧し、裏打等の原因により写真では不明瞭な個所を判読した。　　　　　　　　（石田祐一）"}}],fetch:{},mutations:[]}}("")));

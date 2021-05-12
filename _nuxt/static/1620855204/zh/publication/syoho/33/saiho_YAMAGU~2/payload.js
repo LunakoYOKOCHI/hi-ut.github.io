@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/33/saiho_YAMAGU~2", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"山口県文書館「毛利家文庫」史料の調査・撮影",creator:a,page:a,id:"saiho_YAMAGU~2",url:a,content:"一九九八年三月一四日から一八日までの江日間、山口県文書館に出張し、同館所蔵「毛利家文庫」の「公儀事諸控」を中心に調査・撮影を行った。「公儀事諸控」撮影は、一一月の出張の継続である。撮影したものは以下の通りである。"}}],fetch:{},mutations:[]}}("")));

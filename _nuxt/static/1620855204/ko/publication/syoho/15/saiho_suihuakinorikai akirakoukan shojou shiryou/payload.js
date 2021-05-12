@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/15/saiho_suihuakinorikai%20akirakoukan%20shojou%20shiryou", (function(a){return {data:[{vol:"15",item:{head:"史料採訪",title:"水府明徳会彰考館所蔵史料の調査",creator:a,page:a,id:"saiho_suihuakinorikai akirakoukan shojou shiryou",url:a,content:"昭和五十四年十二月十二日より十五日まで、昨年に引続いて、水府明徳会彰考館史料の閲覧と写真撮影を行なった。撮影目録は左の通り。"}}],fetch:{},mutations:[]}}("")));

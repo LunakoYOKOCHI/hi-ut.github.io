@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/33/saiho_touji%20yuri%20monjo", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"東寺百合文書の原本校正",creator:a,page:a,id:"saiho_touji yuri monjo",url:a,content:"一九九八年二月十七日より二十日まで、京都府立総合資料館に出張し、『大日本古文書』東寺文書出版のため、同館所蔵の「東寺百合文書」よ函の原本校正を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　（久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

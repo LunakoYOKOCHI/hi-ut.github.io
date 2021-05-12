@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/30/saiho_daigoji%20shougyourui", (function(a){return {data:[{vol:"30",item:{head:"史料採訪",title:"醍醐寺聖教類の調査・撮影",creator:a,page:a,id:"saiho_daigoji shougyourui",url:a,content:"一九九四年八月十七日より二十一日までの五日間、京都市伏見区醍醐寺に出張し、継続事業として二三五函、二三八〜二四四函の文書・聖教を調査し、マイクロフィルム撮影を終了した。\n　　　　　　　　　　　　（保立道久・吉田　成・鴨川達夫・遠藤基郎・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

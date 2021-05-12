@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/37/saiho_37_022", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"22.『中右記』の原本校正及び諸本の調査",creator:a,page:a,id:"saiho_37_022",url:a,content:"二〇〇一年一二月一六－一九日に、京都市陽明文庫において、同文庫所蔵の『中右記』の古写本による 『大日本古記録 中右記』四の原本校正と、新写本の調査を行った。\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

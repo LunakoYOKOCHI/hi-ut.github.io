@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/19/saiho_SHIBAT~1", (function(a){return {data:[{vol:"19",item:{head:"史料採訪",title:"新発田市立図書館所蔵の国絵図等の調査",creator:a,page:a,id:"saiho_SHIBAT~1",url:a,content:"一九八三年八月二三日から二四日にかけて、新発田市立図書館を訪れ、同館所蔵の国絵図などの調査を行なった。\n　同館には、多くの絵図が所蔵されているが、その内次の十三点について調査し、それぞれの絵図の性格を確かめることが出来た。"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/37/saiho_37_030", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"30.武田科学振興財団杏雨書屋所蔵古記録諸本の調査",creator:a,page:a,id:"saiho_37_030",url:a,content:"〇二年一月二八日より一三日まで、大阪府大阪市武田科学振興財団杏雨書屋において、『春記』（藤原俊成写）および　『実躬卿記』自筆本の調査、ならびに大日本古記録『実躬卿記』第五冊の出版に必要な原本校正を行った。\n　　　　　　　　　　　　　　　　　　　（菅原昭英・尾上陽介・菊地大樹）"}}],fetch:{},mutations:[]}}("")));

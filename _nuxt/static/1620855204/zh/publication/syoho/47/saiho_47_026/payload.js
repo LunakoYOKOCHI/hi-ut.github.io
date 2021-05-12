@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/47/saiho_47_026", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"26.陽明文庫所蔵『愚昧記』の原本校正",creator:a,page:a,id:"saiho_47_026",url:a,content:"二〇一二年三月六～八日、京都市陽明文庫所蔵の『愚昧記』寿永三年正月\n記原本（架番号一五函一八号、一巻）を調査し、『大日本古記録　愚昧記』\n下冊編纂のため、紙背文書を中心に原稿を作成した。\n\n（尾上陽介）"}}],fetch:{},mutations:[]}}("")));

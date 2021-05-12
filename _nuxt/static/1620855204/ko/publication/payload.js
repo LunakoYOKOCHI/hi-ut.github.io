@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication", {data:[{}],fetch:{},mutations:[]});

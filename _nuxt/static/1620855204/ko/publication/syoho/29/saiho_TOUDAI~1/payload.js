@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/29/saiho_TOUDAI~1", (function(a){return {data:[{vol:"29",item:{head:"史料採訪",title:"東大寺開田図図版色校正",creator:a,page:a,id:"saiho_TOUDAI~1",url:a,content:"一九九三年十一月十五日、宮内庁正倉院事務所（奈良市雑司町）に出張し、『日本荘園絵図聚影』一・東日本上（一九九五年二月刊行予定）収載の東大寺開田図のカラーオフセット図版の色校正を、印刷担当の株式会社便利堂に同行して行った。今回、色校正を行なった開田図は、左記の八点である。"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/33/saiho_DAINIH~1", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"『大日本史料』第十二編収載史料の調査・撮影",creator:a,page:a,id:"saiho_DAINIH~1",url:a,content:"一九九八年二月一六日から一八日まで、『大日本史料』第十二編の編纂のため関西大学総合図書館・大阪府立中之島図書館・大阪市史編纂所・大阪市立大学学術情報総合センターならびに財団法人陽明文庫に出張し、元和八〜九（一六二二〜三）年の史料を中心に調査・撮影を行った。撮影・複写した史料は、次の通りである。"}}],fetch:{},mutations:[]}}("")));

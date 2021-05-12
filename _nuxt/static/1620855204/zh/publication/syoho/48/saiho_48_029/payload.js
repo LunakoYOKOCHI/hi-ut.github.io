@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/48/saiho_48_029", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"29.『中右記』原本校正",creator:a,page:a,id:"saiho_48_029",url:a,content:"二〇一三年三月二五─二七日に、京都市陽明文庫において、『大日本古記\n録　中右記』七編纂のため、同文庫所蔵の『中右記』嘉承二年秋記古写本に\nより、原本校正を行った。\n\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

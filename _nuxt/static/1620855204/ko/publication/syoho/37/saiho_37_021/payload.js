@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/37/saiho_37_021", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"21.陽明文庫所蔵『後深心院関白記』の原本校正",creator:a,page:a,id:"saiho_37_021",url:a,content:"二〇〇一年一一月一二日より一五日まで、大日本古記録『後深心院関白記』編纂のため、京都市陽明文庫所蔵の『後深心院関白記』原本等の古記録を調査し、原本校正を行った。\n（菅原昭英・本郷恵子・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/32/saiho_TOUJIY~1", (function(a){return {data:[{vol:"32",item:{head:"史料採訪",title:"東寺百合文書の花押撮影および原本校正",creator:a,page:a,id:"saiho_TOUJIY~1",url:a,content:"一九九六年十二月二日より六日にかけて京都府立総合資料館に出張し、『大日本古文書』東寺文書出版のため、同館所蔵の東寺百合文書よ函の花押十七点について赤外線フィルムによる撮影を行ったほか、同文書の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　（保立道久・針生邦男・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

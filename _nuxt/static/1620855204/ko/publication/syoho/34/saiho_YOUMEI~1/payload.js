@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/34/saiho_YOUMEI~1", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"陽明文庫所蔵『後深心院関白記』等古記録の調査",creator:a,page:a,id:"saiho_YOUMEI~1",url:a,content:"一九九九年一月一五日より二六日まで、大日本古記録『後深心院関白記　一』編纂のため、京都市陽明文庫所蔵の『後深心院関白記』原本等の古記録を調査し、原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（尾上陽介）"}}],fetch:{},mutations:[]}}("")));

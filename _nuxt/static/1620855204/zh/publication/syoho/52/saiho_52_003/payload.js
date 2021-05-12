@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/52/saiho_52_003", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"3.東北歴史博物館所蔵「石母田家文書」の調査・撮影",creator:a,page:a,id:"saiho_52_003",url:a,content:"二〇一七年三月一一～一四日に東北歴史博物館に出張し、同館所蔵「石母田家文書」の年号記載文書一～六八六号（慶安年間まで）の調査・撮影を行った。\n　調査に際しては同館学芸部の塩田達也氏に大変お世話になった。記して謝意を表する。\n（佐藤孝之・小宮木代良・及川亘）"}}],fetch:{},mutations:[]}}("")));

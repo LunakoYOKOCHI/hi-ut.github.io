@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/37/saiho_37_016", (function(a){return {data:[{vol:"37",item:{head:"史料採訪",title:"16.京都御所東山御文庫蔵古典籍・古文書の原本調査",creator:a,page:a,id:"saiho_37_016",url:a,content:"二〇〇一年一一月五日より八日まで、京都御所内の皇后御殿で、曝涼中の京都御所東山御文庫収蔵の古典籍・古文書の調査を実施した。\n（田島　公・末柄　豊・松澤克行）"}}],fetch:{},mutations:[]}}("")));

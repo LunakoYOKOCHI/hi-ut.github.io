@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/34/saiho_TENRID~1", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"天理大学附属天理図書館所蔵史料の調査",creator:a,page:a,id:"saiho_TENRID~1",url:a,content:"一九九八年一一月一九・二〇日の両日、天理大学附属天理図書館に出張し、同館吉田文庫所蔵の永和元年大嘗会関係史料を閲覧・調査した。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（本郷恵子）"}}],fetch:{},mutations:[]}}("")));

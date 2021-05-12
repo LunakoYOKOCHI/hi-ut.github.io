@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/54/saiho_54_012", (function(a){return {data:[{vol:"54",item:{head:"史料採訪",title:"12.公益財団法人陽明文庫所蔵『後法興院記』の原本調査",creator:a,page:a,id:"saiho_54_012",url:a,content:"二〇一八年一二月および二〇一九年三月に、京都市右京区の公益財団法人陽明文庫において、同文庫所蔵の『後法興院記』（七函―五〜九号）の原本調査を行った。\n（尾上陽介・菊地大樹・井上聡）"}}],fetch:{},mutations:[]}}("")));

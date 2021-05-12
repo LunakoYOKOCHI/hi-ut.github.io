@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/48/saiho_48_052", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"52.東大寺文書の原本調査",creator:a,page:a,id:"saiho_48_052",url:a,content:"二〇一三年二月四日～六日まで、奈良市東大寺図書館において、『大日本\n古文書　家わけ第十八　東大寺文書之二十二』編纂のため、東大寺文書未成\n巻文書第一部第一八から、第二四他の原本調査を行った。\n\n（久留島典子・高橋慎一朗・遠藤基郎）"}}],fetch:{},mutations:[]}}("")));

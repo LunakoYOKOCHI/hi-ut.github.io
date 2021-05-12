@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/19/saiho_SUIFUM~1", (function(a){return {data:[{vol:"19",item:{head:"史料採訪",title:"水府明徳会彰考館所蔵史料の調査",creator:a,page:a,id:"saiho_SUIFUM~1",url:a,content:"一九八四年二月一四日から一六日までの三日間、茨城県水戸市に出張し、彰考館において、「大日本史料」第三編々纂史料の蒐集と近世史料の調査とを合同して行ない、調書を作成した。調査書目は次の如くである。（　）内に架蔵番号を示す。"}}],fetch:{},mutations:[]}}("")));

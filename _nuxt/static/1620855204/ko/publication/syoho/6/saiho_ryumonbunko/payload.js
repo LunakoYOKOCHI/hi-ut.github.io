@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/6/saiho_ryumonbunko", (function(a){return {data:[{vol:"6",item:{head:"史料採訪",title:"竜門文庫蔵書調査",creator:a,page:a,id:"saiho_ryumonbunko",url:a,content:"四十五年七月二十日から二十二日まで、奈良県吉野郡竜門文庫に出張し、その蔵書のうち、大日本古記録「言経卿記」編纂上必要と思われる次の二部の医学関係の書物を手書きにして写した。"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/12/saiho_kyoutodaigaku%20shojou%20kanshujika%20shiryou", (function(a){return {data:[{vol:"12",item:{head:"史料採訪",title:"京都大学所蔵勧修寺家史料調査",creator:a,page:a,id:"saiho_kyoutodaigaku shojou kanshujika shiryou",url:a,content:"昭和五十一年八月三日から同五日まで京都大学に出張し、同大学文学部所蔵の「勧修寺家文書」を調査し、記録の部を中心にして、次の五十三点を撮影した。"}}],fetch:{},mutations:[]}}("")));

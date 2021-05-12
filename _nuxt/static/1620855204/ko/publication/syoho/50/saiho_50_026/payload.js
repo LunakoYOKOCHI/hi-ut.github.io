@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/50/saiho_50_026", (function(a){return {data:[{vol:"50",item:{head:"史料採訪",title:"26.『中右記』古写本の調査打合せ",creator:a,page:a,id:"saiho_50_026",url:a,content:"二〇一五年二月一六日に、京都市の公益財団法人陽明文庫において、同文庫所蔵の『中右記』古写本調査の内容について、名和修文庫長と検討を行った。\n\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

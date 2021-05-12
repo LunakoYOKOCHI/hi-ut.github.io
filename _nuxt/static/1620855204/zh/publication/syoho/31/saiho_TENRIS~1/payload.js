@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/31/saiho_TENRIS~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"天理市天理大学附属天理図書館所蔵中世古記録調査",creator:a,page:a,id:"saiho_TENRIS~1",url:a,content:"一九九五年一二月一二日から一三日まで、天理市天理大学附属天理図書館に出張し、昨年度未調査の中世具注暦類の調書を作成し、あわせて深心院関白記断簡の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菅原昭英）"}}],fetch:{},mutations:[]}}("")));

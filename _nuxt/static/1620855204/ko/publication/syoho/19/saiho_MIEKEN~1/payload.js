@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ko/publication/syoho/19/saiho_MIEKEN~1", (function(a){return {data:[{vol:"19",item:{head:"史料採訪",title:"三重県伊勢市大湊支所史料調査",creator:a,page:a,id:"saiho_MIEKEN~1",url:a,content:"昭和五十八年九月二十八日、三重県伊勢市大湊支所に出張し、「大日本史料第十編之十八」に収録する史料の調査を行なった。撮影した史料は、次の通りである。"}}],fetch:{},mutations:[]}}("")));

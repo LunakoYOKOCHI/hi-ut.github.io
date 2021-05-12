@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/zh/publication/syoho/22/saiho_NARAYA~1", (function(a){return {data:[{vol:"22",item:{head:"史料採訪",title:"奈良薬師寺所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_NARAYA~1",url:a,content:"一九八六年七月二十一日より二十七日迄の間、奈良国立文化財研究所との共同事業として、薬師寺所蔵史料の調査・撮影を実施した。調書採取・撮影作業のまとまりを待ち、後日調査史料目録を報告の予定である。\n　　　　　　　　　　　　　　　　　　（宮崎勝美・久留島典子・榎原雅治・永村眞）"}}],fetch:{},mutations:[]}}("")));
