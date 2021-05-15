@@ -21,49 +21,10 @@ env.menuList = menuList
 const organizationMap = JSON.parse(fs.readFileSync('static/assets/json/organizationMap.json'))
 env.organizationMap = organizationMap
 
-let currentYear = new Date().getFullYear()
-const currentMonth = new Date().getMonth() + 1
-currentYear = currentMonth < 4 ? currentYear - 1 : currentYear
-env.currentFiscalYear = currentYear
-
-env.kyotenLatest = 2021
-env.kyotenOldest = 2010
-env.newsOldest = 1997
-env.currentFiscalYear = currentYear
-env.latestSyohoVol = 55
-env.latestKiyoVol = 30
-env.latestReportYear = 2018
-env.tokuteiMapping = {
-  "kodai" : "古代史料領域",
-  "chusei" : "中世史料領域",
-  "kinsei" : "近世史料領域",
-  "kaigai" : "海外史料領域",
-  "fukugo" : "複合史料領域",
+const envMap = JSON.parse(fs.readFileSync('static/assets/json/env.json'))
+for(const envKey in envMap){
+  env[envKey] = envMap[envKey]
 }
-env.kakenMap = {
-  COE: '中核的研究拠点（COE）形成基礎研究費',
-  sosei: '学術創成研究費',
-  S: '基盤研究(S)',
-  A: '基盤研究(A)',
-  B: '基盤研究(B)',
-  C: '基盤研究(C)',
-  hoga: '挑戦的萌芽研究',
-  wakate_a: '若手研究(A)',
-  wakate_b: '若手研究(B)',
-  wakate: '若手研究',
-  wakate_start: '若手研究(スタートアップ)',
-  start: '研究活動スタート支援',
-  shorei: '奨励研究',
-  tokutei: '特定領域研究',
-}
-env.langMap = {
-  "ja" : "日本語（Japanese）",
-  "en" : "English",
-  //"zh" : "简体中文 (Chinese)",
-  //"ko" : "한국어（Koren）"
-}
-
-env.compiledDateOfStaff = "2021-05-01"
 
 const GOOGLE_ANALYTICS_ID = 'abc'
 
@@ -245,9 +206,6 @@ export default {
 
     'nuxt-i18n',
     '@nuxtjs/sitemap',
-    // Simple usage
-    // '@nuxtjs/amp',
-    
   ],
 
   sitemap: {
@@ -274,7 +232,6 @@ export default {
     vueI18nLoader: true,
     lazy: true,
     langDir: 'static/assets/json/lang/',
-    // strategy: 'no_prefix'
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -285,14 +242,13 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    //standalone: true, //これを追加！
+    //standalone: true,
   },
-
+  
   ...routerBase
 }
 
 function getFaculty(){
-
   const pages = []
 
   const facultyList = JSON.parse(

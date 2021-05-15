@@ -1,5 +1,5 @@
 ---
-title: よくあるご質問
+title: ビューアについて
 ---
 
 <h2 class="h03">SHIPS Image Viewer 動作環境</h2>

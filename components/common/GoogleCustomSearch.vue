@@ -1,6 +1,6 @@
 <template>
   <form id="cse-search-box" action="https://google.com/cse">
-    <input type="hidden" name="cx" value="1e10e2c945c90dfeb" />
+    <input type="hidden" name="cx" :value="cx" />
     <input type="hidden" name="ie" value="UTF-8" />
     <input
       id="search-box"
@@ -17,5 +17,8 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 
 @Component({})
-export default class GoogleCustomSearchComponent extends Vue {}
+export default class GoogleCustomSearchComponent extends Vue {
+  cx: string = "012637686871494257469:cps9yembml4"
+  //1e10e2c945c90dfeb
+}
 </script>

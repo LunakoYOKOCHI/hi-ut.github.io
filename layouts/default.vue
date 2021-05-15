@@ -12,7 +12,9 @@
             <h1>
               <nuxt-link :to="localePath({ name: 'index' })">
                 <img
-                  :src="baseUrl + '/assets/img/common/hilogo.jpg'" width="344px" height="61px"
+                  :src="baseUrl + '/assets/img/common/hilogo.jpg'"
+                  width="344px"
+                  height="61px"
                   alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
                 />
               </nuxt-link>
@@ -41,77 +43,74 @@
       <nav id="js_gnav" class="gnav">
         <GoogleCustomSearch v-if="isMobileMenuOpen" />
         <ul class="menu">
-          
           <template v-for="(menuMapLv1, key) in menuList">
-              <!-- 言語があり、表示設定がある項目 -->
-              <li v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop" :key="key">
-                  <span class="atag" @click="clickLv1Menu(key)">{{
-                    $t(menuMapLv1.label)
-                  }}</span>
+            <!-- 言語があり、表示設定がある項目 -->
+            <li
+              v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop"
+              :key="key"
+            >
+              <span class="atag" @click="clickLv1Menu(key)">{{
+                $t(menuMapLv1.label)
+              }}</span>
 
-                  <i class="child-btn" @click="clickLv1Menu(key)"></i>
+              <i class="child-btn" @click="clickLv1Menu(key)"></i>
 
-                  <VueSlideToggle
-                    :duration="500"
-                    tag="ul"
-                    :open="isOpenLv1 && currentLv1Index === key"
-                    class="sub-menu"
+              <VueSlideToggle
+                :duration="500"
+                tag="ul"
+                :open="isOpenLv1 && currentLv1Index === key"
+                class="sub-menu"
+              >
+                <template v-for="(menuMapLv2, key2) in menuMapLv1.children">
+                  <li
+                    v-if="menuMapLv2.lang.includes(lang)"
+                    :key="key2"
+                    :class="
+                      isOpenLv2 && currentLv2Index === key2 ? 'child-open' : ''
+                    "
                   >
-                    <template v-for="(menuMapLv2, key2) in menuMapLv1.children">
-                      <li
-                        v-if="menuMapLv2.lang.includes(lang)"
-                        :key="key2"
-                        :class="
-                          isOpenLv2 && currentLv2Index === key2
-                            ? 'child-open'
-                            : ''
-                        "
-                      >
-                        <template v-if="menuMapLv2.href">
-                          <a :href="menuMapLv2.href[lang]">{{
-                            $t(menuMapLv2.label)
-                          }}</a>
-                        </template>
-                        <template v-else>
-                          <nuxt-link :to="localePath(menuMapLv2.to)">{{
-                            $t(menuMapLv2.label)
-                          }}</nuxt-link>
-                        </template>
-                        
-                        <!-- 子供を持つ場合にはプラスボタンを追加 -->
-                        <template v-if="menuMapLv2.children">
-                          <i class="child-btn" @click="clickLv2Menu(key2)"></i>
-                          <VueSlideToggle
-                            :duration="500"
-                            tag="ul"
-                            :open="isOpenLv2 && currentLv2Index === key2"
-                            class="sub-menu2"
-                          >
-                            <template
-                              v-for="(menuMapLv3, key3) in menuMapLv2.children"
-                            >
-                              <li
-                                v-if="menuMapLv3.lang.includes(lang)"
-                                :key="key3"
-                              >
-                                <template v-if="menuMapLv3.href">
-                                  <a :href="menuMapLv3.href[lang]">{{
-                                    $t(menuMapLv3.label)
-                                  }}</a>
-                                </template>
-                                <template v-else>
-                                  <nuxt-link :to="localePath(menuMapLv3.to)">{{
-                                    $t(menuMapLv3.label)
-                                  }}</nuxt-link>
-                                </template>
-                              </li>
-                            </template>
-                          </VueSlideToggle>
-                        </template>
-                      </li>
+                    <template v-if="menuMapLv2.href">
+                      <a :href="menuMapLv2.href[lang]">{{
+                        $t(menuMapLv2.label)
+                      }}</a>
                     </template>
-                  </VueSlideToggle>
-              </li>
+                    <template v-else>
+                      <nuxt-link :to="localePath(menuMapLv2.to)">{{
+                        $t(menuMapLv2.label)
+                      }}</nuxt-link>
+                    </template>
+
+                    <!-- 子供を持つ場合にはプラスボタンを追加 -->
+                    <template v-if="menuMapLv2.children">
+                      <i class="child-btn" @click="clickLv2Menu(key2)"></i>
+                      <VueSlideToggle
+                        :duration="500"
+                        tag="ul"
+                        :open="isOpenLv2 && currentLv2Index === key2"
+                        class="sub-menu2"
+                      >
+                        <template
+                          v-for="(menuMapLv3, key3) in menuMapLv2.children"
+                        >
+                          <li v-if="menuMapLv3.lang.includes(lang)" :key="key3">
+                            <template v-if="menuMapLv3.href">
+                              <a :href="menuMapLv3.href[lang]">{{
+                                $t(menuMapLv3.label)
+                              }}</a>
+                            </template>
+                            <template v-else>
+                              <nuxt-link :to="localePath(menuMapLv3.to)">{{
+                                $t(menuMapLv3.label)
+                              }}</nuxt-link>
+                            </template>
+                          </li>
+                        </template>
+                      </VueSlideToggle>
+                    </template>
+                  </li>
+                </template>
+              </VueSlideToggle>
+            </li>
           </template>
         </ul>
 
@@ -138,11 +137,11 @@
           </p>
           <p>
             <template v-if="lang == 'ja'">
-              東京大学史料編纂所 所長：本郷 恵子<br />
+              東京大学史料編纂所 所長：{{ director }}<br />
               所在地：〒113-0033 東京都文京区本郷７丁目３番１号
             </template>
             <template v-else>
-              Director : Hongo, Keiko<br />
+              Director : {{ director }}<br />
               Address: 3-1, Hongo 7-chome, Bunkyo-ku, Tokyo 113-0033, JAPAN
             </template>
           </p>
@@ -167,25 +166,30 @@
                 >
               </li>
               <li v-if="lang === 'ja'">
-                <nuxt-link :to="localePath({ name: 'about-slug', params: {slug: 'link'} })"
+                <nuxt-link
+                  :to="
+                    localePath({ name: 'about-slug', params: { slug: 'link' } })
+                  "
                   >■ {{ $t('リンク') }}</nuxt-link
                 >
               </li>
               <li>
-                <nuxt-link :to="localePath({ name: 'about-slug', params: {slug: 'access'} })"
+                <nuxt-link
+                  :to="
+                    localePath({
+                      name: 'about-slug',
+                      params: { slug: 'access' },
+                    })
+                  "
                   >■ {{ $t('アクセスマップ') }}</nuxt-link
                 >
               </li>
             </ul>
-            <ul>
-              
-            </ul>
+            <ul></ul>
           </nav>
-          <small
-            >
+          <small>
             © 1997 Historiographical Institute The University of Tokyo.
-            </small
-          >
+          </small>
         </aside>
       </div>
     </footer>
@@ -203,7 +207,7 @@ const { VueSlideToggle } = require('vue-slide-toggle')
   components: {
     VueSlideToggle,
     LangSelect,
-    GoogleCustomSearch
+    GoogleCustomSearch,
   },
 })
 export default class Layout extends Vue {
@@ -220,6 +224,11 @@ export default class Layout extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
 
   isPageTopBtnActive: boolean = false
+
+  get director(): string {
+    const env: any = process.env.director
+    return env[this.lang]
+  }
 
   @Watch('$route')
   onUrlChange() {

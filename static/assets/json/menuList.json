@@ -350,7 +350,7 @@
         "label": "データベース検索",
         "lang": ["ja", "en"],
         "href": {
-          "ja" : "http://wwwap.hi.u-tokyo.ac.jp/ships/",
+          "ja" : "https://wwwap.hi.u-tokyo.ac.jp/ships/",
           "en" : "https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller-e"
         }
       }
