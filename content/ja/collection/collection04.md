@@ -7,7 +7,7 @@ title: 	その他の貴重書
 <h2 class="h03"><strong>古文書</strong></h2>
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM01.html',
-'newwin','width=640,height=640')"><strong>入来院家文書</strong></a>（薩摩入来院氏伝来の平安～江戸期の文書、1 帖19 巻20 冊）&gt;<br>
+'newwin','width=640,height=640')"><strong>入来院家文書</strong></a>（薩摩入来院氏伝来の平安～江戸期の文書、1 帖19 巻20 冊）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM02.html',
 'newwin','width=640,height=640')"><strong>小笠原文書</strong></a>（越前勝山小笠原家に伝来の南北朝～戦国期の文書、4 帖）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM03.html',
