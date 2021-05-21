@@ -12,10 +12,10 @@
 
     <div class="page-link" :class="isTop ? 'c4' : ''">
       <ul>
-        <li v-if="isTop"><a @click="select = 'latest'">{{ $t('新着一覧') }}</a></li>
-        <li><a @click="select = 'news'">{{ $t('news') }}</a</li>
-        <li><a @click="select = 'event'">{{ $t('event') }}</a> </li>
-        <li><a @click="select = 'data'">{{ $t('data') }}</a> </li>
+        <li v-if="isTop"><a style="cursor: pointer;" @click="select = 'latest'">{{ $t('新着一覧') }}</a></li>
+        <li><a style="cursor: pointer;" @click="select = 'news'">{{ $t('news') }}</a</li>
+        <li><a style="cursor: pointer;" @click="select = 'event'">{{ $t('event') }}</a> </li>
+        <li><a style="cursor: pointer;" @click="select = 'data'">{{ $t('data') }}</a> </li>
       </ul>
     </div>
 
