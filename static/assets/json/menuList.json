@@ -97,14 +97,6 @@
               "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/library"
             },
             "lang": ["ja", "en"]
-          },
-          {
-            "label": "IR・広報室",
-            "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/ir",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/ir"
-            },
-            "lang": ["ja", "en"]
           }
         ]
       },

@@ -6,4 +6,4 @@ title: お問い合わせ
 
 Please leave a About related to the website or database in the area　below. Unfortunately, we cannot answer Abouts related to topics other　than the website or database.
 
-[Inquiry form](https://forms.gle/5j1MtdCSdEKZtBW1A)
+[Inquiry form](https://forms.office.com/r/Q8TsKXCeZQ)

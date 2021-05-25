@@ -82,9 +82,11 @@
                   $t('図書部')
                 }}</a>
               </li>
+              <!--
               <li>
                 <a :href="getHiPath('ir')">{{ $t('IR・広報室') }}</a>
               </li>
+              -->
               <li v-if="lang === 'ja' || lang === 'en'">
                 <nuxt-link :to="localePath({ name: 'faculty' })">{{
                   $t('教員一覧')
