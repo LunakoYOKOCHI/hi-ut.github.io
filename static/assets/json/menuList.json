@@ -28,56 +28,56 @@
           {
             "label": "古代史料部門",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/kodai",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/kodai"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/kodai",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/kodai"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "中世史料部門",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/chusei",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/chusei"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/chusei",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/chusei"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "近世史料部門",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/kinsei",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/kinsei"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/kinsei",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/kinsei"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "古文書古記録部門",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/komo",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/komo"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/komo",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/komo"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "特殊史料部門",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/tokushu",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/tokushu"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/tokushu",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/tokushu"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "画像史料解析センター",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/gazo",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/gazo"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/gazo",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/gazo"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "前近代日本史情報国際センター",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/cdps",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/cdps"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/cdps",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/cdps"
             },
             "lang": ["ja", "en"]
           },
@@ -85,16 +85,16 @@
           {
             "label": "技術部・史料保存技術室",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/gijyutu",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/gijyutu"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/gijyutu",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/gijyutu"
             },
             "lang": ["ja", "en"]
           },
           {
             "label": "図書部",
             "href": {
-              "ja" : "https://www.hi.u-tokyo.ac.jp/dev/library",
-              "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/library"
+              "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/library",
+              "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/library"
             },
             "lang": ["ja", "en"]
           }
@@ -283,51 +283,51 @@
   {
     "label": "史料の利用",
     "href": {
-      "ja" : "https://www.hi.u-tokyo.ac.jp/dev/library",
-      "en" : "https://www.hi.u-tokyo.ac.jp/dev/en/library"
+      "ja" : "http://clioweb1.hi.u-tokyo.ac.jp/library",
+      "en" : "http://clioweb1.hi.u-tokyo.ac.jp/en/library"
     },
     "lang": ["ja", "en"],
     "isDisplayTop" : true,
     "children": [
       { "label": "お知らせ", 
         "href": {
-          "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/",
-          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/"
+          "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/",
+          "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/"
         }, "lang": ["ja", "en"] },
       { "label": "図書室のサービス案内", 
           "href": {
-            "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/service",
-            "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/service"
+            "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/service",
+            "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/service"
           }, "lang": ["ja", "en"] },
       {
         "label": "図書室利用（閲覧手続き）",
         "href": {
-          "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/visit",
-          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/visit"
+          "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/visit",
+          "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/visit"
         },
         "lang": ["ja", "en"]
       },
       {
         "label": "図書室利用（複製・掲載・放映等）",
         "href": {
-          "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/use",
-          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/use"
+          "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/use",
+          "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/use"
         },
         "lang": ["ja", "en"]
       },
       {
         "label": "所蔵史料の検索",
         "href": {
-          "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/search",
-          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/search"
+          "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/search",
+          "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/search"
         },
         "lang": ["ja"]
       },
       {
         "label": "お問い合わせ・連絡先",
         "href": {
-          "ja": "https://www.hi.u-tokyo.ac.jp/dev/library/contact",
-          "en": "https://www.hi.u-tokyo.ac.jp/dev/en/library/contact"
+          "ja": "http://clioweb1.hi.u-tokyo.ac.jp/library/contact",
+          "en": "http://clioweb1.hi.u-tokyo.ac.jp/en/library/contact"
         },
         "lang": ["ja", "en"]
       }
