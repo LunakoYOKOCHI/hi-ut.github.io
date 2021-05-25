@@ -10,7 +10,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'hi'
     ? {
         router: {
-          base: '/dev/',
+          //base: '/dev/',
         },
       }
     : {}
