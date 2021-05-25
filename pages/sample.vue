@@ -316,19 +316,19 @@ class=&quot;ml3&quot;
         <p class="fc1">2カラム</p>
         <div class="flex col2">
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
         </div>
@@ -351,27 +351,27 @@ class=&quot;ml3&quot;
         <p class="fc1"><strong>3カラム</strong></p>
         <div class="flex col3">
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
         </div>
@@ -382,27 +382,27 @@ class=&quot;ml3&quot;
         <p class="fc1">spb1は1カラム、spb2は2カラム</p>
         <div class="flex col3 spb1">
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
         </div>
@@ -411,27 +411,27 @@ class=&quot;ml3&quot;
         <hr class="sample" />
         <div class="flex col3 spb2">
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_01.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/tosho/img_02.jpg" alt="キャプション" />
+            <img :src="baseUrl + '/assets/img/collaboration/collabo_satsuei.jpeg'" alt="キャプション" />
             <figcaption>キャプション</figcaption>
           </figure>
         </div>

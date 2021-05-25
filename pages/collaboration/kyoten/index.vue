@@ -57,7 +57,7 @@
                 <th width="20%">研究期間</th>
                 <th width="20%">所内共同研究者</th>
                 <th width="20%">所外共同研究員(所属)</th>
-                <th>所要経費(円)</th>
+                <th>所要経費</th>
               </tr>
               <tr v-for="(obj, j) in tokutei">
                 <td>【{{ mapping[obj.key] }}】</td>
@@ -82,8 +82,12 @@
                 </td>
 
                 <td>
-                  {{getMoney(obj)}}
+                  {{formatMoney2Man(getMoney(obj))}}
                 </td>
+              </tr>
+              <tr>
+                <td colspan="5" class="text-right">合計</td>
+                <td>{{sumTokutei}}</td>
               </tr>
             </tbody>
           </table>
@@ -125,8 +129,21 @@
               {{ Number(obj['研究経費']).toLocaleString() }}
             </td>
           </tr>
+          <tr>
+            <td colspan="4" class="text-right">合計</td>
+            <td>{{sumIppan}}</td>
+          </tr>
           </tbody>
         </table>
+
+        <h2 class="h03 mt3">これまでに実施された特定共同研究・一般共同研究の活動</h2>
+
+        <p>
+          これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、 <nuxt-link
+            :to="localePath({ name: 'collaboration-kyoten-kadai' })"
+            >こちら</nuxt-link
+          >をご覧ください。
+        </p>
       </template>
     </LayoutPublication>
 </template>
@@ -221,17 +238,41 @@ export default class about extends Vue {
     ]
   }
 
-  getMoney(obj: any){
-    let value = ""
+  formatMoney2Man(money: number): string{
+    return money / 10000 + "万円"
+  }
+
+  getMoney(obj: any): number {
+    let value = -1
     for(let key in obj.data[0]){
       if(key.includes("所要経費")){
         const spl = this.$utils.split(obj.data[0][key])
-        if(Number(spl[0]) === this.$data.year){
-          value = Number(spl[1]).toLocaleString()
+        const year = spl[0]
+        const money = spl[1]
+        if(Number(year) === this.$data.year){
+          value = Number(money)
         }
       }
     }
     return value
+  }
+
+  get sumTokutei(){
+    let sum = 0
+    for(const obj of this.tokutei){
+      const value = this.getMoney(obj)
+      sum += value
+    }
+    return this.formatMoney2Man(sum)
+  }
+
+  get sumIppan(){
+    let sum = 0
+    const data: any = this.$data
+    for(const obj of data){
+      sum += Number(obj['研究経費'])
+    }
+    return sum.toLocaleString()
   }
 }
 </script>

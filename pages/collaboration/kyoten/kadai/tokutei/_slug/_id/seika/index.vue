@@ -140,17 +140,20 @@ export default class about extends Vue {
 
         //研究の概要があれば
         latest = year
+
+
+        //money
+        const value2 = item["所要経費["+i+"]"]
+        const spl2 = this.$utils.split(value2)
+
+        if(spl2[0] !== ""){
+          const year2 = Number(spl2[0])
+          const text2 = spl2[1]
+          money[year2] = "（" + year2 + "年度）" + (Number(text2) / 10000) + "万円"
+        }
       }
 
-      //money
-      const value2 = item["所要経費["+i+"]"]
-      const spl2 = this.$utils.split(value2)
-
-      if(spl2[0] !== ""){
-        const year2 = Number(spl2[0])
-        const text2 = spl2[1]
-        money[year2] = "（" + year2 + "年度）" + Number(text2).toLocaleString() + "円"
-      }
+      
     }
 
     this.summary = map
