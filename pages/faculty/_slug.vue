@@ -77,7 +77,7 @@ export default class about extends Vue {
     const facultyList = facultyList_.default
 
     const gyosekiList_ = await import(`~/static/assets/json/faculty/gyosekiList.json`)
-    const gyosekiList= gyosekiList_.default
+    const gyosekiList: any = gyosekiList_.default
 
     const organizationMap: any = process.env.organizationMap
 
