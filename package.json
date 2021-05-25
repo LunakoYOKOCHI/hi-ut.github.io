@@ -11,7 +11,7 @@
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
     "generate:staging": "DEPLOY_ENV=GH_PAGES NODE_ENV=\"staging\" nuxt generate",
-    "generate:production": "DEPLOY_ENV=hi NODE_ENV=\"production\" nuxt generate"
+    "generate:production": "cp prod.nuxtignore .nuxtignore && DEPLOY_ENV=hi NODE_ENV=\"production\" nuxt generate && rm .nuxtignore"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
