@@ -68,26 +68,5 @@
         "tag": "news",
         "pin": "",
         "content": "図書部事務室等移転作業のため、5/20～5/27は図書室を閉室し各種サービスを一時停止いたします。<a target=\"_blank\" href=\"https://www.hi.u-tokyo.ac.jp/tosho/tosho.html\">詳細はこちら</a>をご参照ください。"
-    },
-    {
-        "date": "2021/05/20",
-        "featured": "New!",
-        "tag": "news",
-        "pin": "",
-        "content": "test"
-    },
-    {
-        "date": "2021/05/20",
-        "featured": "Update!",
-        "tag": "data",
-        "pin": "",
-        "content": "test2"
-    },
-    {
-        "date": "2021/05/21",
-        "featured": "【募集終了】",
-        "tag": "news",
-        "pin": "1",
-        "content": "公募のテスト"
     }
 ]
