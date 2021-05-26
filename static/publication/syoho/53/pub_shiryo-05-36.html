@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本史料 第五編之三十六 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本史料 第五編之三十六</h2>
+        
+        <div>
+        本冊には建長三年（一二五一年）八月一日から同年末まで、並びに「是歳」の史料を収めた。<br/>　このとき、天皇は後深草天皇であり、政治の実権は天皇の父である後嵯峨上皇が掌握していた。鎌倉には五代将軍の藤原頼嗣があり、北条時頼が執権を務めていた。<br/>　本冊の時期を記した古記録としては藤原（近衛）兼経の『岡屋関白記』がある、また幕府側の歴史書として『吾妻鏡』がある。これらを軸にしながら、当該時期の古文書や史料を編年体で配置した。<br/>　本冊の時期の歴史的背景について記すと、幕府では果断な対応によって前将軍の藤原頼経を京都へ送還し、北条一門の名越光時を失脚させ、雄族の三浦氏を滅ぼした北条時頼の指導力がますます高まった時期であった。またその時頼の後援を受けて朝廷の実権を掌握した後嵯峨上皇が評定衆の補佐を得て院政を展開し、一方で頼経の実父である藤原（九条）道家の勢力は力を失っていった。十一月十四日には道家の正室であり、頼経の母でもある藤原掄子が没し、十二月十六日には道家との関係が疑われる僧了行が捕縛される。また、その少し前の十二月七日には、足利泰氏が突如として出家し、下総国埴生荘を幕府によって没収されているが、これも了行事件との関係を考えるべき事件といえる。<br/>　（目次一五頁、本文三〇三頁、本体価格七、二〇〇円）<br/>担当者　本郷和人・堀川康史
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第53号 p.38</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　出版報告",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第53号", name: "publication-syoho-53" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

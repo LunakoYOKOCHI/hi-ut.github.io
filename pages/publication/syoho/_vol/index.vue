@@ -25,6 +25,10 @@
                   <a :href="item.url">{{ item.title }}</a>
                 </template>
                 <template v-else-if="item.id">
+                  <a :href="baseUrl + `/publication/syoho/${vol}/${item.id}.html`">
+                    {{ item.title }}
+                  </a>
+                  <!--
                   <nuxt-link
                     :to="
                       localePath({
@@ -37,6 +41,7 @@
                     "
                     >{{ item.title }}
                   </nuxt-link>
+                  -->
                 </template>
                 <template v-else>
                   {{ item.title }}
@@ -62,6 +67,8 @@ import LayoutPublication from '~/components/layout/Layout.vue'
   },
 })
 export default class about extends Vue {
+  baseUrl: any = process.env.BASE_URL
+  
   async asyncData({ app }: any) {
     const slug = app.context.params.vol
     const vol = Number(slug.replace('syoho', ''))

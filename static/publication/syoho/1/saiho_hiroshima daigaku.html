@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      広島大学出張報告 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">広島大学出張報告</h2>
+        
+        <div>
+        �@�L����w���������̖̍K�́A���a��\��N�㌎�A�O�����g���Ύ�������ɂ���čs�Ȃ��Ă��邪�A���̌�A���w���Œ��F�M�j�������������ꊇ���čw������A���̑啔���͖{���̖��̖K�����ł���̂ŁA�}�C�N���B�e�ɂ��̖K�ƁA�ԉ��̎B�e�N�W���s�Ȃ����B���Ԃ͏��a�l�\��N�ꌎ��\�l������\�����܂ł̌ܓ��ԂŁA���̊Ԃɍ��L�������B�e�����B<br/>�@       ���L����w���w��<br/>���F�M�j�����������i�O�ꔪ�Z�R�}�j�X�������E�z�O�咎�Е����E�ےÓV���������E���s�@�؉��@�����E�����@�Ɗy�����E���Ə��������E�o�ϕ����E���ƕ����E���㕶���E�m�������E���l�����E����b���@�����E����W�E���ꕶ���E���@�����E���@�L�^�G�}�E���������E�R�������E�@�@�����E�i�m�����E����������<br/>���̑��̕��w�����������i��Z�O�R�}�j�I�{��Ɛ����������E�_�쎛�Õ����E���r�����E���R�����E���앶���E���������E�V�앶���@�C�V�]�����E�O�㕶���E���̑�<br/>�@       ���L����w�����}���فi����j<br/>����ƕ����@�i�O��O�R�}�j<br/>�@���F�M�j�����������́A�{���ł͑吳�\��N��菺�a��\�O�N�ɘj���ĉe�ʂ���A�u���F�M�j�����������v�O���i�O�����_�j�Ƃ��ē��˂��Ă���B�܂����s��w���w�����j�������ɂ��e�ʖ{�u���F�M�j�����������v����A�e�ʖ{�u���@�L�^�v���������邪�A����̖̍K�ɂ���Ă��̂قƂ�ǑS�����B�e���ꂽ���ƂɂȂ�B�L����w�ɉ����镪�ނƐ����́A���F�Ƃōs�Ȃ�ꂽ���̂ɂ���Ă���B����ƕ����́A����{�Õ����Ƃ킯��\�l�Ɏ��߂Ċ��s���ꂽ���̂̌��{�ł���B<br/>�@�i�F�슮��E���؏���j
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第1号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第1号", name: "publication-syoho-1" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

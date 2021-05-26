@@ -15,7 +15,8 @@
             :to="
               localePath({
                 name: 'publication-syoho-vol',
-                params: { vol: 'syoho' + $utils.zfill(latestSyohoVol - i + 1, 4)},
+                //params: { vol: 'syoho' + $utils.zfill(latestSyohoVol - i + 1, 4)},
+                params: { vol: latestSyohoVol - i + 1},
               })
             "
           >

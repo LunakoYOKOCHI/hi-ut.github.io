@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      75.イギリス・イタリア所在日本関係史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">75.イギリス・イタリア所在日本関係史料の調査</h2>
+        
+        <div>
+        二〇〇九年九月二日・四日に、基盤研究(Ｂ)「近世日蘭関係史料の相関的研究」(二〇〇七年～二〇一〇年)により、以下の調査を行なった。<br/>一マンチェスター大学ジョン・レイランド図書館(イギリス)<br/>　Ｐ・Ｆ・コルニッキ（Kornicki）氏の同館所蔵日本コレクションの目録（The Japanese Collection in the Bibliotheca Lindesiana. Bulletin of the John Rylands University Library of Manchester vol.75 no. 2 1993.）に基づき、オランダ商館長イザーク・ティツィング旧蔵のオランダ語及び英語の文書・原稿、日本語書籍を中心に調査を行なった。同図書館には、他にも一九世紀に蒐集された様々な日本書籍・地図が所蔵されている。<br/>二ジェノヴァ市キオッソーネ東洋美術館(イタリア)<br/>同館は明治期のお雇外国人キオッソーネ（Chiossone）の日本での収集品約二万点を収蔵しており、その内容は、浮世絵・近世の肉筆画はじめ仏像・甲冑・考古遺物・工芸品など非常に多彩である。ドナテッラ・ファイッラ館長（Dr. Donatella Failla）より、同館の現状について説明を受け、また展示中の収蔵品について案内・解説をいただいた。スタッフの不足から、収集品の目録データベース化等は、現在中断している由であった。<br/><br/>（石川徹也・木村直樹・松井洋子）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第45号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第45号", name: "publication-syoho-45" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

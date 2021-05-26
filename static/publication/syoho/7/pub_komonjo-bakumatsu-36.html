@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書「幕末外国関係文書之三十六」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書「幕末外国関係文書之三十六」</h2>
+        
+        <div>
+        本巻は、万延元年二月廿一日より二月廿九日（一八六〇・三・一三−三・二一）に至る期間、及び二月是月の外国関係文書（和文一一五・欧文七文書）を編年順・国別に収めると共に、補遺として、安政六年六月より万延元年二月迄の英国公使館文書を収録した。<br/>この時点における彼我の外交関係は、不平等条約下における一種の制限的国交・貿易という、特異な状態にあった。本巻所収外交文書は、このような国交状態の各側面を如実に表現している点で、極めて有意義な史料といえる。このような特殊事情下にあっても、事態は徐々に西欧レベルの下の国交に指向して行くことを示し、同時に日本側の一方的に不利な事態を改善してゆく動きも見られる。<br/>函館在勤ロシア領事は江戸より帰函の際、海路を用いねばならなかった。右関係の本巻文書は、軍艦損傷のため同領事が、当時として極めて変則的措置であった陸路帰任の方法をとり、無事に函館に帰ったことを伝えている。また開港当初、日本側に莫大な損失を与えた貨幣貿易につき、日本と欧米との金銀比価の差を指摘し、壹分銀を洋銀価値決定の基礎としたことの不当をついたフォン・シーボルト（Jonkheer Ph. F.von Siebold）の書簡は極めて示唆的なものである。<br/>米国総領事ハリスは、横浜に於て条約締結の他国々民に居留地を貸与しているにも拘らず、米人に貸与せず、更に貸与後も、その地が不利であるとの抗議を発した。老中は両者の便宜を計ろうとの回答を与えたが、この書簡は、抗議を受けなければ現状維持を計ろうとする幕府の消極的態度を示したものと言える。<br/>この時期の重要な対外関係を示すものとして遣米使節問題がある。使節がこのころハワイに滞在している関係上、同地における彼我往復文書を多数収めているが、その中で、ハワイ外務大臣による条約締結の要請と、これに確答を拒む使節らの回答は重要である。又同外相は使節に書簡を送り、ハワイが宗教の自由を容認しているのに対し、日本における切支丹厳禁の事実を指摘しているが、これは在外幕臣に、信教の自由という普遍的概念を示唆したもの言えよう。<br/>この時期に続発した日本人による外国人殺傷事件に対し、本巻では、外国人による日本人殺傷事件関係文書を収めるが、此等文書は、彼我の同一事件に対する態度を比較する上で有用である。具体例として、横浜でロシア人によって人足一名が殺害されるが、犯人の所在が判然としているから、国法通り厳重に処罪を要求せよとの老中達書がある。この事件についての幕府の交渉方針は、犯人検挙・賠償支払に対する外国側の執拗な迄の抗議に比べて、形式的であるといえる。<br/>直接外交交渉以外の外国関係文書として、各種文書を収めるが、その中に、加藤弘蔵の蕃書調所教授方手伝任命文書を含む。又、多数の北蝦夷地関係文書を収録するが、これらの内容は、同地の廻浦、同地在勤役人・雇医師への褒賞、帰俗原住民に対する賜物、拠点における武備、同地直場所差配人への拝借金返納延期等に関するものである。<br/>担当者　小西四郎・多田実・稲垣敏子<br/>（和文目次一九頁、同本文二七七頁、補遺二一頁、欧文目次二頁、同本文一〇頁）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第7号 p.44*-45</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第7号", name: "publication-syoho-7" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

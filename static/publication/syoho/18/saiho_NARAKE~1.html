@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      奈良県立図書館・東大寺図書館所蔵史料調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">奈良県立図書館・東大寺図書館所蔵史料調査</h2>
+        
+        <div>
+        昭和五十八年二月二十一日より二十六日迄、昨年度よりの継続事業として、奈良県立図書館郷土資料室架蔵史料及び東大寺図書館所蔵巻子本聖教の調査・撮影を実施した。県立図書館所蔵史料は昨年度残した分の調査を完結させるとともに、同館に寄託された興福寺官符衆徒井坊家史料の予備調査を行った。調査目録は以下に掲げる。なお東大寺図書館所蔵巻子本部については、（１０４／１２６／１）より（１０４／２１２／１）の全二十六巻について調査・撮影を行ったが、作業が中途であるため、目録は次年度以降に報告することとしたい。<br/>　　　　奈良県立図書館（郷土資料室）所蔵史料目録
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第18号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第18号", name: "publication-syoho-18" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書 家わけ第十七 大徳寺文書別集 真珠庵文書之二 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書 家わけ第十七 大徳寺文書別集 真珠庵文書之二</h2>
+        
+        <div>
+        本冊には、真珠庵文書の甲箱の残りおよび乙箱の文書一点を収載した。<br/>甲箱の文書は、前冊に引き続いて、真珠庵の仏事、法会、衆会、回忌などの宗教行事に関係する文書が多い。天文年間以降の酬恩庵慈楊塔衆評事書引付、延徳三年七月の真珠庵造営開会の関係文書、天正八年の一休の百回忌関係文書、さらに慶長より元和にいたる金銀納下帳（この文書は、近世初期の金銀貨幣の研究に有益）などは、この時期の一休派の足跡を示すものとして貴重である。特に、これらの文書によって、従来、ほとんど「龍宝山大徳寺世譜」によって考察されていた、この時期の真珠庵の歴代住持の道号・法諱の幾つかが推定可能となり、その花押なども確定されたことの意味は大きい。<br/>乙箱の文書は、享禄から天文にかけての真珠庵領諸所田畠年貢納帳、一点である。帳面の内容について一々の説明はしないが、しばしば細字の長文の書き込みがあり、特に賀茂地域の土地関係の史料として、また竈米・収納米、升の異同など収納関係の史料としても興味深いものである。<br/>（例言三頁、目次七頁、本文四一四頁、花押一覧四頁、印章一覧一頁）<br/>担当者　保立道久
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第27号 p.71*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第27号", name: "publication-syoho-27" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

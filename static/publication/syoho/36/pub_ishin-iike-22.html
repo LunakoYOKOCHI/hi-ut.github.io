@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本維新史料　類纂之部　井伊家史料 二十ニ - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本維新史料　類纂之部　井伊家史料 二十ニ</h2>
+        
+        <div>
+        本冊には、安政六年十月〜十一月の内容を収録した。<br/>　この時期は、前高知藩主山内豊信、大番頭土岐頼旨や幕府役職者などが謹慎などを命じられ、十月七日には安政大獄の第二次断罪、同二十七日第三次断罪といった、大量の処罰が断行された。これらの罪名がどのように確定されたかを窺わせる史料が散見される（二号（大老井伊直弼宛老中松平乗全書状）、八号（評定所科付書上）、九号（科当り書付）、十二号（前高知藩主山内豊信科書案））。<br/>　また水戸へ下された勅諚を返還させるため、江戸の大老・老中側と京都の関白九条尚忠・所司代酒井忠義側が連携を組みながら、朝廷に返還を命じる勅書を発給させるべく、働きかけを行なっている。<br/>　以上の政治的動きのさなか、江戸城が炎上するという突発的大事が発生した。大老と協力して京都への水戸宛勅諚返還を画策していた関白九条尚忠らは、この炎上によって江戸の情勢がどのように変わったか、しきりに情報を得ようと務めている。それに対して、直弼を支え京都側と交渉をもっていた彦根藩士長野義言が、幕府や大老の威光を損なわないかたちで京都へどのように情報を伝達するか腐心する様子が、その書状案から窺われる。<br/>　江戸城炎上という緊急事態はまた、大老とはどのような立場で幕府に関わる役職といえるのかという、興味深い問題をあぶりだすことにもつながる（四〇号）。<br/>　探索関係史料では、前巻にひきつづき水戸の情勢をさぐらせているほか、横浜における「異人殺害」容疑者についての報告、柳間留守居組合の情報、京都和糸相場についての情報などが、提出されている。<br/>　幕政関係史料には、京都上せ糸減少の問題（九〇号）、大判分銅座を務めた後藤光則願書（九一号）、秋田藩蝦夷地分与地交換願書（九二号）などを収録した。<br/>（目次一七頁、本文三三八頁、口絵図版一葉）<br/>担当者　宮地正人・杉本史子・箱石大
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第36号 p.31*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　刊行物紹介",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第36号", name: "publication-syoho-36" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

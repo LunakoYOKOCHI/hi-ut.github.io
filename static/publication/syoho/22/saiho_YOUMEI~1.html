@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      陽明文庫所蔵新写本古記録等の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">陽明文庫所蔵新写本古記録等の調査</h2>
+        
+        <div>
+        昭和六十二年二月二十七日より三月二日迄の四日間京都市財団法人陽明文庫に赴き同文庫所蔵の新写本古記録等の調査を行った。<br/>　江戸時代の近衛家歴代当主が自ら書写したり、家司等をして書写せしめた記録のうち、歴代関白記に関するものは、すでに大日本古記録編纂過程で調査されている。（本所蔵「陽明文庫貴重書目録」参照）<br/>　本年からは、同様の記録のうち、歴代関白記以外の調査にあたることとし、まず、陽明文庫所蔵の、京都大学附属図書館作成「近衛家寄託図書分類目録」に沿って調査を開始した（未完）。また「近衛家文書目録」中に列挙されている文書のうち、前掲「陽明文庫貴重書目録」下冊の第六部　貴重文書目録に収められていない断簡、例えば五一八一六号の大記（応徳二年秋冬）、五一八二一号の岡屋殿御記（嘉禄元年）、五一八二二号の実躬卿記写（嘉元四年三月）等の調査をも行なった。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（益田宗・菅原昭英）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第22号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第22号", name: "publication-syoho-22" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

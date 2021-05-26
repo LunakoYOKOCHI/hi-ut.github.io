@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      10.長野県立長野図書館所蔵飯島文庫の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">10.長野県立長野図書館所蔵飯島文庫の調査</h2>
+        
+        <div>
+        二〇一二年二月三日と四日の両日、長野県立長野図書館所蔵飯島文庫を調<br/>査し、元和期から寛永期の史料を中心として同館蔵マイクロフィルムからの<br/>リーダープリンタによる紙焼きコピーを行い、それを購入した。<br/>購入した紙焼コピーは以下の通りである。<br/>１．君山合偏　内　七・十二・二十一・二十二・二十三・二十四・二十五・<br/>二十六・二十九・四十一・四十二　　〔二一〇―九〕<br/>２．寛保元酉年改　　寺社等所持古キ書附写　一冊　〔二一〇―一六〕<br/>３．享和三年　御家中屋敷圓図面大扣　一冊　〔二八〇―三五〕<br/>４．松代藩略系図　一冊　〔二八八―一〕<br/>５．松代家中系譜　上下　二冊　〔二八八―二〕　<br/>６．真田家　御系図聞書　一冊　〔二八八―三〕<br/>７．當御家中諸士略系図　一冊　〔二八八―四〕<br/>８．松代藩廃古諸家略系　一冊　〔二八八―一三〕<br/>※〔〕内は、同館飯島文庫目録の分類番号。<br/>この間、県立長野図書館御担当の方には、出納等において、種々お世話に<br/>なりました。記して謝意を申し上げます。<br/><br/>（佐藤孝之・小宮木代良・及川　亘）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第47号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第47号", name: "publication-syoho-47" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

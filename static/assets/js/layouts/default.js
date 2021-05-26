@@ -141,7 +141,7 @@ Vue.component("Layout", {
 
       path = path.replace("index", "")
       .replace("slug", "")
-      .replace("-", "/")
+      .split("-").join("/")
 
       let url =
         this.baseUrl + "/" + (this.lang === "en" ? "en/" : "") + path;
@@ -189,6 +189,7 @@ Vue.component("Layout", {
           <h1>
             <a :href="localePath({ name: 'index' })">
               <img
+                style="height: 61px;"
                 :src="dataUrl + '/assets/img/common/hilogo.jpg'"
                 alt="東京大学史料編纂所 Historiographical Institute The University of Tokyo"
               />

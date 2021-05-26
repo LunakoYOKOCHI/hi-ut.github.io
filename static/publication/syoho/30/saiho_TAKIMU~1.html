@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      瀧村小太郎（鶴雄）関係文書調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">瀧村小太郎（鶴雄）関係文書調査</h2>
+        
+        <div>
+        一九九五年三月一三日・一四日の両日、大阪府堺市大仙町の大阪女子大学付属図書館を訪問し、同館所蔵の瀧村小太郎関係文書（瀧村文庫）の調査をおこなった。瀧村小太郎は一八三九（天保一〇）年に生まれ、五五（安政二）年幕府勘定方の役人となり、六一（文久元）年以降は表祐筆・奥祐筆を歴任、六八（明治元）年の静岡藩成立にともなって駿府に移住、六九年六月に徳川家達の家扶となって、それ以降徳川家の家政に深く関与し、一八九八（明治三一）年には、二六冊の「海舟伝稿」を執筆、一九一二（明治四五）に死去した旧幕臣である。子孫が大阪女子大学の前身校設立に関係していたため、同人の関係文書がここにおさめられることとなった。<br/>　調査の目的は、同文庫内に幕末維新期の幕府・静岡藩関係史料が存在しているかどうかの確認作業であった。というのは、明治期の史料編纂掛は同人から「安政日記」、「廻章留」、「安政年間諸向触留」等を借り入れており、それより以前の外交文書集「外交紀事本末」編纂時においては、「不如学斎日抄」、「不如学斎叢書」等大部のものを借用していたからである。<br/>　同図書館では瀧村文庫のほとんどを、台帳に目録化しており、その全体を駆け足ながら閲覧することが出来た。この中で、右の「不如学斎叢書」が明治一五年に刊行された大部の叢書であるが、幕末維新期にまったく関係のないものであること、現存する「瀧村文庫」のほとんどが刊本で占められ、幕末維新期の日記・記録・書簡等は、純私的な覚類をのぞいて、皆無に近いことなどが判明した。また「海舟伝稿」を作成する際につくられたと考えられる書き抜き類やメモのたぐいもまったく発見することはできなかった。但し、「海舟伝橋」の草稿はすべて存在しており、本所が一九七〇年頃、木下梅子氏より借用して撮影・焼き付けした伝稿写本の内、欠落していた明治元年一・二月分の複写を、同館の許可を得て行うことができのは大きな収穫であった。<br/>　しかしながら、目録化されていない未整備理文庫の中には、音楽研究に関する二寸にもたっする厚さの草稿をはじめ、小太郎の父のものだと思われる勘定奉行所社寺修復関係文書などがふくまれており、明治期の音楽史研究や幕府の勘定奉行所研究にかんしては、有益な史料だと思われる。尚、今回の調査に当たっては、同図書館司書の塚本博氏には多大な御配慮をいただいた。改めて謝意を表する。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（宮知正人）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第30号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第30号", name: "publication-syoho-30" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

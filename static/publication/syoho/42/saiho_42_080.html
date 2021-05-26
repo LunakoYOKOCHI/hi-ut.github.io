@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      ロシア連邦サンクトペテルブルグ市所在日本関係史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">ロシア連邦サンクトペテルブルグ市所在日本関係史料の調査</h2>
+        
+        <div>
+        二〇〇六年六月六日から十一日、ロシア連邦サンクトペテルブルグ市を訪<br/>問し、ロシア国立海軍文書館・同歴史文書館・同東洋学研究所等の史料調査<br/>をおこなった。この際、サンクトペテルブルグ大学東洋学部ワジム・クリモ<br/>フ教授に調査協力をあおいだ。<br/>　今回の出張ではとくに、ロシア国立海軍文書館ウラジミール・ソボレフ館<br/>長、同歴史文書館アレクサンドル・ソコロフ館長・科学アカデミー東洋学研<br/>究所イリナ・ポポワ所長と面会し、目録刊行予定および今後の共同プロジェ<br/>クトの進め方について協議した。このほか、あらかじめ作成を依頼した目録<br/>および複製史料を受理・収集した。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（保谷徹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

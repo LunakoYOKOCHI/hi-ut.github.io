@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      妙法院門跡所蔵聖教・文書調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">妙法院門跡所蔵聖教・文書調査</h2>
+        
+        <div>
+        昭和五十四年八月十九日より同二十五日までの七日間、京都市東山区東大路妙法院門前町妙法院門跡に、同門跡所蔵の史料の調査を行ない、以下の史料を撮影した。なお、詳細については、本所架蔵の『妙法院所蔵重書目録』（四一〇〇／六五／一—一〇）を参看せられたい。<br/>第四十五ノ箱<br/>　第一括　一—四<br/>　　（四は目録に一冊とあるが、二冊）<br/>　　番外（九月二十一日執行代書状）<br/>　第二括　一—三、六—一四<br/>　第三括　一—六、一二<br/>　　（一は目録に一巻とあるが、二巻、六は他に写一通あり）<br/>　　番外（右少弁御房宛六月二十日付書状案）<br/>　第四括　一—六<br/>　　（六は目録に二通とあるが、一通）<br/>　第五括　一、二、四　第六括　一、二、四イ・ハ・ニ　第十一括　一九<br/>　第十四括　一、二　第十七括　一、三、六<br/>　第十八括　一、二、四—六、八—一〇<br/>　（二は目録に実状探題〓状とあるが、実助探題〓状）<br/>　第十九括　一、四ハ、五　第二十括　二　第二十一括　一—四、一六<br/>　第二十二括　一—三、八<br/>　　番外（慶長十年十二月五日付今小路殿宛別当代他二名連署書状案、他七通）<br/>　第二十四括　三<br/>　第二十五括　一イ・ハ・番外（雑文書案一紙）、二、三<br/>　　番外（極月十七日今小路宛立入宗久書状）<br/>　第二十七括　四<br/>　第二十九括　一（十点のうち三点）<br/>　第三十括　一、二、四<br/>　第三十六括　六、九—一一<br/>　（九は目録に一通とあるが、他に写一通あり）<br/>第三十一ノ箱<br/>　第二括　一（イ——タ）<br/>第三十九ノ箱<br/>　第四十二括　一ニ<br/>　（以上二箱の分は、前回以前の調査で不明であったが、三崎義泉師の提示により撮影したもの）<br/>第四十七ノ箱<br/>　第二括　一—九　第三括　一　第五括　一　第六括　一、二、六—八<br/>　第七括　一、二、四　第八括　一、二、四、五　第十括　一—四　第十七括　一　第十九括　一<br/>第四十八ノ箱<br/>　第一括　一—五　第二括　一　第三括　一、二　第四括　一　第五括　一、二　第六括　一—一二　第七括　一—五　第八括　一、二　第九括　一——三　第十括　一、二　第十一括　一　第十二括　一　第十三括　一—三　第十四括　一　第十五括　一　第十六括　一　第十七括　一　第十八括　一　第十九括　一　第二十括　一—三　第二十一括　一　第二十二括　一　第二十三括　一　第二十四括　一—一〇　第二十五括　一—一三　第二十六括　一—九　第二十七括　一　第二十八括　一　第二十九括　一　第三十括　一—六　第三十一括　一　第三十二括　一、二　第三十三括　一　第三十四括　一　第三十五括　一　第三十六括　一　第三十七括　一　第五十八ノ箱　一—一八<br/>　　　　　　　　　　　　　　　　　　　　　　　　（林幹彌・今泉淑夫・加藤友康）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第15号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第15号", name: "publication-syoho-15" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書 家わけ第十 東寺文書之九 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書 家わけ第十 東寺文書之九</h2>
+        
+        <div>
+        本冊に収めたのは、京都府立総合資料館所蔵の「東寺百合文書」わ函の大永元年より天文四年までの文書で、本所架蔵の影写本にはない文書が半数を占めている。またその内容は、造営方算用状をはじめ、造営料所であった大巷所・女御田の算用状と未進徴符が中心で、その他に、女御田関係の内検帳・未進年貢請文・河成注進状などの年貢所務関係文書が若干ある。<br/>　中で特に興味をひかれるのは第一〇〇号の女御田算用状で、文書の奥に、三好長慶の居城であった摂津芥河城において、東寺寺僧と公文所とが寄り合い、長慶上使の狩野宣政（傍注の宜政は誤植）と藤岡直綱の立ち会いのもとに、享禄四年から天文六年に至る間の女御田年貢を算用し直した旨がみえる。これは寺家と公文所との間で争われた借銭相論に関係する記事であり、おそらく永禄元年四月のことであろうと推測される。長大な算用状の片隅に、三好の裁定の一過程をかいま見ることができるめずらしい史料である。東寺文書中の関連史料とあわせることによって裁定の全容がみえてこよう。重ねて、この相論は、寺僧や公文所などの私の経営と寺家財政という公の経営とをかかわらせながらこの時期の寺家経済をみていく上で、ひとつの有効な素材となるであろう。<br/>（例言三頁、目次五頁、本文四三三頁、花押一覧九丁、花押掲載頁一覧表一頁）<br/>担当者　高橋敏子
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第26号 p.96*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第26号", name: "publication-syoho-26" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

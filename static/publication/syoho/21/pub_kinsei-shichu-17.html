@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本近世史料「市中取締類集」十七 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本近世史料「市中取締類集」十七</h2>
+        
+        <div>
+        本冊には、旧幕府引継書類の一部である市中取締類集のうち、（一）身分取扱之部一冊（一・二）、（二）祭礼開帳之部一冊（一・二・三・四）、（三）祭礼身分取扱之部一冊（一・二.三・四）を収めた。なお、（一）には寺社家作窓見隠板之部が合綴されているが、頁数の関係で前冊に収めた。（三）は追加市中取締類集であり、祭礼之部と身分取扱之部が合綴されているが、ともに（一）と（二）の追加であることから、（三）を分けておのおの（一）と（二）のあとに収めた。<br/>　（一）は、第一件「武�西〓領寺島村百姓二而植木屋平蔵御作事方大棟梁並申渡候旨御作事奉行より達」から第一〇件「小普請奉行より深川大和町家持惣七身分之儀ニ付掛合調」、追加として、第一一件「三拾間堀三町目新蔵地借楢崎庄右衛門御作事方支配受度旨願ニ付差支有無調」から第二〇件「御作事奉行より懸合町翠簾屋市左衛門外壱人御作事方支配相願候儀ニ付調」、（二）は、第一件「開帳迎ニ出候儀并造物大造致間敷旨町触新規湯屋相始候儀ニ付申渡等調」から第二〇件「神田明神其外祭礼ニ付出シ人形等誂候者有之懸名主伺出候調」、追加として、第二一件「氷川明神祭礼出物之儀ニ付樽藤左衛門伺調」から第三〇件「氷川明神祭礼ニ付神輿道筋人留之儀ニ付調」である。<br/>　（一）は、幕府の御用を承る商人・職人の身分の取扱に関する一件史料であり、そのような商人・職人の身分上昇を願う願書、それをうけた支配の役所と町奉行所とのその扱いをめぐるやりとりが中心となっている。ここでは、作事奉行支配の本途請負人・御畳大工・町翠簾屋、細工頭支配の琴師・楽器師・小買物べっ甲御用、その外小普請奉行・勘定奉行・鳥見頭・漆奉行支配下の一件が収められている。町奉行所とのやりとりの中で、町方身分を離れる場合、町方身分のままで御用を承る場合の条件とその場合の支配、身分の取扱いの原則が明らかとなる。御用を承る商人・職人の身分上昇願望と、その具体的な処理の原則を知りうる興味深い史料である。<br/>　（二）は、出開帳・祭礼の取締りの一件史料である。ここでは、成田山新勝寺の出開帳、山王祭、神田祭、大伝馬町・小船町天王祭礼、牛御前祭礼、牛天神湯花神楽、上槇町・桧物町・芝金杉浜町鎮守稲荷祭礼、浅草玉姫稲荷祭礼に関する史料が収められている。大規模に、かつ華美になりつつある開帳・諸社の祭礼を、いかに取締るかが主題であり、山王・神田両祭礼については、寛政期以降の取締りの内容を具体的に知ることのできる史料である。なお、本文中の絵図は、前冊と同様に便宜巻末に収めた。<br/>（例言一頁、目次二二頁、本文三四五頁、巻末図版一頁）<br/>担当者　加藤秀幸・藤田覺・佐藤孝之
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第21号 p.40*-41</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第21号", name: "publication-syoho-21" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      東大寺図書館所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">東大寺図書館所蔵史料の調査・撮影</h2>
+        
+        <div>
+        一九九三年三月二一日から二六日まで、奈良市東大寺図書館に出張し、同館所蔵の史料のうち、前年度に引き続き、記録部一四一架の一九六から三九〇までを、調査・撮影した。江戸時代の修理納下勘定帳、二月堂納下帳、八幡宮護摩納下帳、本僧坊供納下帳を中心とし、他に、戦国期の、種々の納下帳を含む。また、前回、補修を必要とするため撮影を見送った、一四一架の五点についても、撮影を行った。調査目録は、次年度以降に掲載したい。また、前回までに調査・撮影をほぼ終えた、一一三架後半については、一部に未了のものがあるため、これらの目録も次年度以降を期したい。<br/>　また、東大寺当局の御高配を得て、大日本古文書東大寺文書編纂のため、前年度に引き続き、東大寺成巻文書（百巻文書）第五一巻以降をマイクロフィルムで撮影し、撮影を終えた。このほか、大日本史料第六編編纂のための史料若干も調査・撮影した。<br/>　　　　　　　　　　　　　（千々和到・高橋敏子・針生邦男・中藤靖之・山家浩樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第28号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第28号", name: "publication-syoho-28" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

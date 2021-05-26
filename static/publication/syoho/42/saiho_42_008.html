@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      『民経記』の原本校正 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">『民経記』の原本校正</h2>
+        
+        <div>
+        二〇〇六年七月一〇・一三・一九日、一二月一八・一九日、二〇〇七年一<br/>月一七・一八日、二月二〇日、佐倉市国立歴史民俗博物館に出張し、大日本<br/>古記録『民経記』十の編纂のため、同館所蔵の広橋家旧蔵『民経記』を調査<br/>し、原稿の原本校正を行った。また、同じく大日本古記録『愚昧記』の編纂<br/>に備え、同館所蔵の『愚昧記』原本を調査した。なお、これらの調査に際し<br/>ては、宮﨑肇氏・遠藤珠紀氏の協力を得たことを特記し、深く感謝する。調<br/>査した史料の架番号及び書名・点数は、本誌四〇号五九頁掲載の四一点と、<br/>以下のものである。<br/>【広橋家旧蔵本】<br/>〇Ｈ六三／一六四　　　　改元部類記平戸記・範輔卿記・中光記　　一巻<br/>〇Ｈ六三／二〇二　　　　経光卿改元定記　　　　　　　　　　　　一帖<br/>〇Ｈ六三／三二〇　　　　経光卿四方拝参仕記寛喜二年　　　　　　一巻<br/>〇Ｈ六三／四四一　　　　摂関補任次第別本　　　　　　　　　　　一帖<br/>〇Ｈ六三／九四五　　　　守光公雑記断片　　　　　　　　　　　　一巻<br/>〇Ｈ九七　　　　　　　　愚昧記承安二年春　　　　　　　　　　　一巻<br/>【高松宮家旧蔵本】<br/>〇Ｈ六〇〇／一七〇　　　節会部類記愚昧記　　　　　　　　　　　一冊<br/>〇Ｈ六〇〇／一〇五一　　愚昧記　　　　　　　　　　　　　　　二五冊<br/><br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（尾上陽介）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

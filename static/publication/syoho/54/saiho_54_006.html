@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      6.太陽コレクション所蔵文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">6.太陽コレクション所蔵文書の調査・撮影</h2>
+        
+        <div>
+        二〇一九年三月一日、一般財団法人太陽コレクション（東京都町田市中町二―二―三）に出張し、所蔵史料の調査およびデジタルカメラによる撮影を行った。撮影したのは左記の史料である。撮影順に番号を付した。当日便宜をはかって下さった太陽コレクション山中泰久氏・小山幸苗氏・登坂菜穂氏に御礼申し上げます。<br/>　１　浅井長政像 一幅<br/>　２　某書状（二九日・某宛） 一幅<br/>　３　武田晴信朱印状（天正二四年七月一九日・秋山式部右衛門尉宛） 一幅<br/>　４　小西行長書状（宗及宛） 一幅<br/>　５　武野紹鷗和歌短冊 一幅<br/>　６　武野紹鷗和歌懐紙 一幅<br/>　７　某書状（一二月二八日・丸田宛） 一幅<br/>　８　仙石秀久書状（慶長八年一二月五日・瀬戸甚介宛） 一幅<br/>　９　筒井順慶書状（一一月三〇日・南院宛） 一紙<br/>　10　明智光秀和歌短冊 一枚<br/>　11　龍造寺隆信書状（八月一三日・龍造寺長信宛） 一幅<br/>　12　徳川長丸名号書 一幅<br/>　13　天海書状（九月一七日・山岡如軒宛） 一幅<br/>　14　柳生宗厳書状（一二月二四日・下間少進宛） 一幅<br/>　15　織田有楽書状（七月一一日・京極丹波守宛） 一幅<br/>　16　織田信長黒印状（四月一五日・市橋九郎右衛門尉宛）<br/>　17　織田信長朱印状（天正二年一二月九日・神野源六郎等宛）<br/>　18　織田信長黒印状（四月一五日・吉村源介等宛） 以上三通一巻<br/>　19　今川氏真判物（永禄一三年正月一〇日・渡辺三左衛門宛） 一紙<br/>　20　長久手合戦絵巻 一巻<br/>（金子拓・畑山周平・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第54号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第54号", name: "publication-syoho-54" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

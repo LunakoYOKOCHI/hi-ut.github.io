@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      34.真珠庵所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">34.真珠庵所蔵史料の調査・撮影</h2>
+        
+        <div>
+        二〇一〇年二月月七日より二月一〇日、京都市北区紫野大徳寺の真珠庵に出張し、前年度に引き続き、通仙蔵の調査と撮影を行った。今回は、通仙蔵に収納されている墨跡・絵画などの軸物の撮影を中心に行い、かつ真珠庵文書次冊編纂のための原本調査、および次冊編纂のために必要な文書借用の事前調査を行った。なお、この出張は、基盤研究(Ｂ)「和紙の物理的分別手法　の確立と歴史学的データベース化の研究」（代表保立）とのジョイントで行われ、同科研研究プロジェクトの支援員杉山巌氏の参加をえた。<br/><br/>（保立道久・金子　拓・谷　昭佳・高山さやか）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第45号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第45号", name: "publication-syoho-45" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

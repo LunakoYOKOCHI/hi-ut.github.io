@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書　醍醐寺文書十 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書　醍醐寺文書十</h2>
+        
+        <div>
+        醍醐寺文書は、前冊にて別集満済准后日記紙背文書が終了したのをうけて、本冊より本編に戻る。本冊には、京都市伏見区の醍醐寺所蔵の醍醐寺文書のうち、第一四函一〇三−四号から第一五函五五号までを概ね整理番号の順に収めた。第一五函は未了であり、五六号以下は次冊に収載の予定である。<br/>内容としては、まず第一に、醍醐寺寺辺田に関する何種類かの算用状が見られる事が注目される。主なものを種類別に書き上げてみると、次のようである。<br/>ア　光明真言田等算用状　二一六七、二一六八、二二四九、二二五〇、二二五一号<br/>イ　卅講米并御影供田算用状　二二四六、二二四七、二二四八号<br/>ウ　釈迦院如法経田算用状　二二〇二、二二一〇、二二一五号<br/>アとイについては、『大日本古文書醍醐寺文書之九』にも同種類の算用状が何通か見られ、相互に比較検討する事が可能である。<br/>第二に、指図が何点か含まれており、すべて写真図版とそのトレース図版を掲載した（図版作成に際しては史料保存技術室の協力を得た）。以下、当該史料を列記する。<br/>二二四三号　中谷墓所指図<br/>二二八三号　戒光院山指図<br/>二二八五号　千帖敷山并附地絵図<br/>二二九八号　浄嘉薮近付指図<br/>二二九九号　神供尾并北尾堺指図<br/>二三〇〇号　神供尾并北尾堺指図写<br/>第三に、個別に注目すべき文書としては、中世後期の当山派修験の動向を示す二二四一号上醍醐御影堂造営文書案、三宝院の伝領をめぐる鎌倉前期の貴重な史料である二三〇一号三宝院伝領文書案（『鎌倉遺文』未収）、徳川家康側近の後藤庄三郎光次の書状である二三六三号、などがあげられよう。<br/>（例言三頁、目次一八頁、本文三〇九頁、花押・印章一覧五丁）<br/>担当者　高橋慎一朗
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第30号 p.18*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　刊行物紹介",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第30号", name: "publication-syoho-30" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

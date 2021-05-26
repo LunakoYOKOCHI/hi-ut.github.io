@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      神戸大学所蔵「広峯神社古文書」の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">神戸大学所蔵「広峯神社古文書」の調査</h2>
+        
+        <div>
+        一九八七年九月十五日、神戸市灘区鶴甲一—二一の神戸大学付属図書館教養部分館に出張し、同館所蔵の「広峯神社古文書」を調査・撮影した。本調査に際しては、同大学文学部の戸田芳実教授はじめ研究室の方々の御高配を賜った。記して謝意を表したい。文書の現状は巻子一巻に成巻されている。なお本文書は、『姫路市史』史料編１（姫路市役所、一九七四年）に広峯神社関係の他の諸家文書とともに編年で翻刻されているほか、『兵庫県史』史料編中世２（兵庫県、一九八七年）六五八—六六四頁および『神戸大学史学年報』第二号（神戸大学史学研究会、一九八七年）九二—九九頁に翻刻・掲載されている。ただし、いずれも編年順に配列しなおしている。ここでは現状の順に目録を掲げ、あわせて文書の法量を縦×横の数値（単位糎）で示すことにする。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第22号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第22号", name: "publication-syoho-22" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

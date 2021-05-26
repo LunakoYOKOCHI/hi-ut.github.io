@@ -26,7 +26,7 @@
             </tr>
             <tr>
               <th>{{ $t('職位・学位') }}</th>
-              <td>{{ $t(gyoseki["【職位】"][0]) }}<template v-if="lang === 'ja'">／{{ gyoseki["【学位】"][0] }}</template></td>
+              <td>{{ $t(gyoseki["【職位】"][0]) }}<template v-if="lang === 'ja' && gyoseki['【学位】']">／{{ gyoseki["【学位】"][0] }}</template></td>
             </tr>
             <tr v-if="lang === 'ja' && gyoseki['【研究テーマ】'].length > 0">
               <th>{{ $t('研究テーマ') }}</th>
