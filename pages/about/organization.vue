@@ -39,7 +39,7 @@
           <td>{{ $t('特任助教') }}</td>
           <td>{{ numbers.特任助教.all }} ({{ numbers.特任助教.women }})</td>
         </tr>
-        <tr>
+        <tr v-if="numbers['特任研究員']">
           <td>{{ $t('特任研究員') }}</td>
           <td>{{ numbers.特任研究員.all }} ({{ numbers.特任研究員.women }})</td>
         </tr>
@@ -145,13 +145,13 @@ export default class about extends Vue {
       numbers.准教授.all +
       numbers.助教.all +
       numbers.特任助教.all +
-      numbers.特任研究員.all
+      (numbers.特任研究員 ? numbers.特任研究員.all : 0)
     const sum1Women =
       numbers.教授.women +
       numbers.准教授.women +
       numbers.助教.women +
       numbers.特任助教.women +
-      numbers.特任研究員.women
+      (numbers.特任研究員 ? numbers.特任研究員.women : 0)
     return {
       sum1: {
         all: sum1All,
