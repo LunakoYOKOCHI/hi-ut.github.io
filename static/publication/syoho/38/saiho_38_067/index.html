@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      67.ベルナール・フランクコレクションの調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">67.ベルナール・フランクコレクションの調査</h2>
+        
+        <div>
+        二〇〇二年六月一八日から二六日、コレージュ・ド・フランス日本学高等研究所（パリ）において、同研究所に寄託された、故ベルナール・フランク氏蒐集のお札類の調査を行った。同氏はフランスにおける日本研究の第一人者であり、一九五〇年代以降に度々日本を訪れ、自ら日本全国の大小様々な寺社を回って、膨大な量のお札を採集された。その概要は、『日本仏教曼荼羅』（二〇〇二年、藤原書店）を参照されたい。これらは日本宗教史料としても一級の価値を有するものである。ただしなお未整理であり、今後この貴重な資料を活用するためにはまず整理・目録作成が必要である。今回、そのための試験的調査を行った。その結果、総点数が八〇七点であることを確認した。時期的には近現代のものを主体とするが、その元となった版木の意匠自体はなお近世に遡及する可能性がある。また今後の計画の参考とするために、デジタルカメラで一五七点を撮影した。<br/><br/>　　　　　　　　　　　　　　　　　　　（遠藤基郎・菊地大樹・松澤克行）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第38号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第38号", name: "publication-syoho-38" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

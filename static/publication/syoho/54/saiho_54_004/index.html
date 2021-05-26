@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      4.佐竹北家文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">4.佐竹北家文書の調査・撮影</h2>
+        
+        <div>
+        二〇一九年三月一四日、秋田県仙北市立角館樺細工伝承館に出張し、同館寄託「佐竹北家文書」の調査・撮影をおこなった。撮影したのは左記史料である。<br/>一、九月二日付豊臣秀吉朱印状★<br/>一、一一月二八日付豊臣秀吉朱印状★<br/>一、八月六日付足利義昭御内書★<br/>一、一一月二〇日付足利義昭御内書★<br/>一、二月一七日付上杉謙信書状※<br/>一、閏五月五日付笠間綱家書状※<br/>一、三月二七日付佐竹又四郎覚書※<br/>一、宝永七年六月日付秋田史館青印状※<br/>一、宝永七年一二月四日付領知目録<br/>一、曼荼羅寺弥勒院歴代住持記録（二種）<br/>一、儲君御元服・御譲位日記、御即位日記、大嘗会（貞享四年）日記（三冊）<br/>一、北家御記録年代略記<br/>一、天正一三年二月二三日賦朝何連歌懐紙（宗印・継春・清堅・浄円・通秀・元純・宗珍・信興・行元・秀清・栄祐・栄延・玄旨・宣但）<br/>一、伝後小松院宸筆和歌<br/>一、北海道絵巻<br/>一、長崎絵巻<br/>　この調査は、科学研究費・基盤研究B「地域連携にもとづく秋田藩家蔵文書の史料学的研究」（研究代表者金子拓）によるものであり、史料編纂所学術支援職員新保稔も同行した。<br/>　佐竹北家は秋田藩主佐竹氏の一族であり、葦名家断絶を受け、江戸時代明暦二年（一六六六）に角館に入り、同地の所預として支配をおこなった。同家の近世文書は現在秋田県公文書館に「佐竹北家文書」として整理収蔵されている。<br/>　右の目録中★および※印は鈴木満「佐竹北家伝来文書覚書―付『秋田藩家蔵文書目録』の原本データの補正―」（『秋田県公文書館研究紀要』二二、二<br/>〇一六年）にて紹介されている文書である。このうち★印の四点は、史料編纂所架蔵影写本『佐竹文書』（明治三二年影写、佐竹義尚氏所蔵、三〇七一・二四―一一）に収められている。なお影写本には、ほかに九月二一日付佐竹義昭書状（左衛門大夫宛）も収められているが、現在原本の所在は不明である。<br/>　調査にさいし鈴木満氏にご紹介の労をとっていただいた。撮影にあたっては、所蔵者佐竹敬久氏のご許可を賜り、寄託先である角館樺細工伝承館柏谷真一館長および星野悟之氏にお世話になった。感謝申し上げたい。<br/>（金子拓・畑山周平・林晃弘）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第54号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第54号", name: "publication-syoho-54" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

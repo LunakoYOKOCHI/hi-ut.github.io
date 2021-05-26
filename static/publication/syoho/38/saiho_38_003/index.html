@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      3.東北大学附属図書館所蔵秋田家史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">3.東北大学附属図書館所蔵秋田家史料の調査・撮影</h2>
+        
+        <div>
+        二〇〇二年一二月一〇日から一三日まで、及び二〇〇三年二月三日から二<br/>月五日までの、前後二回、東北大学附属図書館に出張し、同館所蔵の秋田家<br/>史料の調査・撮影を行った。<br/>　秋田家史料は、昭和一四年に東北帝国大学奥羽史料調査部に寄託され、そ<br/>の後、昭和三○年代に文書史料を中心に国有財産として購入されたものであ<br/>り、これまで様々な研究に用いられてきた。平成七年に同大学附属図書館へ<br/>受け入れられた後、整理作業が進められ、平成一三年、『東北大学附属図書<br/>館所蔵古文書目録シリーズ2 秋田家史料目録』（以下『日録』）が作成・刊<br/>行された（以上は、同日録の解題による）。本所では秋田家史料についての<br/>本格的な調査・複本作成がこれまで行われておらず、今回作成された『目録』<br/>に従って調査・撮影をさせていただくこととした。今回調査・撮影（マイク<br/>ロフィルム）した史料は以下の通りである。分類・検索用番号は、『日録』<br/>に従った。<br/>○分類1-1系図のうち、一一〇〇一番〜一一〇〇九番・一一〇一四番・一<br/>一〇一六番〜一一〇一九番・一一〇二一番〜一一〇二二番・一一〇二四番〜<br/>一一〇二六番・一一〇二八番〜一一〇三〇番<br/>○分類1-2官位叙任のうち、一二〇〇一番〜一二〇〇三番<br/>○分類2-1内書・領知宛行状・領知日録の全点、二一〇〇一番～二一〇八<br/>七番<br/>○分類2-2秋田時代の全点、二二〇〇一番〜二二一七五番<br/>○分類2-3宍戸時代の全点、二三〇〇一番〜二三一四四番<br/>○分類2-5兵学のうち、二五〇二四番〜二五〇二五番<br/>○分類2-6地図・絵図のうち、二六〇一二番〜二六〇二三番<br/>○分類3-1目録類のうち、三一〇〇一番・三一〇〇三番<br/>○分類3-2名家筆跡のうち、三二〇〇一番〜三二〇一四番三二〇一九番〜<br/>三二〇三三番・三二〇三八番・三二〇四一番〜三二〇四四番・三二〇五四<br/>番〜三二〇五五番　　　　　　　　　　　　　　　　　　　　　　　　以上<br/>　なお、一回日の出張は、科学研究費特別推進研究「前近代日本史料の構造<br/>と情報資源化の研究」による小研究「原本史料の形態的情報に関する研究」<br/>を兼ねており、同研究で前々年度から追究してきた近世初期の御内書・朱印<br/>状を中心とした文書の形態的情報を調査し、データ化するために分類2-1<br/>の文書を中心としてデジタルカメラ撮影を行った。<br/><br/>　　　　　　　　　　　　　　　　　　　　　　　（佐藤孝之・小宮木代良・鴨川達夫・山口利夫・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第38号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第38号", name: "publication-syoho-38" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

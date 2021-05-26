@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      永青文庫所蔵細川家文書の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">永青文庫所蔵細川家文書の調査</h2>
+        
+        <div>
+        二〇〇〇年一〇月一九日・二〇日の両日、熊本大学附属図書館において同館寄託永青文庫所蔵史料のうち細川家中世文書について調査を行った。<br/>　当該史料については、『熊本県文化財調査報告二三集　細川家文書（中世篇）』（一九七七年）として目録および翻刻が刊行されており、本所においても一九九四年に撮影を行っている。今回は、室町幕府歴代将軍の御内書および細川持之書状を中心に、形態的特徴に留意しつつ調査した。<br/>　ひとつ特記しておきたいのは、『細川家文書（中世篇）』四九号および五〇号として収められる、細川持久書状写および細川氏系図についてである。この系図は、細川氏のうち系譜史料に恵まれていない和泉下守護家の略系図であり、小川信『足利一門守護発展史の研究』（吉川弘文館、一九ハ〇）三二一頁、あるいは今谷明「和泉半国守護考」（同『守護領国支配機構の研究』〔法政大学出版局、一九八六年〕所収、初出は一九七八年）二三九頁などで利用されてきた。しかし、岡田謙一「室町後期の和泉下守護細川民部大輔基経」（『日本歴史』五六六号、一九九五年）によって、この系図に見える勝信なる人名は他の史料に見あたらず、それに該当する人物の名が基経であったことが明らかにされている。この系図についての検討を要する所以である。<br/>　四九号文書の宛所は中少路五郎なる人物であり、和泉上守護家に残された本文書群に本来含まれるべきものとは思われない。縦一七・七�、横四・七�、高さ三・六�の木箱に収められ、箱の蓋には、細川阿波守様御書との墨書がある。さらに、本紙右端には、「細川阿波守持久」という畠山牛庵の極書が貼付されている。明らかに本文書群中のほかの文書とは異質であり、江戸時代になってから別途入手されたものだと判断される。五〇号の系図も、この箱のなかに収められており、四九号文書の差出人たる細川持久の系譜上の位置を示すことを意図していたのであろう。筆跡は極書のそれとは異なるようであるが、江戸時代の古筆鑑定者の手になるものと推断できる。岡田氏が他の史料によって明らかにしたこの系図の史料的な価値の低さは、その成り立ちからしても無理からぬところだったのである。<br/>　なお、調査にあたっては、熊本大学文学部助教授小川剛生氏に大変お世話になった。ここに記して厚く感謝申し上げる。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（末柄　豊）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第36号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第36号", name: "publication-syoho-36" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

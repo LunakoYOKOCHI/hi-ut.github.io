@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      「保古飛呂比」佐佐木高行日記五 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">「保古飛呂比」佐佐木高行日記五</h2>
+        
+        <div>
+        本冊には、巻二十九から三十三まで、すなわち明治四年高行四十三歳の正月から同六年十二月までを収めた。<br/>明治四年から六年にかけては、周知のように、新政府が中央集権国家体制を確立するための諸改革をつぎつぎに実施し、これに対して士・民いづれの側からも、また倒幕・維新の担い手の間からも、反撃・逆流・分裂が露わになった時期であった。すなわち、明治四年七月の廃藩置県、五年七月の学制頒布、六年一月の徴兵令発布、同七年七月の地租改正条例制定という急テンポの変革に対して、参議広沢真臣の暗殺（四年正月）、前年来の山口藩脱隊士等の日田騒動の鎮圧（同三月）、叛乱を企てた公家華族外山光輔等の逮捕（同三月）、信州中野県下農民一揆（同三月）、福岡藩紙幣贋造事件断罪と藩知事黒田良知免職（同七月）と不穏な情勢が続いたあと、五、六両年にわたって高知・新潟・大分・敦賀・美作北条・福岡・讃岐名東・鳥取・島根等の諸県に新政府反対農民一揆が頻発し、そしてついに征韓論に破れた西郷・副島・板垣・後藤等の下野（六年十月）という事態に至ったのである。<br/>この間高行は、参議兼刑部省御用掛として明治四年九月には新律綱領修撰成功につき賞賜をうけ、六月に参議を免ぜられたが、七月に刑部省・弾正台が廃止され司法省が設けられると、司法大輔に任ぜられ、また七月から八月まで制度取調御用を命ぜられて、官制の調査に当った。同年十月、右大臣岩倉具視が特命全権大使として欧米各国に派遣されることになったとき、高行は理事官として随行を命ぜられ、十一月十二日一行とともに横浜を出帆、米・英・仏・独・墺・伊・瑞西・蘭・白等の諸国を廻り、主として司法制度の調査・見学を行ない、使節に先立って六年三月十一日に帰国した。帰国後まもなく四月に司法大輔を免ぜられたが、御用滞在を仰付けられて在京中、西郷等の下野という政府の危機に際して再び登用され、大判事に任ぜられた。<br/>本冊には、以上の諸事に関する史料が収録されているが、そのなかでも、三条・岩倉・嵯峨・徳大寺・大久保・木戸・伊藤、斉藤利行・宍戸〓等の諸顕職からの書状と、高行の外遊日記、および附載された薩藩士某明治四年行路密記、明治五年土佐高岡郡吾川郡山分筋動乱記稿、朝鮮国交概略等は注目される。<br/>（例言一頁、目次一頁、本文四三六頁）<br/>担当者　山口啓二
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第9号 p.97</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第9号", name: "publication-syoho-9" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

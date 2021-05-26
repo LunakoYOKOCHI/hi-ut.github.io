@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      15.「賀茂別雷神社文書」の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">15.「賀茂別雷神社文書」の調査・撮影</h2>
+        
+        <div>
+        二〇一六年三月一六日～一八日まで、賀茂別雷神社（京都市北区）において、同社所蔵文書の調査・デジタル撮影を行った。近年の編纂所による撮影は、同神社のご協力を得て、二〇一〇年度より継続して行なっている。<br/>　「賀茂別雷神社文書」については、一九九七年年度～二〇〇二年度にかけて京都府教育委員会が、一九四五年（昭和二〇）以前の文書の網羅的調査を実施し、目録を刊行している（『京都府古文書調査報告書第十四集　賀茂別雷神社文書目録』京都府教育委員会　二〇〇三年三月）。その整理番号によれば、今年度撮影したのは、土蔵に保管されているⅡ‐Ｅ（賀茂六郷）‐一（社領全般）のうち一～七三号、同じくⅡ‐Ｅ（賀茂六郷）‐二（賀茂六郷）のうちの一～一一七号で岡本郷・河上郷・大宮郷・小山郷に分類された文書である。<br/>（遠藤珠紀・金子拓・高山さやか・高橋敏子）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第51号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第51号", name: "publication-syoho-51" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

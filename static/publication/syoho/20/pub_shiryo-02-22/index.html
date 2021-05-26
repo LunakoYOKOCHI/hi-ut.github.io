@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本史料第二編之二十二 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本史料第二編之二十二</h2>
+        
+        <div>
+        本冊には、後一条天皇万寿二年（一〇二五）八月から、同三年正月までの史料が収めてある。<br/>　この間の主な事柄としては、東宮王子親仁（後の後冷泉天皇）の誕生（二年八月三日の条、二頁以下）と、太皇太后藤原彰子が落飾して、上東門院と号したこと（三年正月十九日の条、三二八頁以下）があげられる。親仁は生後間もなく赤斑瘡に罹り、このため御湯殿の儀を停めた（二年八月九日の条、五五頁以下）。この疫病は、夏より秋にかけて京都で流行し、中宮藤原威子や後一条天皇も煩っている（二年八月二日の条、一頁以下、及び同月十二日の条、五九頁以下）。親仁については、この後、九月二十七日、太皇太后宮において五十日の儀（同日の条、一三八頁以下）、ついで十一月十三日には同宮で百日の儀が行なわれた（同日の第二条、二〇三頁以下）。この間、生母尚侍藤原嬉子（藤原道長女）は、親仁出産の後、八月五日に薨じ（同日の第二条、二七頁以下）、十一日に初七日法会（同日の第二条、五八頁以下）、十五日に葬送（同日の第二条、六四頁以下）、二十九日に薨奏・正一位追贈のことがあり（同日の第一条、八七頁以下）、九月二十一日には法成寺阿弥陀堂において七々日法会が行なわれた（同日の条、一三〇頁以下）。<br/>　また彰子は、十一月二十六日、上東門第より内裏に還啓していた（同日の第一条、二一七頁以下）が、三年正月五日に至り、再び上東門第に退出し（同日の第二条、三二一頁以下）、十九日に落飾したものである（前掲）。<br/>　次に入道前太政大臣藤原道長の行動についてみると、主として仏事関係にその特色がある。まず二年八月二十一日に家念仏（同日の条、七八頁）、ついで十月一日に家法華三十講を行ない（同日の第三条、一四五頁以下）、同月二十五日には、法成寺阿弥陀堂の移建に伴ない、阿弥陀像九体を新造の西堂に移し（同日の条、一七一頁）、十一月十二日には、その女故嬉子のため同寺に三昧堂を建立供養し（同日の第二条、二〇二頁以下）、また三年正月一日には、同寺において修正を行なっている（同日の第二条、三〇八頁）。<br/>　また、元年十二月十日に致仕した前権大納言藤原公任は、北山に籠居していた（二年十二月十九日の第二条、二五八頁以下）が、三年正月四日、解脱寺において出家している（同日の条、三一〇頁以下）。その他、歌人として著名な小式部内侍（橘道貞女、母和泉式部）が二年十一月に歿しており（同月是月の条、二二三頁以下）、その関連する史料を収載してある。<br/>　本冊において、その事蹟を集録した者は、尚侍嬉子（前掲）・権中納言藤原長家室（藤原斉信女、二年八月二十九日の第二条、九一頁以下）・雅楽頭清原為成（九月十二日の条、一二四頁以下）・小式部内侍（前掲）・蔵人頭源顕基室（藤原実成女、十二月一日の第三条、二四四頁以下）・権中納言藤原公信室同光子（藤原正光女、三年正月是月の条、三五三頁以下）などである。<br/>（目次一二頁、本文三五八頁）<br/>担当者　渡辺直彦・加藤友康
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第20号 p.58*-59</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第20号", name: "publication-syoho-20" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      4.千秋文庫所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">4.千秋文庫所蔵史料の調査・撮影</h2>
+        
+        <div>
+        二〇一三年七月三日、一般財団法人千秋文庫（東京都千代田区九段南二─<br/>一─三六）に出張し、同館所蔵史料の調査およびデジタルカメラによる撮影<br/>を行った。<br/>撮影対象は、千秋文庫編・刊『千秋文庫所蔵佐竹古文書』に収められてい<br/>る古文書全点（四二〇点）である。<br/>研究の主旨をご理解いただき、所蔵史料調査・撮影の許可を与えられ、<br/>種々便宜をお図りいただいた千秋文庫、同学芸員金森陽・大西彩乃氏に厚く<br/>謝意を表する。<br/><br/>（及川　亘・金子　拓・黒嶋　敏・高島晶彦）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第49号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第49号", name: "publication-syoho-49" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

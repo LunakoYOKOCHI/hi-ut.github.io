@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      18.仁和寺所蔵史料（御経蔵）の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">18.仁和寺所蔵史料（御経蔵）の調査・撮影</h2>
+        
+        <div>
+        二〇一八年十月二十八日から三十一日まで、および二〇一九年三月十日から十三日までの期間、総本山仁和寺（京都市右京区御室大内）を訪れ、同寺所蔵史料のうち御経蔵第百五箱から第百八箱まで、および第百十八箱について調査を行い、デジタルカメラによる全文撮影を行った。また、とくに第百十八箱については、虫損のため開披不能となっている史料の応急措置を行った。なお、いずれの箱も撮影途中であるため、撮影史料目録については次号以降に掲載する予定である。<br/>（髙島晶彦・林晃弘・林譲・藤原重雄・堀川康史・川本慎自）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第54号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第54号", name: "publication-syoho-54" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

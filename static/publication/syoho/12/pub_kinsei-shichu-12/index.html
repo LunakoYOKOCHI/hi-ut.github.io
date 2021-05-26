@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本近世史料「市中取締類集十二」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本近世史料「市中取締類集十二」</h2>
+        
+        <div>
+        本巻には旧幕引継書類の一環をなす市中取締類集河岸地調之部（全八冊）のうち、その三ノ上・三ノ中・三ノ下・四ノ上・四ノ中・四ノ下を収めた。本巻に収載された文書はすべて一〇四通である、これらは前巻までと同じように一件別に配列されており、本巻では前巻をうけて第二四件にはじまり、第四六件でおわっている。そして巻末には第一図から第二十五図に至る河岸地絵図を収めたが、これは便宜上本文中から抜いてまとめたものである。<br/>本巻の文書・絵図に出ている河岸地は、金杉通り・本芝一丁目往還・芝湊町・浜通り・本芝材木町・芝一丁目などを中心とした地区の地先であり、天保改革により冥加金を廃止するに至り、新たに地代金を上納させるに及んで、当然地代金の算定や、防火のための河岸地の建築制限などの問題がクローズアップされてきたが、これらに対する措置を講ずるにさいしての手続上の書類が、右にあげた一〇四通の文書となっているのである。これらの文書には老中書取・町奉行達書・町年寄上申書など市政上の上申・下達書類が含まれることは勿論であるが、河岸地の利用が複雑であるため、文書の差出者と宛書との関係も多様となり、その内容も、大名の利用形態や市政・市民生活の諸般にわたって多岐となっている。天保期前後における御三家の国産品の荷揚置場の事情を語る文書があるのは興味深いが、幕府の砂糖製所の薪置場としても利用されていること、さらに河岸地に接して町奉行所同心・代官手付・寄合医師・呉服師・養生所医師・観世座の者・刀目利などの拝領屋敷地が配置されている状況も詳しく知られる。また河岸地には共同利用の雪隠もみられるほか、零細な営業をなす車力渡世・土砂渡世・船宿渡世・薩摩芋商人などの納屋や、火気を使用する碇鍛冶・船大工・漆喰職人などの作業場もあった。<br/>（例言・目次一三頁、本文二三五頁、巻末図版六三頁）<br/>担当者　阿部善雄・長谷川成一
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第12号 p.77*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第12号", name: "publication-syoho-12" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

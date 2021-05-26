@@ -252,6 +252,6 @@ title: 大日本古文書
     <b>【関連データベース】近世史編纂支援</b>
 </p>
 
-<v-img class="mb-10" height="300px"
-    src="/publication/images/pub_komo.jpg"
+<v-img class="mt1"
+    src="/assets/img/publication/pub_komo.jpeg"
     caption="益田祥兼譲状（益田家文書）"></v-img>

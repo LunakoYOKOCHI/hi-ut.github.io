@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      52.ハワイ所在日本関係史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">52.ハワイ所在日本関係史料の調査・撮影</h2>
+        
+        <div>
+        二〇一六年一月一八日から二三日にかけて、米国ハワイ州立文書館（ホノルル市）に出張し、日本関係史料の撮影調査を実施した。参加者は、原山浩介・秋山かおり（以上、国立歴史民俗博物館）、保谷徹・佐藤雄介（以上、史料編纂所）、若山太良・藤方博之・曺承美・下田桃子・水上たかね・澤井勇海・福本啓介・崎島達矢・菊池智博（以上、保谷ゼミ）である。<br/>　ハワイ王国（およびハワイ共和国）政府文書のうち、一八七一年日本・ハワイ条約、一八八五年日本・ハワイ渡航（移民）条約などの条約・国書の原本類をはじめ、ハワイ外務省史料・内務省移民関係史料などを、二台のデジタルカメラを使用して約七〇〇〇コマ撮影した。<br/>　今回撮影した外務省等史料（Foreign Office & Executive, 1790-1900）の内訳は、対日条約関係（Treaties Japan, 1866-1889）、ハワイ駐在日本外交官関係（Foreign Officials in Hawaii, Japan, 1869-1900）、日本（江戸・東京）駐在ハワイ外交官関係（Hawaiian Officials Abroad, Japan, 1862-1898）、同神奈川・横浜駐在（1866-1900）、同神戸駐在（1883-1897）、同長崎駐在（1873-1897）などに加え、外務省往復書簡の写（手書き・タイプ）などが含まれる。また、内務省史料（Department of Interior, 1845-1900）のうち、日本移民関係（1868-1900）、とくに駐日公使をつとめたロバート・アーウィン書簡（1884-1894）、パスポート申請（1886-1899）などが主な内容である。<br/>　このほか、現地新聞マイクロフィルムから日本関係記事一〇八件を収集した。上記の画像データは、簡易目録を付してHI-CAT Plus で公開される予定である。<br/>　今回の撮影調査では、撮影機材も日本から持ち込み、二台のカメラをフルに使用して休みなく撮影した。協力いただいた院生のみなさんに感謝したい。なお、その間のわずかな空き時間を用い、イオラニ宮殿、アリゾナ記念館、ビショップ博物館、マキキ日本人墓地、ハワイ本願寺別院、ハワイ出雲大社、米国陸軍博物館などの調査・見学をおこなった。<br/>（保谷　徹・佐藤雄介）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第51号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第51号", name: "publication-syoho-51" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

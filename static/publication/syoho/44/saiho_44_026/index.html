@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      26.京都府立総合資料館所蔵「華頂要略」の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">26.京都府立総合資料館所蔵「華頂要略」の調査</h2>
+        
+        <div>
+        二〇〇九年二月二〇日・二一日に行った諸史料調査のうち、京都府立総合資料館で調査した「華頂要略」については、報告の要があると判断し、ここに掲載する。「華頂要略」は、青蓮院の膨大な寺誌で、坊官進藤為善（法名為純）の編纂、一八〇三年自序で一八四六年ころまで追補が行われたという。本所架蔵謄写本「華頂要略」（2072-24）は、巻末などに書写の情報を記さないが、『史料編纂所図書目録』写本三（一九六七年）には、原蔵青蓮院、謄写明治四四年とある。本所には青蓮院所蔵「華頂要略」の写真帳（6172-2）も架蔵するものの、謄写本と対比するに細部で一致しない。『大日本史料』第六編では、以前より謄写本を底本とし、「○京都府立総合資料館本」と注記しているが、根拠は定かでないため、今回の調査に至った。<br/>京都府立総合資料館の書誌は『京都府立総合資料館貴重書目録』（一九七一年）に紹介されており、印として為善編纂の旨印文としたものや印文「為純之印」、また「進藤氏」が捺されるなど、もと進藤氏もしくは青蓮院に伝来したこと疑いない。今回、巻九の門跡伝（南北朝期）につき、総合資料館本と謄写本を詳細に対照したところ、記事の配置が一致し、また総合資料館本の袋とじ内に挟み込まれた紙の記載が謄写本では付紙として写されていることなどから、謄写本は総合資料館本を底本とし、ある程度まで忠実に書写している可能性が高いと判断した。ただし、字句の誤脱は少なからず確認される。結論を得るには他の諸写本との対比も必要であろうが、当面の判断として報告する。<br/><br/>（山家浩樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第44号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第44号", name: "publication-syoho-44" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

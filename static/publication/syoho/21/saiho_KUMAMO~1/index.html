@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      熊本県下キリシタン関係史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">熊本県下キリシタン関係史料の調査・撮影</h2>
+        
+        <div>
+        昭和六十年十二月二日から同月七日までの六日間、熊本市及び本渡市において肥後及び豊後両国のキリシタン類族に関する関係史料の調査と撮影にあたった。　熊本市所在の熊本県立図書館においては昨年度に引続き、キリシタン類族帳一五点と天草島原の乱関係史料二点を調査撮影した。なお類族帳九点は虫喰いによる損傷が著しいため別置されており調査することができなかった。<br/>　本渡市の市立歴史民俗資料館では、旧庄屋の木山家文書と宗像本家史料を調査し、木山家文書中にキリシタン関係史料四点、宗像本家史料中に宗門改帳一点を確認することができた。同市立天草切支丹館ではキリシタン類族帳三点と天草島原の乱関係史料三点を調査した。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第21号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第21号", name: "publication-syoho-21" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

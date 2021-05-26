@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      18.「賀茂別雷神社文書」の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">18.「賀茂別雷神社文書」の調査・撮影</h2>
+        
+        <div>
+        二〇一二年七月二日～四日まで、賀茂別雷神社において、同社所蔵文書の<br/>調査・撮影を行った。この撮影は、科学研究費補助金による基盤研究B「中<br/>近世移行期における賀茂別雷神社および京都地域の政治的・構造的分析研<br/>究」（研究代表者　野田泰三〈京都光華女子大学〉）の活動の一環として行っ<br/>ているものであり史料編纂所による撮影は二〇一〇年度より継続している。<br/>「賀茂別雷神社文書」については、一九九七年年度～二〇〇二年度にかけ<br/>て京都府教育委員会が、一九四五年（昭和二〇）以前の文書の網羅的調査を<br/>実施し、目録を刊行している（『京都府古文書調査報告書第十四集　賀茂別<br/>雷神社文書目録』京都府教育委員会　二〇〇三年三月）。この目録の整理分<br/>類にしたがって示せば、今年度撮影した主な文書は、土蔵保管の算用状類の<br/>うち、Ⅱ−Ｉ −５「算用状一般」〔路銭〕〔普請〕〔山〕〔台盤田〕〔検地入用〕<br/>〔不審〕〔未進〕〔石打・打銀〕〔借銭〕〔算用状一般〕等の中世部分の文書であっ<br/>た。<br/><br/>（遠藤珠紀・高橋慎一朗・谷　昭佳・山口悟史・高橋敏子）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第48号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第48号", name: "publication-syoho-48" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

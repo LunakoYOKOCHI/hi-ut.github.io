@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      金沢市立図書館加越能文庫調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">金沢市立図書館加越能文庫調査・撮影</h2>
+        
+        <div>
+        昭和四十五年八月十九日から二十三日まで五日間、金沢市立図書館に出張し、「加越能文庫」の史料調査を行なった。<br/>　この史料調査の主たる目的は、『大日本史料』元和八年七月三日加賀金沢城主前田利光（利常）室徳川氏死歿の条（第十二編之四十五）に収録する史料を蒐集することであった。しかし、「加越能文庫」には、加賀・越中・能登に関する古文書の書写が多量に架蔵されているので、あわせてこれを調査することにした。<br/>　前田利光室徳川氏関係の史料としては、天徳院造営一件・高野山天徳院縁起・高野山天徳院由来等縷記・高野山天徳院代僧花蔵院口達書・当寺由来之覚等をはじめとして、壬子集録（一冊）・三壺記（一七冊）・加藩国初遺文（二六冊）等を蒐集した。これらは編纂されたもの、或は覚書のたぐいであるが、原文書のみられない古文書がおさめられていたり、他に類をみない記述があったりして、『大日本史料』の編纂に役立つものと思われるので、いずれも全巻をマイクロフイルムに撮影した。<br/>　次に「加越能文庫」の古文書調査であるが、本所においては、既に昭和四十年三月、吉田常吉・阿部善雄・加藤秀幸により実施されている。この時は、近世文書ならびに幕末関係史料を中心とした調査で、文書の写真撮影は行なっていない。今回は、中世文書ならびに近世初頭の古文書を主たる対象として調査し、以下の諸古文書をマイクロフィルムにおさめた。<br/>　有賀家文書（一冊）・乙卯集録（一冊）・栗倉文書（一冊）<br/>　今枝氏古文書写（一冊）・神尾文書（四冊）・古文書写（一冊）<br/>　河瀬雑記（二冊）・寛永間古文書写（一冊）・高谷文書（一冊）<br/>　九里氏文書（三冊）・五箇山古文書写（一冊）・前田利常書状写（一通）<br/>　諸家所蔵文書（一冊）・諸家所蔵文書写（三冊）・安藤文書（一冊）<br/>　諸家留帳（一冊）・諸橋文書（一冊）・伊勢神領ニ付書上写（一冊）<br/>　前田利家知行書写（一冊）・飯尾文書（一冊）・城端古文書写（一冊）<br/>　長家古文書（一冊）・保郷調書<br/>　『加賀藩史料』編纂の基礎となった「加越能文庫」の収集古文書には、その古文書の所蔵者名及びその所在が記録されている。「加越能文庫」の古文書調査は、その所蔵者を追蹤し、原文書の存在をたしかめる作業まで行なうことが必要であると考える。（福田栄次郎・高木昭作）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第6号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第6号", name: "publication-syoho-6" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書　家わけ第十　東寺文書之十二 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書　家わけ第十　東寺文書之十二</h2>
+        
+        <div>
+        本冊は、前冊に引き続き、京都府立総合資料館所蔵「東寺百合文書」のうち「よ函」の一部、正長元年より大永六年まで（一連のまとまりをもって収録したものを含めると文和四年から天文十一年まで）の文書を収録している。<br/>　「よ函」は基本的に学衆方の文書を保管した函なので、収録文書の内容は、播磨国矢野荘学衆方関係の文書、伝法会衆（学衆）の器用を選任する評定の際の公正を誓約した起請文・伝法会学頭や伝法会衆の挙状・学衆初任の論義請文など伝法会衆補任に関係した文書、伝法会をはじめとする論義関係文書、籠衆の参龍日数注文が主たるところであるが、また、造営方奉行による手文箱送状や山城国女御田深草・谷車塚内検帳など造営方の「わ函」や、仏事方算用状や仏事料田寄進状・手継文書など仏事方の「か函」といった近辺の函の文書も混じっている。そしてその他として、最勝光院敷地代官職請文、伊予国弓削島荘、神泉苑関係文書等がある。<br/>　次に、若干の文書について気づいたところを記しておく。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第35号 p.28*-29</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　刊行物紹介",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第35号", name: "publication-syoho-35" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

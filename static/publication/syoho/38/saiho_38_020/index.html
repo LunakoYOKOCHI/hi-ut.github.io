@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      20.東山御文庫所蔵史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">20.東山御文庫所蔵史料の調査</h2>
+        
+        <div>
+        二〇〇二年一〇月三〇日―一一月一日に、京都御所東山御文庫において<br/>収蔵史料の調査を行った。調査した史料は左記のとおりである。<br/>勅封二―一　　御入記日録　　　　　　　　　　　　　　　　　　　　一綴<br/>勅封二―二　　中右記　　　　　　　　　　　　　　　　　　　　　七四冊<br/>勅封二―三　　中右記 賀茂祭部類記　　　　　　　　　　　　　　　　l冊<br/>勅封二―四　　中右記 立后部類記　　　　　　　　　　　　　　　　 一冊<br/>勅封二―五　　中右記残欠　　　　　　　　　　　　　　　　　　　　二枚<br/>勅封九―五　　愚昧記　　　　　　　　　　　　　　　　　　　　　二七冊<br/>勅封九―六～八　　愚昧記 弓場指図等　　　　　　　　　　　　　　 三鋪<br/>勅封一〇―三　　明月記　　　　　　　　　　　　　　　　　　　　四五冊<br/>勅封一〇―四・五　　明月記　　　　　　　　　　　　　　　　　　　二巻<br/>勅封一〇―六　　明月記表紙　　　　　　　　　　　　　　　　　　　一枚<br/>勅封一三―三　　薩戒記　　　　　　　　　　　　　　　　　　　　四四冊<br/>勅封一三―四　　薩戒記 応永八年春　　　　　　　　　　　　　　　 一巻<br/>勅封一六一―二　　塁茶羅供御経供養等書類　　　　　　　　　　　二二点<br/>勅封一六一―三　　御懺法書類　　　　　　　　　　　　　　　　　四四点<br/>勅封一七四―四―八　　御書籍日録　　　　　　　　　　　　　　　　三通<br/>勅封一七四―四―一三　　御記録目録　　　　　　　　　　　　　　　二通<br/>勅封一七四―四―一六　　新御文庫御記目録　　　　　　　　　　　　一通<br/>勅封一七四―四―二八　　御記目録　　　　　　　　　　　　　　　　一冊<br/>勅封一七八―五―三　　准后貞子九十賀記　　　　　　　　　　　　　一巻<br/><br/>　　　　　　　　　　　　　　　　　　（吉田早苗・本郷恵子・尾上陽介・末柄　豊・伴瀬明美）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第38号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第38号", name: "publication-syoho-38" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

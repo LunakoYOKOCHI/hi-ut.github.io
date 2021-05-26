@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      2.秋田県公文書館所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">2.秋田県公文書館所蔵史料の調査・撮影</h2>
+        
+        <div>
+        二〇〇九年一一月一二日から一四日、および二〇一〇年三月一四日から一七日の二度にわたり、秋田県公文書館（秋田県秋田市山王新町一四―三一）に出張し、同館所蔵史料の調査およびデジタルカメラによる撮影を行った。<br/>今回は科学研究費基盤研究（Ｓ）「史料デジタル収集の体系化に基づく歴史オントロジー構築の研究」により、同館所蔵「秋田藩家蔵文書」「梅津政景日記」などを撮影した。これらはすでに本所では写真帳・謄写本のかたちで閲覧公開されているが、「秋田藩家蔵文書」のばあい、今回あらためて高精細デジタル画像にて撮影することにより、本所日本古文書ユニオンカタログ・データベースに搭載された同館編『秋田藩家蔵文書目録』とのリンクを実現させること、またこれらの情報を素材にして、同データベースおよび本所所蔵史料目録データベースを介しての、同館所蔵の他の藩収集文書・系図史料などとの連携検索を実現するための研究を行うことを目的としている。<br/>撮影した史料は左記のとおり。<br/>秋田藩家蔵文書（整理番号Ａ二八〇―一―一～六一、以下同じ）／梅津政景日記（Ａ三一二―一三〇―一～二一）／諏訪棟札写（Ａ一七五―二〇）／天英公鑑照公御書写（ＡＳ三一二―二）／土屋氏古文書写（県Ａ一四七）／古文書写小野寺・六郷（県Ａ一四八）／高屋氏文書（県Ａ一四九）／近進并以下庶民文書（県Ａ一五〇）／天英公書翰集（ＡＨ二八九―二一三）<br/>研究の主旨をご理解いただき、所蔵史料調査・撮影の許可を与えられ、種々便宜をお図りいただいた秋田県公文書館に厚く謝意を表する。<br/><br/>（林　　譲・及川　亘・金子　拓・黒嶋　敏・高橋典幸）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第45号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第45号", name: "publication-syoho-45" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

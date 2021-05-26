@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      3.山形県下所在中世史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">3.山形県下所在中世史料の調査・撮影</h2>
+        
+        <div>
+        二○一五年三月二六～二八日、山形県南陽市ほかに出張し、所在史料の調査・撮影を行った。撮影史料は以下の通り。<br/>〔結城豊太郎記念館所蔵文書〕<br/>（年未詳）正月廿六日　　　　　　　上杉景勝書状<br/>（年未詳）十二月十六日　　　　　　直江兼続書状<br/>〔上山城郷土資料館所蔵文書〕<br/>（年未詳）十二月五日　　　　　　　徳川家康内書<br/>〔花淵氏所蔵文書〕<br/>（年未詳）十一月十二日　　　　　　旦済書状<br/>（年未詳）七月十六日　　　　　　　旦済書状<br/>〔穂保文書〕<br/>天正七年六月廿日　　　　　　　　　鮎川盛長知行宛行状<br/>〔上杉博物館所蔵文書〕<br/>（永禄十二年）閏五月四日　　　　　遠山康光書状<br/>〔山吉文書〕<br/>（年未詳）十月廿二日　　　　　　　長尾孫次郎（景虎）書状<br/>（年未詳）十月三日　　　　　　　　長尾景虎書状<br/>（年未詳）十二月八日　　　　　　　北条氏康書状<br/>（年未詳）九月七日　　　　　　　　北条氏政書状<br/>（年未詳）霜月廿日　　　　　　　　藤田（北条）氏邦書状<br/>（年未詳）極月廿八日　　　　　　　遊足庵淳相書状<br/>（年未詳）九月三日　　　　　　　　今川氏真書状<br/>（年未詳）九月三日　　　　　　　　朝比奈泰朝書状<br/>〔松本文書〕<br/>（天文十九年カ）極月廿八日　　　　長尾景虎書状<br/>（永禄十年）卯月二日　　　　　　　上杉輝虎書状<br/>（永禄十二年）潤五月四日　　　　　北条氏康書状<br/>（慶長三年）二月廿一日　　　　　　直江兼続書状<br/>（年未詳）六月六日　　　　　　　　直江景明書状<br/>（慶長十六年カ）九月廿三日　　　　直江重光書状<br/>〔杉原文書〕上杉博物館寄託<br/>（年未詳）三月八日　　　　　　　　水原親憲書状<br/>（年未詳）二月廿五日　　　　　　　上杉景勝書状<br/>慶長廿年正月十七日　　　　　　　　徳川秀忠黒印状写<br/>〔扇屋所蔵文書〕<br/>（年未詳）五月廿六日　　　　　　　伊達輝宗書状<br/>（年未詳）十月廿八日　　　　　　　本間高季書状<br/>（年未詳）八月十八日　　　　　　　蘆名止々齋書状<br/>寛永九年三月日　　　　　　　　　　徳川家光条書案<br/>寛永十貳年極月十三日　　　　　　　村山氏武具馬具書上<br/>（年月日未詳）　　　　　　　　　　妙齋書状<br/>（年月日未詳）　　　　　　　　　　和久半左衛門筆カ書状写<br/>　当日は、結城豊太郎記念館館長加藤正人氏、上山城郷土資料館大場浩子氏・長南伸治氏、花淵盛重氏、穂保丈助氏、上杉博物館角屋由美子氏・阿部哲人氏、扇屋旅館ご主人にはたいへんお世話になった。記して謝意を表する。<br/>なお本調査は一般共同研究「史資料原本調査をもとにした『越佐史料』巻七（未刊）の再編成」の調査活動の一環である。<br/><br/>（村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第50号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第50号", name: "publication-syoho-50" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

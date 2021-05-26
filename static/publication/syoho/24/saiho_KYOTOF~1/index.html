@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      京都府立総合資料館・京都大学図書館所蔵の近藤重蔵著「辺要分界図考」の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">京都府立総合資料館・京都大学図書館所蔵の近藤重蔵著「辺要分界図考」の調査</h2>
+        
+        <div>
+        平成元年三月二十二日より二十四日まで、京都府立総合資料館及び京都大学図書館において、近蔵重蔵の著書「辺要分界図考」の写本の調査をおこなった。<br/>　京都府立総合資料館は二部を所蔵する。<br/>　一、四冊本（特４５６—２０）第一冊巻之一、第二冊巻之二・三、第三冊巻之四・五、第四冊巻之六・七。<br/>　題簽は「辺要分界図考」（以下各冊同じ）。表紙の裏に「京都府図書館」「独□（斎カ）架蔵之記」「明治三十二年十一月廿日購入」（附点の数字は朱の書込）の各朱方　　印を捺す。第一紙は重蔵の序で、右下すみに「博愛堂図書記」の朱方形の蔵書印があり、幕末明治の篆刻家長谷川延年の旧蔵書であることを示している。文字、挿絵、地図ともに非常に精緻で色彩も豊富、ロシア人・山丹人・アイヌ人等の風俗を示す衣服の模様なども詳細に描きわけてある。動物・植物・諸道具類・風景等も同じで、特に遠山の点苔や近景の秋草など描写の技術も抜群で、専門画家の、それもかなり名手の筆になるものと思われる。第四冊の末尾に「嘉永七年甲寅歳三月望　書写校合畢　楓洞延年（朱方印）」の奥書がある。<br/>　二、七冊本（特９７０—６）。第一冊壱より第七冊七に至る。<br/>　題簽は「辺要分界考」と図の字を欠く。表紙の裏に「購入大正三・四・二四」の朱円印と「京都図書館印」の朱方印を捺す。筆写の文字は下手で、挿絵もいかにも拙劣であり、原本の描写するところの意味を理解していないため、細部を塗りつぶし、ごまかすようなことをしている。図の題名や説明をあちこちで省略している。校合の場合などには参考にならないものである。<br/>　京都大学図書館は三部を所蔵する。<br/>　一、八冊本（５—８３．ヘ．１）　紺色の表紙。題簽はなく、各冊の右下スミに朱書で第一冊「巻之一」より第七冊「巻之七」、第八冊「附録終」と記す。<br/>　文字、地図、挿絵すべて墨一色であるが、描線は明確、描写は精細で、府資料館四冊本につぐ善本である。附録は山村昌永の「采覧異言増訳」を収録したものである。<br/>　二、七冊本（５—８３．ヘ．２）　第一冊一より第七冊七に至る。第一冊の表紙の裏に旧題簽「辺要分界図考一二三天」、第四冊に同じく「辺要分界図考四五地」、第六冊に同じく「辺要分界図考六七八人」が貼付してある。<br/>　もとは三冊本で近時改装されたものと思われる。地図・挿絵ともに墨に淡墨を加え、ところどころに朱を入れている。絵は府資料館七冊本に似て稚拙である。<br/>　三、六冊本（谷村文庫５—８１．ヘ．）　これは同館所蔵の特殊文庫「谷村文庫」に収められているもので、貴重書扱いのため出張日程の都合で閲覧出来なかった。同文庫目録には「〔江戸末期〕写　六冊　二十七・五�　巻二・三ニ落丁錯簡アリ」と記載されている。なお、重蔵の著「御本日記附註　御本日記続録　御写本譜附慶長勅版考」（三冊一帙）が所蔵されており、一覧した。<br/>　（鈴木圭吾）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第24号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第24号", name: "publication-syoho-24" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

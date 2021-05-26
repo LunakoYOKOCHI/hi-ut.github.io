@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      神宮文庫所蔵古記録等の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">神宮文庫所蔵古記録等の調査</h2>
+        
+        <div>
+        二〇〇六年一一月二四・二五日、伊勢市の神宮文庫所蔵の古記録等を調査<br/>した。調査した史料の書名及び架番号・点数は以下の通りである。<br/>○愚昧御記後愚昧御記抜書　　　　　第七門／一三七八　　　　　　一冊<br/>○拝賀着陣部類記　　　　　　　　　第五門／二〇七五　　　　　　一綴<br/>○石清水放生会関係文書　　　　　　第一門／二一四一　　　　　　一包<br/>○節会・拝賀・着陣の記録片　　　　第七門／二八八四　　　　　　一包<br/>○大神宮遙拝之事　　　　　　　　　第一門／四六九九　　　　　　一冊<br/>○召音秘曲之事　　　　　　　　　　第七門／四七五六　　　　　　一綴<br/>○改元記　　　　　　　　　　　　　第五門／二一／二五　　　　　一冊<br/>○任大臣御記　　　　　　　　　　　第七門／二二／六三　　　　　一冊<br/>○御参考抜抄之書類　　　　　　　　第七門／二九／六二　　　　　一括<br/>○東大興福供養記　　　　　　　　　第五門／四三／四〇　　　　　一冊<br/>〇改元記　　　　　　　　　　　　　第五門／二一／二五　　　　　一冊<br/>○斎宮部類補遺　　　　　　　　　　第一門／三一五六　　　　　　一冊<br/>○伊勢斎宮部類　　　　　　　　　　第一門／一一〇四六　　　　　二冊<br/>○斎宮部類抜粋　　　　　　　　　　第一門／三一五五　　　　　　一冊<br/>○神宮上卿部類　　　　　　　　　　第一門／三一八七　　　　　　二冊<br/>○別宮奉幣部類　　　　　　　　　　第一門／一一九三四　　　　　一冊<br/>○別宮奉幣部類　　　　　　　　　　第一門／一六一七二　　　　　一冊<br/>○四度幣部類　　　　　　　　　　　第一門／一一四七七　　　　　一冊<br/>○四度幣部類　　　　　　　　　　　第一門／六九一七　　　　　　一冊<br/>○伊勢幣使部類　　　　　　　　　　第一門／一一五九　　　　　　二冊<br/>〇足利十二代之肖像　　　　　　　　第六門／八七四　　　　　　　一巻<br/>〇古画肖像　　　　　　　　　　　　第六門／八七九　　　　　　　一巻<br/>〇模写粉本嵯峨天皇御顔　　　　　　第六門／三一五九　　　　　　一枚<br/>〇清輔朝臣尚歯会図　　　　　　　　第十門／六六四　　　　　　　一巻<br/>〇伊勢新名所古画写　　　　　　　　第一門／一七二六二　　　　　一巻<br/>〇舞楽奉納祭礼図　　　　　　　　　第一門／一三二四二　　　　　一巻<br/>〇文永加茂祭図　　　　　　　　　　第七門／一一三八　　　　　　一巻<br/>〇文永十一年加茂祭絵詞　　　　　　第一門／四八五六　　　　　　一冊<br/>〇節会絵巻　　　　　　　　　　　　第七門／一一〇四　　　　　　一巻<br/>〇行幸図　　　　　　　　　　　　　第七門／三五三九　　　　　　一巻<br/>〇異疾絵巻　　　　　　　　　　　　第十門／六四二　　　　　　　一巻<br/>〇洛陽誓願寺縁起　　　　　　　　　第二門／一六二七　　　　　　一冊<br/>〇高藤公絵詞　　　　　　　　　　　第六門／三八一　　　　　　　一冊<br/>〇醍醐寺諸庄節器之事　　　　　　　第二門／二〇六一　　　　　　一巻<br/><br/>　　　　　　　　　　　　　　　（井上聡・高橋典幸・藤原重雄・尾上陽介）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

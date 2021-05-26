@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      １８　『大日本史料』第三編関係聖教類の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">１８　『大日本史料』第三編関係聖教類の調査</h2>
+        
+        <div>
+        二〇〇四年七月から九月の間、石山寺（大津市）・醍醐寺・教王護国寺・京都府立総合資料館・勧修寺（以上、京都市）・東大寺図書館（奈良市）等に出張し、聖教類を中心とする『大日本史料』第三編関係史料を調査し、第二十七冊の原本校正を行った。御所蔵の諸寺および調査団等の各位には、格段の御高配を賜った。ここに記して謝意を表したい。以下、主要な調査史料を列挙する。<br/>[石山寺]<br/>○御修法并供等支度（深密蔵聖教51函1）		　	一巻<br/>○閻魔天供次第〈厶抄〉（深密蔵聖教20函1-7-3）		一巻<br/>　石山寺副座主鷲尾遍隆様、石山寺文化財綜合調査団の奥田勲氏・綾村宏氏の他、関係各位には御高配を賜った。<br/>[勧修寺]<br/>○勧修寺古事（内箱）					一巻<br/>○勧修寺別当長吏補任等古記録（内箱）			一冊<br/>○野澤血脈流派略記（内箱）				一冊<br/>○遍数（陰箱）						一巻<br/>　※第二十七冊に卒伝を収録する勧修寺大僧都厳覚の巻数を多数収録し、『勧修寺論輯』第二号に翻刻・解題を掲載した。<br/>　勧修寺門跡筑波常遍様、勧修寺文書・聖教調査団の安田弘仁氏・阿部泰郎氏・上島享氏の他、関係各位には御高配を賜った。<br/>[東寺観智院金剛蔵聖教]<br/>○巻数集（60箱2）					一巻<br/>○表白集（145箱3）					一巻<br/>○師支巻集（又別46箱31）				四冊<br/>○表白集（又別29箱120）					三冊<br/>○表白集〈安興院〉（145箱1）				一帖<br/>○真言伝（300箱10）					七冊<br/>○後七日（241箱15）					一巻<br/>○降三世護摩私次第（263箱7）				一巻<br/>○降三世護摩私次第（263箱18）				一巻<br/>○最勝光院供養記（252箱5）				一巻<br/>○最勝光院御仏開眼次第（又別29箱24）			一帖<br/>○供養法式講兼行次第（又別29箱80）			一帖<br/>　教王護国寺および東寺宝物館の山田忍良氏・新見康子氏には御高配を賜った。<br/>[京都府立総合資料館]<br/>　同じく東寺観智院金剛蔵聖教を写真帳により閲覧した。<br/>○作法集（176箱5）<br/>○後七日（241箱15）<br/>○〔小野流平安時代印信写〕（244箱1・2）<br/>○〔天台血脈〕（290箱1）<br/>○真言付法血脈図（290箱6）<br/>○勧修寺長吏并当寺別当任東寺長者次第（290箱11）<br/>○厳覚僧都与静与阿闍梨問答記（196箱59）<br/>○後七日記（241箱39）<br/>○勧修寺流の血脈類（108箱・250箱・又別22箱・特4箱のうち）<br/>○勧修寺流の目録類（296箱のうち）<br/>※その他、巻首・巻末の調査用写真。<br/>[醍醐寺]<br/>○水天供（434函30）　一帖<br/>　醍醐寺および醍醐寺文化財研究所の各位には御高配を賜り、本所高橋慎一朗氏の協力を得た。<br/>[東大寺図書館]<br/>○嘉祥寺・法隆寺・西大寺・大安寺・元興寺別当之事（113函383）　一冊<br/>　東大寺図書館の横内裕人氏・坂東俊彦氏には御高配を賜った。<br/><br/>（田島公・藤原重雄）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第40号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第40号", name: "publication-syoho-40" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
