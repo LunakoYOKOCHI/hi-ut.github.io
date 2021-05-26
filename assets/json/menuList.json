@@ -227,9 +227,9 @@
           {
             "label": "その他の出版物",
             
-            "to": { "name": "publication-slug", "params": {"slug" : "kakushu"}},
+            "to": { "name": "publication-slug", "params": {"slug" : "other"}},
             
-            "lang": ["ja"]
+            "lang": ["ja", "en"]
           },
           {
             "label": "所報",

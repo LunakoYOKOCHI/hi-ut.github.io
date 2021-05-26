@@ -219,10 +219,10 @@ Vue.component("Layout", {
                 <transition name="slide">
                 <ul v-show="isOpenLanguageSelection" class="child" style="display: block;"> 
                   <li v-if="lang !== 'ja'">
-                    <a @click="changeLocale('ja')">日本語</a>
+                    <a style="cursor:pointer;" @click="changeLocale('ja')">日本語</a>
                   </li>
                   <li v-if="lang !== 'en'">
-                    <a @click="changeLocale('en')">English</a>
+                    <a style="cursor:pointer;" @click="changeLocale('en')">English</a>
                   </li>
                   <!-- 
                     <li><a :href="baseUrl + '/zh/'">中文</a></li>
