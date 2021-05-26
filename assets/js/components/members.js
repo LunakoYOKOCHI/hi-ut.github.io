@@ -112,7 +112,9 @@ Vue.component('Members', {
                 より兼任）
               </div>
               <ul v-if="people[index].research">
-                <li v-for="(value, key3) in people[index].research.split('|')">{{value}}</li>
+                <template v-for="(value, key3) in people[index].research.split('|')">
+                  <li v-if="value">{{value}}</li>
+                </template>
               </ul>
             </div>
           </template>
