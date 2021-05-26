@@ -10,36 +10,45 @@
           </h2>
 
           <ul>
-            <template v-for="child in obj.children">
-              <li
-                v-if="child.lang.includes(lang)"
-                :key="child.label"
-                class="mb-2"
-              >
-                <template v-if="child.to">
-                  <nuxt-link :to="localePath(child.to)">{{
-                    $t(child.label)
-                  }}</nuxt-link>
-                </template>
-                <template v-else-if="child.href && child.href[lang]">
-                  <a :href="child.href[lang]">{{ $t(child.label) }}</a>
-                </template>
-
-                <ul v-if="child.children">
-                  <template v-for="child2 in child.children">
-                    <li v-if="child2.lang.includes(lang)" :key="child2.label">
-                      <template v-if="child2.to">
-                        <nuxt-link :to="localePath(child2.to)">{{
-                          $t(child2.label)
-                        }}</nuxt-link>
-                      </template>
-                      <template v-else-if="child2.href && child2.href[lang]">
-                        <a :href="child2.href[lang]">{{ $t(child2.label) }}</a>
-                      </template>
-                    </li>
-                  </template>
-                </ul>
+            <template v-if="!obj.children && obj.href && obj.href[lang]">
+              <li class="mb-2">
+                <a :href="obj.href[lang]">{{ $t(obj.label) }}</a>
               </li>
+            </template>
+            <template v-else>
+              <template v-for="child in obj.children">
+                <li
+                  v-if="child.lang.includes(lang)"
+                  :key="child.label"
+                  class="mb-2"
+                >
+                  <template v-if="child.to">
+                    <nuxt-link :to="localePath(child.to)">{{
+                      $t(child.label)
+                    }}</nuxt-link>
+                  </template>
+                  <template v-else-if="child.href && child.href[lang]">
+                    <a :href="child.href[lang]">{{ $t(child.label) }}</a>
+                  </template>
+
+                  <ul v-if="child.children">
+                    <template v-for="child2 in child.children">
+                      <li v-if="child2.lang.includes(lang)" :key="child2.label">
+                        <template v-if="child2.to">
+                          <nuxt-link :to="localePath(child2.to)">{{
+                            $t(child2.label)
+                          }}</nuxt-link>
+                        </template>
+                        <template v-else-if="child2.href && child2.href[lang]">
+                          <a :href="child2.href[lang]">{{
+                            $t(child2.label)
+                          }}</a>
+                        </template>
+                      </li>
+                    </template>
+                  </ul>
+                </li>
+              </template>
             </template>
           </ul>
         </div>

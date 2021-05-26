@@ -4,7 +4,7 @@ title: 事業
 
 <h2 class="h03">RESEARCH</h2>
 
-<v-img src="/assets/img/about/about_hi_mission_01.jpeg"></v-img>
+<v-img class="mb1" src="/assets/img/about/about_hi_mission_01.jpeg"></v-img>
 
 The Historiographical Institute's mission is to conduct research on, compile, and publish primary source materials dealing with Japanese history. The foundations of all historical understanding lie in the preservation and precise reading of primary source materials. Because it is a basic principle of the Institute that source materials should be preserved where they are found, research staff spend several weeks each year investigating and examining historical records wherever they are kept, both in Japan and abroad. Staff have over 100 years' experience conducting these examinations, and their journeys have taken them all over Japan as well as to many different parts of the globe.
 

@@ -8,7 +8,7 @@
       {
         "label": "所長挨拶",
         "to": { "name": "about-slug"},
-        "lang": ["ja", "en", "zh", "ko"]
+        "lang": ["ja"]
       },
       {
         "label": "沿革",
@@ -337,16 +337,10 @@
     "label": "データベース検索",
     "lang": ["ja", "en"],
     "isDisplayTop" : true,
-    "children": [
-      {
-        "label": "データベース検索",
-        "lang": ["ja", "en"],
-        "href": {
-          "ja" : "https://wwwap.hi.u-tokyo.ac.jp/ships/",
-          "en" : "https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller-e"
-        }
-      }
-    ]
+    "href": {
+      "ja" : "https://wwwap.hi.u-tokyo.ac.jp/ships/",
+      "en" : "https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller-e"
+    }
   },
   {
     "label": "所蔵史料紹介",

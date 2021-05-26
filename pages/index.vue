@@ -19,6 +19,8 @@
           <News :isTop="true" :newsList="newsList" />
         </template>
         <template v-else>
+          <nuxt-content :document="document" class="mt2 mb2"/>
+          <!--
           <p class="mt2 mb1">
             Shiryo Hensan-jo (the Historiographical Institute, HI), the
             University of Tokyo, has as its primary objective, rather than
@@ -30,6 +32,7 @@
             <a href="https://hi.u-tokyo.ac.jp/en/publication/">publications</a>, and recently,
             <a href="https://wwwap.hi.u-tokyo.ac.jp/ships-e/">databases</a>.
           </p>
+          -->
           <p class="mt2" v-if="lang !== 'en'">
             <ul>
               <li><nuxt-link :to="localePath({name : 'about-slug', params: {slug : 'index'}})">{{$t("所長挨拶")}}</nuxt-link></li>
@@ -157,11 +160,17 @@ export default class about extends Vue {
     this.$store.commit('setLg', value)
   }
 
-  async asyncData() {
+  async asyncData({$content, app}: any) {
     const year = process.env.currentFiscalYear
     const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
     const newsList = newsList_.default
-    return {year, newsList}
+    
+    const document = await $content(
+      `${app.i18n.locale}/about`,
+      'index'
+    ).fetch()
+
+    return {year, newsList, document}
   }
 
   head() {

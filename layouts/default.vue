@@ -49,11 +49,18 @@
               v-if="menuMapLv1.lang.includes(lang) && menuMapLv1.isDisplayTop"
               :key="key"
             >
-              <span class="atag" @click="clickLv1Menu(key)">{{
-                $t(menuMapLv1.label)
-              }}</span>
-
-              <i class="child-btn" @click="clickLv1Menu(key)"></i>
+              <!-- 子供を持たない場合 -->
+              <template v-if="!menuMapLv1.children">
+                <a class="atag" :href="menuMapLv1.href[lang]">{{
+                  $t(menuMapLv1.label)
+                }}</a>
+              </template>
+              <template v-else>
+                <span class="atag" @click="clickLv1Menu(key)">{{
+                  $t(menuMapLv1.label)
+                }}</span>
+                <i class="child-btn" @click="clickLv1Menu(key)"></i>
+              </template>
 
               <VueSlideToggle
                 :duration="500"
