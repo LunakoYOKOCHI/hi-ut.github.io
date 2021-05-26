@@ -268,7 +268,7 @@ export default class about extends Vue {
 
   get sumIppan(){
     let sum = 0
-    const data: any = this.$data
+    const data = this.$data.data
     for(const obj of data){
       sum += Number(obj['研究経費'])
     }
