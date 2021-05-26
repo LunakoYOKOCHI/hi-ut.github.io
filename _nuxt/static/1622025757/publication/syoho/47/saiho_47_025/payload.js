@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/47/saiho_47_025", (function(a){return {data:[{vol:"47",item:{head:"史料採訪",title:"25.『中右記』古写本の調査",creator:a,page:a,id:"saiho_47_025",url:a,content:"二〇一二年三月七―九日に、京都市陽明文庫において、『大日本古記録　\n中右記』編纂のため、同文庫所蔵の『中右記』嘉承二年秋記古写本の調査を\n行なった。\n\n（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

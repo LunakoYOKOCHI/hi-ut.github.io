@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/24/saiho_youmeibunko%20shozou%20shiryou", (function(a){return {data:[{vol:"24",item:{head:"史料採訪",title:"陽明文庫所蔵史料の調査",creator:a,page:a,id:"saiho_youmeibunko shozou shiryou",url:a,content:"九月二七日より二九日まで、陽明文庫において、『大日本古記録』次期出版物の予備調査として、同文庫所蔵史料を調査した。"}}],fetch:{},mutations:[]}}("")));

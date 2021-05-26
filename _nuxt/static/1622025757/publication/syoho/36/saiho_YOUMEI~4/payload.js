@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/36/saiho_YOUMEI~4", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"陽明文庫における『後法成寺関白記』の原本校正",creator:a,page:a,id:"saiho_YOUMEI~4",url:a,content:"二〇〇一年二月十三日より十五日まで、大日本古記録『後法成寺関白記一』編纂のため、同書の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（田中博美）"}}],fetch:{},mutations:[]}}("")));

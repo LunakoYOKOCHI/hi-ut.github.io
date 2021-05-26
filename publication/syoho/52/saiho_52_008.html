@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      8.三重県下中近世史料調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">8.三重県下中近世史料調査</h2>
+        
+        <div>
+        二〇一六年一二月七日～一一日、三重県下所在中・近世史料の調査・撮影を行った。今年度の調査地点は津市・伊賀市である。史料所蔵者各位及び調査に立ち会われた各位、並びに御協力いただいた学習院大学史料館及び三重県環境生活部文化振興課県史編さん班に厚く御礼を申し上げたい。以下に調査先及び調査・撮影史料の目録を掲げる。<br/>鈴木光信　津市<br/>鈴木光信氏所蔵文書<br/>　収集文書。『三重県史資料叢書５　藤堂高虎関係資料集　補遺』（三重県、二〇一一年）・『三重県史資料叢書６　資料編　中世２　補遺Ⅰ』（三重県、二〇一二年）参照。（以下詳細略）<br/>伊賀市史　伊賀市<br/>楽音寺大般若経（以下詳細略）<br/>三重県総合博物館　津市<br/>長井氏治氏所蔵文書（以下詳細略）<br/>三重県総合博物館所蔵史料<br/>「谷氏旧蔵文書」（以下詳細略）<br/>「九鬼文書」（以下詳細略）<br/>「坂口茂氏旧蔵文書」（以下詳細略）<br/>寺嶋輝夫　津市<br/>寺嶋輝夫氏所蔵文書（以下詳細略）<br/>（山家浩樹・末柄豊・渡邉正男）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第52号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第52号", name: "publication-syoho-52" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

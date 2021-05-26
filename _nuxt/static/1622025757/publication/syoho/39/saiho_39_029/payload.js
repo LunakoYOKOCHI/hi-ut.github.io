@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/39/saiho_39_029", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"29.京都府立総合資料館・京都大学文学部所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_39_029",url:a,content:"二〇〇四年三月一五日から一七日まで京都市に出張し、二つの機関の所蔵・収集史料を調査した。\n（中略。対象は下橋家資料・奥村氏蔵平和家文書、松平頼重京都日帳・一条院御用日記など）\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山口和夫・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

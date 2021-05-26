@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      長崎市立博物館所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">長崎市立博物館所蔵史料の調査・撮影</h2>
+        
+        <div>
+        一九八一年十一月二十四日より十一月三十日まで、長崎市立博物館（長崎市出島町九—二二）において同館所蔵史料の調査と撮影を行なった。<br/>　今回の調査は、長崎関係史料の体系的採訪調査計画第二回目として、昨年度の第一回調査（一九八〇年十月）およびその予備調査（一九八〇年二月、科研費）に引続いて、長崎市立博物館の所蔵史料を対象として行われた。前回の調査では、特に同館所蔵の特殊蒐書・長崎聖堂文庫を調査採訪の主対象としたので、今回の調査では旧長崎区役所採集史料等を主体とする市立博物館所蔵史料を、支配関係の史料を中心に撮影した。なお、館長越中哲也氏の御好意により、同館が最近入手した高木文庫（町年寄高木清右衛門家の文書）を調査・撮影する機会を得た（前回の調査と撮影については本所所報一六号、一二五—一二八頁参照）。<br/>　　　　　　　　*　　　　　　　　　　　　*<br/>　撮影史料目録<br/>　　撮影史料は同館発行の『志（資）料目録』（一九四八・五一・五三・六八年）の分類番号順に排列し、史料名も原則として『目録』に従ったが、一部変更したものもある。〔　　〕内の数字は『目録』の分類区分番号を、史料名に頭書した番号は、右の分類区分内の整理番号を示し、この両者を組合せたものが請求番号である。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第17号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第17号", name: "publication-syoho-17" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

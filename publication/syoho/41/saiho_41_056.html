@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      56.地蔵院聖教の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">56.地蔵院聖教の調査</h2>
+        
+        <div>
+        二〇〇五年一〇月七日から一一日まで、巨鼇山地蔵院萩原寺（香川県三豊郡観音寺市大野原町萩原、古義真言宗大覚寺派）に出張し、同寺所蔵の「地蔵院聖教」の調査を行った。本調査は四国史料調査の一環であり、一九八八年度より継続しており、本年度調査は第一八回である。「地蔵院聖教」の中核となるものは萩原寺中興第一世真恵（宝徳元年1449寂）の時代に蒐集、或いは授受された小野流の報恩院流儀海方・実深方、実賢流覚智方・同山本方、金剛王院流覚智方、石山流人師方、中院流、さらに広沢流の慈尊院流・西院流能禅方・華蔵院流などに関する聖教である。<br/>　本年度は第三九函（未了）、仮函番号1F1（了）、1F2-1（未了）、1F2-2（未了）、秘抄函（了）の調査目録を作成した。調査成果は各担当者が既存の「地蔵院聖教データーベース」に追加入力している。なお、本年度までで調査済みの総点数は五一五〇余点に達する。<br/>　なお、調査目録の原本は古代史料部門研究室に保管している。貴重な所蔵史料の調査を許可された萩原寺住職秋山行徳師に謝意を表する。<br/><br/>（石上英一・山口英男・厚谷和雄・末柄　豊）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第41号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第41号", name: "publication-syoho-41" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

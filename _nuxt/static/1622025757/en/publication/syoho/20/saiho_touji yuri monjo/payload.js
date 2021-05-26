@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/20/saiho_touji%20yuri%20monjo", (function(a){return {data:[{vol:"20",item:{head:"史料採訪",title:"東寺百合文書の調査",creator:a,page:a,id:"saiho_touji yuri monjo",url:a,content:"一九八五年三月十一日より十四日まで、京都府立総合資料館に出張し、同館所蔵「東寺百合文書」の原本校正を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（高橋敏子）"}}],fetch:{},mutations:[]}}("")));

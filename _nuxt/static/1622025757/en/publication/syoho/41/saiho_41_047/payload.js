@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/41/saiho_41_047", (function(a){return {data:[{vol:"41",item:{head:"史料採訪",title:"47.越中国礪波郡石粟村官施入田地図の調査",creator:a,page:a,id:"saiho_41_047",url:a,content:"五月二五日、天理大学附属天理図書館（奈良県天理市）において、同館所蔵「越中国礪波郡石粟村官施入田地図（年次未詳）」について、『日本荘園絵図聚影』釈文編一・古代（二〇〇六年度刊行予定）編纂のための原本調査を行った。\n\n（山口英男・稲田奈津子・石上英一）"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/30/saiho_TENRID~1", (function(a){return {data:[{vol:"30",item:{head:"史料採訪",title:"天理大学附属天理図書館所蔵古記録の調査",creator:a,page:a,id:"saiho_TENRID~1",url:a,content:"一九九五年三月二八日二九日に、天理大学附属天理図書館に出張し、同館所蔵古記録のうち、中世の具注暦類の調査を行い、調書を作成した。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菅原昭英）"}}],fetch:{},mutations:[]}}("")));

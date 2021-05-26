@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/28/saiho_daigoji%20monjo", (function(a){return {data:[{vol:"28",item:{head:"史料採訪",title:"醍醐寺文書の原本借出",creator:a,page:a,id:"saiho_daigoji monjo",url:a,content:"一九九二年十一月二十五日から二十六日までの二日間、京都市伏見区醍醐寺に出張し、『大日本古文書　家わけ第十九　醍醐寺文書之十』の出版のために、同寺所蔵の醍醐寺文書の原本の借出を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　（保立道久・高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

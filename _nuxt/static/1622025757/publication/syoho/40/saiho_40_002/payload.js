@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/40/saiho_40_002", (function(a){return {data:[{vol:"40",item:{head:"史料採訪",title:"２　茨城県下中世史料の調査",creator:a,page:a,id:"saiho_40_002",url:a,content:"二○○五年二月九日、茨城県真壁町真壁町立歴史民俗資料館に出張し、同館所蔵の、小田部庄右衛門氏所蔵史料の写真を調査した。また、小田部好伸氏所蔵文書の所在情報を収集した。なお、調査に当たっては、同館寺崎大貴氏の御高配に預かった。記して謝意を表する。\n\n（井上聡・高橋典幸・村井祐樹）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      細川家史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">細川家史料の調査・撮影</h2>
+        
+        <div>
+        昭和五十八年十一月十四日から十九日まで、熊本大学附属図書館に出張し、同館寄託の永青文庫所蔵史料のうち、『細川家史料』（大日本近世史料）の出版に関連する史料の調査・撮影を行なった。今回は、家臣団関係の史料と『細川家史料』第九巻収載予定の細川忠利画像関係史料の調査・撮影を目的とした。家臣団関係では、『先祖附』（い〜な）廿六冊を撮影したほか、忠興関係の以下の文書（写）を撮影した。<br/>一、十二番　三斎公御軍書　　　　　　　　　　　　　　　　　　　　　　　五通一箱<br/>　（�）慶長廿年卯月廿九日道中相定申掟之事<br/>　（�）天正十三年八月十三日掟<br/>　（�）十二月船中法度之事　長岡式部少輔〓松井右近大夫他宛<br/>　（�）慶長五年六月十六日定条々　忠興〓松井佐渡守他宛<br/>　（�）慶長五年六月十六日覚　忠興〓松井佐渡守他宛<br/>　また　熊本県立美術館に赴き、美術専問員花岡興輝氏をはじめ専門員の諸氏から、三淵・竹原等の家臣の子孫と史料の現況や、忠利をはじめとする藩主画像について貴重な助言を受けた。いつものことながら、永青文庫所蔵史料の調査・撮影に御高配を得た熊本大学附属図書館の方々とともに、記して感謝の意を表する。<br/>　また、同年四月廿日、東京所在の永青文庫（文京区目白台一—一—一）に赴き、忠興・忠利・光尚三代に関連する文書類と、忠利画像三点を撮影した。撮影は複本作成掛八木威雄が担当した。撮影目録は左の通り。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第19号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第19号", name: "publication-syoho-19" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

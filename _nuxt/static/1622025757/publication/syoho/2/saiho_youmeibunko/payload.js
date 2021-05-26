@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/2/saiho_youmeibunko", (function(a){return {data:[{vol:"2",item:{head:"史料採訪",title:"陽明文庫出張報告",creator:a,page:a,id:"saiho_youmeibunko",url:a,content:"昭和四十一年十一月七日より十一日まで陽明文庫の調査として、近衛家の歴代の関白記を調査・研究し、マイクロフィルムに収める機会を与えられているが、本年度は一応円満院日記（基�公記）の後半、元禄二年から正徳元年十一月までの百十六冊の撮影を終った。\n　（山中裕・高沢実）"}}],fetch:{},mutations:[]}}("")));

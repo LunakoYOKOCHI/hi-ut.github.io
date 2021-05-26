@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/29/saiho_touji%20kanchiin%20monjo", (function(a){return {data:[{vol:"29",item:{head:"史料採訪",title:"東寺観智院文書の調査",creator:a,page:a,id:"saiho_touji kanchiin monjo",url:a,content:"一九九四年三月十一日から十三日まで、京都府立総合資料館において、現在東寺所蔵となっている「観智院金剛蔵聖教」の写真閲覧を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　（久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

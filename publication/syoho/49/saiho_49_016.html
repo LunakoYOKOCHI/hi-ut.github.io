@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      16.京都府所在中世史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">16.京都府所在中世史料の調査・撮影</h2>
+        
+        <div>
+        二○一三年五月一六日、京都府京都市京都市歴史資料館に出張し、所在史<br/>料の調査・撮影を行った。撮影史料は以下の通り。<br/>〔和田文書〕<br/>（永禄八年カ）　　　　　　　一乗院覚慶書状<br/>（永禄八年）八月十四日　　　前波吉継書状<br/>（永禄八年）八月廿六日　　　畠山尚誠書状<br/>（永禄八年）十月十六日　　　河田長親書状<br/>（永禄八年）十一月廿日　　　松平家康書状<br/>（永禄八年）十二月廿一日　　一乗院覚慶御内書<br/>（永禄八年）十二月廿九日　　一乗院覚慶御内書<br/>（永禄九年）卯月十八日　　　足利義秋御内書<br/>（永禄九年）六月十一日　　　足利義秋御内書<br/>（永禄九年）七月十八日　　　仁木長頼書状<br/>（無年号）十月廿六日　　　　鴨脚豊前守書状<br/>※『京都市歴史資料館紀要一』参照<br/>なお当日は、京都市歴史資料館宇野日出生氏にはたいへんお世話になっ<br/>た。記して謝意を表する。　<br/><br/>（末柄　豊・川本慎自・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第49号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第49号", name: "publication-syoho-49" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

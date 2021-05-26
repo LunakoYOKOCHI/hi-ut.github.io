@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/16/saiho_SUIFUM~1", (function(a){return {data:[{vol:"16",item:{head:"史料採訪",title:"水府明徳会彰考館所蔵史料調査",creator:a,page:a,id:"saiho_SUIFUM~1",url:a,content:"昭和五十六年三月廿五日から廿八日の四日間、昨年に引き続き水戸市水府明徳会彰考館の所蔵史料を調査した。撮影目録は左の通り。\n１、（イ）禁腋秘抄／（ロ）日中行事／（ハ）当世故実（寅二四—〇五三一九）（架番号、以下同じ）"}}],fetch:{},mutations:[]}}("")));

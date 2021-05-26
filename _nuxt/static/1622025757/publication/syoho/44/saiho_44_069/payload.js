@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/44/saiho_44_069", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"69.小笠原文書の調査・撮影",creator:a,page:a,id:"saiho_44_069",url:a,content:"二〇〇八年五月二二日、寄託先の九州国立博物館（福岡県太宰府市石坂）を訪れ、東京大学史料編纂所影印叢書『小笠原文書』編纂・出版のため、四×五判カラーフィルムによる追加撮影、並びに旧保管箱・旧装丁台帳等の調査を行った。\n\n（前川祐一郎・中村尚暁・林譲）"}}],fetch:{},mutations:[]}}("")));

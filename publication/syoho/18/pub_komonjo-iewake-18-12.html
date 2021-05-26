@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古文書家わけ第十八「東大寺文書之十二」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古文書家わけ第十八「東大寺文書之十二」</h2>
+        
+        <div>
+        本冊は「十」、「十一」に引きつづき、東大寺図書館架蔵未成巻文書を収める。本冊には、同図書館の架番号の順に従って、１／１架（黒田荘の部）の１／１／297から１／１／359までと、１／２架（玉滝荘の部）の１／２／１から１／２／22まで、さらに１／３架（大井荘の部）の１／３／１から１／３／45までの計一二七点を収録した、これにより、黒田荘の部、玉滝荘の部は完結し、大井荘の部はほぼ三分の一を刊行したことになる。<br/>　文書群の概要は「十」の出版物紹介（所報第一〇号）に記したのでくり返さないが、本冊に収めた文書のうち、担当者の関心をひいたもので、これまであまり注意されていなかった数点の文書について略述してみたい。<br/>　三〇〇号鎌倉末、寺側の検注をとどめんとした百姓たちが、起請文を書き、諸社に立願し、その用途として段銭を伏田にかけたという史料で、いわば私段銭とでも称すべき事態がわかり、興味深い。<br/>　三二八号典型的な草案であり、内容も面白いが、それよりも、紙の表の途中から裏に文章が続き、また表に戻るというように、自由な書き方がなされている点が注目される。翻刻に際し、これを正確に伝えるには、按文で説明するのは複雑すぎ、かえって不明瞭になるおそれもあるので、図版を挿入して示した。草案・土代の多い東大寺文書では、今後もこうした方法で、利用者の理解の助けになるようにしていきたい。<br/>　三五九号三五八号文書と共に、第四回採訪影写本には見られない新史料である。現状は巻子装されているが、かつてバラバラになっていた時期があるらしく、貼り継ぎが錯綜している。そこで、紙継目・内容などから、原状を推定して復原し、翻刻した。鎌倉後期の黒田新荘の経営を知る興味深い史料となろう。なお、この文書中、「大仏〃性」とあるのは、大仏殿仏生会のことと考えられ、「性」には〔生〕と傍注すべきであった。この場を借りて訂正しておきたい。<br/>（例言二頁、目次一四頁、本文三〇三頁）<br/>担当者　千々和到
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第18号 p.72*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第18号", name: "publication-syoho-18" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

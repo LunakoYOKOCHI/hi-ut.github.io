@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      長崎市立博物館所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">長崎市立博物館所蔵史料の調査・撮影</h2>
+        
+        <div>
+        一九八〇年十月十三日より十月十八日まで、長崎市立博物館（長崎市出島町九—二二）において同館所蔵史料の調査と撮影を行なった。<br/>　今回の調査は、長崎関係史料の体系的採訪調査計画の一環とし計画された第一回目の調査で、かつ、前回の科学研究費（一般研究Ｃ「前近代対外関係史の総合的研究」）による調査・撮影の継続作業として行なったものである（前回の調査と撮影史料については本所所報一五号一〇一頁参照）。今回は、長崎市立博物館所蔵史料のうち、長崎聖堂文庫の史料を中心に、自余の蒐書のうち貿易関係・支配関係の史料を併せ調査・撮影した。<br/>　今回の採訪調査の主たる対象となった長崎聖堂文庫は、同館所蔵の特殊蒐書の一つで、長崎県教育会が向井兼徳氏から引き継ぎ保管していた長崎聖堂遺品のうち、建造物・記念碑を除き、一九五九年一月に長崎市教育委員会が寄贈を受けた図書・古文書・器物等である。<br/>　向井氏は、その祖元升が寛永十六年に幕府に上納する唐船舶載書籍の選定を命ぜられたことを機縁に、その子孫が代々書物改役を勤めた家柄である。元升は正保四年、長崎東上町に聖堂を創設したが、この聖堂は寛文三年の大火で類焼した。延宝年間に再建され、同八年、元升の子元成に、「元升開基の訳を以て被下置」たという。<br/>　長崎聖堂文庫の内容は多岐に亘るが、今回の調査では博物館の御好意により、書籍文書の全貌に接する機会を得た。そのうち向井氏の役向きに直接関わるものを除き、外交・貿易に関する分野の中心的な史料をほゞ網羅的に採訪することが出来た。今回採訪した史料は他の蒐書に属するものと併せて採訪史料目録として左に掲げる。<br/>　尚、長崎市立博物館は、ここ数年来新庁舎建築のため出島資料館の一部に仮住いの状態にあり、閲覧業務を停止しているが、今回の調査では、新館移転を目前に控えた繁多な時期であったにもかかわらず、館長越中哲也氏は本所のため特別の便宜を講ぜられ、すでに梱包された史料を閲覧調査する機会を与えられた。ここに之を銘記して、館長越中氏をはじめ館員の皆様と長崎市当局に謝意を表する次第である。<br/>　　　　　撮影は同館発行の『資料目録』（本所図書架番号一〇四一・九三／三二及び一〇〇三／三九）の順番で行なった。史料名は原則として『目録』に従ったが、一部変更したものもある。また史料名の頭に付した番号は『目録』の分類番号である。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第16号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第16号", name: "publication-syoho-16" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

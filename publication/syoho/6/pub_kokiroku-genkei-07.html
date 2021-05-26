@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本古記録「言経卿記七」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本古記録「言経卿記七」</h2>
+        
+        <div>
+        本冊には、慶長元年正月より同二年六月までを収めている。当時、山科言経は尚勅勘の身で、徳川家康の扶持を受けていたが、主として、夫人の縁に因り、興正寺並びに本願寺の庇護のもと、医薬を以って渡世していた。このため、前冊同様、京都町衆との細かしい交渉が、淡々と記されている。なかでも言経の居宅に近い油小路在住の人々との付合は多く、諸業種の商人の存在が知られる。<br/>　総じて、記事が簡単なだけでなく、日常瑣事の記載の多い本日記の中で、慶長元年閏七月十三日の大地震の記事（一七五頁以下）は圧巻である。本願寺々内の死者だけでも三百人、上下京は二百八十余人、伏見町は千人余、伏見徳川家でも七八十人が死んだ。伏見城天守、本願寺、東寺塔、同鎮守八幡、同大師堂が崩壊、災害は近江以西、兵庫・和泉堺に及んだ旨記録されている。本来東へゆがんでいた東福寺本堂が地震により歪みが直ったという笑話のような記事さえもあり、記者としては珍しく筆まめであるが、しかも尚、一片の感慨も洩らさぬあたり、言経の人柄を推測する手掛りともなろうか。小地震は断続して翌年四月下旬に及んでいる。<br/>　当時の大名のうち、徳川家康・秀忠父子の動静が可成り明らかとなるのも、本書の特色の一つであろう。本冊では、家康の任内大臣（慶長元年五月八日付）は陣宣下（五月十一日）で行われたこと（九七頁）、袍の異文の相談を受けた言経は、徳川の家紋である葵の丸を勧めたこと（七七頁）、家康の京都宿所が長者町にあったこと（二五頁）などが注目される。尚、言経は任槐以前五月二日条に、家康を「江戸内府」と記している。<br/>　言経の教養は、日記中、数多くの和漢典籍の記事として表われている。中でも、鳥養道〓との交渉は、曲目・節・新作小謡（九九、一二〇頁）など能楽関係の多くの記事を残し、貴重な能楽史資料となろう。<br/>　ほかに、キリスト教徒処刑に関する記事（二五一頁）、朝鮮の虎肉を贈られた記事（一六六頁）なども興味深い。<br/>（例言一頁、目次一頁、本文四二六頁、挿入図版一葉、岩波書店発行）<br/>担当者　田中健夫・百瀬今朝雄・益田宗
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第6号 p.104**-105</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第6号", name: "publication-syoho-6" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

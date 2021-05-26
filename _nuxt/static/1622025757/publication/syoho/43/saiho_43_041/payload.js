@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/43/saiho_43_041", (function(a){return {data:[{vol:"43",item:{head:"史料採訪",title:"醍醐寺文書の原本校正",creator:a,page:a,id:"saiho_43_041",url:a,content:"二〇〇八年三月二十日より二十四日までの五日間、京都市伏見区醍醐寺に\n出張し、『大日本古文書家わけ第十九醍醐寺文書之十五』の出版準備の\nため、第二十一函の文書原本を閲覧し校正を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（高橋慎一朗）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      東京大学史料編纂所研究紀要第五号 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">東京大学史料編纂所研究紀要第五号</h2>
+        
+        <div>
+        標題<br/><br/>著者名<br/><br/>掲載ページ<br/><br/><br/>＜論説＞<br/><br/><br/><br/><br/><br/><br/>小右記諸本の研究<br/><br/>桃、裕行<br/><br/>1-39<br/><br/><br/>三河物語の成立年について<br/><br/>高木、昭作<br/><br/>40-45<br/><br/><br/>赦免流人送還警固について<br/><br/>進士、慶幹<br/><br/>46-54<br/><br/><br/>大矢透博士の著書稿本及び蔵書 ： 伝記的書目<br/><br/>太田、晶二郎<br/><br/>55-75<br/><br/><br/>一六三六年平戸オランダ商館貿易表（一）<br/><br/>加藤、榮一<br/><br/>76-89<br/><br/><br/>ソ連・西ドイツ・オランダにおける日本関係史料の採訪について<br/><br/>沼田、次郎<br/><br/>90-98<br/><br/><br/>＜史料紹介＞<br/><br/><br/><br/><br/><br/><br/>長崎オランダ商館舊蔵日本語及び中国語文書（慶長十四－弘化二年）（その一）<br/><br/>金井、圓<br/><br/>99-109<br/><br/><br/>＜本所出版物＞<br/><br/><br/><br/><br/><br/><br/>大日本史料第一編之十七<br/><br/><br/><br/>110<br/><br/><br/>大日本史料第二編之十八<br/><br/><br/><br/>110*-111<br/><br/><br/>大日本古文書家わけ第十七「大徳寺文書之八」<br/><br/><br/><br/>111*-112<br/><br/><br/>大日本古文書「幕末外国関係文書之三十五」<br/><br/><br/><br/>112*<br/><br/><br/>大日本古記録「殿暦五」<br/><br/><br/><br/>112**-113<br/><br/><br/>大日本古記録「建内記四」<br/><br/><br/><br/>113*-114<br/><br/><br/>大日本近世史料「細川家史料二」<br/><br/><br/><br/>114*<br/><br/><br/>大日本近世史料「諸問屋再興調十」<br/><br/><br/><br/>114**-115<br/><br/><br/>大日本近世史料「幕府書物方日記六」<br/><br/><br/><br/>115*<br/><br/><br/>大日本近世史料「幕府書物方日記七」<br/><br/><br/><br/>115**-116<br/><br/><br/>大日本近世史料「柳営補任索引下」<br/><br/><br/><br/>116*-117<br/><br/><br/>史料編纂所図書目録「写本五」（謄写本下之一）<br/><br/><br/><br/>117*<br/><br/><br/>史料編纂所図書目録「写本六」（謄写本下之二）<br/><br/><br/><br/>117**<br/><br/><br/>明治維新史料選集 上 幕末編<br/><br/><br/><br/>117***<br/><br/><br/>保古飛呂比 佐佐木高行日記一<br/><br/><br/><br/>117****-118<br/><br/><br/>＜史料採訪＞<br/><br/><br/><br/><br/><br/><br/>醍醐寺出張報告<br/><br/><br/><br/><br/><br/><br/>大徳寺真珠庵出張報告<br/><br/><br/><br/><br/><br/><br/>金沢文庫出張報告<br/><br/><br/><br/><br/><br/><br/>正倉院出張報告
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第30号 p.21*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　刊行物紹介",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第30号", name: "publication-syoho-30" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

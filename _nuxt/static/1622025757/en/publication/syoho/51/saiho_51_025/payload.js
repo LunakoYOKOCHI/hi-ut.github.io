@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/51/saiho_51_025", (function(a){return {data:[{vol:"51",item:{head:"史料採訪",title:"25.陽明文庫所蔵「近衛文書」の調査・撮影",creator:a,page:a,id:"saiho_51_025",url:a,content:"平成二十七年十二月六日から八日までの三日間、財団法人陽明文庫（京都市右京区宇多野上ノ谷町）に出張し、同文庫に所蔵される「近衛文書」のうち、家門篇六─三〇～三四（二二六～二三一袋、四四五袋、八〇〇～八〇四袋）の調査・撮影を行った。\n（松澤克行・荒木裕行・畑山周平）"}}],fetch:{},mutations:[]}}("")));

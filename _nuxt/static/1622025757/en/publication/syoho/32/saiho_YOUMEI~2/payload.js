@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/32/saiho_YOUMEI~2", (function(a){return {data:[{vol:"32",item:{head:"史料採訪",title:"陽明文庫所蔵近衛家熈の古筆臨模史料の筆跡調査",creator:a,page:a,id:"saiho_YOUMEI~2",url:a,content:"一九九六年十一月五日から七日まで、京都市陽明文庫に出張し、同文庫所蔵近衛家熈の古筆臨模の筆跡を調査した。調査史料の番号・名称は以下のとおりである。"}}],fetch:{},mutations:[]}}("")));

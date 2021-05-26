@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/18/saiho_TOUDAI~1", (function(a){return {data:[{vol:"18",item:{head:"史料採訪",title:"東大寺図書館・武田科学振興財団杏雨書屋における調査・撮影",creator:a,page:a,id:"saiho_TOUDAI~1",url:a,content:"�　東大寺図書館（奈良市雑司町四〇六—一）\n　一九八二年五月七日・八日、東大寺図書館に出張して、『大日本史料』第一編之二十二寛和元年正月三日条の良源伝、同二十三同年四月是月の『往生要集』撰述の条の編纂のため『安養抄』・静照『極楽遊意』を調査・撮影した。"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/31/saiho_KANAZA~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"金沢市立玉川図書館所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_KANAZA~1",url:a,content:"『大日本史料』第十二編の編纂のため一九九六年三月五日から六日まで金沢市立玉川図書館（金沢市玉川町二—二〇）に出張し、同館所蔵加越能文庫・郷土史料及び中山家文書（マイクロフィルム）のうち、元和八〜九年の史料を中心に調査・撮影を行なった。撮影・複写した史料は次の通りである。"}}],fetch:{},mutations:[]}}("")));

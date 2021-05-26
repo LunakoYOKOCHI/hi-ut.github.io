@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/33/saiho_GOSHIN~1", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"後深心院関白記断簡具注暦の調査・撮影",creator:a,page:a,id:"saiho_GOSHIN~1",url:a,content:"一九九七年一〇月六日・七日、京都市陽明文庫に出張し、文庫長名和修氏の特別のご協力をいただき、近衛信尹・信尋・尚嗣三代の部類記・日次記等計七冊の紙背として伝わった後深心院関白記断簡具注暦の調査・撮影を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菅原昭英・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

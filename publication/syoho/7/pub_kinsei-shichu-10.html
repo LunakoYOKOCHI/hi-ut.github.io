@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本近世史料「市中取締類集十」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本近世史料「市中取締類集十」</h2>
+        
+        <div>
+        「市中取締類集十　地所取計之部二」には国会図書館所蔵の江戸町奉行所引継書類に含まれる地所取計之部三冊之内二の後半および同三冊之内三を収めた。<br/>　前者には「昌平橋外人除明地紺屋染物干場拝借願候者之儀ニ付御普請奉行申上御下ケニ付調」ほか一一件、後者には「北本所百姓幡之助外壱人取上地取計方之儀ニ付調」ほか一〇件の地所問題に関する調書・伺書・掛合書などが、それぞれ一括整理されている。<br/>　前者の内訳は、昌平橋火除明地の紺屋利用一件のほか、茅場町内の内々所持百姓地の返却の問題、本所亀沢町の馬場番屋を建設する問題、浅草聖天町内に新道を敷設する問題、江戸府内の往還等の沿革調査に関する問題、紅葉山御宮附坊主の拝領町屋敷を相対替えする問題などに関する諸書類である。後者の内訳は、北本所の取上地の処置の問題、西丸門番の町方住居の可否の問題、春日町名主の上納地請負の問題、江戸橋広小路稲荷社地の復興の問題、御広敷伊賀者拝領町の上地についての問題、寄合小堀式部屋敷地先の一手所持の問題などに関する書類である。<br/>　このうち、天保十五年九月の出願にみられる浅草聖天町新道敷設の問題は、猿若町二丁目の家作が建込み、非常のさいに退避が困難であるため、一部家屋の模様替えを機に自分新道を設けたいというものである。その手続は、聖天町の家主・名主・月行事等が連名で町奉行へ出願すると、町奉行は町年寄に対して諮問し、その結果を俟ってこれを老中に伺って裁可を仰ぎ、ついで裁可の達書が老中から出るというしだいになっている。その場合、浅草寺領代官からも町年寄へ意見が出されるのであって、当時の道路法を知るうえに興味あるものである。また、弘化二年七月の府内往還の沿革調査については、浅草橋御門から神田川通り新橋まで、三味線堀通り下谷成就院脇折曲り東本願寺・浅草寺前通り大川橋までなど、重要な幹線を対象とするものであり、普請奉行から町奉行へそのための通達が行なわれている。<br/>（例言一頁、目次一四頁、本文二七六頁、附図四二頁）<br/>担当者　阿部善雄・進士慶幹
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第7号 p.43*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第7号", name: "publication-syoho-7" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

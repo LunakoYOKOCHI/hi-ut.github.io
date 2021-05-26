@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/53/saiho_53_014", (function(a){return {data:[{vol:"53",item:{head:"史料採訪",title:"14.東寺百合文書の原本校正",creator:a,page:a,id:"saiho_53_014",url:a,content:"二〇一八年一月二九から三一日および三月一九・二〇日の二度、京都府立\n京都学・歴彩館に出張し、『大日本古文書』東寺文書之十八出版のため、同\n館所蔵「東寺百合文書」そ函・つ函・ね函の文書の原本校正を行った。\n\n（小瀬玄士・久留島典子・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

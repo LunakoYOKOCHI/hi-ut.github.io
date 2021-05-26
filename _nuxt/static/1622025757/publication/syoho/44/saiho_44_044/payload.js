@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/44/saiho_44_044", (function(a){return {data:[{vol:"44",item:{head:"史料採訪",title:"44.天理大学附属天理図書館所蔵『愚昧記』写本の調査",creator:a,page:a,id:"saiho_44_044",url:a,content:"二〇〇八年六月二日、大日本古記録編纂のため、天理大学附属天理図書館において『愚昧記』写本（吉田文庫本、架番号吉六四／一七、全二一冊）を調査した。\n\n（尾上陽介）"}}],fetch:{},mutations:[]}}("")));

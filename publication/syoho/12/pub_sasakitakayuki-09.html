@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      「保古飛呂比」佐佐木高行日記九 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">「保古飛呂比」佐佐木高行日記九</h2>
+        
+        <div>
+        本冊には、巻四十五から巻四十八まで、すなわち明治十三年高行五十一歳の一年間を収めた。<br/>明冶十三年の政局は、民権運動の前進と政府の対応とを主要な動向として展開した。三月に大阪で愛国社第四回大会が開かれ、国会期成同盟会が結成されると、政府は四月に集会条例を布告した。同月片岡健吉等が国会開設上願書を提出したが受理されず、十一月に国会期成同盟会第二回大会が東京で開かれ、政党結成の動きが出ると、政府は集会条例を改正して警視長官・地方長官に政治結社解散権を付与した。また政府強化のため、二月に大臣・参議で内閣を構成し、参議の各省卿兼帯を原則としてやめ、地方については、四月に府県会規則を改めて一年以上禁獄の国事犯は議員になれないこととし、区町村会法を制定して民意の吸収をはかるとともに、府知事・県令に解散権を与えることで民権運動の排除をはかった。そして民心掌握のため、六、七月には天皇の甲信尾勢、京都、神戸巡幸が行なわれた。しかし急増する不換紙幣がひきおこした物価騰貴によって国家財政は危機に陥り、この対策として提案された外債募集や地租米納が政府部内の紛糾の末、詔書によって廃案になると、もはや酒税をはじめとする増税に依拠するほかなく、これまた民権運動を刺激する結果となった。このような政局に対し、対外的には国際的環境の安定がはかられ、七月に条約改正案を各国公使に渡し、また琉球処分後の清国との緊張を緩和し最恵国待遇をとりつけるため、宮古・八重山両群島の割譲をふくむ条約を清国と締結するに至った。（清国の調印回避で実現せず。）<br/>高行は、前年来の奥羽巡視を終えて帰京すると、直ちに元老院副議長に任命された。五月には海軍省御用掛を免ぜられたが、九月には海上裁判所聴訟規則審査総裁に、十二月には日本海令草案審査総裁に任命されて海事関係の立法に当った。この間、集会条例や政府機構改革が藩閥強化に帰結するとして、元田永孚・土方久元等と連携しつつ、天皇親裁と元老院の権限強化でこれに対応しようとし、また外債・米納・文官賞勲等の諸政策に反対して建白・内奏するところがあった。<br/>高行は、青森県下から条岩両公にあてた書簡のなかで、奥羽は政府から度外視されている感触があるので配慮が必要であると進言しているが、本冊には、この高行の姿勢に応じて、奥羽各県令、各郡長をはじめ高行の面識をえた人々から高行にあてた謝礼、報告、依頼の書簡が多数収められている。また政情をめぐる、岩倉・元田・土方等の書簡や、高行の見解が収録されている。<br/>（例言・目次各一頁、本文四一七頁）<br/>担当者　山口啓二
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第12号 p.79*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第12号", name: "publication-syoho-12" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

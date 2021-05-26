@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      東京大学史料編纂所研究紀要　第二十七号 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">東京大学史料編纂所研究紀要　第二十七号</h2>
+        
+        <div>
+        口絵　『山槐記』永万元年六月記影写本（東京大学史料編纂所所蔵）<br/>研究報告<br/>　東大寺宝珠院所蔵絵図から見た鎌倉時代後期の尼崎地域 西田友広<br/>　大友吉統書状について―戦国時代の記録と記憶 櫻井成昭<br/>　寛永一六年細川忠興の証人交代<br/>　　―新収史料　細川忠利書状・同光尚書状の紹介を兼ねて― 林　晃弘<br/>　近世摂家の家臣統制と家内秩序<br/>　　―享保期、一条家の家内騒動と家法を中心に― 田中暁龍<br/>　オランダ初代総領事デ・ウィット月例報告<br/>　　　一八六〇年～一八六三年）（一） 横山伊徳<br/>　バチカン図書館所蔵マリオ・マレガ氏蒐集文書調査報告<br/>　　　―『豊後切支丹史料』とその周辺― 松井洋子<br/>　朝鮮国文書料紙について<br/>　　　―日本中世近世文書料紙との比較― 富田正弘<br/>史料紹介<br/>　『山槐記』古写本の解題と翻刻<br/>　　　　　　　　　　　　　　　石田実洋・遠藤珠紀・尾上陽介・高橋秀樹<br/>　春日大社所蔵『弘安五年御進発日記』（上） 藤原重雄<br/>　綱光公記　―文安六年（宝徳元年）四月～八月記―<br/>　　　　　　　　　　　　　　遠藤珠紀・須田牧子・田中奈保・桃崎有一郎<br/>　天龍寺妙智院所蔵『入明略記』 岡本　真・須田牧子<br/>　西尾市岩瀬文庫所蔵『消息案』 本郷恵子<br/>　薬師寺所蔵「薬師寺修二会引付」 及川　亘<br/>　明治二年成菩提院第四十五世孝健『入院諸記録』 曽根原理<br/>研究集会報告<br/>　日露関係史料をめぐる国際研究集会（二〇一六）報告<br/>　　一八六二年日本使節団がみたサンクトペテルブルクの<br/>　　イズレル興行施設と漕艇協議会大会 ワジム・クリモフ<br/>　　一八八〇年代ロシア海軍水路測量家たちによる日本沿岸海図の出版<br/>　　　（ロシア国立海軍文書館史料より） ワレンチン・スミルノフ<br/>　一九一六年閑院宮載仁親王のロシア訪問<br/>　　　―来露一〇〇年を記念して― セルゲイ・チェルニャフスキー
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第52号 p.54</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂　出版報告",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第52号", name: "publication-syoho-52" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

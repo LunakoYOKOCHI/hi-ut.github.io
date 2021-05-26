@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本近世史料「諸問屋再興調」十五 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本近世史料「諸問屋再興調」十五</h2>
+        
+        <div>
+        本巻は国立国会図書館所蔵「諸間屋再興調　別帳」一冊、および大日本近世史料「諸問屋再興調」全十五巻の総目次を収める。「諸問屋再興調」は「旧幕府引継書類」の中の江戸町奉行書類の一部で、二十六冊から成り、そのうちの最後の一冊が別帳である。本書類は、幕府が天保十二年に停止した諸問屋組合を嘉永四年に再興するにあたり、町奉行所に諸問屋組合再興掛を設け、町年寄や掛り町名主を動員して、各問屋組合の再興の可否やその仕法を調査検討した際の関係書類を収録したものである。その中には各種商売の沿革に関する書類も多数含まれているため、本書は江戸幕府の経済政策は勿論、近世経済全般を知る上で重要な史料となっている。本所では、昭和三十一年以来、「大日本近世史料」として、その全体の編纂刊行を進めてきたが、今回の第十五巻をもってこれを完了した。<br/>　本巻に収めた「別帳」には、諸問屋組合再興掛が作成した調査の手順ならびに再興申渡方法についての覚書、及び宝永期より寛政期に至る迄に発布された問屋組合・仲間の設立に関する町触等の銘書が一点ずつ存するが、「別帳」の大部分は町年寄或いは掛り町名主から提出された調査報告書類によって占められている。これらの報告書類の中には、享保期以後寛政期迄に問屋・仲間として許可されたものの銘書、十組菱垣廻船積仲間に加入していた間屋及びその下組の銘書、或いは天保十二年の諸株停止時に於ける諸問屋・諸株人数など、諸問屋組合総体を把握する上で好適な史料が多く含まれている。「総目次」には第一巻から第十五巻に至る迄の目次を総輯し、各巻ごとに文書番号・日付・文書名・ページを列記し、各文書の右傍に概要の簡潔な摘記を掲げた。また原史料には一件文書群を総括する件名が記されている場合が多く、これはその儘総目次の中に挿入したが、原史料に件名標記が欠けている場合などは、編纂者が便宜上新たに作成し、挿入した。以上のような各文書の摘記、及び件名の掲示は、この総目次の大きな特色をなすが、こうした措置により、「諸問屋再興調」という史料群の全体的把握、或いは特定の問題の検出や史料の経済史的再評価にあたって、大いに資するところがあると考えられる。<br/>（例言一頁、目次一頁、本文八八頁、総目次凡例一頁、総目次二一六頁）<br/>担当者　阿部善雄・梅澤ふみ子
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第15号 p.59*-60</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第15号", name: "publication-syoho-15" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

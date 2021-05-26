@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/31/saiho_DAINIH~3", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"『大日本史料』第二編之二十六収載予定史料の調査・撮影",creator:a,page:a,id:"saiho_DAINIH~3",url:a,content:"一九九五年十月十六日より十七日まで、京都市右京区御室仁和寺に出張し、『大日本史料』第二編之二十六に収載予定の「法華経開題」（塔中蔵第七箱）の調査・撮影を行なった。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（厚谷和雄・針生邦男）"}}],fetch:{},mutations:[]}}("")));

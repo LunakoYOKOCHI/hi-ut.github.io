@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/38/saiho_38_066", (function(a){return {data:[{vol:"38",item:{head:"史料採訪",title:"66.連合王国・オランダ王国における幕末維新史料調査",creator:a,page:a,id:"saiho_38_066",url:a,content:"二〇〇二年十一月末から十二月にかけて、イギリス・オランダ各地を訪問し、幕末維新期の日本関係史科を調査した。\n（中略。イギリス調査先、英国公記録局・タイン＆ウィアー文書館、オランダ調査先、海軍博物館。）\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（保谷 徹）"}}],fetch:{},mutations:[]}}("")));

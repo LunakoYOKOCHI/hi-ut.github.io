@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      51.オーストリア共和国・スイス連邦所在日本関 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">51.オーストリア共和国・スイス連邦所在日本関</h2>
+        
+        <div>
+        係古写真等の調査・撮影<br/>二〇一三年七月七日から十七日にかけて、オーストリア共和国ウィーン<br/>市、スイス連邦ヌーシャテル市に出張した。参加者は、保谷徹・箱石大・谷<br/>昭佳・高山さやかの四名である（保谷は二日遅れで出発）。また現地では、<br/>共同研究員ペーター・パンツァー名誉教授（ボン大学）・宮田奈々氏に調査<br/>協力をあおいだ。古写真研究プロジェクト（代表：保谷）と古写真科研（代<br/>表：谷）、三菱財団人文研究助成（代表：保谷）による合同調査である。<br/>１、オーストリア国立図書館（ウィーン市）<br/>一八六九年に来日した写真家ヴィルヘルム・ブルガーの日本関係古写真コ<br/>レクション及びウィーン万博関係写真アルバムを高精細デジタルカメラによ<br/>り撮影・調査した。撮影データは、高精細画像、顕微鏡画像など計三〇七カッ<br/>トであった。<br/>２、ヌーシャテル民族誌学博物館（ヌーシャテル市）<br/>一八六三年に来日したスイスの条約交渉使節エメ・アンベールの古写真コ<br/>レクションを調査し、高精細デジタルカメラによる各種撮影をおこなった。<br/>ゴンゼス館長と面会し、来年度の展示図録および古写真図録の出版、横浜で<br/>の展示について、博物館側の協力要請を受けて話し合いをおこなった。<br/>３、ヌーシャテル州文書館（同）<br/>エメ・アンベールの書翰ファイルなど（Fonds: Aimé Humbert、Vol.1-9（う<br/>ち4欠番）, Dossier 10-14）をサンプル閲覧した。オリジナル書翰の上に粉<br/>末の薬剤を振り、薄い紙を置いてプレスして写し取る特殊な複製方式による<br/>もの。にじみ出た表面は判別が難しく、裏面のほうがシャープな画像になっ<br/>ている。書翰複製は冊子状に綴じられ、発信地・宛先の索引が付されている<br/>が、いずれもかなり読みにくいものである。<br/>４、スイス連邦文書館（ベルン市）<br/>ベアトの写真アルバムを撮影調査し、金銀山絵巻などを閲覧した。<br/><br/>（保谷　徹・箱石　大・谷　昭佳・高山さやか）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第49号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第49号", name: "publication-syoho-49" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

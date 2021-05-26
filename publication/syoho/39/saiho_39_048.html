@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      48.龍門文庫所蔵史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">48.龍門文庫所蔵史料の調査</h2>
+        
+        <div>
+        二〇〇三年七月・二〇〇四年三月、奈良県吉野町の財団法人阪本龍門文庫に赴き、下記の書目について調査した。御高配を賜った関係各位に謝意を表す。<br/>（一七一）　色葉字類抄　（花山院本）<br/>（二四九）　小野経蔵目録　（仁安三年写）<br/>（一四一）　源三位頼政集<br/>（一五一）　拾翠愚草抄<br/>（一五五）　発句<br/>（二〇五）　春日若宮拝殿方諸日記<br/>（二二五）　家伝秘法<br/>（二〇一）　伊勢公卿勅使雑例<br/>（二〇二）　伊勢公卿勅使神宝絵図<br/>（二〇三）　伊勢勅使記<br/>（二〇四）　伊勢勅使部類記第五・第七<br/>（二五六）　三家撰集目録・先徳制作書目録<br/><br/>                             （田島　公・末柄　豊・藤原重雄）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第39号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第39号", name: "publication-syoho-39" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

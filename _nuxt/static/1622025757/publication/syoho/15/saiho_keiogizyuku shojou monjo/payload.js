@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/15/saiho_keiogizyuku%20shojou%20monjo", (function(a){return {data:[{vol:"15",item:{head:"史料採訪",title:"慶応義塾所蔵文書の調査",creator:a,page:a,id:"saiho_keiogizyuku shojou monjo",url:a,content:"昭和五十四年十月五日、花押蒐集の目的を以て、慶応義塾が所蔵する左記の単一文書四点を調査・撮影した。"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/52/saiho_52_005", (function(a){return {data:[{vol:"52",item:{head:"史料採訪",title:"5.太陽コレクション所蔵文書の調査・撮影",creator:a,page:a,id:"saiho_52_005",url:a,content:"二〇一六年一二月一二・一三日、一般財団法人太陽コレクション（東京都町田市中町二―二―三）に出張し、所蔵史料の調査およびデジタルカメラによる撮影を行った。撮影したのは左記の史料である。撮影順に番号を付した。\n（中略）\n（遠藤珠紀・金子　拓・畑山周平・村井祐樹）"}}],fetch:{},mutations:[]}}("")));

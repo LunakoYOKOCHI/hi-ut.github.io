@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/36/saiho_YO218B~1", (function(a){return {data:[{vol:"36",item:{head:"史料採訪",title:"陽明文庫における『後法成寺関白記』の原本校正と古記録の調査",creator:a,page:a,id:"saiho_YO218B~1",url:a,content:"二〇〇〇年十月二十三日より二十五日まで、大日本古記録『後法成寺関白記　一』編纂のため、同書の原本校正と、記主近衛尚通の筆になると考えられる部分の存在する『雑事要録』『雑々記』の調査を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（田中博美）"}}],fetch:{},mutations:[]}}("")));

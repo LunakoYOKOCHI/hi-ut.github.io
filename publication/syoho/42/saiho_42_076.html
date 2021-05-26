@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      熊本関係中世・近世前期史料の採訪 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">熊本関係中世・近世前期史料の採訪</h2>
+        
+        <div>
+        二〇〇七年三月五日から八日まで熊本市歴史文書資料室（市役所花畑町別<br/>館三階）に出張し、『新熊本市史』編纂事業の過程で収集され公開中の史料<br/>写真・写真帳のうち、近世第二室で系統的に調査中の熊本大学所蔵分・寄託<br/>分を除く文書群を閲覧・調査した。『大日本史料』第十二編編纂に当面資す<br/>る江戸時代前期の元和八･九年（一六二二・二三）から寛永九年（一六三二）<br/>までの熊本加藤家・小倉のち熊本細川家関係史料等を主に、各種中世史料を<br/>含めて複写した。採訪に際しては、一木和世氏をはじめ室員各位のご配慮を<br/>得た。記して謝意を表する。標記史料調査は今後も継続・発展させる予定で<br/>あり、採訪史料の目録は、本誌次号以降か平成一八―二一年度科学研究費補<br/>助金基盤研究(A)（一般）「江戸幕府・朝廷・諸藩の編年史・編年史料集の史<br/>料学的研究」（研究代表者山本博文氏）報告書上等に他日掲出したい。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山口和夫・及川亘）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

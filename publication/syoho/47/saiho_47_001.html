@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      ﻿1.札幌市内蝦夷地関係史資料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">﻿1.札幌市内蝦夷地関係史資料の調査</h2>
+        
+        <div>
+        『大日本古文書　幕末外国関係文書』巻之五十二原稿作成のため、三月二<br/>十三日～二十五日にかけて、北海道札幌市内の北海道開拓記念館（北海道札<br/>幌市厚別区厚別町小野幌五三―二）などに出張し、北方関係史資料などの調<br/>査・閲覧を行った。参加者は、佐藤雄介・保谷徹・小野将・当時外国人研究<br/>員のロシア科学アカデミー東洋古籍文献研究所ワジム・クリモフ上級研究員<br/>であった。現地では、北海道大学谷本晃久准教授、北海道開拓記念館東俊佑<br/>学芸員に、大変お世話になった。ここに記して感謝の意を表したい。<br/><br/>（佐藤雄介・保谷　徹・小野　将・ワジム・クリモフ）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第47号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第47号", name: "publication-syoho-47" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

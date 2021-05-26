@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      京都御所東山御文庫における調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">京都御所東山御文庫における調査</h2>
+        
+        <div>
+        十月二十四日、京都御所東山御文庫において『大日本史料』第一編補遺の編纂のために『周易抄』（勅封第一一五番—二）一巻の調査を行なった。同書は既に第一編之一承平元年七月十九日の宇多法皇崩御の条に巻頭の図版を収載しているが、今回は『国書逸文研究』八号の飯田瑞穂「宇多天皇宸筆『周易抄』紙背文書」が紹介した紙背の十二通の太政官符（任符）の撮影方法の検討と釈文の確認を行なった。紙背文書の撮影については、表装の裏打紙が銀切箔野毛を散らした厚手の鳥の子であるために種々の方法を講じても不可能であるとの結論を得た。但し、表に透けた紙背文書の逆文字は、表面の撮影により複製本（『宸翰集』）よりは読みとれる写真が得られる可能性もある。紙背文書の釈読は飯田釈文を手掛りに行なった。若干の補訂すべき箇所、新たに読み得た文字があるが、釈文は補遺において紹介する予定である。<br/>　　　　　　　　　　　　　　　　　　　　　　　（石上英一・山口英男・針生邦男）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第21号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第21号", name: "publication-syoho-21" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

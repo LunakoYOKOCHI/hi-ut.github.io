@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/48/saiho_48_017", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"17.彦根藩井伊家文書の調査・撮影",creator:a,page:a,id:"saiho_48_017",url:a,content:"二〇一三年三月一二日～一四日、彦根城博物館（滋賀県彦根市金亀町一─\n一）に出張し、彦根藩井伊家文書（井伊家伝来古文書）を閲覧して、『大日\n本維新史料　類纂之部　井伊家史料二十八』収載予定史料の補充調査及び写\n真撮影を行なった。\n\n（横山伊徳・杉本史子・箱石　大）"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/39/saiho_39_041", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"41.『実躬卿記』自筆本の調査",creator:a,page:a,id:"saiho_39_041",url:a,content:"〇四年二月二五日より二七日まで、大阪府大阪市武田科学振興財団杏雨書屋において、『実躬卿記』自筆本および紙背文書の調査、ならびに大日本古記録『実躬卿記』第五冊の出版に必要な原本校正を行った。\n\n　　　　　　　　　　　　　　　　　　　　　　　　（菊地大樹・井上　聡）"}}],fetch:{},mutations:[]}}("")));

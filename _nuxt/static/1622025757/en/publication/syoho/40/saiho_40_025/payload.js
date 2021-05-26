@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/40/saiho_40_025", (function(a){return {data:[{vol:"40",item:{head:"史料採訪",title:"２５　陽明文庫所蔵『後法成寺関白記』の原本調査",creator:a,page:a,id:"saiho_40_025",url:a,content:"二〇〇五年三月十四日より十六日まで、大日本古記録『後法成寺関白記』編纂のため、京都市陽明文庫所蔵の『後法成寺関白記』原本の大永三年以降の分について調査を行った。\n\n（本郷恵子・井上聡・田中博美）"}}],fetch:{},mutations:[]}}("")));

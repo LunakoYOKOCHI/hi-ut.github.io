@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      24.陽明文庫所蔵『後深心院関白記』の原本校正 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">24.陽明文庫所蔵『後深心院関白記』の原本校正</h2>
+        
+        <div>
+        二〇〇二年一一月一八日より二一日まで、大日本古記録『後探心院関白記』<br/>編纂のため、京都市陽明文庫所蔵の『後深心院関白記』原本等の古記録を調<br/>査し、原稿の原本枚正を行った。調査した書目及び架番号・点数は以下の通<br/>りである。<br/>　○後深心院関白記　　（貞治五年春）　　　第六函二〇　　　　　　　　　一巻<br/>　○後深心院関白記　　（貞治六年春夏）　　第六函二一　　　　　　　　　一巻<br/>　〇後深心院関白記　　（貞治六年秋冬）　　第六函二二　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安元年春夏）　　第六函二三　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安元年秋冬）　　第六函二四　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安二年春四月）　第六函二五　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安二年秋冬）　　第六函二六　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安四年春夏）　　第六函二七　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安四年秋冬）　　第六函二八　　　　　　　　　一巻<br/>　○後深心院関白記　　（応安五年春夏）　　第六函二九　　　　　　　　　一巻<br/>　○遣嗣公記抄　　　　　　　　　　　　　　第六函五〇　　　　　　　　　一巻<br/>　○信尊公記抄録　　　　　　　　　　　　　第八函九　　　　　　　　　　一冊<br/>　○尚嗣公記　　　　　　　　　　　　　　　第八函三五　　　　　　　　　一冊<br/>　○古今聴観　　　　　　　　　　　　　　　第八函六〇　　　　　　　　　一冊<br/>　○後深心院殿御記　　　　　　　　　　　　第一四函四〇　　　　　　　　一巻<br/>　○抜萃少々　　　　　　　　　　　　　　　二二〇／四一　　　　　　　　一冊<br/>　○旧例部類記　　　　　　　　　　　　　　二二〇／四三　　　　　　　　一冊<br/>　〇三藐院殿御抄出　　　　　　　　　　　　近九六／七　　　　　　　　　一冊<br/>　○沢庵百首　　　　　　　　　　　　　　　（無番号）　　　　　　　　　一冊<br/><br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山家浩樹・本郷恵子・尾上陽介）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第38号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第38号", name: "publication-syoho-38" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

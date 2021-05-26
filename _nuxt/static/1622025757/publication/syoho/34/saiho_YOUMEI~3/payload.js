@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/34/saiho_YOUMEI~3", (function(a){return {data:[{vol:"34",item:{head:"史料採訪",title:"陽明文庫における『大日本古記録　後深心院関白記一』の原本校正等",creator:a,page:a,id:"saiho_YOUMEI~3",url:a,content:"一九九八年一一月三〇日から一二月二日まで、京都市陽明文庫に出張し、『大日本古記録　後深心院関白記一』の原本校正及び挿入図版等の撮影を行った。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　（菅原昭英・尾上陽介）"}}],fetch:{},mutations:[]}}("")));

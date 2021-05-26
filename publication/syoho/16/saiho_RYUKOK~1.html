@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      龍谷大学図書館・京都大学附属図書館・京都大学文学部古文書室所蔵の近藤重蔵蝦夷地関係史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">龍谷大学図書館・京都大学附属図書館・京都大学文学部古文書室所蔵の近藤重蔵蝦夷地関係史料の調査</h2>
+        
+        <div>
+        昭和五十五年七月二十一日より二十四日まで、龍谷大学図書館、京都大学附属図書館、京都大学文学部古文書室において、近藤重蔵の蝦夷地関係史料について調査をおこなった。<br/>　龍谷大学図書館では近藤重蔵の有名な著書「辺要分界図考」を閲覧した。同館の所蔵本は閲覧カードに「自筆本」の記載がある。同書に関しては、已に内閣文庫所蔵の五部（十冊、九冊、九冊、七冊、七冊）と零本一冊、東京大学総合図書館所蔵の一部（八冊）を調査しているが、いずれも写本であって、この自筆本という点が注目される。龍谷大本は全八冊で、閲覧したところでは、序文の末尾に「文化元年甲子十二月二十三日 小臣近藤守重謹記」とあり、巻之一より七までの各巻頭に「近藤守重輯」の記載があるのみで、特に自筆本と思われる点は見当らず、また筆蹟も重蔵のものとは考えられない。<br/>　内容については、巻之一より六までは他の写本と同様で、巻之七は近藤正斎全集所収の巻之七の前半である「魯西亜考」で、巻之八は全集巻之七の後半の「釆覧異言増訳云」が収められ、全集本の巻之八にあたる部分を欠く。地図、挿絵の風俗図は美しい淡彩で、全体に保存の良い浄書本である。<br/>　京都大学附属図書館所蔵の「近藤正斎外書状」は巻子本、一巻。重蔵自筆の書状一通の他、次の人々の書状が収められている。いずれも重蔵宛である。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第16号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第16号", name: "publication-syoho-16" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

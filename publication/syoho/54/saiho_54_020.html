@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      20.泉涌寺および別院・塔頭文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">20.泉涌寺および別院・塔頭文書の調査・撮影</h2>
+        
+        <div>
+        二〇一九年一月、京都市泉涌寺宝物館・京都国立博物館に出張し、泉涌寺<br/>文書および今熊野観音寺文書・雲龍院文書の調査・撮影を行った。今熊野観<br/>音寺文書は泉涌寺宝物館寄託分の中世文書全点、雲龍院文書は京都国立博物<br/>館寄託の文書全点と、泉涌寺宝物館寄託分のうち中世から近世前期に関わる<br/>文書を調査・撮影した。史料所蔵者各位及び調査に際して便宜を図っていた<br/>だいた羽田聡氏、西谷功氏に厚く御礼を申し上げる。<br/>　撮影史料は以下の通り（括弧内は『泉涌寺史　資料篇』の文書番号）。<br/>　〈中略〉<br/>（高橋慎一朗・小瀬玄士・林晃弘）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第54号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第54号", name: "publication-syoho-54" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

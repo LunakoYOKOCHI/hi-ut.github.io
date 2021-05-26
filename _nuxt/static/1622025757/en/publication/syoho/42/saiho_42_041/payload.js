@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/42/saiho_42_041", (function(a){return {data:[{vol:"42",item:{head:"史料採訪",title:"毘沙門堂所蔵史料の調査・撮影",creator:a,page:a,id:"saiho_42_041",url:a,content:"二〇〇六年七月、毘沙門堂（京都市山科区安朱稲荷山町）に出張し、同門\n跡所蔵の史料について、学習院大学史料館と共同で調査を実施した。撮影目\n録については、〇五年度までの調査の結果と併せて次号に掲載する予定であ\nる。\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（山家浩樹・渡邉正男・末柄豊）"}}],fetch:{},mutations:[]}}("")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/39/saiho_39_035", (function(a){return {data:[{vol:"39",item:{head:"史料採訪",title:"35.仁和寺所蔵史料（御経蔵）の調査・撮影",creator:a,page:a,id:"saiho_39_035",url:a,content:"二〇〇三年十一月十六日から十九日まで、及び二〇〇四年三月二十一日から二十五日までの期間、総本山仁和寺を訪れ、御経蔵第二十六箱、第二十九〜三十四箱の史料を調査し、マイクロカメラによる全文撮影と花押採集を行った。\n　　　　　　　　　　　　　　　　　　　（金子 拓・黒嶋 敏・高橋典幸・前川祐一郎・林 譲・川本慎自）"}}],fetch:{},mutations:[]}}("")));

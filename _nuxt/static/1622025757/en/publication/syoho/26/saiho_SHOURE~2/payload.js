@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/26/saiho_SHOURE~2", (function(a){return {data:[{vol:"26",item:{head:"史料採訪",title:"青蓮院吉水蔵聖教類の花押採集",creator:a,page:a,id:"saiho_SHOURE~2",url:a,content:"平成二年（一九九〇）十二月三日から六日まで、全文撮影グループに合流して、青蓮院（京都市東山区粟田口三条坊町）を訪れ、吉水蔵聖教類に据えられている花押を採集した。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（本郷和人・林　譲）"}}],fetch:{},mutations:[]}}("")));

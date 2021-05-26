@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/31/saiho_TOUJIY~1", (function(a){return {data:[{vol:"31",item:{head:"史料採訪",title:"東寺百合文書の原本校正",creator:a,page:a,id:"saiho_TOUJIY~1",url:a,content:"一九九六年二月十九日より二十二日まで、京都府立総合資料館に出張し、『大日本古文書』家わけ第十　東寺文書の編纂のため、同館所蔵の「東寺百合文書」の原本校正を行った。\n　　　　　　　　　　　　　　　　　　　　　（久留島典子・高橋慎一朗・高橋敏子）"}}],fetch:{},mutations:[]}}("")));

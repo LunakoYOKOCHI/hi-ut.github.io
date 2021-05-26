@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      仁和寺・京都府立総合資料館・京都大学附属図書館所蔵古記録の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">仁和寺・京都府立総合資料館・京都大学附属図書館所蔵古記録の調査</h2>
+        
+        <div>
+        二○○七年三月二五～二八日、仁和寺・京都大学附属図書館・京都府立総<br/>合資料館等に出張し、各機関に所蔵される古記録を調査した。調査した史料<br/>の書名及び架番号・点数は以下の通りである。<br/>【仁和寺】<br/>○明月記（建仁・建暦・建保断簡一一紙）　　　　　　　　　　　　　一巻<br/>【京都大学附属図書館】<br/>○除目部類　　　　　　　　中院／Ⅱ／九　　　　　　　　　　　　　一巻<br/>○御幸部類　　　　　　　　中院／Ⅳ／六　　　　　　　　　　　　　二冊<br/>○貞和御即位記　　　　　　平松／第四門／シ三七　　　　　　　　　一冊<br/>○諸記録抜書　　　　　　　平松／第九門／シ七　　　　　　　　　三○冊<br/>○諸記録故実抜書　　　　　平松／第九門／シ五　　　　　　　　　　一冊<br/>○中院通冬記　　　　　　　中院／Ⅱ／三一　　　　　　　　　　　　二冊<br/>○中院通冬記裏書文書　　　中院／Ⅱ／三二　　　　　　　　　　　　一冊<br/>○中院通冬記抄　　　　　　中院／Ⅱ／三三　　　　　　　　　　　　一冊<br/>○中院通冬記目録　　　　　中院／Ⅱ／三五　　　　　　　　　　　　一冊<br/>○中院一位殿御記　　　　　中院／Ⅱ／五四　　　　　　　　　　　　一冊<br/>【京都府立総合資料館】<br/>○愚昧記　　　　　　　　　特九二七／二○　　　　　　　　　　　二二冊<br/>○踏歌節会部類記　　　　　特九二七／一九五　　　　　　　　　　　一冊<br/>○改元記　　　　　　　　　特九二七／二○九　　　　　　　　　　　一冊<br/>○改元部類記　　　　　　　特九二七／一八二　　　　　　　　　　　一冊<br/>○行類抄　　　　　　　　　特九二七／四四　　　　　　　　　　　　六冊<br/><br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（井上聡・尾上陽介）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

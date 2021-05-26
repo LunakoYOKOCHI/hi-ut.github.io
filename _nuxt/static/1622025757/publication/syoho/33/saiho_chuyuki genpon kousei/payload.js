@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/33/saiho_chuyuki%20genpon%20kousei", (function(a){return {data:[{vol:"33",item:{head:"史料採訪",title:"『中右記』原本校正",creator:a,page:a,id:"saiho_chuyuki genpon kousei",url:a,content:"一九九八年三月二八〜三〇日に、陽明文庫において、大日本古記録『中右記』三の原本校正を行った。　　　　　　　　　　　　　　　　　　　　　　　　　　（吉田早苗）"}}],fetch:{},mutations:[]}}("")));

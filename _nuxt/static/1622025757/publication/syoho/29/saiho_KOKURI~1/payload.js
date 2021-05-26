@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/publication/syoho/29/saiho_KOKURI~1", (function(a){return {data:[{vol:"29",item:{head:"史料採訪",title:"国立歴史民俗博物館所蔵『民経記』及び同紙背文書の閲覧",creator:a,page:a,id:"saiho_KOKURI~1",url:a,content:"九三年十一月九日より十二日迄の四日間、大日本古記録「民経記」の原稿作成のため、千葉県佐倉市の国立歴史民俗博物館に赴いて、同館所蔵の民経記とその紙背文書とを閲覧し、裏打等の原因により写真では不明瞭な箇所を判読した。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（石田祐一）"}}],fetch:{},mutations:[]}}("")));

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      東大寺図書館所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">東大寺図書館所蔵史料の調査・撮影</h2>
+        
+        <div>
+        一九九六年三月二五日から二九日まで、奈良市東大寺図書館に出張し、同館所蔵の史料のうち、記録部（一四一架）と影写本部（一八一架）について、簡略調書の作成、マイクロフィルム撮影を行った。このうち記録部（一四一架）は前年度よりの引き続きとして七七六から九一四までを対象とした。これらは東大寺領周防国衙関係の近世史料である。なお、同架の調査・撮影は今回で完結した。そこで本年度は新たに影写本部（一八一架）に着手した。同部は聖教類・記録類を模写した明治以降の複本で構成される。このうち一より一二八は、概ね鎌倉時代の宗性上人筆の聖教類の複本であって、すでにその原本は本所撮影済である。そのため今回の撮影はそれらを省略し、一二九以下を扱うこととした。本年度は一二九から二〇四までの撮影を済ませた。<br/>　このほか、大日本古文書東大寺文書之十六編纂の完了に伴い、借用文書の返却と、そして同十七編纂のための新規借用を行った。<br/>　　　　　　　　（保立道久・針生邦男・中藤靖之・高橋敏子・山家浩樹・遠藤基郎）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第31号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第31号", name: "publication-syoho-31" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

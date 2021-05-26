@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho/48/saiho_48_023", (function(a){return {data:[{vol:"48",item:{head:"史料採訪",title:"23.京都大学総合博物館所蔵文書の調査・撮影",creator:a,page:a,id:"saiho_48_023",url:a,content:"二〇一二年七月二十三日、京都大学に出張し、同所蔵の古文書・記録を調\n査、撮影した。また一〇月一八日・一九日に重ねて調査・撮影を行った。撮\n影史料については、両度をあわせて後掲する。\nなお当日は京都大学文学部山田徹氏にはたいへんお世話になりました。記\nしてお礼申し上げます。\n\n（金子　拓・遠藤珠紀）"}}],fetch:{},mutations:[]}}("")));
