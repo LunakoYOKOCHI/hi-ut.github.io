@@ -100,6 +100,11 @@
                   $t('共同利用・共同研究拠点')
                 }}</nuxt-link>
               </li>
+              <li v-if="lang === 'en'">
+                <nuxt-link :to="localePath({ name: 'collaboration' })">{{
+                  $t('共同研究')
+                }}</nuxt-link>
+              </li>
             </ul>
           </nav>
 
