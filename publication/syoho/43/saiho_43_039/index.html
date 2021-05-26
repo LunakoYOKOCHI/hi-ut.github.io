@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      上賀茂神社所蔵文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">上賀茂神社所蔵文書の調査・撮影</h2>
+        
+        <div>
+        二〇〇七年六月十一・十二の両日、京都市北区の賀茂別雷神社（上賀茂神<br/>社）に出張し、同社所蔵の史料の一部を調査・撮影した。<br/>　上賀茂神社所蔵の史料については、すでに一九七二～七六年に採訪が行な<br/>われており、写真帳九十六冊が編成されている（六一七一・六二―一八〇）。<br/>しかし、その後一九九七～二〇〇二年に京都府教育委員会による調査が行な<br/>われ、詳細な目録が作成された（京都府古文書調査報告書第十四集『賀茂別<br/>雷神社文書目録』二〇〇三年）。<br/>　中世史料部門編年第十一としては、『大日本史料』第十一編天正十三年年<br/>末雑載への収録を予定していた史料が上記写真帳では細部を確認できないた<br/>め、少なくとも同史料を再度撮影する必要があった。この機会に新しい目録<br/>によって第十一編に関係する史料を検索し直し、それらも合わせて撮影する<br/>計画を立て、今回の出張となったものである。<br/>　撮影した史料は、下記の通りである（上記目録の頁数と文書番号で示す）。<br/>なお、第十一編に直接は関係しない史料でも、現場の状況に応じて撮影した<br/>ものがある。<br/>　　二二八頁二四一号、二三一頁二号、二七〇頁五九号、二七一頁六四号・<br/>　　六五号、二八三頁五四号、二九六頁四〇〇号、三〇五頁一九一号・一九<br/>　　三号、三一三頁四〇六号、三五六～七頁四一八～四三〇号、四四七頁八<br/>　　九号・九〇号、四五八頁二七三号、四九三頁九四四号、四九六頁一〇一<br/>　　八号、五〇〇頁一一一八号、五〇一頁一一二六号、五一五頁一一三号、<br/>　　五七六～八〇頁一～一一五号<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（鴨川達夫・村井祐樹・遠藤珠紀）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第43号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第43号", name: "publication-syoho-43" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

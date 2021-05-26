@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      文化庁所蔵東大寺開田図の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">文化庁所蔵東大寺開田図の調査</h2>
+        
+        <div>
+        さきに本所が出版した『東大寺開田図』（『大日本古文書』家わけ第十八、東大寺文書之四（東南院文書之四））中の次の絵図四点は、文化庁によって昭和五十年度に買い上げられた。<br/>　六　越前国坂井郡高串村東大寺大修多羅供分田地図　天平神護二年十月廿一日<br/>　八　越中国礪波郡石粟村官施入田地図　　　　　　天平宝字三年十一月十四日<br/>　一八参考　越中国射水郡鳴戸村墾田地図　　　　年次未詳<br/>　一九参考　越中国射水郡鹿田村墾田地図　　　　年次未詳<br/>　これらの絵図は、もとは屏風に貼付されて東京都某氏（所有者の希望により特に名を秘した）の所蔵であったが、文化庁は壺中居より買取の機会に幅物に改装することにしたので、本所でも事前に調査の機会を与えてもらった。<br/>　昭和五十一年二月三日、絵図の改装が行なわれる黄鶴堂目黒三次氏宅で、屏風からはがされたものを調査し、四×五判でモノクロとカラーの両様の撮影を行なったが、改装の結果、一八号参考図の鳴戸村墾田地図は、いくつかの文字が判読できるようになった。<br/>　該図は、『大日本古文書』の例言でも言及しているように、一九号参考図の鹿田村墾田地図と接合して、あたかも一図のように屏風に貼られていたものであるが、改装にあたってこれを分離し、さらに本図の右端上部に、「〓田庄」云々と書かれた一紙が貼付されていたのを、裏返しにして旧状に復した。この墨書は、本来裏面にあった端裏書の部分であったのである。<br/>　この結果、屏風に貼られて見ることのできなかった文字が表面にあらわれたので、すでに出版されている釈文は、右図のように訂正されなければならなくなった。これを従来の釈文と比較してみると、さきに判読した文字はすべて正しいことがわかったが、今度新たに一八字を追加することができたことになる。（皆川完一・鈴木茂男・岡田隆夫・黒川高明・針生邦男・中藤靖之）<br/>（端裏書）「　　　　　　　　　　　　　　　　破損<br/>　　　　　　　　　　　神護景雲元年　端在礪浪郡庄<br/>　　〓田庄　　　　　　在長和目六　　　　　　　　　　　　　　　　　　　　　」<br/>アイウエオカキク<br/>img p.108c
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第11号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第11号", name: "publication-syoho-11" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

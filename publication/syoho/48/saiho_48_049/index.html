@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      49.春日社旧社家所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">49.春日社旧社家所蔵史料の調査・撮影</h2>
+        
+        <div>
+        二〇一二年七・九・十二月、二〇一三年二月に奈良市の春日大社等に赴き、<br/>旧社家である大東家・辰市家所蔵の史料を調査・撮影した。主に共同利用・<br/>共同研究拠点の課題遂行を目的とし、併せて『大日本史料』第十二編関係史<br/>料の調査・原本校正を行った。御所蔵者ならびに春日大社の松村和歌子氏<br/>（共同研究員）・千鳥祐兼氏をはじめとする関係各位には、大変お世話になっ<br/>た。また、共同研究員の幡鎌一弘氏（天理大学）・清水健氏（奈良国立博物館）<br/>にもご参加いただいた。併せて謝意を表したい。対象史料は現在、整理の中<br/>途段階にあり、区切りのよい時期にまとめて報告の予定である。ごく一部の<br/>文書については、『春日大社所蔵　大東家文書目録』（東京大学史料編纂所研<br/>究成果報告書二〇一二<br/>－<br/>五、二〇一三年）に附載した。<br/><br/>（小宮木代良・末柄　豊・及川　亘・谷　昭佳・高山さやか・藤原重雄）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第48号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第48号", name: "publication-syoho-48" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

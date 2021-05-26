@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      近衛家文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">近衛家文書の調査・撮影</h2>
+        
+        <div>
+        一九九六年三月十八日より二十一日までの四日間、京都市宇多野の陽明文庫に出張し、近世文書記録の調査・撮影を行なった。従前の如く「陽明文庫分類目録　家門篇三」に拠って調査を進め、今回は「八、婚礼、縁組他家相続」の分、架番号九五〇一〜九九八〇（一八九袋〜一九五袋）、一〇三三六〜一〇三九七（二〇八袋）、一六七八九〜一六九一〇（四二二袋）、「九、御産、御誕生」の分、九九八一〜九九九九（一九六袋）、二五八一一〜二六〇八九（六六五袋〜六六九袋）、「十、拝賀、着陣、直衣始メ」の分、一〇三九八〜一〇四四九（二〇九袋）、一六九一一〜一六九一九（四二三袋）、二六〇八六〜二六二二〇（六七〇袋〜六七二袋）を調査し、都合二九七点を撮影し、マイクロフィルム・一〇〇フィート三函に収めた。<br/>　　　　　　　　　　　　　　　　　　　　　　　（橋本政宣・厚谷和雄・佐藤孝之）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第31号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第31号", name: "publication-syoho-31" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      51.大和文華館所蔵双柏文庫の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">51.大和文華館所蔵双柏文庫の調査・撮影</h2>
+        
+        <div>
+        二〇一二年七月一二・一三日、大和文華館所蔵双柏文庫の調査・撮影を<br/>行った。同調査は二〇一〇年より四次にわたり実施したものである。双柏文<br/>庫は中村直勝氏蒐集による中近世蒐集文書群であり、中世文書のうちには東<br/>大寺文書などがある他、織豊期・江戸前期の文人書状が多い。すでに『中村<br/>直勝博士蒐集古文書』（中村直勝博士古稀記念会編、一九六〇年）において<br/>学界に紹介されているものである。四次の調査を通して、上記史料集未収も<br/>含め六六四点の撮影を行った。簡略目録については、別途http://www.hi.utokyo.<br/>ac.jp/personal/endo/index.html 配下にＨＴＭＬファイルにて公開す<br/>る。なおこの調査に際しては、大和文華館学芸員古川攝一氏に格別のご高配<br/>を賜った。厚くお礼申し上げたい。<br/><br/>（厚谷和雄・伴瀬明美・遠藤基郎）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第48号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第48号", name: "publication-syoho-48" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

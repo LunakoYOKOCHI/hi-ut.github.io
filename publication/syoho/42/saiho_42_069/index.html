@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      山口県文書館毛利家文庫「遠用物」（近世前期）の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">山口県文書館毛利家文庫「遠用物」（近世前期）の調査・撮影</h2>
+        
+        <div>
+        二〇〇六年八月二四日・二五日、二〇〇七年一月二三日から同二六日まで、<br/>同二月二二日から二五日まで山口県文書館に出張し、同館所蔵毛利家文庫<br/>「遠用物」（近世前期）一〇七四号～一七〇一号、二二七七号～二三四三号を<br/>撮影した。撮影に際しては和田秀作氏はじめ文書館の方々に大変お世話になっ<br/>た。この場を借りて厚くお礼申上げる次第である。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（及川　亘・柗澤裕作）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第42号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第42号", name: "publication-syoho-42" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

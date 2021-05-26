@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本史料第十二編之五十 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本史料第十二編之五十</h2>
+        
+        <div>
+        本冊には、元和八（一六ニニ）年十一月是月より十二月是月まで、および是歳に係る史料を収めた。<br/>　この期間には、最上氏の改易とそれに続いた本多氏の改易のような大事件は起きていないが、政治史上ながい目でみると注目すべきものを、二三あげることができる。<br/>　ひとつは、十二月八日第一条の三宝院義演による後七日法再興に係ることがらである。文禄三（一五九四）年東寺長者就任以来の宿願がこの時期に達成された理由については、関連する史料を載せることができなかったが、朝儀再興の流れのなかで押さえて置くべき事件である。なお、復活した御修法そのものについては、明年正月八日条に収載の予定である。<br/>　次に、十二月十八日には前内大臣武家伝奏広橋兼勝が没している。同家伝来の史料により蔵人、武家伝奏の職務に関わる史料を多数収載できたことを感謝したい。<br/>　十二月二十八日第三条に萩毛利藩の財政改革に係る史料を収載した。改革の内容に渉る史料は明年十一月二十一日条に収載するが、本年八月十四日第二条の高知山内藩の財政改革とともに注目すべき事件であろう。なお、この条には、本年に作成された同藩の分限帳を附録として収載した。<br/>　幕府の地方支配に関わるものでは、根来盛重の和泉代官（十二月八日第二条）、小堀遠州（政一）の近江国奉行（是歳第一条）の就任がある、盛重はこれより以前から少なくとも和泉の一部について代官であったと考えられるので、そのことを示す史料を参考として掲げた。<br/>　その他に、正月を控えて鍋島勝茂の子翁助、立花宗茂の子千熊などが秀忠の御前で元服し、受領している。受領の手続きについては、兼勝死没の条を合わせ御覧いただければ幸いである。<br/>（目次七頁、本文四七六頁、挿入図版一葉）<br/>担当者　高木昭作・黒田日出男・宮崎勝美
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第20号 p.61</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第20号", name: "publication-syoho-20" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

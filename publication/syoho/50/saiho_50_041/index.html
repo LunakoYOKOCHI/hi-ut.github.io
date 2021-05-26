@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      41.春日大社および春日社旧社家所蔵史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">41.春日大社および春日社旧社家所蔵史料の調査</h2>
+        
+        <div>
+        二〇一四年九月八～一一日の間、奈良市・春日大社に出張し、同社所蔵および旧社家所蔵史料の調査・撮影を行った。春日大社御当局および所蔵者よりご高配を賜り、宝物殿の松村和歌子氏には毎度ながら大変お世話になった。ここに謝意を表する。今回デジタル撮影を行った春日大社所蔵史料は下記である。<br/>（日記・無番）慶長二年中臣祐園記<br/>※一冊、袋綴。楮紙、表紙共紙全八七丁。縦二四・三×横一六・一センチメートル。正月一日より大晦日までの記事あり。表紙「慶長二年〈丁酉〉正月吉日／春日社正月一日以来御神事日記／正五位下中臣連祐園（花押）」（余白には内容目録を記すが割愛）。挟み込み一紙あり、天明五年〈辛巳〉十一月の「送リ手形之事」の草案。『春日神社記録目録』（一九二九年）に著録せず、近年返却されたもの。<br/>（日六五）天正十五年中臣祐父記　<br/>※マイクロフィルムによる撮影済（所報一九号一三七頁）。断簡二紙を元に戻しての再撮影。<br/>（日三三八・三三九）宝暦十三年中臣延栄記<br/>※二冊。（上）袋綴、楮紙、表紙共紙全六三紙。縦二九・七×横二二・七センチメートル。表紙「〈癸／未〉正月吉日ヨリ六月／ 宝暦拾三歳日記／執行正預正三位中臣延栄／六十九歳」。正月元日より六月二十九日までの記事。（下）袋綴、楮紙、表紙共紙全六六紙。縦二九・三×横二二・三センチメートル。表紙「〈癸／未〉七月朔日ヨリ十二月／ 宝暦拾三歳日記／執行正預正三位中臣延栄」。七月朔日より十二月晦日までの記事。<br/>（日三四〇）宝暦十三年中臣光知記<br/>※一冊、袋綴。楮紙、表紙共紙全二〇紙。縦二八・二×横一九・五センチメートル。表紙「宝暦十三〈癸／未〉年日記〈六月以来〉／加任預光知」。五月二十九日から十二月十一日の記事。第十九紙袋綴内に下敷き罫紙を挿み込み。裏表紙に印文不詳の黒印あり。<br/>　この他、春日大社所蔵史料のうち近世の神事日記の調査の継続、および旧社家所蔵史料の調査・撮影については、中途であるため報告は機会を改める。<br/>なお年度内に数度、補充の調査を行い、横内裕人氏（京都府立大学）および同大学院生と共同しての記録の調書作成を進めた。<br/><br/>（荒木裕行・稲田奈津子・林　晃弘・藤原重雄）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第50号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第50号", name: "publication-syoho-50" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

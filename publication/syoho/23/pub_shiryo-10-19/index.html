@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本史料第十編之十九 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本史料第十編之十九</h2>
+        
+        <div>
+        本冊には正親町天皇天正元年十二月より年末雑載諸家までの史料を収める。<br/>　本年七月、織田信長は将軍足利義昭を京都から逐って幕府を滅亡させ、自らの要請によって、元号は「天正」と改元された。さらに、八月、朝倉・浅井両氏を倒し、九月には北伊勢の一向一揆制圧に着手、十一月、義昭の党三好義継を討滅したことによって、信長は長期にわたった義昭との抗争の戦後処理をひとまず終了した。このときにあたり、信長と朝廷の間で正親町天皇の譲位について議されているのは、織田政権の政治的立場を占うものとして注目に値する（十二月八日第二条）。<br/>　いっぽうで、大和の松永久秀・久通父子が降り（十二月二十六日第五条）、遠く伊達輝宗も初めて好を通じてくる（十二月二十八日第一条）など、信長の勢力圏の拡大は進行していく。毛利氏との関係もさしあたりは良好であることが、『吉川家文書』中の著名な安国寺恵瓊の長文の書状などによって窺うことができる（十二月十二日第二条）。<br/>　地方の動向では、大友宗麟が子義統に家督を譲ったことが挙げられる（十二月二十八日第三条）。本件については、その時期をめぐって異説が多いが、義統の花押の形状により本年に立条した。<br/>　なお、歿日に事蹟を収載したものに、上泉信綱（是歳第二条）がある。<br/>　また、是歳の第七条及び第八条には、李氏朝鮮との通交等にかかわる史料を『李朝実録』などの朝鮮側に残されたものに拠って収録した。不正な申告をしてより多くの粮料を得ようとする対馬宗氏を戒飭するにあたって、「島夷性躁」だからと「蛇虺之怒」を危倶して逡巡するなど、倭冠の跳梁した当時の李朝の官人たちの、倭人に対する感覚のありようが窺えるのが興味深い。<br/>　同じく是歳の第九・十条には、フランシスコ・カブラルらイエズス会の宣教師たちの九州・中国地方を中心とした布教の様子を、欧文・訳文あわせて掲載した。<br/>　雑載には、その性格上とくにまとまった史料は載せていない。仏寺の条が大きな部分を占めるが、なかでも興福寺大乗院門跡の地位にあった尋憲の日記である『尋憲記』から多くの材料を得た。以下に雑載の項目を便宜掲げておく。<br/>天文・災異<br/>神社（補任・神事・参詣・贈答・造営・宮座・雑）<br/>仏寺（補任・年中行事・法会・往来・贈答・番衆・修理造営・紛争）<br/>禁中<br/>諸家<br/>（目次九頁、本文四〇六頁、欧文目次一頁、同本文三四頁）<br/>担当者　染谷光廣・山室恭子<br/>欧文担当者　金井圓・五野井隆史
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第23号 p.43*</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第23号", name: "publication-syoho-23" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

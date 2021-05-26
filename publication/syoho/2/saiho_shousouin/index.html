@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      正倉院出張報告 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">正倉院出張報告</h2>
+        
+        <div>
+        例年の如く、正倉院の曝凉期間中に、昭和四十一年十月三十日から十一月五日まで正倉院に出張し、正倉院文書の調査を行った。本年度は前年に引続き、正集及びその関連文書の、主として外形の調査を進め、第四十五巻までを一通りほぼ終了した。正倉院文書は全部で約八百巻に近い大量のものである上に、その大部分は表裏互に無関係に成立した長大な帳簿類で占められている。その上に、これらの帳簿類が、写経所に於て、更に又近世以降の文書整理に際して、二回乃至三回に亘つて極めて任意に分断され接合されて伝えられているのが現状であり、文書の原型の復原には多大の努力を必要とする。従って今次の調査も、まづ正倉院文書の現状の確認を主目的として、手始めに正集の形状調査を四回に亘り行ったものであるが、一紙の両端の状態や、接続に関する所見の確認等については、なお問題点は多い。<br/>　（川崎庸之・土田直鎮・皆川完一）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第2号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第2号", name: "publication-syoho-2" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

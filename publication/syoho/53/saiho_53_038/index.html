@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      38.永青文庫「細川家史料」の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">38.永青文庫「細川家史料」の調査</h2>
+        
+        <div>
+        『大日本近世史料　細川家史料』編纂のため下記日程で熊本大学附属図書<br/>館に出張し、永青文庫所蔵・同館寄託「細川家史料」を調査した。<br/>①二〇一七年十一月二十日から二十二日。『大日本近世史料　細川家史料二<br/>十六』原本校正および関連史料調査と『熊本大学寄託永青文庫資料総目録　<br/>歴史資料編』第三冊（二〇一五年）所掲新出分、「神新」継続調査・撮影（第<br/>四回）とを実施した。<br/>【原本校正】<br/>公儀御書案文　寛永十七年分　十．二十三．十三～十四 二冊　<br/>【調査・撮影分】<br/>「光尚公御筆上」九　　　　　川端<br/>18.<br/>　２上 一巻　<br/>「忠利公御筆」十五　　　　　川端<br/>18.<br/>　５下 一巻　<br/>「忠利公御筆」十九　　　　　川端<br/>18.<br/>　５上 一巻　<br/>「光尚公御筆」二十四　　　　川端18. 　２下 一巻　<br/>神新百四十一番～神新百五十七番（除、百四十六番） 六十六点　<br/>（山口和夫・及川亘・林晃弘）<br/>②二〇一八年三月十三日から十五日。『大日本近世史料　細川家史料』関連<br/>史料調査と「神新」継続調査・撮影（第五回）を実施した。<br/>【調査・撮影分】<br/>神新百五十八番～神新番外三十 七十五点　<br/>（藩主并一門連枝墳墓帳）　　　　100.11.17 一冊　<br/>（覚）　　　　　　　　　　　　　2C.3.8.11.3 一通　<br/>（覚）　　　　　　　　　　　　　密.人.301.3 一通　<br/>永源菴之儀政府ヨリ掛合之一件扣　永源記年抜書　嵯峨真乗院差出候御書扣<br/>抜書　細川藤孝公畧傳之内　　　8.1.186.7 一冊　<br/>　調査に際しては、永青文庫学芸員佐々木英理子氏・熊本大学附属図書館川<br/>内野祐子氏・永青文庫研究センター長稲葉継陽氏等のご配慮を得た。記して<br/>感謝申し上げる。<br/><br/>（山口和夫・林晃弘）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第53号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第53号", name: "publication-syoho-53" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

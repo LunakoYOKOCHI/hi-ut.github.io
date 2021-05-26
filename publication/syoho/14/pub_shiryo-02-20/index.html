@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本史料第二編之二十 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本史料第二編之二十</h2>
+        
+        <div>
+        本冊には後一条天皇治安三年十二月から、万寿元年十一月までの史料が収めてある。<br/>　この間に於ける公事の主なものとしては、改元がある。これに就いては、まず治安三年十二月十九日（二二頁以下）、宣旨を紀伝・明経・暦道等に下して、明年甲子歳が革令に当るや否やを勘申せしめ、ついで翌年四月二十六日（第二条、二二二頁以下）、陣定を行なって革令のことを定め、参議藤原広業等をして、年号を撰進させている。諸道の勘申では、革令の当否は不明であったが、結局、甲子歳は慎むべしとて、七月十三日（二五〇頁以下）、万寿と改元し、常赦を行なった。<br/>　次に、入道前太政大臣藤原道長の主な行動に就いてみると、治安三年十二月二十三日（第二条、三五頁以下）、彼は新造の法成寺薬師堂に仏像を安置し、翌万寿元年正月八日（第二条、一三三頁以下）、同寺に於いて修正を行ない、四月七日（第二条、二〇三頁以下）には、同寺内に塔・六丈堂・十斎堂造立のため立柱し、関白左大臣藤原頼通以下に、その柱石を曳かせている。ついで六月二十六日（第一条、二三五頁以下）、同寺薬師堂を供養し、太皇太后（藤原彰子）もこれに臨席した。この堂供養は、御斎会の儀に准じたものである。<br/>　次に、頼通については、万寿元年九月十九日（二七五頁以下）、高陽院で行なった競馬が著名である。これより先、同月十四日（二七一頁以下）、太皇太后は競馬御覧のため、同院に遷られ、当日、後一条天皇の行幸、東宮（敦良親王）行啓のもとに行なわれた。同院での競馬の模様や後宴に就いては、『小右記』『高陽院行幸和歌』『栄花物語』などによって、詳しく知ることができる。また、重要文化財指定の久保家本「駒競行幸絵巻」（東宮の高陽院到着場面）を、原色図版として挿入してある。<br/>　本冊に於いて、その事蹟を集録した者は、侍医和気相法（治安三年々末雑載、社会の条、七五頁以下）・検非違使紀貞光（同上、七八頁以下）・内大臣藤原教通室（権大納言藤原公任女、万寿元年正月六日の条、一一四頁以下）・大原入道寂源（源時叙、三月二日の条、一六九頁以下）などである。<br/>（目次一九頁、本文三七三頁、原色挿入図版一葉）<br/>担当者　土田直鎮・渡辺直彦・河内祥輔・加藤友康
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第14号 p.34</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第14号", name: "publication-syoho-14" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

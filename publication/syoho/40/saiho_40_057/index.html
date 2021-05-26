@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      ５７　山口県文書館毛利家文庫「遠用物」および諸家文書の調査撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">５７　山口県文書館毛利家文庫「遠用物」および諸家文書の調査撮影</h2>
+        
+        <div>
+        二○○五年二月一日から三日まで山口県立山口県文書館に出張し、同館毛利家文庫「遠用物」（中世・近世前期）、および同館所蔵諸家文書等の調査・撮影を行った。<br/>　遠用物とよばれる史料群は、山口県文書館編『毛利家文庫目録』第一分冊～第五分冊に掲載されていないもので、昨年からの継続として調査・写真撮影を行った。一方、同館所蔵の諸家文書については、昨年度、本所未撮影の史料を、同館閲覧室で公開されている諸家文書目録調査によって選び出したが、今年度はその結果に基づいて、本所未採訪史料の調査・写真撮影を行った。調査・撮影史料は以下の通りである。<br/>①利家文庫「遠用物」中世（慶長五年以前、約五五○点）のうち一六○点ほどの撮影を行った。<br/>②次の諸家文書について、中世～近世初期文書の調査・写真撮影を行った。<br/>阿川毛利文書、宇部市井上文書、防府市井上文書、岩崎文書、内海文書、片山文書、宇部市桂文書、大阪府桂文書、志道文書、津田文書、鳥居文書、旧長州藩士内藤文書、本郷村内藤文書、中村文書、野尻文書。服部文書、豊北町林文書、福永文書、藤本文書、宗正文書、山本文書、吉敷毛利文書、三増文書、一般郷土史料所収文書、軸物類所収文書、埴生文書、妙喜寺文書（なお最後の二文書は写真閲覧のみ）。<br/>以上、同館の調査・撮影においては、同館専門研究員和田秀作氏のご協力を得た。記して謝意を表する。<br/><br/>（及川　亘・久留島典子・黒嶋　敏・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第40号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第40号", name: "publication-syoho-40" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

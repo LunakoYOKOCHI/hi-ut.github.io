@@ -207,7 +207,7 @@ Vue.component("Layout", {
               size="31"
               :placeholder="$t('Googleカスタム検索')"
             />
-            <input id="search-btn" type="submit" name="sa" value=" " />
+            <input style="cursor:pointer;" id="search-btn" type="submit" name="sa" value=" " />
           </form>
 
           <ul
@@ -257,7 +257,7 @@ Vue.component("Layout", {
           size="31"
           :placeholder="$t('Googleカスタム検索')"
         />
-        <input id="search-btn" type="submit" name="sa" value="" />
+        <input style="cursor:pointer;" id="search-btn" type="submit" name="sa" value="" />
       </form>
 
       <ul class="menu">

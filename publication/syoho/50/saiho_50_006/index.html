@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      6.泉岳寺所蔵史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">6.泉岳寺所蔵史料の調査・撮影</h2>
+        
+        <div>
+        二○一四年四月一五日、東京都港区泉岳寺に出張し、所在史料の調査・撮影を行った。撮影史料は以下の通り。<br/>〔泉岳寺文書〕<br/>天文十三年十一月廿九日　　　神光庵知□田地売券<br/>天文十八年三月十四日　　　　慶蓮庵宗貞他田地売券<br/>天文廿二年九月二日　　　　　田原城大かみ岩畠地売券<br/>永禄三年十一月十八日　　　　宇野忠作田地売券<br/>永禄四年四月十五日　　　　　光重田地売券<br/>永禄四年霜月廿六日　　　　　城行真他田地売券<br/>永禄五年十一月十一日　　　　左衛門大夫重綱屋敷売券<br/>永禄五年十二月廿四日　　　　大石重元田地売券<br/>永禄六年正月廿九日　　　　　宇野定清田地売券<br/>永禄八年五月十日　　　　　　満願寺承簡田地売券<br/>永禄九年三月四日　　　　　　大石重能他田地売券<br/>永禄十年二月廿六日　　　　　藤右衛門尉宗富田地売券<br/>永禄十二年十一月廿二日　　　大石駿河田地売券<br/>（年月日欠）　　　　　　　　 某田地売券（後欠）<br/>（年欠）卯月七日　　　　　　岩村孫次郎宗□田地売券<br/>　当日は、泉岳寺受処主事牟田賢明氏にはたいへんお世話になった。記して謝意を表する。<br/><br/>（村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第50号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第50号", name: "publication-syoho-50" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      那覇市における奄美関係史料の調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">那覇市における奄美関係史料の調査</h2>
+        
+        <div>
+        一九九九年三月二三・二四日、沖縄県那覇市に出張し、那覇市歴史資料室及び沖縄県立図書館郷土史料室において、古奄美諸島に関する琉球史料の調査を行った。那覇市歴史資料室では、未刊家譜中から、相姓家譜（大宗）に万暦三八年（一六一一）琉球検地関係史料一条、湛姓家譜（正統）に大島住用間切関係史料一条、容姓家譜（一世義貫山田家）に永良部島関係史料三条などを検出した。沖縄県立図書館では、東恩納寛惇文庫の史料ノート・碑文集の複写版を閲覧した。<br/>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（石上英一）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第34号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第34号", name: "publication-syoho-34" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

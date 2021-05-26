@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      越後国郡絵図二　瀬波郡 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">越後国郡絵図二　瀬波郡</h2>
+        
+        <div>
+        『越後國郡絵圖』は、米沢上杉家襲蔵の「越後御絵圖」を、多色オフセット印刷により刊行するものであるが、今回はその二として「瀬波郡」を刊行した。<br/>　「瀬波」は岩船郡の通称で、一四世紀から一七世紀初頭にかけて用いられていた。現在の行政区画では、村上市を中央に、岩船郡荒川町・関川村・神林村・朝日村・山北（さんぽく）町に属する地域であるが、絵図に記された村名約二五〇のなかには、すでに比定の困難なものもすくなくない。<br/>　刊行にあたっては、前回の｢頸城郡｣にならい、タテ二四三･ヨコ六九三センチメートルの原図を三段・十四列四十二枚（縮尺二分の一）に分割し、別に全図一枚（縮尺約一七分の一）を添えた。<br/>　本図の成立などについては、前回の解説（本誌一八号）でふれたが、本絵図では、村上城とその城下の宿が描かれていること、南側では蒲原郡との郡境が現在と異なること、北側では現秋田県温海町の一部が越後のうちに描かれていることなどが、注目すべき点であろう。<br/>　次回は、別冊として釈文・解説・索引を収める予定である。
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第20号 p.64**</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第20号", name: "publication-syoho-20" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

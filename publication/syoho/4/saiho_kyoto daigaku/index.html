@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      京都大学出張報告 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">京都大学出張報告</h2>
+        
+        <div>
+        昭和四十三年九月一日から同七日までの一週間、京都大学に出張し、前年度に引き続いて、同大学所蔵の勧修寺家文書の調査を行ない、記録の部の日記のうち左の八十点を撮影した。<br/>　貞信公御記・左経記（二点）・左経記・山槐記抄出・左衛門権佐平定家記・水左記・士左記・大御記・時範記・江記・殿記・殿記抜書・右大記・顕隆卿記（二点）・讃岐典侍日記・長秋記・大外記師遠記・中原師遠朝臣記・平時信記・教業記（二点）・教長記・綱光公記・大間書・人車記・高顕卿御抄書・顕広王記・顕広王記裏書・仲資王記・玉海・心記・祐重記・養和二年記・姉言記・祐明記・三長記・雅経卿記・長兼卿記・自暦御記（三点）・業資王記・明月記（二点）・建暦御記集上・家光卿記・祐定記・春日社司記・吉続記（三点）・吉続記目録・不足記・小除目連々御記・葉黄記（二点）・為学記・顕朝朝臣記・仁部記・不知記・経俊卿記抄・頼親卿記・小槻時元記・祐賢記・実躬卿記（二点）・祐春記・万一記（二点）・業顕王記・資顕王記裏書・記録断簡・春日神主時俊記・通冬卿記・松亜記・徳大寺公清公記・師茂記・実冬公記・迎陽記（二点）。<br/>　（林幹弥・土田直鎮・針生邦男）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第4号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第4号", name: "publication-syoho-4" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

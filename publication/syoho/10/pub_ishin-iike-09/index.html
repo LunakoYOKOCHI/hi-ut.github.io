@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      大日本維新史料類纂之部「井伊家史料九」 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">大日本維新史料類纂之部「井伊家史料九」</h2>
+        
+        <div>
+        本冊には安政五年八月十六日から同年九月三日までの史料を収めた。<br/>　八月八日付の水戸藩宛勅諚を携えた鵜飼幸吉は、八月十六日、江戸の水戸藩邸に到着した。幕府は、水戸藩が勅諚を諸藩へ伝達することを禁止すると同時に、京都において勅諚降下を画策した人物を探索した。京都町奉行与力渡辺金三郎、九条家家士島田左近、在京中の彦根藩系譜編集用懸長野主膳の各書状は、この探索の経過と、張本人が近衛忠熈・鷹司輔熈・三条実万・徳大寺実堅の四人であることを具体的に記している。<br/>　また、これと平行して、主膳と左近とを誹謗した内容の八月五日付堂上五家宛の投書および主膳の旅宿へ投げ入れられた投書の筆者の探索も進められ、主膳は八月十八日付の彦根藩側役兼公用人宇津木六之丞宛の書状（第五号）の中で、これは梅田雲浜の仕業であると断定した。以後、雲浜逮捕の諸手段が着々と準備されてゆく。<br/>　一方、調印を終った日米修好通商条約の勅許を得るために、老中間部詮勝は九月三日、上京の途についた。大老井伊直弼と関白九条尚忠は、詮勝の使命達成に大きな期待をかけており、詮勝の出立に先立って京都の反幕府勢力を封じこめるための努力をするよう再三にわたり主膳に要請したことは、六之丞および左近と主膳との往復書状によって明かである。<br/>　このように、本冊所収史料によって、幕府の側から見た安政大獄前夜の京都と江戸の状況を詳細に知ることができる。<br/>　なお、第三九号文書によれば、尚忠が左近へ宛てた書状の多くは左近から主膳へ手渡され、主膳が六之丞へ送付し、江戸で筆写されて再び京都へ返送されていたことがわかる。また、前巻所収のものと同様に、本巻所収史料にも、文書の途中を切り棄て貼り継いだ箇所が多く見られることに注意されたい。<br/>（目次一〇頁、本文二九八頁）<br/>担当者　小野正雄・宮地正人・高埜利彦
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第10号 p.39*-40</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 本所出版物",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第10号", name: "publication-syoho-10" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

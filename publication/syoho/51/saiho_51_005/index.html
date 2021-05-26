@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      5.福島県下所在中世史料の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">5.福島県下所在中世史料の調査・撮影</h2>
+        
+        <div>
+        二○一五年七月八～九日、福島県須賀川市他に出張し、所在史料の調査・撮影を行った。撮影史料は以下の通り。<br/>〔小森沢文書〕<br/>天正六年七月廿二日　　　　　上杉景勝判物<br/>（年未詳）六月七日　　　　　上杉景勝書状<br/>（年未詳）五月廿三日　　　　上杉景勝書状<br/>（年未詳）六月十六日　　　　上杉景勝書状<br/>（年未詳）六月十九日　　　　上杉景勝書状<br/>（年未詳）六月廿三日　　　　上杉景勝書状<br/>（年月日未詳）　　　　　　　上杉景勝書状<br/>（年未詳）八月□日　　　　　上杉景勝書状<br/>（年未詳）九月十一日　　　　上杉景勝書状<br/>（年未詳）九月廿七日　　　　上杉景勝書状<br/>（年未詳）十月十三日　　　　上杉景勝書状<br/>（年未詳）十月十五日　　　　上杉景勝書状<br/>（年未詳）□月廿四日　　　　上杉景勝書状<br/>天正九年□月□三日　　　　　上杉景勝判物<br/>天正九年六月三日　　　　　　上杉景勝判物<br/>天正九年六月四日　　　　　　上杉景勝一字書出<br/>（年未詳）正月□日　　　　　上杉景勝書状<br/>（年月日未詳）　　　　　　　上杉景勝書状<br/>　　　　　　　　　　　　　　小森沢氏系図<br/>〔永山氏所蔵文書〕<br/>永禄十二年八月四日　　　　　武田信玄判物<br/>天正十七年八月十七日　　　　伊達政宗朱印状<br/>〔吉田文書〕<br/>『石川町史』参照<br/>〔川辺神社文書〕<br/>『石川町史』参照<br/>〔板橋文書〕<br/>『石川町史』参照<br/>　なお当日は、永山祐三氏、吉田氏、岩谷氏、板橋氏、小豆畑毅氏にはたいへんお世話になった。記して謝意を表する。<br/><br/>（伴瀬明美・井上　聡・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第51号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第51号", name: "publication-syoho-51" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
