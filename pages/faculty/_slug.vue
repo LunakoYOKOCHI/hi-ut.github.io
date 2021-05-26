@@ -3,7 +3,7 @@
       <h1 class="h02">{{ title }}</h1>
 
       <div class="scroll-table">
-        <table class="table04 mt-10">
+        <table class="table04 mt2">
           <tbody>
             <tr>
               <th width="20%">{{ $t('氏名（かな）') }}</th>
@@ -44,7 +44,7 @@
 
               <tr :key="key2" v-if="gyoseki['【'+field+'】'] && gyoseki['【'+field+'】'].length > 0">
                 <th>{{ $t(field) }}</th>
-                <td>
+                <td style="word-break: break-word;">
                   <ul>
                     <template v-for="(value, key) in gyoseki['【'+field+'】']">
                       <li v-if="value" :key="key">{{ value }}</li>
@@ -71,7 +71,7 @@ import Layout from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   
   async asyncData({ params }: any) {
-    const id = params.slug.split('gyoseki_')[1]
+    const id = params.slug
 
     const facultyList_ = await import(`~/static/assets/json/faculty/facultyList.json`)
     const facultyList = facultyList_.default

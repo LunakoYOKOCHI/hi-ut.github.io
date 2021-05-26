@@ -18,7 +18,7 @@
             :to="
               localePath({
                 name: 'faculty-slug',
-                params: { slug: 'gyoseki_' + items[item][item2].id },
+                params: { slug: items[item][item2].id },
               })
             "
             >{{ items[item][item2].label }}</nuxt-link
