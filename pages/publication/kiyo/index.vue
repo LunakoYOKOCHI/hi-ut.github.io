@@ -15,7 +15,7 @@
             :to="
               localePath({
                 name: 'publication-kiyo-vol',
-                params: { vol: 'kiyo' + $utils.zfill(latestKiyoVol - i + 1, 4) },
+                params: { vol: latestKiyoVol - i + 1 },
               })
             "
           >

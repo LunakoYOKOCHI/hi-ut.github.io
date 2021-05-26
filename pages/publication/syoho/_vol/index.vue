@@ -25,7 +25,7 @@
                   <a :href="item.url">{{ item.title }}</a>
                 </template>
                 <template v-else-if="item.id">
-                  <a :href="baseUrl + `/publication/syoho/${vol}/${item.id}.html`">
+                  <a :href="baseUrl + `/publication/syoho/${vol}/${item.id}/`">
                     {{ item.title }}
                   </a>
                   <!--

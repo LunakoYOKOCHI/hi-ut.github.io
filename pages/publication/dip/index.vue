@@ -7,7 +7,7 @@
         <a
           :href="
             baseUrl +
-            '/dip/?u=https://raw.githubusercontent.com/nakamura196/dip/master/docs/hi.json'
+            `/dip/?u=${baseUrl}/assets/json/dip/hi.json`
           "
           target="_blank"
           >{{$t("別ウインドウで開く")}}</a
@@ -21,7 +21,7 @@
         frameborder="0"
         :src="
           baseUrl +
-          '/dip/?u=https://raw.githubusercontent.com/nakamura196/dip/master/docs/hi.json&inline=true'
+            `/dip/?u=${baseUrl}/assets/json/dip/hi.json&inline=true`
         "
       />
     </LayoutPublication>

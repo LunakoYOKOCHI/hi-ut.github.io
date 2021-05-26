@@ -262,8 +262,7 @@
         },
         async created() {
           const u =
-            this.$route.query.u ||
-            "https://raw.githubusercontent.com/nakamura196/dip/master/docs/top.json";
+            this.$route.query.u || "../assets/json/dip/hi.json"
 
           this.url = u;
 

@@ -2,16 +2,19 @@
 title: アクセスマップ
 ---
 
-<h2 class="h03 mt2">東京大学史料編纂所の位置</h2>
+<v-img class="mt2" src="/assets/img/about/access_01.gif"></v-img>
 
-<v-img src="/assets/img/about/access_01.gif"></v-img>
+<h2 class="h03 mt2">To the Hongo Campus</h2>
 
-<h2 class="h03 mt2">交通機関のご利用</h2>
+<h3 class="h04 mt2">By Subway</h3>
 
-<h3 class="h04 mt2">最寄り駅</h3>
+* Hongo Sanchome Station (Tokyo Metro Marunouchi Line, Toei Oedo Line): 10 minuites walk
+* Todai-mae Station (Tokyo Metro Nanboku Line): 15 minutes walk
+* Kasuga Station (Toei Mita Line): 20 minutes walk
 
-* 東京メトロ丸の内線・都営大江戸線 本郷三丁目駅
-* 東京メトロ千代田線 湯島駅・根津駅
-* 東京メトロ南北線 東大前駅
+<h3 class="h04 mt2">By Bus</h3>
 
-<v-img src="/assets/img/about/access_02.gif"></v-img>
+* Todai Akamon-mae or Todai Seimon-mae stops (Cha茶51 or Higashi43 route): 3 minutes walk
+* Todai Byoin-mae stop (Gaku学01 or Gaku学07 route): 5 minutes walk
+
+<v-img class="mt2" src="/assets/img/about/access_02.gif"></v-img>

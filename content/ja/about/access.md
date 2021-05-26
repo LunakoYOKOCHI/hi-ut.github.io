@@ -14,4 +14,4 @@ title: アクセスマップ
 * 東京メトロ千代田線 湯島駅・根津駅
 * 東京メトロ南北線 東大前駅
 
-<v-img src="/assets/img/about/access_02.gif"></v-img>
+<v-img class="mt2" src="/assets/img/about/access_02.gif"></v-img>
