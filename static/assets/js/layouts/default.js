@@ -198,7 +198,7 @@ Vue.component("Layout", {
         </div>
         <template v-if="lg">
           <form id="cse-search-box" action="https://google.com/cse">
-            <input type="hidden" name="cx" value="1e10e2c945c90dfeb" />
+            <input type="hidden" name="cx" value="012637686871494257469:cps9yembml4" />
             <input type="hidden" name="ie" value="UTF-8" />
             <input
               id="search-box"
@@ -248,7 +248,7 @@ Vue.component("Layout", {
     <nav id="js_gnav" class="gnav">
 
       <form v-if="isMobileMenuOpen" id="cse-search-box" action="https://google.com/cse">
-        <input type="hidden" name="cx" value="xxx" />
+        <input type="hidden" name="cx" value="012637686871494257469:cps9yembml4" />
         <input type="hidden" name="ie" value="UTF-8" />
         <input
           id="search-box"
