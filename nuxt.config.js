@@ -245,7 +245,25 @@ export default {
     //standalone: true,
   },
   
-  ...routerBase
+  ...routerBase,
+
+  generate: {
+    // dir: 'docs',
+
+    routes() {
+      const pages = []
+
+      const pathes = ["/faq/reuse_cr", "/faq/reuse_cc-by", "/faq/reuse_cc-by-nc-sa", "/faq/reuse_kinri", "/faq/reuse_miyakonojo", "/faq/db", "/faq/kitei"]
+
+      for(const p of pathes){
+        pages.push({
+          route: p
+        })
+      }
+            
+      return pages
+    },
+  },
 }
 
 function getFaculty(){
@@ -257,8 +275,8 @@ function getFaculty(){
 
   for(const faculty of facultyList){
     const id = faculty.slug
-    pages.push("/faculty/gyoseki_" + id)
-    pages.push("/en/faculty/gyoseki_" + id)
+    pages.push("/faculty/" + id)
+    pages.push("/en/faculty/" + id)
   }
 
   return pages
