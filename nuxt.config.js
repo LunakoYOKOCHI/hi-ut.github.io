@@ -38,7 +38,7 @@ const lang = 'ja'
 const siteName =
   '東京大学史料編纂所 | Historiographical Institute The University of Tokyo'
 const siteDesc =
-  '東京大学史料編纂所は、東京大学の附置研究所で、国内外の史料の調査、収集・複写、分析、編纂、公開を行い、歴史情報学研究を推進することを目的とする研究所である。1793年、徳川幕府の援助を受けた国学者塙保己一が開設した和学講談所を源流とする。 近年では複写に最新の写真技術やデジタル画像技術が駆使されている。'
+  '東京大学史料編纂所は、古代から明治維新期にいたる前近代日本史関係の史料を対象とする研究所です。'
 const siteKeywords =
   '東京大学史料編纂所, Historiographical Institute, 東京大学, The University of Tokyo'
 
@@ -98,7 +98,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${ogpImages}home.jpg`,
+        content: "https://www.hi.u-tokyo.ac.jp/icon.png",//`${ogpImages}home.jpg`,
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       // pwa iOS
