@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      7.山内文書の調査・撮影 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">7.山内文書の調査・撮影</h2>
+        
+        <div>
+        二○一九年七月四日、福島県南会津町に出張し、奥会津博物館寄託史料<br/> の調査・撮影を行った。主な撮影史料は以下の通り。<br/> 〔山内文書〕<br/> ①文明一五年（一四八三）蘆名盛高判物<br/> ②長享二年（一四八八）蘆名盛高判物<br/> ③延徳三年（一四九一）蘆名盛高判物<br/> ④文亀元年（一五〇一）蘆名盛高判物<br/> ⑤永正一一年（一五一四）蘆名盛高判物<br/> ⑥文明一九年（長享元年・一四八七）松本政輔判物<br/> ⑦長享二年（一四八八）松本政輔判物<br/> ⑧（永禄一一年・一五六八）武田信玄書状<br/> ⑨（天正九年・一五八一）佐竹義重書状<br/> ⑩永禄一一年（一五六八）長沼弥七郎盛秀判物<br/> なお当日は、奥会津博物館学芸員渡部康人氏にはたいへんお世話になっ<br/> た。記して謝意を表する。<br/> （伴瀬明美・村井祐樹）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第55号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第55号", name: "publication-syoho-55" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

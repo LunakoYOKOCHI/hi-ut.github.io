@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      東京大学史料編纂所研究紀要 第三十号 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">東京大学史料編纂所研究紀要 第三十号</h2>
+        
+        <div>
+        口絵<br/> 和泉国大泉荘相伝系図・九条兼実御教書（高野山西南院所蔵）<br/> 内匠寮本中井家文書（宮内庁書陵部所蔵）<br/> 研究報告<br/> 賀茂別雷神社領備前国竹原荘の守護請について 辰田芳雄<br/> 豊臣期の「一文」の価値について――大和田重清日記から 鴨川達夫<br/> 長崎奉行の巡検――寛文末期豊後臼杵藩野津地域へ―― 村井早苗<br/> 江戸城本丸御殿下御鈴廊下の新設時期について――江戸城本丸御殿平面図・間取図の収集と研究資源化に関する研究報告 小粥祐子<br/> 徳大寺公城の学芸・垂加神道修得と党派形成――「公城卿記」を通して 藤田 覚<br/> J. Verheij 日本報告（一八六七年）について 横山伊徳<br/> 「海洋知の再編と日本社会」ノート――史料と研究視角 杉本史子<br/> 久邇宮家所蔵朝彦親王関係史料の復元――宮内省臨時帝室編修局と文部省<br/> 維新史料編纂会の史料相互貸借の事例から―― 白石 烈<br/> 史料紹介<br/> 徳大寺家本『執政神斎類要』（『摂政関白神斎法』） 太田克也・藤原重雄<br/> 重要文化財『西南院文書』第一巻～第三巻 坂口太郎・藤本孝一<br/> 綱光公記──宝徳二年四月～五月記── 遠藤珠紀・須田牧子・田中奈保・桃崎有一郎<br/> 春日大社所蔵『文正元年中臣延祐記』 藤原重雄・土山祐之<br/> 天龍寺妙智院所蔵『大明譜』 岡本 真・須田牧子<br/> デジタル化された宮内庁書陵部所蔵「内匠寮本中井家文書」についてー 林 大樹
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第55号 p.60-55</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料編纂 出版報告",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第55号", name: "publication-syoho-55" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
