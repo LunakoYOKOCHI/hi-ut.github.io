@@ -89,7 +89,7 @@ export default class about extends Vue {
 
   get title() {
     const vol = this.$data.vol
-    const year = this.$utils.calcYearFromSyohoVol(vol)
+    const year = this.$utils.calcYearFromKiyoVol(vol)
     return `東京大学史料編纂所研究紀要第${vol}号（${year}）`
   }
 

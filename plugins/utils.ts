@@ -18,6 +18,10 @@ export class Utils {
     return year - 1965
   }
 
+  calcYearFromKiyoVol(vol: number){
+    return 1990 + vol
+  }
+
   calcKiyoVolFromYear(year: number){
     return year - 1990
   }
