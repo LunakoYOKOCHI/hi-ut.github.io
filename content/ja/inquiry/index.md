@@ -24,10 +24,10 @@ title: お問い合わせ
 
 <h2 id="library" class="h03 mt2">図書室利用に関するお問い合わせ</h2>
 
-[こちら](https://www.hi.u-tokyo.ac.jp/library/toiawase.html)を参照してください．
+<a href="https://www.hi.u-tokyo.ac.jp/library/contact/" rel="nofollow noopener noreferrer" target="_blank">こちら</a>を参照してください．
 
-- 史料等の閲覧については[こちら](https://www.hi.u-tokyo.ac.jp/library/etsuran.html)
-- 史料等の複製・掲載・放映などは[こちら](https://www.hi.u-tokyo.ac.jp/library/shiryoriyo.html)
+- 史料等の閲覧については<a href="https://www.hi.u-tokyo.ac.jp/library/visit/" rel="nofollow noopener noreferrer" target="_blank">こちら</a>
+- 史料等の複製・掲載・放映などは<a href="https://www.hi.u-tokyo.ac.jp/library/use/" rel="nofollow noopener noreferrer" target="_blank">こちら</a>
 
 <!--
 <h2 id="ir" class="h03 mt2">IR・広報に関するお問い合わせ</h2>
