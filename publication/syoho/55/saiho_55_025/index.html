@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+      name="viewport"
+    />
+    <title>
+      25.真言律宗総本山西大寺所蔵史料の原本校正・調査 - 東京大学史料編纂所 | Historiographical
+      Institute The University of Tokyo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://hi-ut.github.io/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <script src="https://hi-ut.github.io/assets/js/vue.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/axios.min.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/es6-promise.auto.min.js"></script>
+
+    <script src="https://hi-ut.github.io/assets/js/env.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/layouts/default.js"></script>
+    <script src="https://hi-ut.github.io/assets/js/components/members.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <layout :lang="lang" :breadcrumbs="breadcrumbs" :index="2" :id="id">
+        <h2 class="h03">25.真言律宗総本山西大寺所蔵史料の原本校正・調査</h2>
+        
+        <div>
+        二〇一九年十二月二日から六日にかけて、奈良県奈良市の真言律宗総本山<br/> 西大寺に出張し、同寺所蔵史料の原本校正・調査を実施した。<br/> 昨年度に引き続き次期大日本古文書刊行に向け、第一〇三函～一〇七函<br/> の原本校正を行なった。また第一〇八～一一六箱の調査を実施した。<br/> 調査にあたっては、同寺清浄院御住職佐伯俊源師の手厚い御協力・御配慮<br/> を賜った。この場を借りて心から御礼を申し上げたい。<br/> （高橋敏子・高橋慎一朗・西田友広・小瀬玄士）
+        </div>
+
+        <br/>
+        <!-- <template v-if="item.page">{{ ` p.${item.page}`}} -->
+        『東京大学史料編纂所報』第55号</template>
+      </layout>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            id: "所報 - 史料採訪",
+            lang: "ja",
+            breadcrumbs: [
+              { text: "編纂・研究・公開", name: "publication" },
+              { text: "所報", name: "publication-syoho" },
+              { text: "『東京大学史料編纂所報』第55号", name: "publication-syoho-55" }
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
