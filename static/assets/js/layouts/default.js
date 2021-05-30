@@ -505,11 +505,9 @@ Vue.component("Layout", {
             </li>
           </ul>
         </nav>
-        <small
-          >Copyright © 1997 - 2020<br />
-          Historiographical Institute The University of Tokyo ©
-          東京大学</small
-        >
+        <small>
+          © 1997 Historiographical Institute The University of Tokyo.
+        </small>
       </aside>
     </div>
   </footer>

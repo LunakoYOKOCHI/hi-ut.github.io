@@ -109,11 +109,20 @@
           </nav>
 
           <p class="mt2">
+            <a href="https://www.u-tokyo.ac.jp/">
+              <img
+                :src="baseUrl + '/assets/img/common/utlogo.jpeg'"
+                style="height: 60px"
+                alt="東京大学基金"
+              />
+            </a>
+          </p>
+
+          <p class="mt2">
             <a href="https://utf.u-tokyo.ac.jp/project/pjt10">
               <img
                 :src="baseUrl + '/assets/img/common/btn_kihu.png'"
-                height="114px"
-                width="184px"
+                style="height: 90px"
                 alt="東京大学基金"
               />
             </a>
