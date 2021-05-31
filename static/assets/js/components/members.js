@@ -32,6 +32,8 @@ Vue.component('Members', {
           }
         }
       }
+
+      console.log(people.hakoishi)
       self.people = people
     })
 
@@ -123,7 +125,7 @@ Vue.component('Members', {
               </div>
               <ul v-if="people[index].research">
                 <template v-for="(value, key3) in people[index].research.split('|')">
-                  <li v-for="(value, key3) in people[index].research.split('|')" v-html="value"></li>
+                  <li v-html="value"></li>
                 </template>
               </ul>
             </div>
