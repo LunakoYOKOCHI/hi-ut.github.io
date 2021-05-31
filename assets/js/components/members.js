@@ -1,5 +1,5 @@
 Vue.component('Members', {
-  props: ["id", "lang"],
+  props: ["id", "lang", "config"],
   data() {
     return {
       people: [],
@@ -21,6 +21,16 @@ Vue.component('Members', {
       const people = {}
       for(const obj of peopleList){
         people[obj.slug] = obj
+      }
+
+      //例外対応
+      if(self.config){
+        const config = self.config
+        for(const key in config){
+          for(const field in config[key]){
+            people[key][field] = config[key][field]
+          }
+        }
       }
       self.people = people
     })
@@ -113,7 +123,7 @@ Vue.component('Members', {
               </div>
               <ul v-if="people[index].research">
                 <template v-for="(value, key3) in people[index].research.split('|')">
-                  <li v-if="value">{{value}}</li>
+                  <li v-for="(value, key3) in people[index].research.split('|')" v-html="value"></li>
                 </template>
               </ul>
             </div>
