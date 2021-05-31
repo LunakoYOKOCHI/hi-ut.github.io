@@ -1,5 +1,5 @@
 Vue.component('Members', {
-  props: ["id", "lang"],
+  props: ["id", "lang", "config"],
   data() {
     return {
       people: [],
