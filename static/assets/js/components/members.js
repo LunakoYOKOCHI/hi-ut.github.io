@@ -32,8 +32,6 @@ Vue.component('Members', {
           }
         }
       }
-
-      console.log(people.hakoishi)
       self.people = people
     })
 
