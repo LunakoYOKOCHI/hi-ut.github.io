@@ -68,7 +68,9 @@ export default class about extends Vue {
 
   lang: string = this.$i18n.locale || 'ja'
 
-  get items(): any {
+  items: any = {}
+
+  created(){
     const people = this.$data.people
     const organizationMap = this.$data.organizationMap
 
@@ -96,6 +98,7 @@ export default class about extends Vue {
         }
 
         const kana = child.name_kana
+        console.log(kana, kana.substring(0, 1))
         const first = kana.substring(0, 1).normalize('NFD')[0]
 
         for (const key2 in map) {
@@ -132,7 +135,8 @@ export default class about extends Vue {
       }
     }
 
-    return items
+    this.items = items
+
   }
 
   head() {
