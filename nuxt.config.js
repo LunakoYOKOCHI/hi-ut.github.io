@@ -52,6 +52,7 @@ const manifestIcon = 'img/icons/icon-512.png'
 // const splashscreens = cdnPath + 'img/splashscreens/'
 
 export default {
+  telemetry: false,
   server: {
     port: 8000 // デフォルト: 3000
   },
