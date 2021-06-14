@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[69],{356:function(n){n.exports=JSON.parse('[{"title":"中世後期日明関係の展開と構造に関する基礎的研究―入明記の史料学的検討を中心に","start":"2006","end":"2007","kaken":"18820008","url2":""}]')}}]);
