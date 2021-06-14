@@ -12,9 +12,11 @@
         "main": "kinsei",
         "also": "chusei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世後期社会の研究　中世交通史の研究"
+        ]
     },
     {
         "sort": "2",
@@ -29,9 +31,11 @@
         "main": "tokushu",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "室町幕府の研究"
+        ]
     },
     {
         "sort": "3",
@@ -46,9 +50,13 @@
         "main": "kodai",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本古代史料学（正倉院文書の書類学）",
+            "日本古代の社会と地方行政機構",
+            "牧と駒牽をめぐる諸問題"
+        ]
     },
     {
         "sort": "4",
@@ -62,10 +70,12 @@
         "forename_en": "Kei",
         "main": "kinsei",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/tsuruta/index.htm",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世対外関係史の研究"
+        ]
     },
     {
         "sort": "5",
@@ -79,10 +89,12 @@
         "forename_en": "Toru",
         "main": "cdps",
         "also": "kinsei",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/hoya/index.htm",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "幕末維新期の外交・軍事と社会に関する研究・幕末維新期画像史料の研究"
+        ]
     },
     {
         "sort": "6",
@@ -97,9 +109,14 @@
         "main": "kodai",
         "also": "",
         "url": "",
-        "optional": "<a href=\"https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html\">古代・中世の古典籍の伝来と禁裏・公家文庫の研究</a>",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本古典の文献学的研究（日本目録学研究）・古典籍の伝来と禁裏公家文庫の研究",
+            "古代政務儀式の研究・公卿学研究",
+            "古代地域史研究・古代中世の荘園研究",
+            "古代対外交流史研究。"
+        ]
     },
     {
         "sort": "7",
@@ -114,9 +131,11 @@
         "main": "tokushu",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "日本近世史"
+        ]
     },
     {
         "sort": "8",
@@ -131,9 +150,12 @@
         "main": "tokushu",
         "also": "kinsei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世政治史の研究",
+            "江戸幕府記録類の研究"
+        ]
     },
     {
         "sort": "9",
@@ -148,9 +170,12 @@
         "main": "cdps",
         "also": "chusei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "中世公家政権と文化の研究",
+            "中世史料論"
+        ]
     },
     {
         "sort": "10",
@@ -164,10 +189,12 @@
         "forename_en": "Fumiko",
         "main": "kinsei",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "https://www.hi.u-tokyo.ac.jp/personal/fumiko/index.htm",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "18-19世紀前半の政治と社会"
+        ]
     },
     {
         "sort": "11",
@@ -182,9 +209,11 @@
         "main": "kodai",
         "also": "",
         "url": "https://www.hi.u-tokyo.ac.jp/personal/kazuto/index.html",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世政治史と史料論"
+        ]
     },
     {
         "sort": "12",
@@ -199,9 +228,11 @@
         "main": "chusei",
         "also": "gazo",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "戦国大名・織豊大名の研究"
+        ]
     },
     {
         "sort": "13",
@@ -216,9 +247,12 @@
         "main": "komo",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "古代中世古記録の史料学的研究",
+            "平安時代官僚制の研究"
+        ]
     },
     {
         "sort": "14",
@@ -232,10 +266,12 @@
         "forename_en": "Shinichiro",
         "main": "komo",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/shinichi/index.htm",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本中世の都市と寺院"
+        ]
     },
     {
         "sort": "15",
@@ -250,9 +286,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世日本史料の研究、天皇・院・朝廷と近世社会の政治史的研究、日本史学史、洛中洛外図の研究"
+        ]
     },
     {
         "sort": "16",
@@ -266,10 +304,13 @@
         "forename_en": "Motoo",
         "main": "komo",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/endo/index.html",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "平安後期から鎌倉期を中心とした公家社会儀礼の研究",
+            "中世東大寺文書の研究"
+        ]
     },
     {
         "sort": "17",
@@ -283,10 +324,12 @@
         "forename_en": "Yutaka",
         "main": "chusei",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/suegara/index.htm",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "室町時代政治史の研究"
+        ]
     },
     {
         "sort": "18",
@@ -301,9 +344,13 @@
         "main": "kinsei",
         "also": "cdps",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "幕末維新政治史の研究",
+            "幕末維新史料の研究",
+            "幕末維新史料編纂事業史の研究"
+        ]
     },
     {
         "sort": "19",
@@ -317,10 +364,12 @@
         "forename_en": "Fuyuko",
         "main": "tokushu",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/fuyuko/index.html",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "行動する人の歴史、外交の世界史、概念史（翻訳としての蘭学史）、近世日本の対外関係史、近世日本の武家社会"
+        ]
     },
     {
         "sort": "20",
@@ -335,9 +384,11 @@
         "main": "kinsei",
         "also": "gazo",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "近世都市社会史"
+        ]
     },
     {
         "sort": "21",
@@ -351,10 +402,12 @@
         "forename_en": "Hiroki",
         "main": "gazo",
         "also": "komo",
-        "url": "",
-        "optional": "",
+        "url": "https://researchmap.jp/read0184866",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世仏教と古記録の研究"
+        ]
     },
     {
         "sort": "101",
@@ -369,9 +422,11 @@
         "main": "chusei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "法・制度と権利に関する歴史的研究"
+        ]
     },
     {
         "sort": "102",
@@ -386,9 +441,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "幕末政治外交史の研究・近世のイデオロギー状況研究"
+        ]
     },
     {
         "sort": "103",
@@ -403,9 +460,12 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世の公家社会と文化に関する研究",
+            "近世史料の研究"
+        ]
     },
     {
         "sort": "104",
@@ -420,9 +480,11 @@
         "main": "chusei",
         "also": "cdps",
         "url": "https://www.hi.u-tokyo.ac.jp/personal/kaneko/index.htm",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "織田信長・豊臣秀吉の時代と史料の研究"
+        ]
     },
     {
         "sort": "105",
@@ -437,9 +499,12 @@
         "main": "chusei",
         "also": "tokushu",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世法の研究",
+            "室町・戦国期社会の研究"
+        ]
     },
     {
         "sort": "106",
@@ -454,9 +519,12 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世後期～近世前期の都市と社会・経済変動の研究",
+            "中世薬師寺の研究"
+        ]
     },
     {
         "sort": "107",
@@ -471,9 +539,11 @@
         "main": "kodai",
         "also": "gazo",
         "url": "https://www.hi.u-tokyo.ac.jp/personal/fujiwara/index.html",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本中世史（文化史、絵画史料論）"
+        ]
     },
     {
         "sort": "108",
@@ -488,9 +558,11 @@
         "main": "chusei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世地域・海域社会の研究"
+        ]
     },
     {
         "sort": "109",
@@ -504,10 +576,12 @@
         "forename_en": "Shinji",
         "main": "chusei",
         "also": "tokushu",
-        "url": "",
-        "optional": "",
+        "url": "http://researchmap.jp/read0067816/",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世禅宗寺院の研究"
+        ]
     },
     {
         "sort": "110",
@@ -521,10 +595,12 @@
         "forename_en": "Mihoko",
         "main": "tokushu",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "https://researchmap.jp/read0066505/",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "南蛮貿易、南蛮文化、キリシタン、世界史と日本史の接続"
+        ]
     },
     {
         "sort": "111",
@@ -538,10 +614,12 @@
         "forename_en": "Yuuki",
         "main": "chusei",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/murai/muraihp.html",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "室町・戦国大名の研究"
+        ]
     },
     {
         "sort": "112",
@@ -556,9 +634,11 @@
         "main": "komo",
         "also": "cdps",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世荘園史の研究"
+        ]
     },
     {
         "sort": "113",
@@ -573,9 +653,11 @@
         "main": "kodai",
         "also": "chusei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世の警察・検察権と社会構造に関する研究"
+        ]
     },
     {
         "sort": "114",
@@ -590,9 +672,12 @@
         "main": "gazo",
         "also": "kodai",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "古代儀礼史研究",
+            "律令制研究"
+        ]
     },
     {
         "sort": "115",
@@ -606,10 +691,13 @@
         "forename_en": "Taizo",
         "main": "cdps",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "http://researchmap.jp/j618/",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "史料からの情報抽出，史料に対するテキストマイニング",
+            "歴史情報検索"
+        ]
     },
     {
         "sort": "116",
@@ -624,9 +712,11 @@
         "main": "komo",
         "also": "cdps",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "中世朝廷制度史"
+        ]
     },
     {
         "sort": "117",
@@ -641,9 +731,11 @@
         "main": "gazo",
         "also": "kinsei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本近世幕藩関係史・幕政史"
+        ]
     },
     {
         "sort": "118",
@@ -658,9 +750,11 @@
         "main": "chusei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "中世対外関係史の研究"
+        ]
     },
     {
         "sort": "119",
@@ -675,9 +769,11 @@
         "main": "tokushu",
         "also": "chusei",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "日本中世後期・近世初期対外関係史研究"
+        ]
     },
     {
         "sort": "1001",
@@ -692,9 +788,11 @@
         "main": "komo",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世武家社会の研究"
+        ]
     },
     {
         "sort": "1002",
@@ -709,9 +807,11 @@
         "main": "chusei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中近世移行期大名の研究"
+        ]
     },
     {
         "sort": "1003",
@@ -725,10 +825,12 @@
         "forename_en": "Akihiro",
         "main": "kinsei",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "https://researchmap.jp/a-hayasi/",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世前期政治史の研究"
+        ]
     },
     {
         "sort": "1004",
@@ -743,9 +845,11 @@
         "main": "kodai",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "室町幕府地方支配の研究"
+        ]
     },
     {
         "sort": "1005",
@@ -760,9 +864,11 @@
         "main": "kodai",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "平安時代の政務・儀式"
+        ]
     },
     {
         "sort": "1006",
@@ -777,9 +883,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世の神社・門跡・朝廷に関する研究"
+        ]
     },
     {
         "sort": "1007",
@@ -794,9 +902,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "幕末維新期の軍事と中央政権・武士身分に関する研究"
+        ]
     },
     {
         "sort": "1008",
@@ -811,9 +921,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世大名家臣団の研究"
+        ]
     },
     {
         "sort": "1009",
@@ -828,9 +940,11 @@
         "main": "komo",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世法制史"
+        ]
     },
     {
         "sort": "1010",
@@ -845,9 +959,11 @@
         "main": "tokushu",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世日本対外関係史の研究、オランダ東インド会社史研究、インド洋史研究"
+        ]
     },
     {
         "sort": "1011",
@@ -862,9 +978,11 @@
         "main": "kodai",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "古代文化史の研究"
+        ]
     },
     {
         "sort": "1012",
@@ -878,10 +996,12 @@
         "forename_en": "Satoru",
         "main": "cdps",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "https://researchmap.jp/nakamura.satoru",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "多様な情報の関連付けによる史料活用と研究環境の高度化に関する研究"
+        ]
     },
     {
         "sort": "1013",
@@ -896,9 +1016,11 @@
         "main": "chusei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "中世の朝廷・貴族の研究"
+        ]
     },
     {
         "sort": "1014",
@@ -913,9 +1035,11 @@
         "main": "kinsei",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "近世米穀流通史の研究"
+        ]
     },
     {
         "sort": "10001",
@@ -929,10 +1053,13 @@
         "forename_en": "Ayako",
         "main": "cdps",
         "also": "",
-        "url": "",
-        "optional": "",
+        "url": "https://researchmap.jp/read0155584",
         "list_flag": "",
-        "sex": "f"
+        "sex": "f",
+        "research": [
+            "料紙の自然科学的研究",
+            "先史時代人の植物食文化と健康状態の復元"
+        ]
     },
     {
         "sort": "20001",
@@ -947,8 +1074,10 @@
         "main": "gazo",
         "also": "",
         "url": "",
-        "optional": "",
         "list_flag": "-1",
-        "sex": "m"
+        "sex": "m",
+        "research": [
+            "画像情報学、メディア情報処理の研究"
+        ]
     }
 ]
