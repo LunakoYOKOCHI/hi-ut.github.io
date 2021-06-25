@@ -18,7 +18,7 @@ title: お問い合わせ
 以下は，当ウェブサイトおよびデータベースの利用方法に関するお問い合わせ用フォームです．<br/>
 史料の所在や内容に関するご質問には応じておりません．悪しからずご了承ください．
 
-[お問い合わせ用フォーム](https://forms.office.com/r/Q8TsKXCeZQ)
+[お問い合わせ用フォーム](https://docs.google.com/forms/d/e/1FAIpQLSc3hXllljivGM3luna2BNSke0_CPL_sfGtRpaTBTNh2EE69RQ/viewform?usp=sf_link)
 
 - データベース利用は[こちら](http://wwwap.hi.u-tokyo.ac.jp/ships/)
 

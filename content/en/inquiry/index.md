@@ -6,4 +6,4 @@ title: お問い合わせ
 
 Please leave a question related to the website or database in the area　below. Unfortunately, we cannot answer questions related to topics other　than the website or database.
 
-[Inquiry form](https://forms.office.com/r/Q8TsKXCeZQ)
+[Inquiry form](https://docs.google.com/forms/d/e/1FAIpQLSc3hXllljivGM3luna2BNSke0_CPL_sfGtRpaTBTNh2EE69RQ/viewform?usp=sf_link)
