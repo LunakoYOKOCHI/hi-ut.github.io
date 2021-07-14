@@ -7,7 +7,7 @@
         <a
           :href="
             baseUrl +
-            `/dip/?u=https://www.hi.u-tokyo.ac.jp/assets/json/dip/top.json`
+            `/dip/`
           "
           target="_blank"
           >{{$t("別ウインドウで開く")}}</a
@@ -21,7 +21,7 @@
         frameborder="0"
         :src="
           baseUrl +
-            `/dip/?u=https://www.hi.u-tokyo.ac.jp/assets/json/dip/top.json&inline=true`
+            `/dip/?inline=true`
         "
       />
     </LayoutPublication>
