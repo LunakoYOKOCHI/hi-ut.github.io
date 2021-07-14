@@ -28,6 +28,6 @@ title: Hi-CAT Plus区分： 史料群：都城島津邸所蔵史料 画像デー
 	<tr>
 <td class="mtx">都城島津邸</td>
 <td class="mtx">約11,000点<br>（2021年<span style="color: red;">xx</span>月時点）</td>
-<td class="mtx">[機関サイト](https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html)</td>
+<td class="mtx"><a href="https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html" target="_blank">機関サイト</a></td>
 </tr>
 </tbody></table>
