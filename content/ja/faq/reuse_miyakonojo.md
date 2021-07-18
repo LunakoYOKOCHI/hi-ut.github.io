@@ -4,7 +4,7 @@ title: Hi-CAT Plus区分： 史料群：都城島津邸所蔵史料 画像デー
 
 <h2 class="h03">【１】史料群「都城島津邸所蔵史料」について</h2>
 
-[都城島津邸](https://www.city.miyakonojo.miyazaki.jp/site/shimazu/)（宮崎県都城市）は、 本所所蔵『[島津家文書](../../collection/collection02)』などと関係の深い史料群を所蔵しています。 本所は2017年度から同館所蔵史料の調査・撮影を行っており、同館との協同により2021年<span style="color: red;">xx</span>月からその目録データと画像データをWeb公開いたしました。  
+[都城島津邸](https://www.city.miyakonojo.miyazaki.jp/site/shimazu/)（宮崎県都城市）は、 本所所蔵『[島津家文書](../../collection/collection02)』などと関係の深い史料群を所蔵しています。 本所は2017年度から同館所蔵史料の調査・撮影を行っており、同館との協同により2021年7月からその目録データと画像データをWeb公開いたしました。  
 
 関連プロジェクト:  
 * JSPS人文学・社会科学データインフラストラクチャー構築推進事業（[関連ページ](https://www.jsps.go.jp/j-di/index.html)）
@@ -27,7 +27,7 @@ title: Hi-CAT Plus区分： 史料群：都城島津邸所蔵史料 画像デー
 	</tr> 
 	<tr>
 <td class="mtx">都城島津邸</td>
-<td class="mtx">約11,000点<br>（2021年<span style="color: red;">xx</span>月時点）</td>
+<td class="mtx">約11,000点<br>（2021年7月時点）</td>
 <td class="mtx"><a href="https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html" target="_blank">機関サイト</a></td>
 </tr>
 </tbody></table>
