@@ -258,6 +258,15 @@ export default class Layout extends Vue {
     this.lg = this.getLg()
     window.addEventListener('scroll', this.scrollWindow)
     window.addEventListener('resize', this.handleResize)
+
+    console.log("test")
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      // 登録されているworkerを全て削除する
+      console.log(registrations.length)
+      for(let registration of registrations) {
+        registration.unregister();
+      }
+    });
   }
 
   // リサイズ
