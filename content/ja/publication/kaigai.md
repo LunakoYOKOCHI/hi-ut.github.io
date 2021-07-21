@@ -13,7 +13,7 @@ title: 日本関係海外史料
 <p class="mtx">
 　1549（天文18）年に始まる日本におけるイエズス会の布教活動、日本の諸事を報告する書翰集です。主にヨーロッパのイエズス会士等宛てに、東洋での布教成果をアピールするために書き送られました。主なものは16世紀末にポルトガルのエヴォラで編纂・印刷され邦訳もありますが、本所では手稿の原本・写本類から、よりオリジナルに忠実な原文テキストを元に翻刻・翻訳を行っています。日本の政治状況、文化等に関する記述も豊富で、戦国時代の日本史の研究に有益な情報を提供しています（1990年刊行開始）。</p>
 
-<p class="mtx">版面画像は、クリエイティブ・コモンズ・ライセンスの「CC BY-NC-SA」（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">クリエイティブ・コモンズ　表示 - 非営利 - 継承 4.0 国際ライセンス</a>）相当の条件で提供しています。詳細は<a href="http://www.hi.u-tokyo.ac.jp/faq/reuse_cc-by-nc-sa.html">こちら</a>でご確認ください。</p>
+<p class="mtx">版面画像は、クリエイティブ・コモンズ・ライセンスの「CC BY-NC-SA」（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">クリエイティブ・コモンズ　表示 - 非営利 - 継承 4.0 国際ライセンス</a>）相当の条件で提供しています。詳細は<a href="https://www.hi.u-tokyo.ac.jp/faq/reuse_cc-by-nc-sa.html">こちら</a>でご確認ください。</p>
 
 
 <!--table cellspacing="0" class="dTable fix">
