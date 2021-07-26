@@ -145,5 +145,12 @@
         "tag": "news",
         "pin": "1",
         "content": "本所は2021年7月21日(水)、宮崎県都城市および都城島津邸と連携し、Hi-CAT Plus データベースより都城島津邸所蔵史料の画像をWeb公開しました。<br><a href=\"https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html\" target=\"_blank\">利用条件</a>・<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/20210721miyakonojo_image.pdf\" target=\"_blank\">利用の手引き</a>"
+    },
+    {
+        "date": "2021/07/26",
+        "featured": "New!",
+        "tag": "data",
+        "pin": "1",
+        "content": "『電子くずし字字典データベース』『木簡画像データベース・木簡字典』連携検索は、7月をもって閉鎖となります。8月からは「a href=\"https://mojiportal.nabunken.go.jp/ja/\" target=\"_blank\">史的文字データベース連携検索システム</a>」をご活用ください。"
     }
 ]
