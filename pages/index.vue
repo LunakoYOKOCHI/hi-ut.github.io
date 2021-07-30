@@ -137,16 +137,17 @@
       </div>
     </div>
 
-    <div v-if="lang === 'ja'" class="foot-link" style="background: white">
+    <div v-if="lang === 'ja' && false" class="foot-link" style="background: white">
       <div class="inner">
+        <!--
         <a class="btn01 v1" href="https://clioteam.hi.u-tokyo.ac.jp/share/"
           >共同研究に<br />
           参加されている皆様へ</a
-        ><nuxt-link class="btn01 v1" :to="localePath({ name: 'faq-slug' })"
+        >--><!-- <nuxt-link class="btn01 v1" :to="localePath({ name: 'faq-slug' })"
           >よくあるご質問</nuxt-link
         ><a class="btn01 v1" href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
           >所内用サイト</a
-        >
+        > -->
       </div>
     </div>
   </div>

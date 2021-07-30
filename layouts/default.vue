@@ -167,6 +167,16 @@
                   >■ HOME</nuxt-link
                 >
               </li>
+              <li v-if="lang === 'ja'">
+                <nuxt-link :to="localePath({ name: 'faq-slug' })"
+                  >■ よくあるご質問</nuxt-link
+                >
+              </li>
+              <li v-if="lang === 'ja'">
+                <a href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
+                  >■ 所内用サイト</a
+                >
+              </li>
               <li>
                 <nuxt-link :to="localePath({ name: 'about-sitemap' })"
                   >■ {{ $t('サイトマップ') }}</nuxt-link
