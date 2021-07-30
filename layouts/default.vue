@@ -162,7 +162,7 @@
         <aside class="foot-nav">
           <nav>
             <ul v-if="lang === 'ja' || lang === 'en'">
-              <li v-if="false">
+              <li>
                 <nuxt-link :to="localePath({ name: 'index' })"
                   >■ HOME</nuxt-link
                 >
@@ -172,17 +172,19 @@
                   >■ よくあるご質問</nuxt-link
                 >
               </li>
+              
               <li v-if="lang === 'ja'">
                 <a href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
                   >■ 所内用サイト</a
                 >
               </li>
+              <br v-if="lang === 'ja'"/>
               <li>
                 <nuxt-link :to="localePath({ name: 'about-sitemap' })"
                   >■ {{ $t('サイトマップ') }}</nuxt-link
                 >
               </li>
-              <li v-if="lang === 'ja' && false">
+              <li v-if="lang === 'ja'">
                 <nuxt-link
                   :to="
                     localePath({ name: 'about-slug', params: { slug: 'link' } })
