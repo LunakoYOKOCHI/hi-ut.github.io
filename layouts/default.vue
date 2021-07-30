@@ -162,7 +162,7 @@
         <aside class="foot-nav">
           <nav>
             <ul v-if="lang === 'ja' || lang === 'en'">
-              <li>
+              <li v-if="false">
                 <nuxt-link :to="localePath({ name: 'index' })"
                   >■ HOME</nuxt-link
                 >
@@ -182,7 +182,7 @@
                   >■ {{ $t('サイトマップ') }}</nuxt-link
                 >
               </li>
-              <li v-if="lang === 'ja'">
+              <li v-if="lang === 'ja' && false">
                 <nuxt-link
                   :to="
                     localePath({ name: 'about-slug', params: { slug: 'link' } })
