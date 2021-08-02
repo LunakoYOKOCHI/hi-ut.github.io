@@ -488,12 +488,23 @@ Vue.component("Layout", {
                 >■ HOME</a
               >
             </li>
+            <li v-if="lang == 'ja'">
+              <a :href="localePath({ name: 'faq-slug' })"
+                >■ よくあるご質問</a
+              >
+            </li>
+            <li v-if="lang == 'ja'">
+              <a href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
+                >■ 所内用サイト</a
+              >
+            </li>
+            <br v-if="lang === 'ja'"/>
             <li>
               <a :href="localePath({ name: 'about-sitemap' })"
                 >■ {{$t("サイトマップ")}}</a
               >
             </li>
-            <li>
+            <li v-if="lang === 'ja'">
               <a :href="localePath({ name: 'about-link' })"
                 >■ {{$t("リンク")}}</a
               >
