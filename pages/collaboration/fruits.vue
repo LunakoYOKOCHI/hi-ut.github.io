@@ -17,7 +17,7 @@
             <td>
               <a :href="item.href">{{ item.label }}</a>
             </td>
-            <td>{{ item.description }}</td>
+            <td v-html="item.description"></td>
           </tr>
         </tbody>
       </table>
