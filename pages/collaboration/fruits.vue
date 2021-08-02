@@ -169,6 +169,12 @@ export default class about extends Vue {
         '史料編纂所『電子くずし字字典データベース』(研究代表　久留島典子教授)と奈良文化財研究所『木簡画像データベース・木簡字典』（研究代表　渡辺晃弘都城発掘調査部史料研究室長）の連携検索',
       href: 'https://clioapi.hi.u-tokyo.ac.jp/ships/ZClient/W34/',
     },
+    {
+      label: '応答型翻訳支援システム・CSVデータ',
+      description:
+        '応答型翻訳支援システムのCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
+      href: 'https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv',
+    }
   ]
 }
 </script>
