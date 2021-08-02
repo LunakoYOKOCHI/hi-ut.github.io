@@ -14,7 +14,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(item, key) in items" :key="key" :id="key + 1">
+          <tr v-for="(item, key) in items" :key="key" :id="item.id">
             <td>
               {{key + 1}}
             </td>
@@ -174,6 +174,7 @@ export default class about extends Vue {
       href: 'https://clioapi.hi.u-tokyo.ac.jp/ships/ZClient/W34/',
     },
     {
+      id: "outougata",
       label: '応答型翻訳支援システム・CSVデータ',
       description:
         '応答型翻訳支援システムのCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
