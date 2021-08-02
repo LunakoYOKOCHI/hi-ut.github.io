@@ -173,7 +173,8 @@ export default class about extends Vue {
       label: '応答型翻訳支援システム・CSVデータ',
       description:
         '応答型翻訳支援システムのCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
-      href: 'https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv',
+      href: 'https://hi-ut.github.io/assets/csv/outougata_20210802.csv',
+      href2: "https://www.hi.u-tokyo.ac.jp/"
     }
   ]
 }
