@@ -8,12 +8,16 @@
       <table class="table04">
         <thead>
           <tr>
+            <th></th>
             <th>成果物</th>
             <th>備考</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(item, key) in items" :key="key">
+          <tr v-for="(item, key) in items" :key="key" :id="key + 1">
+            <td>
+              {{key + 1}}
+            </td>
             <td>
               <a :href="item.href">{{ item.label }}</a>
             </td>
