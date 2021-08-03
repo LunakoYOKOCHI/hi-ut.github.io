@@ -58,57 +58,23 @@ export default class NewsComponent extends Vue {
   get newsList_(){
     let newsList = this.newsList
 
-    newsList.sort(function(a,b){
-      if(a.date < b.date ) return 1;
-      if(a.date > b.date ) return -1;
-      return 0;
-    });
-
-    //トップの場合はpin対応
     if(this.isTop){
-      //const pined: any[] = [[], []]
-
-      /*
-
-      for(let item of newsList){
-        if(item.pin === "1"){
-          pined[0].push(item)
-        } else {
-          pined[1].push(item)
-        }
-      }
-      newsList = []
-      for(let arr of pined){
-        newsList = newsList.concat(arr)
-      }
-
-      */
-
       const newsList2 = []
-
-      const pinedOrderedMap: any = {}
-      const pinedUnOrdered: any[] = []
       
       for(let item of newsList){
 
         if(item.top === "1"){
-          if(item.order && Number(item.order) > 0){
-            var ret = ( '000' + Number(item.order) ).slice( -3 );
-            pinedOrderedMap[ret] = item
-          } else {
-            pinedUnOrdered.push(item)
-          }
+          newsList2.push(item)
         }
       }
-      
-      const keys = Object.keys(pinedOrderedMap);
-      keys.sort()
 
-      for(let key of keys){
-        newsList2.push(pinedOrderedMap[key])
-      }
-
-      newsList = newsList2.concat(pinedUnOrdered)
+      newsList = newsList2
+    } else {
+      newsList.sort(function(a,b){
+        if(a.date < b.date ) return 1;
+        if(a.date > b.date ) return -1;
+        return 0;
+      });
     }
     
 
