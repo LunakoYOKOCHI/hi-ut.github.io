@@ -66,7 +66,10 @@ export default class NewsComponent extends Vue {
 
     //トップの場合はpin対応
     if(this.isTop){
-      const pined: any[] = [[], []]
+      //const pined: any[] = [[], []]
+
+      /*
+
       for(let item of newsList){
         if(item.pin === "1"){
           pined[0].push(item)
@@ -78,6 +81,34 @@ export default class NewsComponent extends Vue {
       for(let arr of pined){
         newsList = newsList.concat(arr)
       }
+
+      */
+
+      const newsList2 = []
+
+      const pinedOrderedMap: any = {}
+      const pinedUnOrdered: any[] = []
+      
+      for(let item of newsList){
+
+        if(item.top === "1"){
+          if(item.order && Number(item.order) > 0){
+            var ret = ( '000' + Number(item.order) ).slice( -3 );
+            pinedOrderedMap[ret] = item
+          } else {
+            pinedUnOrdered.push(item)
+          }
+        }
+      }
+      
+      const keys = Object.keys(pinedOrderedMap);
+      keys.sort()
+
+      for(let key of keys){
+        newsList2.push(pinedOrderedMap[key])
+      }
+
+      newsList = newsList2.concat(pinedUnOrdered)
     }
     
 
