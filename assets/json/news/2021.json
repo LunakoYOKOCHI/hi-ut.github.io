@@ -17,7 +17,7 @@
         "date": "2021/07/16",
         "featured": "New!",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "【重要】システム切替作業のため、下記の日程で本所システムを停止いたします。この間、本所公開検索システムなどのご利用ができません。ご了承下さい。<br>\n2021年7月30日（金）9：00～終日"
     },
     {
@@ -45,7 +45,7 @@
         "date": "2021/07/05",
         "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "【重要】システム切替作業のため、下記の日程で本所システムを停止いたします。この間、本所データベースなどのご利用ができません。ご了承下さい。<br>\n2021年7月10日（土）～7月11日（日）　終日"
     },
     {
@@ -66,7 +66,7 @@
         "date": "2021/06/17",
         "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "<a href=\"https://hmc.u-tokyo.ac.jp/ja/open-seminar/2021/38-power-of-speaking/\" target=\"_blank\">第38回HMCオープンセミナー「語る力が権力を作る？」</a>（7月9日（金）17:30-19:30、事前登録制）にて本所の松方冬子教授が報告しました。"
     },
     {
@@ -80,21 +80,21 @@
         "date": "2021/06/11",
         "featured": "",
         "tag": "event",
-        "top": "1",
+        "top": "0",
         "content": "本所共催の国際研究集会<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/20210726_event.pdf\" target=\"_blank\">「東アジア諸王室における礼的〈逸脱〉の諸相」</a>が開催されました（7月26日(月)13：00～、オンライン開催・事前申込制）。"
     },
     {
         "date": "2021/06/11",
         "featured": "",
         "tag": "event",
-        "top": "1",
+        "top": "0",
         "content": "奈良市史料保存館企画展示<a href=\"https://www.city.nara.lg.jp/site/bunkazai/105906.html\" target=\"_blank\">「獅子奮迅！般若寺と般若寺村の歴史－般若寺所蔵の歴史資料から－」</a>（2021年6月15日～7月25日）が開催されました。本展は2020年度一般共同研究の成果公開を含みます。"
     },
     {
         "date": "2021/06/04",
         "featured": "",
         "tag": "data",
-        "top": "1",
+        "top": "0",
         "content": "本所共催の石上英一氏講演会<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/20210703_event.pdf\" target=\"_blank\">「古代典籍写本調査から史料学・地域歴史文化遺産の構想へ」</a>を開催しました（7月3日(土)13：00～、オンライン開催・事前申込制）。\n"
     },
     {
@@ -117,6 +117,13 @@
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/gazo/centernewslist.htm\" target=\"_blank\">『画像史料解析センター通信』92号</a>を刊行しました。"
+    },
+    {
+        "date": "2021/05/13",
+        "featured": "",
+        "tag": "news",
+        "top": "0",
+        "content": "図書部事務室等移転作業のため、5/20～5/27は図書室を閉室し各種サービスを一時停止いたします。<a target=\"_blank\" href=\"https://www.hi.u-tokyo.ac.jp/tosho/tosho.html\">詳細はこちら</a>をご参照ください。"
     },
     {
         "date": "2021/04/27",
