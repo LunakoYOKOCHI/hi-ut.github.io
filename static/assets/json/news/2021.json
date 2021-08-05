@@ -1,5 +1,12 @@
 [
     {
+        "date": "2021/08/05",
+        "featured": "New!",
+        "tag": "data",
+        "top": "1",
+        "content": "【DB】7月末日停止の応答型翻訳支援システムについて、データをCSVにて公開いたしました。どうぞご利用下さい。利用条件：CC-BY<br>\r\nhttps://hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv"
+    },
+    {
         "date": "2021/07/26",
         "featured": "New!",
         "tag": "data",
