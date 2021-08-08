@@ -1,5 +1,19 @@
 [
     {
+        "date": "2021/07/13",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "新型コロナウイルス感染症対策のため、史料編纂所図書室は7/13から当面の間、<a href=\"https://www.hi.u-tokyo.ac.jp/library/visit/\" target=\"_blank\">学内者：午後のみ開室（要予約）・学外者：利用停止</a>となります。"
+    },
+    {
+        "date": "2021/08/09",
+        "featured": "New!",
+        "tag": "event",
+        "top": "1",
+        "content": "2021年9月6日～8日に、The 11th Conference of Japanese Association for Digital Humanities (JADH2021)を本所主催にてオンライン開催いたします。詳しくは<a href=\"https://www.hi.u-tokyo.ac.jp/JADH/2021/index.html/\" target=\"_blank\">こちら</a>。"
+    },
+    {
         "date": "2021/08/05",
         "featured": "New!",
         "tag": "data",
@@ -22,17 +36,17 @@
     },
     {
         "date": "2021/07/16",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "0",
         "content": "【重要】システム切替作業のため、下記の日程で本所システムを停止いたします。この間、本所公開検索システムなどのご利用ができません。ご了承下さい。<br>\n2021年7月30日（金）9：00～終日"
     },
     {
-        "date": "2021/07/13",
-        "featured": "New!",
-        "tag": "news",
-        "top": "1",
-        "content": "新型コロナウイルス感染症対策のため、史料編纂所図書室は7/13から当面の間、<a href=\"https://www.hi.u-tokyo.ac.jp/library/visit/\" target=\"_blank\">学内者：午後のみ開室（要予約）・学外者：利用停止</a>となります。"
+        "date": "",
+        "featured": "",
+        "tag": "",
+        "top": "",
+        "content": ""
     },
     {
         "date": "2021/08/03",
