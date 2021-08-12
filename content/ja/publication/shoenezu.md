@@ -19,26 +19,48 @@ title: 日本荘園絵図聚影
                     target="blank"
                     >刊行物紹介</a
                 >　
-　
 <a
                     href="http://www.utp.or.jp/book/b304010.html"
                     target="blank"
                     >販売</a
                 >　
 
-
 １下（東日本二）　（1996年刊）
-※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/31/pub_nihonshouen-01-ge-02.html
-販売　http://www.utp.or.jp/book/b304011.html
-
+<a
+                    href="https://www.hi.u-tokyo.ac.jp/publication/syoho/31/pub_nihonshouen-01-ge-02.html"
+                    target="blank"
+                    >刊行物紹介</a
+                >　
+<a
+                    href="http://www.utp.or.jp/book/b304011.html"
+                    target="blank"
+                    >販売</a
+                >　
+                
 ２（近畿一　山城）　（1992年刊）
-※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/28/pub_nihonshouen-02-01.html
-販売　http://www.utp.or.jp/book/b304012.html
-
+<a
+                    href="https://www.hi.u-tokyo.ac.jp/publication/syoho/28/pub_nihonshouen-02-01.html"
+                    target="blank"
+                    >刊行物紹介</a
+                >　
+<a
+                    href="http://www.utp.or.jp/book/b304012.html"
+                    target="blank"
+                    >販売</a
+                >　
+                
 ３（近畿二　大和）　（1988年刊）
-※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/23/pub_nihonshouen-03-02.html
-販売　http://www.utp.or.jp/book/b304013.html
-
+<a
+                    href="https://www.hi.u-tokyo.ac.jp/publication/syoho/23/pub_nihonshouen-03-02.html"
+                    target="blank"
+                    >刊行物紹介</a
+                >　
+<a
+                    href="http://www.utp.or.jp/book/b304013.html"
+                    target="blank"
+                    >販売</a
+                >　
+                
 ４（近畿三）　（1999年刊）
 ※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/34/pub_nihonshouen-04-03.html
 販売　http://www.utp.or.jp/book/b304014.html
