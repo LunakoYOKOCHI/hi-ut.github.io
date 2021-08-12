@@ -11,3 +11,54 @@ title: 日本荘園絵図聚影
                     >【関連データベース】史料編纂所所蔵荘園絵図模本</a
                 >
 </b>
+
+『日本荘園絵図聚影』
+１上（東日本一）　（1995年刊）
+ <a
+                    href="https://www.hi.u-tokyo.ac.jp/publication/syoho/30/pub_nihonshouen-01-jou-01.html"
+                    target="blank"
+                    >刊行物紹介</a
+                >　
+　
+<a
+                    href="http://www.utp.or.jp/book/b304010.html"
+                    target="blank"
+                    >販売</a
+                >　
+
+
+１下（東日本二）　（1996年刊）
+※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/31/pub_nihonshouen-01-ge-02.html
+販売　http://www.utp.or.jp/book/b304011.html
+
+２（近畿一　山城）　（1992年刊）
+※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/28/pub_nihonshouen-02-01.html
+販売　http://www.utp.or.jp/book/b304012.html
+
+３（近畿二　大和）　（1988年刊）
+※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/23/pub_nihonshouen-03-02.html
+販売　http://www.utp.or.jp/book/b304013.html
+
+４（近畿三）　（1999年刊）
+※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/34/pub_nihonshouen-04-03.html
+販売　http://www.utp.or.jp/book/b304014.html
+
+５上（西日本一）　（2001年刊）
+※要細目追加：刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/36/pub_nihonshouen-05-jou-01.html
+販売　http://www.utp.or.jp/book/b304015.html
+
+５下（西日本二・補遺）　（2002年刊）
+刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/37/pub_nihonshouen-05-ge-02.html
+販売　http://www.utp.or.jp/book/b304016.html
+
+釈文編１（古代）　（2007年刊）
+刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/44/pub_syoen-syakumon-kodai.html
+販売　http://www.utp.or.jp/book/b305648.html
+
+釈文編２（中世一）　（2016年刊）
+刊行物紹介　https://www.hi.u-tokyo.ac.jp/publication/syoho/51/pub_syoen-syakumon-2-chusei-1.html
+販売　http://www.utp.or.jp/book/b307208.html
+
+釈文編３（中世二）　（2021年刊）
+※刊行物紹介　→『所報』未刊
+販売　http://www.utp.or.jp/book/b557193.html
