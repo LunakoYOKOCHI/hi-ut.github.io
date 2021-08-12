@@ -13,6 +13,7 @@ title: 日本荘園絵図聚影
 </b>
 
 『日本荘園絵図聚影』
+
 １上（東日本一）　（1995年刊）
  <a
                     href="https://www.hi.u-tokyo.ac.jp/publication/syoho/30/pub_nihonshouen-01-jou-01.html"
