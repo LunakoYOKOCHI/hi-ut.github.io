@@ -18,8 +18,14 @@
             <td>
               {{key + 1}}
             </td>
+            
             <td>
-              <a :href="item.href">{{ item.label }}</a>
+              <template v-if="item.href">
+                <a :href="item.href">{{ item.label }}</a>
+              </template>
+              <template v-else>
+                <span v-html="item.label"/>
+              </template>
             </td>
             <td v-html="item.description"></td>
           </tr>
@@ -175,11 +181,9 @@ export default class about extends Vue {
     },
     {
       id: "outougata",
-      label: '応答型翻訳支援システム・CSVデータ',
+      label: '応答型翻訳支援システム<ul><li><a href="https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.xlsx">Microsoft Excelデータ</a></li><li><a href="https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv">CSVデータ</a></li></ul>',
       description:
-        '応答型翻訳支援システムのCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
-      href2: 'https://hi-ut.github.io/assets/csv/outougata_20210802.csv',
-      href: "https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv"
+        '応答型翻訳支援システムのMicrosoft Excelデータ（1.6MB）およびCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
     }
   ]
 }
