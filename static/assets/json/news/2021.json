@@ -25,7 +25,7 @@
         "featured": "Update!",
         "tag": "data",
         "top": "1",
-        "content": "2021年7月末日をもって、システム切替に伴い、下記データベースを停止いたしました。<br>\n　・欧文日本古代史料解題辞典データベース<br>\n　・応答型翻訳支援システム<br>\nそのうち、応答型翻訳支援システムについて、データをMicrosoft ExcelおよびCSVファイルとして公開いたしました。どうぞご利用下さい。利用条件：CC-BY <a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/fruits#outougata\" target=\"_blank\">https://www.hi.u-tokyo.ac.jp/collaboration/fruits#outougata</a>"
+        "content": "2021年7月末日をもって、システム切替に伴い、下記データベースを停止いたしました。<br>\n　・欧文日本古代史料解題辞典データベース<br>\n　・応答型翻訳支援システム<br>\nそのうち、応答型翻訳支援システムについて、データをMicrosoft ExcelおよびCSVファイルとして公開いたしました。どうぞご利用下さい。利用条件：CC-BY\n<a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/fruits#outougata\" target=\"_blank\">https://www.hi.u-tokyo.ac.jp/collaboration/fruits#outougata</a>"
     },
     {
         "date": "2021/07/26",
@@ -57,16 +57,16 @@
     },
     {
         "date": "2021/08/03",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "『画像史料解析センター通信』<a href=\"https://www.hi.u-tokyo.ac.jp/gazo/centernewslist.htm\" target=\"_blank\">93号</a>を刊行しました。"
     },
     {
         "date": "2021/07/06",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "都城島津邸<a href=\"https://www.city.miyakonojo.miyazaki.jp/site/shimazu/37291.html\" target=\"_blank\">「都城市３館周年記念特別展：神話にみえる都城」</a>（2021年7月3日～8月15日）に、本所所蔵「舎人親王画像　附収：稗田阿礼・太安万呂」が出陳されています。"
     },
     {
@@ -78,7 +78,7 @@
     },
     {
         "date": "2021/07/05",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "仏教文学会・神奈川県立金沢文庫共同企画講演<a href=\"http://www.pref.kanagawa.jp/docs/u6p/evt/e4237448.html\" target=\"_blank\">「兼好と『徒然草』研究の最前線」</a>が配信中です。本企画には、一般共同研究『国宝「称名寺聖教・金沢文庫文書」の書誌学的復原研究』の成果が含まれます。"
