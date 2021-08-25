@@ -96,7 +96,7 @@ export default class ComponentLayout extends Vue {
   breadcrumbs!: any
 
   @Prop({ default: false })
-  hideBreadcrumbs!: booelan
+  hideBreadcrumbs!: boolean
 
   baseUrl: string = process.env.BASE_URL || ''
   menuList: any = process.env.menuList
