@@ -95,6 +95,9 @@ export default class ComponentLayout extends Vue {
   @Prop({ default: () => [] })
   breadcrumbs!: any
 
+  @Prop({ default: false })
+  hideBreadcrumbs!: booelan
+
   baseUrl: string = process.env.BASE_URL || ''
   menuList: any = process.env.menuList
 
@@ -126,32 +129,34 @@ export default class ComponentLayout extends Vue {
       },
     ]
 
-    const breadcrumbs = this.breadcrumbs
-    if (breadcrumbs.length === 0) {
-      const menu = this.menuList[this.index]
-      items.push({
-        text: this.$t(menu.label),
-        to: this.localePath(menu.to),
-      })
-    } else {
-      for (let i = 0; i < breadcrumbs.length; i++) {
-        const breadcrumb = breadcrumbs[i]
-        if (breadcrumb.to) {
-          items.push({
-            text: breadcrumb.text, // 'HOME',
-            disabled: false,
-            to: breadcrumb.to,
-            exact: true,
-          })
-        } else {
-          items.push({
-            text: breadcrumb.text, // 'HOME',
-            disabled: false,
-            to: this.localePath({
-              name: breadcrumb.name, // 'index',
-            }),
-            exact: true,
-          })
+    if(!this.hideBreadcrumbs){
+      const breadcrumbs = this.breadcrumbs
+      if (breadcrumbs.length === 0) {
+        const menu = this.menuList[this.index]
+        items.push({
+          text: this.$t(menu.label),
+          to: this.localePath(menu.to),
+        })
+      } else  {
+        for (let i = 0; i < breadcrumbs.length; i++) {
+          const breadcrumb = breadcrumbs[i]
+          if (breadcrumb.to) {
+            items.push({
+              text: breadcrumb.text, // 'HOME',
+              disabled: false,
+              to: breadcrumb.to,
+              exact: true,
+            })
+          } else {
+            items.push({
+              text: breadcrumb.text, // 'HOME',
+              disabled: false,
+              to: this.localePath({
+                name: breadcrumb.name, // 'index',
+              }),
+              exact: true,
+            })
+          }
         }
       }
     }
