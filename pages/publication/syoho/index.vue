@@ -4,7 +4,7 @@
     <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
       <h1 class="h02">{{ title }}</h1>
       <p>史料編纂所の諸業務に関する報告。1966 年度より毎年度発行。<br />申込書は<a
-          href="https://www.hi.u-tokyo.ac.jp/publication/moshikomi20201228.pdf"
+          href="https://www.hi.u-tokyo.ac.jp/publication/moshikomi20210804.pdf"
           >こちら</a
         >。
       </p>
