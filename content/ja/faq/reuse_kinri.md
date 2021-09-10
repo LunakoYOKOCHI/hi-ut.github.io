@@ -23,9 +23,9 @@ title: Hi-CAT Plus区分：禁裏公家文庫画像データの利用
 		<th class="mtx" width="35%">備考（内訳など）</th>
 	</tr> 
 	<tr>
-<td class="mtx">宮内庁書陵部</td><td class="mtx">書目119件</td><td class="mtx">約567,720点</td><td class="mtx"><a href="http://www.kunaicho.go.jp/kunaicho/shinsei/toshoryo.html" target="_blank">機関サイト</a></td><td class="mtx"><a href="/kodai/kinri-kuge-index.html">禁裏公家文庫研究プロジェクト</a></td>
+<td class="mtx">宮内庁書陵部</td><td class="mtx">書目119件</td><td class="mtx">約567,720点</td><td class="mtx"><a href="http://www.kunaicho.go.jp/kunaicho/shinsei/toshoryo.html" target="_blank">機関サイト</a></td><td class="mtx"><a target="_blank" href="https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html">禁裏公家文庫研究プロジェクト</a></td>
 	</tr>
 	<tr>
-<td class="mtx">山口県立山口図書館</td><td class="mtx">書目209部426冊</td><td class="mtx">約32,000点</td><td class="mtx"><a href="https://library.pref.yamaguchi.lg.jp/web-ishin-instruction" target="_blank">機関サイト</a></td><td class="mtx"><a href="/kodai/kinri-kuge-index.html">禁裏公家文庫研究プロジェクト</a></td>
+<td class="mtx">山口県立山口図書館</td><td class="mtx">書目209部426冊</td><td class="mtx">約32,000点</td><td class="mtx"><a href="https://library.pref.yamaguchi.lg.jp/web-ishin-instruction" target="_blank">機関サイト</a></td><td class="mtx"><a target="_blank" href="https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html">禁裏公家文庫研究プロジェクト</a></td>
 	</tr>
 </tbody></table>
