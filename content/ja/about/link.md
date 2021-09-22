@@ -6,11 +6,11 @@ title: リンク
 
 - [東京大学](http://www.u-tokyo.ac.jp/index_j.html)
     - [東京大学附属図書館](http://www.lib.u-tokyo.ac.jp/)
-    - [東洋文化研究所](http://www.lib.u-tokyo.ac.jp/)
+    - [東洋文化研究所](https://www.ioc.u-tokyo.ac.jp/)
         - [データベース](http://www.ioc.u-tokyo.ac.jp/database/index.html)
-    - [地震研究所](http://www.lib.u-tokyo.ac.jp/)
+    - [地震研究所](https://www.eri.u-tokyo.ac.jp/)
     - [地震火山史料連携研究機構](http://www.eri.u-tokyo.ac.jp/project/eri-hi-cro/index.html)
-    - [ASNET](http://www.asnet.dir.u-tokyo.ac.jp/) 東京大学
+    - [ASNET](https://www.ioc.u-tokyo.ac.jp/archives/asnet/) 東京大学
             日本・アジアに関する教育研究ネットワーク
 
 <h2 class="h03 mt2">関連機関</h2>
@@ -20,13 +20,7 @@ title: リンク
 - [人間文化研究機構](http://www.nihu.jp/)
     - [国立歴史民俗博物館](http://www.rekihaku.ac.jp) 
         - [データベースれきはく](http://www.rekihaku.ac.jp/education_research/gallery/database/index.html)
-    - [国文学研究資料館](http://www.nijl.ac.jp/)
-        - [データベース](http://www.nijl.ac.jp/pages/database/)
-    - [国際日本文化研究センター](http://www.nichibun.ac.jp/)
-        - [データベース](http://www.nichibun.ac.jp/graphicversion/dbase/database.html)
-- [人間文化研究機構](http://www.nihu.jp/)
-    - [国立歴史民俗博物館](http://www.rekihaku.ac.jp) 
-        - [データベースれきはく](http://www.rekihaku.ac.jp/education_research/gallery/database/index.html)
+        - [khirin](https://khirin-ld.rekihaku.ac.jp/)
     - [国文学研究資料館](http://www.nijl.ac.jp/)
         - [データベース](http://www.nijl.ac.jp/pages/database/)
     - [国際日本文化研究センター](http://www.nichibun.ac.jp/)
