@@ -72,7 +72,7 @@ title: リンク
         </li>
         <li>
         <a href="http://www.nabunken.go.jp/">奈良文化財研究所</a>
-        <a href="http://www.nabunken.go.jp/japanese/database.html"
+        <a href="https://www.nabunken.go.jp/publication/"
             >（データベース）</a
         >
         </li>
