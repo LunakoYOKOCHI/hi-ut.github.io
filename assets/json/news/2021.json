@@ -1,9 +1,16 @@
 [
     {
-        "date": "2021/09/22",
+        "date": "2021/09/27",
         "featured": "New!",
         "tag": "news",
         "top": "1",
+        "content": "鹿児島県歴史・美術センター黎明館<a href=\"https://www.pref.kagoshima.jp/ab23/reimeikan/kouza/jisyukikaku/kikaku_tokubetutenji/documents/amami.html\" target=\"_blank\">「ほこらしゃ奄美：海と山の織りなすシマの世界」</A>（2021年10月1日～11月7日）に、本所所蔵「中山王尚寧起請文」（御文書　家久公十五　巻二十(一九通)所収）が出陳されます。"
+    },
+    {
+        "date": "2021/09/22",
+        "featured": "New!",
+        "tag": "news",
+        "top": "0",
         "content": "[お知らせ]サーバメンテナンスのため、下記の日程で本所システムを停止いたします。この間、本所データベースなどのご利用ができません。ご了承下さい。<br>\n2021年9月26日（日）　9：00～22：00"
     },
     {
