@@ -1,34 +1,41 @@
 // /plugins/logger.ts
 export class Utils {
-  split(data: string){
-    const delimiter = "=>"
+  split(data: string) {
+    const delimiter = '=>'
     const index = data.indexOf(delimiter)
-    return [data.substring(0, index).trim(), data.substring(index + delimiter.length, data.length).trim()]
+    return [
+      data.substring(0, index).trim(),
+      data.substring(index + delimiter.length, data.length).trim(),
+    ]
   }
 
-  calcYearFromSyohoVol(vol: number){
-    if(vol <= 28){
-      return 1965 + vol + "年"
+  calcYearFromSyohoVol(vol: number) {
+    if (vol <= 28) {
+      return 1965 + vol + '年'
     } else {
-      return 1964 + vol + "年度"
+      return 1964 + vol + '年度'
     }
   }
 
-  calcSyohoVolFromYear(year: number){
+  calcSyohoVolFromYear(year: number) {
     return year - 1965
   }
 
-  calcYearFromKiyoVol(vol: number){
+  calcYearFromKiyoVol(vol: number) {
     return 1990 + vol
   }
 
-  calcKiyoVolFromYear(year: number){
+  calcKiyoVolFromYear(year: number) {
     return year - 1990
   }
 
   // NUM=値 LEN=桁数
-  zfill(NUM: number, LEN: number){
-	  return ( Array(LEN).join('0') + NUM ).slice( -LEN );
+  zfill(NUM: number, LEN: number) {
+    return (Array(LEN).join('0') + NUM).slice(-LEN)
+  }
+
+  convKyotenKadaiIppanId(id: string) {
+    return id.replace('繰越', 'k')
   }
 }
 
