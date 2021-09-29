@@ -43,9 +43,9 @@ title: リンク
 <br/>
 
 - [CiNii Books](http://ci.nii.ac.jp/books/?l=ja)
-- [e 国宝](http://www.emuseum.jp/)
+- [e 国宝](https://emuseum.nich.go.jp/)
 - [文化遺産オンライン](http://bunka.nii.ac.jp/Index.do)
-- [国指定文化財等検索システム](http://www.bunka.go.jp/bsys/index.asp)
+- [国指定文化財等データベース](https://kunishitei.bunka.go.jp/bsys/index)
 
 <br/>
 
@@ -58,12 +58,12 @@ title: リンク
   
 - [北海道立文書館](http://www.pref.hokkaido.lg.jp/sm/mnj/) （[資料検索](http://www.pref.hokkaido.lg.jp/sm/mnj/d/shiryokensaku.htm)）
 - [北海道博物館](https://www.hm.pref.hokkaido.lg.jp/) （[収蔵資料検索](http://jmapps.ne.jp/hmcollection1/)）
-- [東北歴史博物館](http://www.thm.pref.miyagi.jp/) （[館蔵資料ダイジェスト](http://www.thm.pref.miyagi.jp/index.php?app=shiryo_bunrui)）
+- [東北歴史博物館](http://www.thm.pref.miyagi.jp/) （[館蔵資料ダイジェスト](http://jmapps.ne.jp/thm1/)）
 - [秋田県公文書館](http://www.pref.akita.lg.jp/kobunsyo/) （[古文書収蔵資料の概要](http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html)）
-- [新潟県立文書館](http://www.archives.pref.niigata.jp/) （[所蔵文書案内](http://www.archives.pref.niigata.jp/shozo-bunsho-annai/)）
+- [新潟県立文書館](https://www.pref-lib.niigata.niigata.jp/?page_id=569) （[所蔵文書案内](https://www.pref-lib.niigata.niigata.jp/?page_id=587)）
 - [茨城県立歴史館](http://www.rekishikan.museum.ibk.ed.jp/) （[資料検索システム](http://www2.rekishikan.museum.ibk.ed.jp/)）
 - [東京都公文書館](http://www.soumu.metro.tokyo.jp/01soumu/archives/index.htm) （[所蔵資料の案内](http://www.soumu.metro.tokyo.jp/01soumu/archives/03shozou_shiryou.htm)）
-- [神奈川県立公文書館](http://www.pref.kanagawa.jp/cnt/f1040/) （[アーカイブズの検索](http://kanagawa-archives-search.force.com/Gov__p0520)）
-- [京都府立総合資料館](http://www.pref.kyoto.jp/shiryokan/) （[東寺百合文書 WEB](http://hyakugo.kyoto.jp/)）
+- [神奈川県立公文書館](https://archives.pref.kanagawa.jp/www/index.html) （[デジタルアーカイブ](https://archives.pref.kanagawa.jp/www/genre/1000000000155/index.html)）
+- [京都府立京都学・歴彩館](http://www.pref.kyoto.jp/rekisaikan/index.html) （[東寺百合文書 WEB](http://hyakugo.pref.kyoto.lg.jp/)）
 - [大分県公文書館](http://www.pref.oita.jp/site/346/) （[公文書目録](http://www.pref.oita.jp/site/346/list-top.html)）
 - [沖縄県公文書館](http://www.archives.pref.okinawa.jp/)
