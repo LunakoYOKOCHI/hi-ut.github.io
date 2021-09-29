@@ -38,7 +38,10 @@ title: リンク
   - [奈良国立博物館](http://www.narahaku.go.jp/) [（画像データベース）](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
   - [九州国立博物館](http://www.kyuhaku.jp/) [（収蔵品デジタルアーカイブ）](http://d-archive.kyuhaku.jp/)
   - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) [（研究資料総合検索システム）](http://archives.tobunken.go.jp/internet/index.html)
-  - [奈良文化財研究所](http://www.nabunken.go.jp/) [（データベース）](https://www.nabunken.go.jp/publication/)<br/><br/>
+  - [奈良文化財研究所](http://www.nabunken.go.jp/) [（データベース）](https://www.nabunken.go.jp/publication/)
+
+<br/>
+
 - [CiNii Books](http://ci.nii.ac.jp/books/?l=ja)
 - [e 国宝](http://www.emuseum.jp/)
 - [文化遺産オンライン](http://bunka.nii.ac.jp/Index.do)
