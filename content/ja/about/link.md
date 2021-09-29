@@ -33,7 +33,7 @@ title: リンク
 <h2 class="h03 mt2">関連機関</h2>
 
 - [国立文化財機構](http://www.nich.go.jp/)
-    - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
+   - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
    - [京都国立博物館](http://www.kyohaku.go.jp/jp/) [（収蔵品データベース）](http://www.kyohaku.go.jp/jp/syuzou/index.html)
    - [奈良国立博物館](http://www.narahaku.go.jp/) [（画像データベース）](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
    - [九州国立博物館](http://www.kyuhaku.jp/) [（収蔵品デジタルアーカイブ）](http://d-archive.kyuhaku.jp/)
@@ -41,81 +41,40 @@ title: リンク
    - [奈良文化財研究所](http://www.nabunken.go.jp/) [（データベース）](https://www.nabunken.go.jp/publication/)
 
 
-<ul>
-    <li><a href="http://ci.nii.ac.jp/books/?l=ja">CiNii Books</a></li>
-    <li><a href="http://www.emuseum.jp/">e国宝</a></li>
-    <li>
-    <a href="http://bunka.nii.ac.jp/Index.do">文化遺産オンライン</a>
-    </li>
-    <li>
-    <a href="http://www.bunka.go.jp/bsys/index.asp"
-        >国指定文化財等検索システム</a
-    >
-    </li>
 
-</ul>
+- [CiNii Books](http://ci.nii.ac.jp/books/?l=ja)
+- [e国宝](http://www.emuseum.jp/)
+- [文化遺産オンライン](http://bunka.nii.ac.jp/Index.do)
+- [国指定文化財等検索システム](http://www.bunka.go.jp/bsys/index.asp)
 
-<br/>
 
-<ul>
-    <li>
-        <a href="http://www.archives.go.jp/">国立公文書館</a>
-        <ul>
-            <li>
-            <a href="http://www.digital.archives.go.jp/index.html"
-                >デジタルアーカイブ</a
-            >
-            </li>
-            <li>
-            <a href="http://www.archives.go.jp/links/index.html#Sec_04"
-                >全国公文書館リンク</a
-            >
-            </li>
-            <li>
-            <a href="http://www.jacar.go.jp/">アジア歴史資料センター</a>
-            </li>
-        </ul>
-    </li>
-</ul>
 
-<br/>
 
-<ul>
+- [国立公文書館](http://www.archives.go.jp/)
+   - [デジタルアーカイブ](http://www.digital.archives.go.jp/index.html)
+   - [全国公文書館リンク](http://www.archives.go.jp/links/index.html#Sec_04) 
+   - [アジア歴史資料センター](http://www.jacar.go.jp/)
+
+
+
+
+- [北海道立文書館](http://www.pref.hokkaido.lg.jp/sm/mnj/) [（資料検索）](http://www.pref.hokkaido.lg.jp/sm/mnj/d/shiryokensaku.htm)
+- [北海道開拓記念館](http://www.hmh.pref.hokkaido.jp/) [（収蔵資料検索）](http://www.hmh.pref.hokkaido.jp/kensaku/KENSAKU1.HTM)
+- [東北歴史博物館](http://www.thm.pref.miyagi.jp/) [（館蔵資料ダイジェスト）](http://www.thm.pref.miyagi.jp/index.php?app=shiryo_bunrui)
+- [秋田県公文書館](http://www.pref.akita.lg.jp/kobunsyo/) [（古文書収蔵資料の概要）](http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html)
+- [新潟県立文書館](http://www.archives.pref.niigata.jp/) [（所蔵文書案内）](http://www.archives.pref.niigata.jp/shozo-bunsho-annai/)
+- [茨城県立歴史館](http://www.rekishikan.museum.ibk.ed.jp/) [（資料検索システム）](http://www2.rekishikan.museum.ibk.ed.jp/)
+      
+
     <li>
-    <a href="http://www.pref.hokkaido.lg.jp/sm/mnj/">北海道立文書館</a>
-    <a href="http://www.pref.hokkaido.lg.jp/sm/mnj/d/shiryokensaku.htm"
-        >(資料検索)</a
+   
+  
     >
     </li>
     <li>
-    <a href="http://www.hmh.pref.hokkaido.jp/">北海道開拓記念館</a>
-    <a href="http://www.hmh.pref.hokkaido.jp/kensaku/KENSAKU1.HTM"
-        >（収蔵資料検索）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.thm.pref.miyagi.jp/">東北歴史博物館</a>
-    <a href="http://www.thm.pref.miyagi.jp/index.php?app=shiryo_bunrui"
-        >（館蔵資料ダイジェスト）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.pref.akita.lg.jp/kobunsyo/">秋田県公文書館</a
-    ><a
-        href="http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html"
-        >（古文書収蔵資料の概要）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.archives.pref.niigata.jp/">新潟県立文書館</a>
-    <a href="http://www.archives.pref.niigata.jp/shozo-bunsho-annai/"
-        >（所蔵文書案内）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.rekishikan.museum.ibk.ed.jp/">茨城県立歴史館</a>
-    <a href="http://www2.rekishikan.museum.ibk.ed.jp/"
-        >（資料検索システム）</a
+    <a href=""></a>
+    <a href=""
+        >（）</a
     >
     </li>
     <li>
