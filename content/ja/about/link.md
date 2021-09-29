@@ -54,4 +54,4 @@ title: リンク
 - [神奈川県立公文書館](http://www.pref.kanagawa.jp/cnt/f1040/) （[アーカイブズの検索](http://kanagawa-archives-search.force.com/Gov__p0520)）
 - [京都府立総合資料館](http://www.pref.kyoto.jp/shiryokan/) （[東寺百合文書WEB](http://hyakugo.kyoto.jp/)）
 - [大分県公文書館](http://www.pref.oita.jp/site/346/) （[公文書目録](http://www.pref.oita.jp/site/346/list-top.html)）
-- [沖縄県公文書館](http://www.archives.pref.okinawa.jp/)）
+- [沖縄県公文書館](http://www.archives.pref.okinawa.jp/)
