@@ -28,7 +28,8 @@ title: リンク
 - [国立国会図書館](http://www.ndl.go.jp/)
     - [蔵書検索](https://ndlopac.ndl.go.jp/)
     - [国立国会図書館サーチ](http://iss.ndl.go.jp/)
-    - [デジタルコレクション](http://dl.ndl.go.jp/)  
+    - [デジタルコレクション](http://dl.ndl.go.jp/)
+  
 - [国立文化財機構](http://www.nich.go.jp/)
   - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
    - [京都国立博物館](http://www.kyohaku.go.jp/jp/) [（収蔵品データベース）](http://www.kyohaku.go.jp/jp/syuzou/index.html)
