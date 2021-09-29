@@ -30,10 +30,8 @@ title: リンク
     - [国立国会図書館サーチ](http://iss.ndl.go.jp/)
     - [デジタルコレクション](http://dl.ndl.go.jp/)
 
-<h2 class="h03 mt2">関連機関</h2>
-
 - [国立文化財機構](http://www.nich.go.jp/)
-　  - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
+  - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
    - [京都国立博物館](http://www.kyohaku.go.jp/jp/) [（収蔵品データベース）](http://www.kyohaku.go.jp/jp/syuzou/index.html)
    - [奈良国立博物館](http://www.narahaku.go.jp/) [（画像データベース）](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
    - [九州国立博物館](http://www.kyuhaku.jp/) [（収蔵品デジタルアーカイブ）](http://d-archive.kyuhaku.jp/)
