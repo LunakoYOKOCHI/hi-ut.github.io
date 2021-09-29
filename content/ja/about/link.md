@@ -61,9 +61,9 @@ title: リンク
 - [東北歴史博物館](http://www.thm.pref.miyagi.jp/) （[館蔵資料ダイジェスト](http://jmapps.ne.jp/thm1/)）
 - [秋田県公文書館](http://www.pref.akita.lg.jp/kobunsyo/) （[収蔵資料の概要目録ダウンロード](http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html)）
 - [新潟県立文書館](https://www.pref-lib.niigata.niigata.jp/?page_id=569) （[所蔵文書案内](https://www.pref-lib.niigata.niigata.jp/?page_id=587)）
-- [茨城県立歴史館](http://www.rekishikan.museum.ibk.ed.jp/) （[資料検索システム](http://www2.rekishikan.museum.ibk.ed.jp/)）
-- [東京都公文書館](http://www.soumu.metro.tokyo.jp/01soumu/archives/index.htm) （[所蔵資料の案内](http://www.soumu.metro.tokyo.jp/01soumu/archives/03shozou_shiryou.htm)）
+- [茨城県立歴史館](http://www.rekishikan.museum.ibk.ed.jp/) （[資料検索](http://www2.rekishikan.museum.ibk.ed.jp/)）
+- [東京都公文書館](http://www.soumu.metro.tokyo.jp/01soumu/archives/index.htm) （[所蔵資料案内・デジタルアーカイブ](http://www.soumu.metro.tokyo.jp/01soumu/archives/03shozou_shiryou.htm)）
 - [神奈川県立公文書館](https://archives.pref.kanagawa.jp/www/index.html) （[デジタルアーカイブ](https://archives.pref.kanagawa.jp/www/genre/1000000000155/index.html)）
 - [京都府立京都学・歴彩館](http://www.pref.kyoto.jp/rekisaikan/index.html) （[東寺百合文書 WEB](http://hyakugo.pref.kyoto.lg.jp/)）
-- [大分県公文書館](http://www.pref.oita.jp/site/346/) （[公文書目録](http://www.pref.oita.jp/site/346/list-top.html)）
+- [大分県公文書館](http://www.pref.oita.jp/site/346/) （[所蔵公文書目録](http://www.pref.oita.jp/site/346/list-top.html)）
 - [沖縄県公文書館](http://www.archives.pref.okinawa.jp/)
