@@ -29,52 +29,27 @@ title: リンク
     - [蔵書検索](https://ndlopac.ndl.go.jp/)
     - [国立国会図書館サーチ](http://iss.ndl.go.jp/)
     - [デジタルコレクション](http://dl.ndl.go.jp/)
-<ul>
-<li>
-    <a href="http://www.nich.go.jp/">国立文化財機構</a>
-    <ul>
-        <li>
-        <a href="http://www.tnm.jp/">東京国立博物館</a>
-        <a href="http://webarchives.tnm.jp/imgsearch/">（画像検索）</a>
-        </li>
-        <li>
-        <a href="http://www.kyohaku.go.jp/jp/">京都国立博物館</a>
-        <a href="http://www.kyohaku.go.jp/jp/syuzou/index.html"
-            >（収蔵品データベース）</a
-        >
-        </li>
-        <li>
-        <a href="http://www.narahaku.go.jp/">奈良国立博物館</a>
-        <a
-            href="http://imagedb.narahaku.go.jp/archive_search/search/Login.action"
-            >（画像データベース）</a
-        >
-        </li>
-        <li>
-        <a href="http://www.kyuhaku.jp/">九州国立博物館</a>
-        <a href="http://d-archive.kyuhaku.jp/"
-            >（収蔵品デジタルアーカイブ）</a
-        >
-        </li>
-        <li>
-        <a href="http://www.tobunken.go.jp/index_j.html"
-            >東京文化財研究所</a
-        >
-        <a href="http://archives.tobunken.go.jp/internet/index.html"
-            >（研究資料総合検索システム）</a
-        >
-        </li>
-        <li>
-        <a href="http://www.nabunken.go.jp/">奈良文化財研究所</a>
-        <a href="https://www.nabunken.go.jp/publication/"
-            >（データベース）</a
-        >
-        </li>
-    </ul>
-    </li>
-</ul>
 
-<br/>
+<h2 class="h03 mt2">関連機関</h2>
+
+- [国立文化財機構](http://www.nich.go.jp/)
+    - [東京国立博物館](http://www.tnm.jp/) 
+        - [画像検索](http://webarchives.tnm.jp/imgsearch/)
+   - [京都国立博物館](http://www.kyohaku.go.jp/jp/) 
+        - [収蔵品データベース](http://www.kyohaku.go.jp/jp/syuzou/index.html)
+   - [奈良国立博物館](http://www.narahaku.go.jp/) 
+        - [画像データベース](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
+   - [九州国立博物館](http://www.kyuhaku.jp/) 
+        - [収蔵品デジタルアーカイブ](http://d-archive.kyuhaku.jp/)
+   - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) 
+        - [研究資料総合検索システム](http://archives.tobunken.go.jp/internet/index.html)
+   - [奈良文化財研究所](http://www.nabunken.go.jp/) 
+        - [データベース](https://www.nabunken.go.jp/publication/)
+
+
+
+<ul>
+
 
 <ul>
     <li><a href="http://ci.nii.ac.jp/books/?l=ja">CiNii Books</a></li>
