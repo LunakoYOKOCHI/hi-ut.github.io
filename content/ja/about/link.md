@@ -33,22 +33,12 @@ title: リンク
 <h2 class="h03 mt2">関連機関</h2>
 
 - [国立文化財機構](http://www.nich.go.jp/)
-    - [東京国立博物館](http://www.tnm.jp/) 
-        - [画像検索](http://webarchives.tnm.jp/imgsearch/)
-   - [京都国立博物館](http://www.kyohaku.go.jp/jp/) 
-        - [収蔵品データベース](http://www.kyohaku.go.jp/jp/syuzou/index.html)
-   - [奈良国立博物館](http://www.narahaku.go.jp/) 
-        - [画像データベース](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
-   - [九州国立博物館](http://www.kyuhaku.jp/) 
-        - [収蔵品デジタルアーカイブ](http://d-archive.kyuhaku.jp/)
-   - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) 
-        - [研究資料総合検索システム](http://archives.tobunken.go.jp/internet/index.html)
-   - [奈良文化財研究所](http://www.nabunken.go.jp/) 
-        - [データベース](https://www.nabunken.go.jp/publication/)
-
-
-
-<ul>
+    - [東京国立博物館](http://www.tnm.jp/) [（画像検索）](http://webarchives.tnm.jp/imgsearch/)
+   - [京都国立博物館](http://www.kyohaku.go.jp/jp/) [（収蔵品データベース）](http://www.kyohaku.go.jp/jp/syuzou/index.html)
+   - [奈良国立博物館](http://www.narahaku.go.jp/) [（画像データベース）](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)
+   - [九州国立博物館](http://www.kyuhaku.jp/) [（収蔵品デジタルアーカイブ）](http://d-archive.kyuhaku.jp/)
+   - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) [（研究資料総合検索システム）](http://archives.tobunken.go.jp/internet/index.html)
+   - [奈良文化財研究所](http://www.nabunken.go.jp/) [（データベース）](https://www.nabunken.go.jp/publication/)
 
 
 <ul>
