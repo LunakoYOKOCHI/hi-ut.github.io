@@ -40,14 +40,10 @@ title: リンク
    - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) [（研究資料総合検索システム）](http://archives.tobunken.go.jp/internet/index.html)
    - [奈良文化財研究所](http://www.nabunken.go.jp/) [（データベース）](https://www.nabunken.go.jp/publication/)
 
-
-
 - [CiNii Books](http://ci.nii.ac.jp/books/?l=ja)
 - [e国宝](http://www.emuseum.jp/)
 - [文化遺産オンライン](http://bunka.nii.ac.jp/Index.do)
 - [国指定文化財等検索システム](http://www.bunka.go.jp/bsys/index.asp)
-
-
 
 
 - [国立公文書館](http://www.archives.go.jp/)
@@ -56,10 +52,8 @@ title: リンク
    - [アジア歴史資料センター](http://www.jacar.go.jp/)
 
 
-
-
 - [北海道立文書館](http://www.pref.hokkaido.lg.jp/sm/mnj/) [（資料検索）](http://www.pref.hokkaido.lg.jp/sm/mnj/d/shiryokensaku.htm)
-- [北海道開拓記念館](http://www.hmh.pref.hokkaido.jp/) [（収蔵資料検索）](http://www.hmh.pref.hokkaido.jp/kensaku/KENSAKU1.HTM)
+- [北海道博物館](https://www.hm.pref.hokkaido.lg.jp/) [（収蔵資料検索）](http://jmapps.ne.jp/hmcollection1/)
 - [東北歴史博物館](http://www.thm.pref.miyagi.jp/) [（館蔵資料ダイジェスト）](http://www.thm.pref.miyagi.jp/index.php?app=shiryo_bunrui)
 - [秋田県公文書館](http://www.pref.akita.lg.jp/kobunsyo/) [（古文書収蔵資料の概要）](http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html)
 - [新潟県立文書館](http://www.archives.pref.niigata.jp/) [（所蔵文書案内）](http://www.archives.pref.niigata.jp/shozo-bunsho-annai/)
