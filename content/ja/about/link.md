@@ -64,45 +64,8 @@ title: リンク
 - [秋田県公文書館](http://www.pref.akita.lg.jp/kobunsyo/) [（古文書収蔵資料の概要）](http://www.pref.akita.lg.jp/www/contents/1251352984801/index.html)
 - [新潟県立文書館](http://www.archives.pref.niigata.jp/) [（所蔵文書案内）](http://www.archives.pref.niigata.jp/shozo-bunsho-annai/)
 - [茨城県立歴史館](http://www.rekishikan.museum.ibk.ed.jp/) [（資料検索システム）](http://www2.rekishikan.museum.ibk.ed.jp/)
-      
-
-    <li>
-   
-  
-    >
-    </li>
-    <li>
-    <a href=""></a>
-    <a href=""
-        >（）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.soumu.metro.tokyo.jp/01soumu/archives/index.htm"
-        >東京都公文書館</a
-    >
-    <a
-        href="http://www.soumu.metro.tokyo.jp/01soumu/archives/03shozou_shiryou.htm"
-        >（所蔵資料の案内）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.pref.kanagawa.jp/cnt/f1040/">神奈川県立公文書館</a>
-    <a href="http://kanagawa-archives-search.force.com/Gov__p0520"
-        >（アーカイブズの検索）</a
-    >
-    </li>
-    <li>
-    <a href="http://www.pref.kyoto.jp/shiryokan/">京都府立総合資料館</a>
-    <a href="http://hyakugo.kyoto.jp/">（東寺百合文書WEB）</a>
-    </li>
-    <li>
-    <a href="http://www.pref.oita.jp/site/346/">大分県公文書館</a>
-    <a href="http://www.pref.oita.jp/site/346/list-top.html"
-        >(公文書目録)</a
-    >
-    </li>
-    <li>
-    <a href="http://www.archives.pref.okinawa.jp/">沖縄県公文書館</a>
-    </li>
-</ul>
+- [東京都公文書館](http://www.soumu.metro.tokyo.jp/01soumu/archives/index.htm) [（所蔵資料の案内）](http://www.soumu.metro.tokyo.jp/01soumu/archives/03shozou_shiryou.htm)
+- [神奈川県立公文書館](http://www.pref.kanagawa.jp/cnt/f1040/) [（アーカイブズの検索）](http://kanagawa-archives-search.force.com/Gov__p0520)
+- [京都府立総合資料館](http://www.pref.kyoto.jp/shiryokan/) [（東寺百合文書WEB）](http://hyakugo.kyoto.jp/)
+- [大分県公文書館](http://www.pref.oita.jp/site/346/) [（公文書目録）](http://www.pref.oita.jp/site/346/list-top.html)
+- [沖縄県公文書館](http://www.archives.pref.okinawa.jp/)
