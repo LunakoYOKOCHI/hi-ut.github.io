@@ -1,5 +1,19 @@
 [
     {
+        "date": "2021/09/30",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "国立歴史民俗博物館<a href=\"https://www.rekihaku.ac.jp/exhibitions/project/index.html\" target=\"_blank\">「企画展示：学びの歴史像－わたりあう近代－」</a>（2021年10月12日～12月12日）に、本所所蔵「蝦夷之図画」ほか4点が出陳されます。"
+    },
+    {
+        "date": "2021/09/30",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "九州国立博物館<a href=\"https://www.kyuhaku.jp/exhibition/exhibition_s62.html\" target=\"_blank\">「特別展：海幸山幸－祈りと恵みの風景」</a>（2021年10月9日～12月5日）に、本所所蔵「薩藩勝景百図：海辺」が出陳されます（展示期間10/9～11/7）。"
+    },
+    {
         "date": "2021/09/28",
         "featured": "New!",
         "tag": "news",
@@ -29,7 +43,7 @@
     },
     {
         "date": "2021/09/22",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "2021年度東京大学大学院教育学研究科附属海洋教育センター海洋教育基盤研究プロジェクト（海洋学）「海洋知と領域支配」の10月研究会を開催いたします。詳細は<a href=\"https://www.cole.p.u-tokyo.ac.jp/news/2462\" target=\"_blank\">こちら</a>"
