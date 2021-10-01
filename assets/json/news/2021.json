@@ -15,14 +15,14 @@
     },
     {
         "date": "2021/09/28",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "今朝より公開検索システムのログイン、Hi-CAT Plusで画像の一部が確認できない状況が続いていましたが、現在暫定的に復旧しております。ご迷惑をおかけして大変失礼しました。"
     },
     {
         "date": "2021/09/27",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "鹿児島県歴史・美術センター黎明館<a href=\"https://www.pref.kagoshima.jp/ab23/reimeikan/kouza/jisyukikaku/kikaku_tokubetutenji/documents/amami.html\" target=\"_blank\">「ほこらしゃ奄美：海と山の織りなすシマの世界」</A>（2021年10月1日～11月7日）に、本所所蔵「中山王尚寧起請文」（御文書　家久公十五　巻二十(一九通)所収）が出陳されます。"
@@ -38,7 +38,7 @@
         "date": "2021/07/13",
         "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "新型コロナウイルス感染症対策のため、史料編纂所図書室は7/13から当面の間、<a href=\"https://www.hi.u-tokyo.ac.jp/library/visit/\" target=\"_blank\">学内者：午後のみ開室（要予約）・学外者：利用停止</a>となります。"
     },
     {
