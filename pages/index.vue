@@ -175,17 +175,24 @@ export default class about extends Vue {
     this.$store.commit('setLg', value)
   }
 
+  newsList: any[] = []
+  year: any = process.env.currentFiscalYear
+
+  async created(){
+    const year = this.year
+    const url = `https://raw.githubusercontent.com/hi-ut/hi-ut.github.io/master/static/assets/json/news/${year}.json`
+    const {data} = await this.$axios.get(url)
+    this.newsList = data
+  }
+
+  
   async asyncData({$content, app}: any) {
-    const year = process.env.currentFiscalYear
-    const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
-    const newsList = newsList_.default
-    
     const document = await $content(
       `${app.i18n.locale}/about`,
       'index'
     ).fetch()
 
-    return {year, newsList, document}
+    return {/*year, newsList, */document}
   }
 
   head() {

@@ -172,13 +172,13 @@
                   >■ よくあるご質問</nuxt-link
                 >
               </li>
-              
+
               <li v-if="lang === 'ja'">
                 <a href="https://cliocyb.hi.u-tokyo.ac.jp/start.html"
                   >■ 所内用サイト</a
                 >
               </li>
-              <br v-if="lang === 'ja'"/>
+              <br v-if="lang === 'ja'" />
               <li>
                 <nuxt-link :to="localePath({ name: 'about-sitemap' })"
                   >■ {{ $t('サイトマップ') }}</nuxt-link
@@ -271,14 +271,11 @@ export default class Layout extends Vue {
     window.addEventListener('scroll', this.scrollWindow)
     window.addEventListener('resize', this.handleResize)
 
-    console.log("test")
-    navigator.serviceWorker.getRegistrations().then(function(registrations) {
-      // 登録されているworkerを全て削除する
-      console.log(registrations.length)
-      for(let registration of registrations) {
-        registration.unregister();
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      for (let registration of registrations) {
+        registration.unregister()
       }
-    });
+    })
   }
 
   // リサイズ
