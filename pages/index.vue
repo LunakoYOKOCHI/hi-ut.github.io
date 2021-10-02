@@ -180,7 +180,7 @@ export default class about extends Vue {
 
   async created(){
     const year = this.year
-    const url = `https://raw.githubusercontent.com/hi-ut/hi-ut.github.io/master/static/assets/json/news/${year}.json`
+    const url = `https://www.hi.u-tokyo.ac.jp/assets/json/news/${year}.json`
     const {data} = await this.$axios.get(url)
     this.newsList = data
   }
