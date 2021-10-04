@@ -2,6 +2,13 @@
     {
         "date": "2021/10/04",
         "featured": "New!",
+        "tag": "event",
+        "top": "1",
+        "content": "10月29日（金）13:00～15:00、本所主催による国立大学附置研究所・センター会議第3部会シンポジウム<a href=\"https://www.hi.u-tokyo.ac.jp/ir/JCRIC/211029center3.html\" target=\"_blank\">「人文・社会科学とインフラ化する研究データ」</a>を開催します（オンライン・事前予約制）　<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/211029center3.pdf\" target=\"_blank\">ポスター</a>"
+    },
+    {
+        "date": "2021/10/04",
+        "featured": "New!",
         "tag": "news",
         "top": "1",
         "content": " 2018～2019年度一般共同研究『国宝「称名寺聖教・金沢文庫文書」の書誌学的復原研究―『薄草紙口决』を中心に―』の成果として、神奈川県立金沢文庫において特別展<a href=\"https://www.planet.pref.kanagawa.jp/city/bunko/tenji.html\" target=\"_blank\">「よみがえる中世のアーカイブズ―いまふたたび出会う古文書たち―」</a>（11月28日まで）が開催中です。"
@@ -10,7 +17,7 @@
         "date": "2021/10/01",
         "featured": "Update!",
         "tag": "data",
-        "top": "1",
+        "top": "0",
         "content": "【障害復旧】10/1（金）20時頃より、本所HPのデータベース検索に不具合が発生しておりましたが、復旧いたしました。ご迷惑をおかけいたしました。"
     },
     {
@@ -66,7 +73,7 @@
         "date": "2021/09/02",
         "featured": "",
         "tag": "event",
-        "top": "1",
+        "top": "0",
         "content": "本所共催の加藤友康氏講演会「古記録の筆録と書写・部類・流布―『小右記』諸写本を中心に―（附）史料集の翻刻を考える」を開催します（10月2日(土)13：00～、オンライン開催・<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSde3Ggvbj0h_IRvporp34rUHtZ4-3VlyvCkwVcCdNN8jLvCrQ/viewform\" target=\"_blank\">事前申込制</a>）。<a href=\"https://www.hi.u-tokyo.ac.jp/assets/news/2021/10月2日講演会チラシ.pdf\" target=\"_blank\">講演会チラシ</a>"
     },
     {
