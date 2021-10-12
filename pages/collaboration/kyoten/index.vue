@@ -1,35 +1,41 @@
 <template>
-    <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
-      <h1 class="h02">{{ title }}</h1>
-      <template v-if="$i18n.locale == 'en'"> Japanese text only </template>
-      <template v-else>
-        <p>
-          東京大学史料編纂所は、前近代を中心とする多くの日本史史料を収集し、影写本や写真帳の形で、また、『大日本史料』や『大日本古文書』などの史料集の編纂・刊行を通じて、さらに近年ではさまざまなデータベースを開発することによって、これらを研究資源として多くの研究者の利用に供してきました。
-          こうした基盤のもとに、本所は2009年6月、文部科学大臣より「日本史史料の研究資源化に関する研究拠点」として認定され、2010年度より活動を開始いたしました。
-        </p>
+  <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
+    <h1 class="h02">{{ title }}</h1>
+    <template v-if="$i18n.locale == 'en'"> Japanese text only </template>
+    <template v-else>
+      <div class="frame01">
+        東京大学史料編纂所　共同利用・共同研究拠点による2022(令和4)年度共同研究員・共同研究課題の募集を開始しました。詳しくは<a
+          href="https://www.hi.u-tokyo.ac.jp/collaboration/kyoten/r04/2022%E5%B9%B4%E6%8B%A0%E7%82%B9%E5%85%AC%E5%8B%9F%E8%A6%81%E9%A0%98.pdf"
+          >こちら</a
+        >をご覧ください。
+      </div>
+      <p>
+        東京大学史料編纂所は、前近代を中心とする多くの日本史史料を収集し、影写本や写真帳の形で、また、『大日本史料』や『大日本古文書』などの史料集の編纂・刊行を通じて、さらに近年ではさまざまなデータベースを開発することによって、これらを研究資源として多くの研究者の利用に供してきました。
+        こうした基盤のもとに、本所は2009年6月、文部科学大臣より「日本史史料の研究資源化に関する研究拠点」として認定され、2010年度より活動を開始いたしました。
+      </p>
 
-        <p>
-          この拠点は、研究資源とその利用手段のさらなる充実による日本史研究の発展を願う研究者コミュニティの要望にこたえるべく、これまでに蓄積してきた研究資源をもとに、国内外に存在する日本関係史料について、多くの研究者と連携して共同調査・共同研究をおこない、全体的・系統的な研究資源の蓄積と共同利用を促進し、史料学研究・日本史研究の質の向上を目指すことを目的とするものです。
-        </p>
+      <p>
+        この拠点は、研究資源とその利用手段のさらなる充実による日本史研究の発展を願う研究者コミュニティの要望にこたえるべく、これまでに蓄積してきた研究資源をもとに、国内外に存在する日本関係史料について、多くの研究者と連携して共同調査・共同研究をおこない、全体的・系統的な研究資源の蓄積と共同利用を促進し、史料学研究・日本史研究の質の向上を目指すことを目的とするものです。
+      </p>
 
-        <p>
-          特定共同研究の共同研究員・一般共同研究の課題については、毎年公募を行ない、東京大学史料編纂所協議会の審議を経て、採択決定します。共同研究のご希望をお持ちの研究者は、ぜひご検討ください。
-        </p>
+      <p>
+        特定共同研究の共同研究員・一般共同研究の課題については、毎年公募を行ない、東京大学史料編纂所協議会の審議を経て、採択決定します。共同研究のご希望をお持ちの研究者は、ぜひご検討ください。
+      </p>
 
-        <p>
-          これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、<nuxt-link
-            :to="localePath({ name: 'collaboration-kyoten-kadai' })"
-            >こちら</nuxt-link
-          >をご覧ください。
-        </p>
+      <p>
+        これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、<nuxt-link
+          :to="localePath({ name: 'collaboration-kyoten-kadai' })"
+          >こちら</nuxt-link
+        >をご覧ください。
+      </p>
 
-        <p>
-          {{
-            year
-          }}年度の拠点の事業として、東京大学史料編纂所協議会の審議に基づき、以下の共同研究を採択決定し、活動を開始しました。
-        </p>
+      <p>
+        {{
+          year
+        }}年度の拠点の事業として、東京大学史料編纂所協議会の審議に基づき、以下の共同研究を採択決定し、活動を開始しました。
+      </p>
 
-        <!-- 
+      <!-- 
           <h2 class="h03">
             これまでに実施された特定共同研究・一般共同研究の活動
           </h2>
@@ -42,65 +48,71 @@
           </p>
           -->
 
-        <h2 class="h03 mt3">{{ year }}年度特定共同研究課題一覧</h2>
+      <h2 class="h03 mt3">{{ year }}年度特定共同研究課題一覧</h2>
 
-        <p>
-          古代史料・中世史料・近世史料・海外史料・複合史料の各領域について、本所で設定した共同研究の柱および研究課題のもとに、所外から公募した共同研究員とともに研究を進めるものです。
-        </p>
+      <p>
+        古代史料・中世史料・近世史料・海外史料・複合史料の各領域について、本所で設定した共同研究の柱および研究課題のもとに、所外から公募した共同研究員とともに研究を進めるものです。
+      </p>
 
-        <div class="scroll-table">
-          <table class="table04">
-            <tbody>
-              <tr>
-                <th width="10%">【領域】</th>
-                <th width="20%">テーマ</th>
-                <th width="20%">研究期間</th>
-                <th width="20%">所内共同研究者</th>
-                <th width="20%">所外共同研究員(所属)</th>
-                <th>所要経費</th>
-              </tr>
-              <tr v-for="(obj, j) in tokutei">
-                <td>【{{ mapping[obj.key] }}】</td>
-                <td>{{ obj.data[0]['研究課題'] }}</td>
-
-                <td>
-                  {{ obj.data[0].start }}～{{ obj.data[0].end }}年度<br />
-                  （{{ Number(obj.data[0].end) - Number(obj.data[0].start) + 1 }}年間）
-                </td>
-                <td>
-                  {{obj.data[0]['代表者']}}<br/><small>（代表者）</small><br/>
-
-                  <span
-                    v-html="obj.data[0]['所内共同研究者'].split('\n').join('<br/>')"
-                  ></span>
-                </td>
-
-                <td>
-                  <span
-                    v-html="obj.data[0]['所外共同研究員'].split('\n').join('<br/>')"
-                  ></span>
-                </td>
-
-                <td>
-                  {{formatMoney2Man(getMoney(obj))}}
-                </td>
-              </tr>
-              <tr>
-                <td colspan="5" class="text-right">合計</td>
-                <td>{{sumTokutei}}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h2 class="h03 mt3">{{ year }}年度一般共同研究課題一覧</h2>
-
-        <p>
-          所外の研究者(1名あるいは数名のグループ)から、共同研究の課題を公募し、本所の研究者と協力して研究を進めるものです。
-        </p>
-
+      <div class="scroll-table">
         <table class="table04">
           <tbody>
+            <tr>
+              <th width="10%">【領域】</th>
+              <th width="20%">テーマ</th>
+              <th width="20%">研究期間</th>
+              <th width="20%">所内共同研究者</th>
+              <th width="20%">所外共同研究員(所属)</th>
+              <th>所要経費</th>
+            </tr>
+            <tr v-for="(obj, j) in tokutei">
+              <td>【{{ mapping[obj.key] }}】</td>
+              <td>{{ obj.data[0]['研究課題'] }}</td>
+
+              <td>
+                {{ obj.data[0].start }}～{{ obj.data[0].end }}年度<br />
+                （{{
+                  Number(obj.data[0].end) - Number(obj.data[0].start) + 1
+                }}年間）
+              </td>
+              <td>
+                {{ obj.data[0]['代表者'] }}<br /><small>（代表者）</small><br />
+
+                <span
+                  v-html="
+                    obj.data[0]['所内共同研究者'].split('\n').join('<br/>')
+                  "
+                ></span>
+              </td>
+
+              <td>
+                <span
+                  v-html="
+                    obj.data[0]['所外共同研究員'].split('\n').join('<br/>')
+                  "
+                ></span>
+              </td>
+
+              <td>
+                {{ formatMoney2Man(getMoney(obj)) }}
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5" class="text-right">合計</td>
+              <td>{{ sumTokutei }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="h03 mt3">{{ year }}年度一般共同研究課題一覧</h2>
+
+      <p>
+        所外の研究者(1名あるいは数名のグループ)から、共同研究の課題を公募し、本所の研究者と協力して研究を進めるものです。
+      </p>
+
+      <table class="table04">
+        <tbody>
           <tr>
             <th>No.</th>
             <th width="30%">課題名</th>
@@ -131,21 +143,23 @@
           </tr>
           <tr>
             <td colspan="4" class="text-right">合計</td>
-            <td>{{sumIppan}}</td>
+            <td>{{ sumIppan }}</td>
           </tr>
-          </tbody>
-        </table>
+        </tbody>
+      </table>
 
-        <h2 class="h03 mt3">これまでに実施された特定共同研究・一般共同研究の活動</h2>
+      <h2 class="h03 mt3">
+        これまでに実施された特定共同研究・一般共同研究の活動
+      </h2>
 
-        <p>
-          これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、 <nuxt-link
-            :to="localePath({ name: 'collaboration-kyoten-kadai' })"
-            >こちら</nuxt-link
-          >をご覧ください。
-        </p>
-      </template>
-    </LayoutPublication>
+      <p>
+        これまでに実施された特定共同研究・一般共同研究の研究課題とその成果については、
+        <nuxt-link :to="localePath({ name: 'collaboration-kyoten-kadai' })"
+          >こちら</nuxt-link
+        >をご覧ください。
+      </p>
+    </template>
+  </LayoutPublication>
 </template>
 
 <script lang="ts">
@@ -180,8 +194,9 @@ export default class about extends Vue {
     const mapping: any = process.env.tokuteiMapping
     for (const key in mapping) {
       try {
-
-        const tokuteiList_ = await import(`~/static/assets/json/collaboration/kyoten/tokutei/${key}.json`)
+        const tokuteiList_ = await import(
+          `~/static/assets/json/collaboration/kyoten/tokutei/${key}.json`
+        )
         const tokuteiList = tokuteiList_.default
 
         res.push({
@@ -191,7 +206,9 @@ export default class about extends Vue {
       } catch (err) {}
     }
 
-    const ippanList_ = await import(`~/static/assets/json/collaboration/kyoten/ippan/${year}.json`)
+    const ippanList_ = await import(
+      `~/static/assets/json/collaboration/kyoten/ippan/${year}.json`
+    )
     const ippanList = ippanList_.default
 
     return {
@@ -238,18 +255,18 @@ export default class about extends Vue {
     ]
   }
 
-  formatMoney2Man(money: number): string{
-    return money / 10000 + "万円"
+  formatMoney2Man(money: number): string {
+    return money / 10000 + '万円'
   }
 
   getMoney(obj: any): number {
     let value = -1
-    for(let key in obj.data[0]){
-      if(key.includes("所要経費")){
+    for (let key in obj.data[0]) {
+      if (key.includes('所要経費')) {
         const spl = this.$utils.split(obj.data[0][key])
         const year = spl[0]
         const money = spl[1]
-        if(Number(year) === this.$data.year){
+        if (Number(year) === this.$data.year) {
           value = Number(money)
         }
       }
@@ -257,19 +274,19 @@ export default class about extends Vue {
     return value
   }
 
-  get sumTokutei(){
+  get sumTokutei() {
     let sum = 0
-    for(const obj of this.tokutei){
+    for (const obj of this.tokutei) {
       const value = this.getMoney(obj)
       sum += value
     }
     return this.formatMoney2Man(sum)
   }
 
-  get sumIppan(){
+  get sumIppan() {
     let sum = 0
     const data = this.$data.data
-    for(const obj of data){
+    for (const obj of data) {
       sum += Number(obj['研究経費'])
     }
     return sum.toLocaleString()
