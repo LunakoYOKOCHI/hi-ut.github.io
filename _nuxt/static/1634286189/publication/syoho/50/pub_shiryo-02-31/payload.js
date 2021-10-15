@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/publication/syoho/50/pub_shiryo-02-31", {data:[{vol:"50",item:{}}],fetch:{},mutations:[]});

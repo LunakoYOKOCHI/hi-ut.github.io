@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[70],{375:function(n){n.exports=JSON.parse('[{"title":"アジア地域史研究資源としてのポルトガル編年史料典籍とモンスーン文書の研究","start":"2014","end":"2018","kaken":"26704007","url2":""}]')}}]);
