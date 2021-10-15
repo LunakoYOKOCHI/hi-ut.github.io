@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const jsonDir = "static/assets/json"
+const jsonDir = 'static/assets/json'
 
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
@@ -18,11 +18,13 @@ const routerBase =
 const menuList = JSON.parse(fs.readFileSync(jsonDir + '/menuList.json'))
 env.menuList = menuList
 
-const organizationMap = JSON.parse(fs.readFileSync('static/assets/json/organizationMap.json'))
+const organizationMap = JSON.parse(
+  fs.readFileSync('static/assets/json/organizationMap.json')
+)
 env.organizationMap = organizationMap
 
 const envMap = JSON.parse(fs.readFileSync('static/assets/json/env.json'))
-for(const envKey in envMap){
+for (const envKey in envMap) {
   env[envKey] = envMap[envKey]
 }
 
@@ -54,7 +56,7 @@ const manifestIcon = 'img/icons/icon-512.png'
 export default {
   telemetry: false,
   server: {
-    port: 8000 // デフォルト: 3000
+    port: 8000, // デフォルト: 3000
   },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -99,7 +101,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: "https://www.hi.u-tokyo.ac.jp/icon.png",//`${ogpImages}home.jpg`,
+        content: 'https://www.hi.u-tokyo.ac.jp/icon.png', //`${ogpImages}home.jpg`,
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       // pwa iOS
@@ -148,9 +150,8 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap',
-      }
+      },
     ],
-    
   },
 
   manifest: {
@@ -170,9 +171,7 @@ export default {
   loading: { color: '#E64A19', height: '5px' },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css : [
-    "~/assets/css/style.css"
-  ],
+  css: ['~/assets/css/style.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['@/plugins/utils.ts'],
@@ -196,10 +195,10 @@ export default {
     [
       '@nuxtjs/pwa',
       {
-        offline: false
-      }
+        offline: false,
+      },
     ],
-    
+
     [
       '@nuxtjs/google-analytics',
       {
@@ -218,13 +217,11 @@ export default {
     path: '/sitemap.xml',
     hostname: baseUrl,
     routes: async () => {
-      
-
       let pages = []
       pages = pages.concat(getFaculty())
-      
+
       return pages
-    }
+    },
   },
 
   i18n: {
@@ -250,7 +247,7 @@ export default {
   build: {
     //standalone: true,
   },
-  
+
   ...routerBase,
 
   generate: {
@@ -259,32 +256,40 @@ export default {
     routes() {
       const pages = []
 
-      const pathes = ["/faq/reuse_cr", "/faq/reuse_cc-by", "/faq/reuse_cc-by-nc-sa", "/faq/reuse_kinri", "/faq/reuse_miyakonojo", "/faq/db", "/faq/kitei"]
+      // faqのページを作成する
+      var fs = require('fs')
+      var files = fs.readdirSync('content/ja/faq/')
 
-      for(const p of pathes){
+      const pathes = []
+      for (const file of files) {
+        if (file.includes('reuse')) {
+          pathes.push('/faq/' + file.split('.md')[0])
+        }
+      }
+
+      for (const p of pathes) {
         pages.push({
-          route: p
+          route: p,
         })
       }
-            
+
       return pages
     },
   },
 }
 
-function getFaculty(){
+function getFaculty() {
   const pages = []
 
   const facultyList = JSON.parse(
     fs.readFileSync(`static/assets/json/faculty/facultyList.json`)
   )
 
-  for(const faculty of facultyList){
+  for (const faculty of facultyList) {
     const id = faculty.slug
-    pages.push("/faculty/" + id)
-    pages.push("/en/faculty/" + id)
+    pages.push('/faculty/' + id)
+    pages.push('/en/faculty/' + id)
   }
 
   return pages
-
 }

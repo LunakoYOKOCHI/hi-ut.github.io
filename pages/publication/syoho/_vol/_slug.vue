@@ -5,11 +5,14 @@
 
       <h2 class="h03">{{ title }}</h2>
 
-      <div v-html="item.content.split('\n').join('<br/>')"></div>
+      <div
+        v-if="item.content"
+        v-html="item.content.split('\n').join('<br/>')"
+      ></div>
 
-      <br/>
-      
-      {{parent}}<template v-if="item.page">{{ ` p.${item.page}`}}</template>
+      <br />
+
+      {{ parent }}<template v-if="item.page">{{ ` p.${item.page}` }}</template>
     </LayoutPublication>
   </div>
 </template>
@@ -26,27 +29,28 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   async asyncData({ payload, app, $axios }: any) {
     const vol = app.context.params.vol
-      
+
     const slug = app.context.params.slug
-    const data_ = await import(`~/static/assets/json/publication/syoho/${vol}.json`)
+    const data_ = await import(
+      `~/static/assets/json/publication/syoho/${vol}.json`
+    )
     const data: any[] = data_.default
-    
+
     let item = {}
 
-    for(const obj of data){
-      if(obj.id === slug){
+    for (const obj of data) {
+      if (obj.id === slug) {
         item = obj
       }
     }
-    
+
     return {
       vol,
-      item
+      item,
     }
   }
 
   get title(): string {
-
     return (this as any).item.title
   }
 
@@ -71,7 +75,7 @@ export default class about extends Vue {
         to: this.localePath({
           name: 'publication-syoho-vol',
           params: {
-            vol: "syoho" + this.$utils.zfill(Number(this.$data.vol), 4)
+            vol: 'syoho' + this.$utils.zfill(Number(this.$data.vol), 4),
           },
         }),
       },
