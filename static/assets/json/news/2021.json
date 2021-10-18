@@ -1,5 +1,19 @@
 [
     {
+        "date": "2021/10/12",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/kyoten/r04/2022%E5%B9%B4%E6%8B%A0%E7%82%B9%E5%85%AC%E5%8B%9F%E8%A6%81%E9%A0%98.pdf\">東京大学史料編纂所共同利用・共同研究拠点による2022(令和4)年度共同研究員・共同研究課題募集</a>を開始しました。なお、令和4年度の共同利用・共同研究拠点認定の最終結果が得られていませんので、未確定の要素があることを申し添えます。"
+    },
+    {
+        "date": "2021/10/07",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/koubo_20211007.html\" target=\"_blank\">東京大学史料編纂所「助教」の募集について</a>"
+    },
+    {
         "date": "2021/10/18",
         "featured": "New!",
         "tag": "event",
@@ -12,13 +26,6 @@
         "tag": "news",
         "top": "1",
         "content": "宮内庁書陵部所蔵・正倉院宝物図関係史料の画像が、Hi-CAT Plusで公開されました。幕末明治に描かれた正倉院宝物や東大寺開田図の模写等です。「正倉院宝物図」で検索ください。"
-    },
-    {
-        "date": "2021/10/12",
-        "featured": "New!",
-        "tag": "news",
-        "top": "1",
-        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/kyoten/r04/2022%E5%B9%B4%E6%8B%A0%E7%82%B9%E5%85%AC%E5%8B%9F%E8%A6%81%E9%A0%98.pdf\">東京大学史料編纂所共同利用・共同研究拠点による2022(令和4)年度共同研究員・共同研究課題募集</a>を開始しました。なお、令和4年度の共同利用・共同研究拠点認定の最終結果が得られていませんので、未確定の要素があることを申し添えます。"
     },
     {
         "date": "2021/10/11",
@@ -47,13 +54,6 @@
         "tag": "event",
         "top": "1",
         "content": "12月3日（金）14時から、本所画像史料解析センター・前近代日本史情報国際センター主催の公開研究集会「新たな画像公開方法とデジタル連携」を開催いたします。詳細は<a href=\"https://www.hi.u-tokyo.ac.jp/assets/news/2021/1203公開研究集会チラシ.pdf\" target=\"_blank\">こちら</a>。"
-    },
-    {
-        "date": "2021/10/07",
-        "featured": "New!",
-        "tag": "news",
-        "top": "1",
-        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/koubo_20211007.html\" target=\"_blank\">東京大学史料編纂所「助教」の募集について</a>"
     },
     {
         "date": "2021/10/04",
