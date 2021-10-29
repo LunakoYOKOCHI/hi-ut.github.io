@@ -1,33 +1,18 @@
 ---
-title: データベース検索
+title: Datebase
 ---
 
-東京大学史料編纂所が1984年から作成してきたデータベースは、史料管理（所蔵）者・出版社・計算機エンジニアなど、多くの方々の協力と工夫とに支えられています。
+<h2 class="h03">Guidelines as to the use of the Database</h2>
 
-以下のお願いをお読みの上、ご利用下さい。（詳しくは[公開用データベース利用規程](https://wwwap.hi.u-tokyo.ac.jp/ships/cover2.html)をお読みください。）
+This page allows researchers working both inside and outside the Historiographical Institute to search multiple databases. These databases, which were first constructed in 1984, are a product of ongoing co-operation between researchers attached to the Historiographical Institute, archivists, publishers, computer engineers and many others. In order to allow the continued functioning of the databases, please note the following guidelines:
 
-- 利用は学術研究目的に限ります。
-- 検索結果について、史料編纂所に無断で、改変や再配布を行なわないで下さい。
-  - （特に画像のダウンロードによる複製は個人的な学術利用に限られています。 また出版・翻刻・掲載・放映などについては基本的に申請が必要です。
-  - [公開用データベース利用規程](https://wwwap.hi.u-tokyo.ac.jp/ships/cover2.html)および図書室案内の「[史料等利用案内（複製・掲載・放映等）](https://www.hi.u-tokyo.ac.jp/library/use/)」を参照して下さい。）
-- 論文や著書執筆のために利用された場合は、当該データベースを利用された旨をお書き添えください。また著書刊行の際は、史料編纂所に御寄贈いただければ幸いです。
-- データベース管理の必要から、変更や制限を設ける場合があります。
+- The database is only to be used for scholarly research
+- Do not modify or redistribute search results without notifying the Historiographical Institute
+- If used in essays and other publications the database should be properly cited
+- As the database requires continuous maintenance, you may experience unexpected changes or restrictions
 
-一部のデータベースには、史料編纂所以外が所蔵する史料の情報も含まれています。それらの閲覧等は、各所蔵機関等の利用規程に従って下さい。
+In some parts of the database, you may find materials stored outside the Historiographical Institute. In viewing or using these materials, please observe the regulations prescribed by the institution that holds them.
 
 <hr/>
 
-<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller">データベース選択画面</a></div>
-
-<hr/>
-
-<h2 class="h03 mt2">日本学術振興会科学研究費補助金「研究成果公開促進費」によるデータベース</h2>
-
-- 大日本史料総合及び維新史料綱要中の復古記データ（東京大学史料編纂所歴史情報処理システム『編年史料綱文』データベース）
-- 所蔵史料目録の特殊蒐書部分（日本史史料書誌統合データベース）
-- 所蔵史料目録（史料編纂所所蔵和漢古書書誌画像データベース）
-- 日本古文書ユニオンカタログ（古文書聖教類データベース・古文書目録データベース・日本古文書ユニオンカタログ）
-- 古文書フルテキスト（日本中世古文書フルテキストデータベース）
-- 古記録フルテキスト（古記録フルテキストデータベース）
-
-＊括弧内は「研究成果公開促進費」での名称
+<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller-e">Database List</a></div>
