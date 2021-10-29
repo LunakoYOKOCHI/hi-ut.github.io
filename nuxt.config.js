@@ -103,7 +103,7 @@ export default {
         property: 'og:image',
         content: 'https://www.hi.u-tokyo.ac.jp/icon.png', //`${ogpImages}home.jpg`,
       },
-      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:card', content: 'summary' },
       // pwa iOS
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       {
