@@ -256,13 +256,14 @@ export default {
     routes() {
       const pages = []
 
+      // 外部からリンクされていないページは生成されないため、手動で追加
       // faqのページを作成する
       var fs = require('fs')
       var files = fs.readdirSync('content/ja/faq/')
 
       const pathes = []
       for (const file of files) {
-        if (file.includes('reuse')) {
+        if (file.includes('reuse') || file.includes('db.md')) {
           pathes.push('/faq/' + file.split('.md')[0])
         }
       }
