@@ -268,6 +268,33 @@ export default {
         }
       }
 
+      //引数の処理
+      const args = JSON.parse(process.env['npm_config_argv']).original
+      let syoho = null
+      for (let i = 0; i < args.length; i++) {
+        const arg = args[i]
+        if (arg === '--syoho') {
+          syoho = args[i + 1]
+        }
+      }
+
+      //引数に所報の号数が指定されている場合、generate
+      if (syoho) {
+        const dir = 'static/assets/json/publication/syoho/'
+        var files = fs.readdirSync(dir)
+        for (const file of files) {
+          if (file.includes('.json')) {
+            const df = JSON.parse(fs.readFileSync(dir + file))
+            const vol = file.split('.')[0]
+            if (vol === syoho) {
+              for (const obj of df) {
+                pathes.push(`/publication/syoho/${vol}/${obj.id}`)
+              }
+            }
+          }
+        }
+      }
+
       for (const p of pathes) {
         pages.push({
           route: p,
