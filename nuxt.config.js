@@ -270,6 +270,9 @@ export default {
 
       //引数の処理
       const args = JSON.parse(process.env['npm_config_argv']).original
+
+      console.log('check 1', args)
+
       let syoho = null
       for (let i = 0; i < args.length; i++) {
         const arg = args[i]
@@ -277,6 +280,8 @@ export default {
           syoho = args[i + 1]
         }
       }
+
+      console.log('check 2', syoho)
 
       //引数に所報の号数が指定されている場合、generate
       if (syoho) {
@@ -294,6 +299,8 @@ export default {
           }
         }
       }
+
+      console.log('check 3', pathes)
 
       for (const p of pathes) {
         pages.push({
