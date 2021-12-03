@@ -37,18 +37,18 @@ title: デジタルギャラリー
 
 →<a href="https://www.hi.u-tokyo.ac.jp/conference-seminar/science/index.html">ひらめき ☆ ときめきサイエンス HP へ</a>
 
-<!-- <v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/img/ogp/home.jpg"></v-img> -->
-
 <h2 class="h03 mt2">倭寇図巻デジタルアーカイブ</h2>
 
 このサイトは、ＷＥＢ上で倭寇図巻の画像を公開するとともに、絵巻に描き込まれた情報を分析するために構築されたデジタルアーカイブです。
 
 →<a href="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/">倭寇図巻デジタルアーカイブへ</a>
 
-<!-- <v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/img/ogp/home.webp"></v-img> -->
+<v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/people/img/top2.webp" width="400px"></v-img>
 
 <h2 class="h03 mt2">正保琉球国絵図デジタルアーカイブ</h2>
 
 このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。
 
 →<a href="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/">正保琉球国絵図デジタルアーカイブへ</a>
+
+<v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/img/ogp/home.webp" width="400px"></v-img>
