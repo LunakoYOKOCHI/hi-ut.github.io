@@ -43,7 +43,7 @@ title: デジタルギャラリー
 
 →<a href="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/">倭寇図巻デジタルアーカイブへ</a>
 
-<v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/people/img/top2.webp" width="400px"></v-img>
+<!-- <img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/people/img/top2.webp" width="400px"></img> -->
 
 <h2 class="h03 mt2">正保琉球国絵図デジタルアーカイブ</h2>
 
@@ -51,4 +51,4 @@ title: デジタルギャラリー
 
 →<a href="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/">正保琉球国絵図デジタルアーカイブへ</a>
 
-<v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/img/ogp/home.webp" width="400px"></v-img>
+<!-- <v-img src="https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/img/ogp/home.webp" width="400px"></v-img> -->
