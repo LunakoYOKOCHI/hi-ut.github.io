@@ -28,8 +28,6 @@ for (const envKey in envMap) {
   env[envKey] = envMap[envKey]
 }
 
-const GOOGLE_ANALYTICS_ID = 'abc'
-
 // path
 const baseUrl = env.BASE_URL || ''
 const baseDir = env.BASE_DIR || '/'
@@ -198,20 +196,18 @@ export default {
         offline: false,
       },
     ],
-
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: GOOGLE_ANALYTICS_ID,
-      },
-    ],
-
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
     'nuxt-i18n',
     '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag',
   ],
+
+  'google-gtag': {
+    id: 'G-6W9RFTNZZ7', //サイトのID
+    debug: true, // 開発環境でも表示したい場合
+  },
 
   sitemap: {
     path: '/sitemap.xml',
