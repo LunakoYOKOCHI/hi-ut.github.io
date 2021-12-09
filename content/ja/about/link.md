@@ -15,7 +15,7 @@ title: リンク
 
 <h2 class="h03 mt2">関連機関</h2>
 
-- [全国国立大学附置研究所長・センター長会議](http://www.shochou-kaigi.org/)
+- [全国国立大学附置研究所・センター会議](http://www.shochou-kaigi.org/)
 - [国立大学共同利用・共同研究拠点協議会](http://www.kyoten.org/)
 - [人間文化研究機構](http://www.nihu.jp/)
   - [国立歴史民俗博物館](http://www.rekihaku.ac.jp)
