@@ -14,6 +14,13 @@
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/koubo_20211007.html\" target=\"_blank\">東京大学史料編纂所「助教」の募集について</a>"
     },
     {
+        "date": "2021/12/15",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "所内ネットワーク機器の更新のため、下記の時間帯は本所公開検索システムなどのご利用ができません。ご了承下さい。<br>2021年12月17日（金）12:00～14:00"
+    },
+    {
         "date": "2021/12/08",
         "featured": "New!",
         "tag": "news",
@@ -50,7 +57,7 @@
     },
     {
         "date": "2021/11/15",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "国際研究集会<a href=\"https://drive.google.com/file/d/1cdTnLkWyr7DVd1W6E8ZkI7wjGeAA-jUP/view?usp=sharing\" target=\"_blank\">「維新史料研究と国際発信」</a>（本所・維新史料研究国際ハブ拠点形成プロジェクト主催）を12月11日（土）に開催します。<a href=\"https://forms.gle/jjphz5Mw2nuHea6k7\" target=\"_blank\">（要事前申込）</a>"
@@ -64,14 +71,14 @@
     },
     {
         "date": "2021/11/17",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "<a href=\"https://jdcat.jsps.go.jp/\" target=\"_blank\">JSPS⼈⽂学・社会科学総合データカタログ「JDCat」</a>に本所所蔵『備後福山阿部家史料』に関するメタデータ774件が追加公開されました。詳しくは<a href=\"https://jdcat.jsps.go.jp/inform.html\" target=\"_blank\">こちら</a>。"
     },
     {
         "date": "2021/11/22",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://drive.google.com/file/d/1qcE8ONwmwgOesJ1zk9W8qFCY8Yfwf9q_/view?usp=sharing\" target=\"_blank\">『史料編纂所カレンダー2022』</a>を刊行しました。東京大学コミュニケーションセンター（赤門横・史料編纂所向かい）にて一部510円（税込）で販売中です。"
