@@ -8,7 +8,7 @@
     },
     {
         "date": "2021/12/23",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "<a href=\"https://drive.google.com/file/d/1i4BoUHF0JThwqx-h3phlKK-b5DmuyNyU/view?usp=sharing\" target=\"_blank\">シンポジウム「日本関係海外史料蒐集事業の足跡」のご案内</a>"
@@ -29,35 +29,35 @@
     },
     {
         "date": "2021/12/08",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "本所は2021年12月8日(水)、滋賀県立琵琶湖博物館と連携し、琵琶湖博物館所蔵東寺文書史料の画像をWeb公開しました。\n<a href=\"https://www.hi.u-tokyo.ac.jp/faq/reuse_biwakotoji/\" target=\"_blank\">利用条件</a>・<a href=\"https://www.hi.u-tokyo.ac.jp/assets/news/2021/琵琶湖博物館所蔵「東寺文書」画像検索の手引き.pdf\" target=\"_blank\">利用の手引き</a>"
     },
     {
         "date": "2021/12/06",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "史料編纂所、地震研究所、地震火山史料連携研究機構が協力して構築した<a href=\"https://materials.utkozisin.org/\" target=\"_blank\">「地震史料集テキストデータベース」</a>を公開しました。『増訂大日本地震史料』や『新収日本地震史料』などの史料集に収録された前近代の地震や火山噴火に関する記事を登録しています。どうぞご利用ください。"
     },
     {
         "date": "2021/12/06",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "デジタルギャラリーより、<a href=\"https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/ryukyu/\" target=\"_blank\">正保琉球国絵図デジタルアーカイブ</a>、<a href=\"https://www.hi.u-tokyo.ac.jp/collection/degitalgallary/wakozukan/\" target=\"_blank\">倭寇図巻デジタルアーカイブ</a>を公開いたしました。"
     },
     {
         "date": "2021/12/02",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "本所の岡美穂子准教授の著書<a href=\"https://brill.com/view/title/60222\" target=\"_blank\">The Namban Trade:Merchants and Missionaries in 16th and 17th Century Japan (Leiden & Boston: Brill, 2021)</a>が、ポルトガルの<a href=\"https://www.foriente.pt/\" target=\"_blank\">The Orient Foundation</a>から与えられる学術研究の大賞 Prémio\nFundação Oriente 2021 を受賞しました。"
     },
     {
         "date": "2021/12/13",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "【画像史料解析センター通信94号のご紹介】<a href=\"https://www.hi.u-tokyo.ac.jp/gazo/centernewslist.htm\" target=\"_blank\">94号</a>の史料紹介と研究は、前号の続稿として慶應義塾図書館蔵の「山城国桂川用水差図」をとりあげた検討です（土山）。また、「長篠合戦図屏風」に関する史料保存技術室の取り組みをカラー図版多数で報告（村岡）、秋より公開開始された新たな「花押データベース」についても概要を紹介します（井上）。"
