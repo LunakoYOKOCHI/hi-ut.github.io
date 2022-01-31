@@ -1,10 +1,28 @@
 import fs from 'fs'
-
 const jsonDir = 'static/assets/json'
+
+function getPublicationLatestFiscalYear(){
+  var dir = jsonDir + "/publication/list"
+  var files = fs.readdirSync(dir)
+
+  files.reverse()
+
+  const publicationLatestFiscalYears = []
+  
+  for (const file of files) {
+    const df = JSON.parse(fs.readFileSync(dir + "/" + file))
+    if(df.length === 0){
+      continue
+    }
+    const year = Number(file.split(".json")[0])
+    return year
+  }
+}
 
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
-env.publicationLatestFiscalYear = 2019
+
+env.publicationLatestFiscalYear = getPublicationLatestFiscalYear()
 
 const routerBase =
   process.env.DEPLOY_ENV === 'hi'
