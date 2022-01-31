@@ -1,6 +1,22 @@
 [
     {
         "publisher": "東京大学出版会",
+        "title": "大日本史料　第六編之五十",
+        "buy": "http://www.utp.or.jp/book/b457614.html",
+        "id": "pub_shiryo-06-50",
+        "所報Vol": "54",
+        "紀要Vol": ""
+    },
+    {
+        "publisher": "東京大学出版会",
+        "title": "大日本史料　第二編之三十二",
+        "buy": "http://www.utp.or.jp/book/b488150.html",
+        "id": "pub_shiryo-02-32",
+        "所報Vol": "54",
+        "紀要Vol": ""
+    },
+    {
+        "publisher": "東京大学出版会",
         "title": "大日本史料7編34",
         "buy": "http://www.utp.or.jp/book/b450981.html",
         "id": "pub_shiryo-07-34",
