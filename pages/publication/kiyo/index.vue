@@ -2,11 +2,8 @@
   <LayoutPublication :title="title" :index="2">
     <h1 class="h02">{{ title }}</h1>
 
-    <p>1990 年度より所報から研究報告の部分を分離独立して発刊。毎年度発行。<br />申込書は<a
-       href="https://www.hi.u-tokyo.ac.jp/publication/moshikomi20210804.pdf"
-        >こちら</a>。
-    </p>
-
+    <nuxt-content class="mb1" :document="document" />
+    
     <ul>
 
       <li v-for="i of latestKiyoVol" :key="i">
@@ -38,6 +35,14 @@ export default class about extends Vue {
   title: any = this.$t('研究紀要')
 
   latestKiyoVol: any = process.env.latestKiyoVol
+
+  async asyncData({ $content, app, params }: any): Promise<any> {
+    const document = await $content(
+      `${app.i18n.locale}/publication/kiyo/index`
+    ).fetch()
+    return { document }
+  }
+
 
   head() {
     const title = this.title
