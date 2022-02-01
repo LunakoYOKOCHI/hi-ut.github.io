@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/publication/syoho", {data:[{}],fetch:{},mutations:[]});
