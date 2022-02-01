@@ -1,13 +1,9 @@
 <template>
   <div>
-    <!-- :head="title" 要検討 -->
     <LayoutPublication :title="title" :index="2" :breadcrumbs="breadcrumbs">
       <h1 class="h02">{{ title }}</h1>
-      <p>史料編纂所の諸業務に関する報告。1966 年度より毎年度発行。<br />申込書は<a
-          href="https://www.hi.u-tokyo.ac.jp/publication/moshikomi20210804.pdf"
-          >こちら</a
-        >。
-      </p>
+
+      <nuxt-content class="mb1" :document="document" />
 
       <ul>
         <li v-for="i of latestSyohoVol" :key="i">
@@ -40,6 +36,13 @@ import LayoutPublication from '~/components/layout/Layout.vue'
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
 
+  async asyncData({ $content, app, params }: any): Promise<any> {
+    const document = await $content(
+      `${app.i18n.locale}/publication/syoho/index`
+    ).fetch()
+    return { document }
+  }
+
   title: any = this.$t('所報')
 
   head() {
@@ -58,15 +61,5 @@ export default class about extends Vue {
 
 
   latestSyohoVol: any = process.env.latestSyohoVol
-
-  /*
-  get items(): number[] {
-    const items: any = []
-    for (let i = this.latest; i >= 1; i--) {
-      items.push(i)
-    }
-    return items
-  }
-  */
 }
 </script>
