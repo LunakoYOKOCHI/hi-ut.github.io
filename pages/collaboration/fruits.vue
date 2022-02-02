@@ -14,20 +14,20 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(item, key) in items" :key="key" :id="item.id">
+          <tr v-for="(item, key) in items" :key="key" :id="item.ID">
             <td>
-              {{key + 1}}
+              {{item["番号"]}}
             </td>
             
             <td>
-              <template v-if="item.href">
-                <a :href="item.href">{{ item.label }}</a>
+              <template v-if="item.URL">
+                <a :href="item.URL">{{ item["成果物"] }}</a>
               </template>
               <template v-else>
-                <span v-html="item.label"/>
+                <span v-html="item['成果物']"/>
               </template>
             </td>
-            <td v-html="item.description"></td>
+            <td v-html="item['備考']"></td>
           </tr>
         </tbody>
       </table>
@@ -106,9 +106,14 @@ export default class about extends Vue {
         console.log({err})
       }
     }
+
+    // 各種成果物
+    const items_ = await import(`~/static/assets/json/collaboration/fruits/list.json`)
+    const items = items_.default
     
     return {
-      data : res
+      data : res,
+      items
     }
   }
 
@@ -119,6 +124,7 @@ export default class about extends Vue {
     }
   }
 
+  /*
   items: any[] = [
     {
       label: '入来院家文書',
@@ -186,5 +192,6 @@ export default class about extends Vue {
         '応答型翻訳支援システムのMicrosoft Excelデータ（1.6MB）およびCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY</a>',
     }
   ]
+  */
 }
 </script>
