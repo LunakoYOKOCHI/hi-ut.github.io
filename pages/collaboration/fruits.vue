@@ -16,15 +16,15 @@
         <tbody>
           <tr v-for="(item, key) in items" :key="key" :id="item.ID">
             <td>
-              {{item["番号"]}}
+              {{ item['番号'] }}
             </td>
-            
+
             <td>
               <template v-if="item.URL">
-                <a :href="item.URL">{{ item["成果物"] }}</a>
+                <a :href="item.URL">{{ item['成果物'] }}</a>
               </template>
               <template v-else>
-                <span v-html="item['成果物']"/>
+                <span v-html="item['成果物']" />
               </template>
             </td>
             <td v-html="item['備考']"></td>
@@ -35,8 +35,7 @@
       <h2 class="h03 mt2">東京大学史料編纂所研究成果報告書</h2>
 
       <div v-for="(item, year) in data" :key="item.year" class="mt2">
-
-        <h3 class="h04">{{item.year}} 年度</h3>
+        <h3 class="h04">{{ item.year }} 年度</h3>
 
         <table class="table04">
           <thead>
@@ -50,26 +49,28 @@
           <tbody>
             <tr v-for="(row, key) in item.data" :key="key">
               <td>
-                {{row.番号}}
+                {{ row.番号 }}
               </td>
               <td>
                 <template v-if="row.url">
-                  <a :href="row.url">{{row.書名}}</a>
+                  <a :href="row.url">{{ row.書名 }}</a>
+                </template>
+                <template v-else-if="row.URL">
+                  <a :href="row.URL">{{ row.書名 }}</a>
                 </template>
                 <template v-else>
                   <span v-html="row.書名"></span>
                 </template>
               </td>
               <td>
-                {{row.研究費名}}
+                {{ row.研究費名 }}
               </td>
               <td>
-                {{row.責任者}}
+                {{ row.責任者 }}
               </td>
             </tr>
           </tbody>
         </table>
-
       </div>
     </template>
   </LayoutPublication>
@@ -88,32 +89,35 @@ export default class about extends Vue {
   title: any = '各種成果'
 
   async asyncData() {
+    const latestReportYear: any = process.env.fruitsLatestFiscalYear
 
-    const latestReportYear: any = process.env.latestReportYear
-    
     const res = []
 
-    for(let year = latestReportYear; year >= 2008 ; year--){
+    for (let year = latestReportYear; year >= 2008; year--) {
       try {
-        const reportList_ = await import(`~/static/assets/json/collaboration/fruits/${year}.json`)
+        const reportList_ = await import(
+          `~/static/assets/json/collaboration/fruits/${year}.json`
+        )
         const reportList = reportList_.default
-        
+
         res.push({
           year,
-          data: reportList
+          data: reportList,
         })
       } catch (err) {
-        console.log({err})
+        console.log({ err })
       }
     }
 
     // 各種成果物
-    const items_ = await import(`~/static/assets/json/collaboration/fruits/list.json`)
+    const items_ = await import(
+      `~/static/assets/json/collaboration/fruits/list.json`
+    )
     const items = items_.default
-    
+
     return {
-      data : res,
-      items
+      data: res,
+      items,
     }
   }
 

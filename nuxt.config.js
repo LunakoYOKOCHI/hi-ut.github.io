@@ -1,28 +1,51 @@
 import fs from 'fs'
 const jsonDir = 'static/assets/json'
 
-function getPublicationLatestFiscalYear(){
-  var dir = jsonDir + "/publication/list"
+function getPublicationLatestFiscalYear() {
+  var dir = jsonDir + '/publication/list'
   var files = fs.readdirSync(dir)
 
   files.reverse()
 
-  const publicationLatestFiscalYears = []
-  
   for (const file of files) {
-    const df = JSON.parse(fs.readFileSync(dir + "/" + file))
-    if(df.length === 0){
+    const df = JSON.parse(fs.readFileSync(dir + '/' + file))
+    if (df.length === 0) {
       continue
     }
-    const year = Number(file.split(".json")[0])
+    const year = Number(file.split('.json')[0])
     return year
   }
+}
+
+function getFruitsLatestFiscalYear() {
+  var dir = jsonDir + '/collaboration/fruits'
+  var files = fs.readdirSync(dir)
+
+  files.reverse()
+
+  let fruitsLatestFiscalYear = -1
+
+  for (const file of files) {
+    const df = JSON.parse(fs.readFileSync(dir + '/' + file))
+    if (df.length === 0) {
+      continue
+    }
+    const filename = file.split('.json')[0]
+    if (!isNaN(filename)) {
+      const year = Number(filename)
+      fruitsLatestFiscalYear = year
+      break
+    }
+  }
+
+  return fruitsLatestFiscalYear
 }
 
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 
 env.publicationLatestFiscalYear = getPublicationLatestFiscalYear()
+env.fruitsLatestFiscalYear = getFruitsLatestFiscalYear()
 
 const routerBase =
   process.env.DEPLOY_ENV === 'hi'
