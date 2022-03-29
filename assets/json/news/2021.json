@@ -1,28 +1,28 @@
 [
     {
         "date": "2022/02/21",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "0",
         "content": "【重要】サーバメンテナンスを下記の日程にて行います。<br>\n2021年3月16日（水）17:00～22:00<br>\nこの間、本所HPの表示は可能ですが、データベースなどのご利用が出来ません。ご了承ください。"
     },
     {
         "date": "2022/03/02",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.rekihaku.ac.jp/exhibitions/project/index.html\" target=\"_blank\">「中世武士団―地域に生きた武家の領主―」</a>（2022年3月15日～5月8日）に、本所所蔵「渋谷定心置文」（入来院家文書）他が出陳されます。"
     },
     {
         "date": "2022/03/02",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "2021年7月から開始した都城島津邸所蔵史料の画像公開について、宮崎県都城市の<a href=\"https://www.city.miyakonojo.miyazaki.jp/site/kohomiyakonojo/43863.html\" target=\"_blank\">『広報都城』</a>で紹介されました。<br>\n<a href=\"https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html\" target=\"_blank\">利用条件</a>・<a href=\"https://www.hi.u-tokyo.ac.jp/news/2021/20210721miyakonojo_image.pdf\" target=\"_blank\">利用の手引き</a>"
     },
     {
         "date": "2022/03/01",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "Hi-CAT PlusからのWeb公開史料に西尾市岩瀬文庫所蔵の柳原家旧蔵本が加わりました。書目の一覧は<a href=\"https://www.hi.u-tokyo.ac.jp/kodai/yanagihara-i201503.pdf\" target=\"_blank\">こちら</a>。"
@@ -59,7 +59,7 @@
         "date": "2022/01/20",
         "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "<a href=\"http://museum.kokugakuin.ac.jp/special_exhibition/detail/2022_kamo.html\" target=\"_blank\">特別展「都の神 やしろとまつりー世界遺産 賀茂別雷神社の至宝ー」</a>（2022年1月27日～3月26日）に、本所所蔵「上賀茂社競馬方等算用状」、「上賀茂社社司日記」が出陳されます。"
     },
     {
