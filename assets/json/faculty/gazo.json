@@ -1,7 +1,7 @@
 [
     {
         "room": "絵画史料",
-        "id": "kamogawa|fujiwara|inada"
+        "id": "shinichi|fujiwara|inada"
     },
     {
         "room": "画像史料",
@@ -9,6 +9,6 @@
     },
     {
         "room": "古文書画像",
-        "id": "araki|ohyama"
+        "id": "araki|horimoto"
     }
 ]
