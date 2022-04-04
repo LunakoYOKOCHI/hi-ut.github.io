@@ -5,7 +5,7 @@
     },
     {
         "room": "特殊史料第二",
-        "id": "komiya|yanbe"
+        "id": "yanbe|reiko"
     },
     {
         "room": "海外史料第一",
@@ -17,6 +17,6 @@
     },
     {
         "room": "中世禅籍史料研究プロジェクト",
-        "id": "yanbe|maegawa|kawamoto|mokamoto"
+        "id": "yanbe|kawamoto|mokamoto"
     }
 ]
