@@ -175,15 +175,18 @@ export default class about extends Vue {
     this.$store.commit('setLg', value)
   }
 
-  newsList: any[] = []
-  year: any = process.env.newsLatest
+  //newsList: any[] = []
+  //year: any = process.env.newsLatest
 
+  /*
   async created(){
     const year = this.year
+    console.log({year})
     const url = `https://www.hi.u-tokyo.ac.jp/assets/json/news/${year}.json`
       const {data} = await this.$axios.get(url)
       this.newsList = data
   }
+  */
 
   
   async asyncData({$content, app}: any) {
@@ -192,7 +195,17 @@ export default class about extends Vue {
       'index'
     ).fetch()
 
-    return {/*year, newsList, */document}
+    const year: any = process.env.newsLatest
+    const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
+    const newsList = newsList_.default
+
+    //前年度の記事を取得
+    const newsList2 = await import(`~/static/assets/json/news/${year - 1}.json`)
+    for(const news of newsList2.default){
+      newsList.push(news)
+    }
+
+    return {year, newsList, document}
   }
 
   head() {
