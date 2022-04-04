@@ -197,11 +197,11 @@ export default class about extends Vue {
 
     const year: any = process.env.newsLatest
     const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
-    const newsList = newsList_.default
-
+    const newsList = JSON.parse(JSON.stringify(newsList_.default))
+    
     //前年度の記事を取得
     const newsList2 = await import(`~/static/assets/json/news/${year - 1}.json`)
-    for(const news of newsList2.default){
+    for(const news of JSON.parse(JSON.stringify(newsList2.default))){
       newsList.push(news)
     }
 
