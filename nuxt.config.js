@@ -1,6 +1,41 @@
 import fs from 'fs'
 const jsonDir = 'static/assets/json'
 
+//年度
+function getCurrentFinancialYear() {
+  var fiscalyear = ''
+  var today = new Date()
+  if (today.getMonth() + 1 <= 3) {
+    fiscalyear = today.getFullYear() - 1
+  } else {
+    fiscalyear = today.getFullYear()
+  }
+  return fiscalyear
+}
+
+// 関連年の取得
+function getVolAndYears(path) {
+  var dir = jsonDir + path
+  var files = fs.readdirSync(dir)
+
+  const years = []
+
+  for (const file of files) {
+    const df = JSON.parse(fs.readFileSync(dir + '/' + file))
+    if (df.length === 0) {
+      continue
+    }
+    const year = Number(file.split('.json')[0])
+    years.push(year)
+  }
+
+  return {
+    yearOldest: Math.min(...years),
+    yearLatest: Math.max(...years),
+  }
+}
+
+//出版の最新年を取得
 function getPublicationLatestFiscalYear() {
   var dir = jsonDir + '/publication/list'
   var files = fs.readdirSync(dir)
@@ -17,6 +52,7 @@ function getPublicationLatestFiscalYear() {
   }
 }
 
+//研究成果の最新年を取得
 function getFruitsLatestFiscalYear() {
   var dir = jsonDir + '/collaboration/fruits'
   var files = fs.readdirSync(dir)
@@ -44,8 +80,33 @@ function getFruitsLatestFiscalYear() {
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 
+//出版の最新年を取得
 env.publicationLatestFiscalYear = getPublicationLatestFiscalYear()
+//研究成果の最新年を取得
 env.fruitsLatestFiscalYear = getFruitsLatestFiscalYear()
+
+//拠点の年の取得
+let kyotenYears = getVolAndYears('/collaboration/kyoten/ippan')
+env.kyotenLatest = kyotenYears.yearLatest
+env.kyotenOldest = kyotenYears.yearOldest
+
+//ニュースの取得
+let newsYears = getVolAndYears('/news')
+env.newsLatest = newsYears.yearLatest
+env.newsOldest = newsYears.yearOldest
+
+//紀要
+let kiyoYears = getVolAndYears('/publication/kiyo')
+env.latestKiyoVol = kiyoYears.yearLatest
+env.oldestKiyoVol = kiyoYears.yearOldest
+
+//所報
+let syohoYears = getVolAndYears('/publication/syoho')
+env.latestSyohoVol = syohoYears.yearLatest
+env.oldestSyohoVol = syohoYears.yearOldest
+
+//Financial year
+env.currentFiscalYear = getCurrentFinancialYear()
 
 const routerBase =
   process.env.DEPLOY_ENV === 'hi'
@@ -351,6 +412,7 @@ export default {
   },
 }
 
+//教員一覧
 function getFaculty() {
   const pages = []
 

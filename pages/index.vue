@@ -176,20 +176,13 @@ export default class about extends Vue {
   }
 
   newsList: any[] = []
-  year: any = process.env.currentFiscalYear
+  year: any = process.env.newsLatest
 
   async created(){
     const year = this.year
-    //年度のニュースがない場合
-    try {
-      const url = `https://www.hi.u-tokyo.ac.jp/assets/json/news/${year}.json`
+    const url = `https://www.hi.u-tokyo.ac.jp/assets/json/news/${year}.json`
       const {data} = await this.$axios.get(url)
       this.newsList = data
-    } catch (e) {
-      const url = `https://www.hi.u-tokyo.ac.jp/assets/json/news/${year - 1}.json`
-      const {data} = await this.$axios.get(url)
-      this.newsList = data
-    }
   }
 
   

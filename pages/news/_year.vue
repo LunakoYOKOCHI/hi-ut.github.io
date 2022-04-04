@@ -21,19 +21,10 @@ export default class news extends Vue {
   }
 
   async asyncData({ params }: any) {
-    const year = params.year || process.env.currentFiscalYear
-    //年度のニュースがない場合
-    try {
-      const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
-      const newsList = newsList_.default
-      return { year, newsList }
-    } catch (e) {
-      const newsList_ = await import(
-        `~/static/assets/json/news/${year - 1}.json`
-      )
-      const newsList = newsList_.default
-      return { year, newsList }
-    }
+    const year = params.year || process.env.newsLatest
+    const newsList_ = await import(`~/static/assets/json/news/${year}.json`)
+    const newsList = newsList_.default
+    return { year, newsList }
   }
 }
 </script>
