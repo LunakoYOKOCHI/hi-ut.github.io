@@ -32,7 +32,7 @@
         </tbody>
       </table>
 
-      <h2 class="h03 mt2">東京大学史料編纂所研究成果報告書</h2>
+      <h2 class="h03 mt2">東京大学史料編纂所研究成果報告</h2>
 
       <div v-for="(item, year) in data" :key="item.year" class="mt2">
         <h3 class="h04">{{ item.year }} 年度</h3>
