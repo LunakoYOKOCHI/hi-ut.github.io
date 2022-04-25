@@ -17,7 +17,7 @@ title: データベース検索
 
 <hr/>
 
-<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller">データベース選択画面</a></div>
+<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/">データベース選択画面</a></div>
 
 <hr/>
 
