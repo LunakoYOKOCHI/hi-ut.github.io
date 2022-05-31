@@ -15,4 +15,4 @@ In some parts of the database, you may find materials stored outside the Histori
 
 <hr/>
 
-<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/shipscontroller-e">Database List</a></div>
+<div style="text-align: center"><a href="https://wwwap.hi.u-tokyo.ac.jp/ships/?l=en">Database List</a></div>
