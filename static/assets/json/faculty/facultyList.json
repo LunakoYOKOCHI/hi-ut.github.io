@@ -209,7 +209,7 @@
         "forename_en": "Shinichiro",
         "main": "komo",
         "also": "gazo",
-        "url": "https://www.hi.u-tokyo.ac.jp/personal/shinichi/index.htm",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/shinichi/index.htm",
         "list_flag": "",
         "research_map": "",
         "sex": "m",
@@ -299,11 +299,11 @@
         "forename_en": "Fuyuko",
         "main": "tokushu",
         "also": "",
-        "url": "https://www.hi.u-tokyo.ac.jp/personal/fuyuko/index.html",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/fuyuko/index.html",
         "list_flag": "",
         "research_map": "",
         "sex": "f",
-        "research": "行動する人の歴史、外交の世界史、概念史（翻訳としての蘭学史）、近世日本の対外関係史、近世日本の武家社会"
+        "research": "行動する人の歴史、外交の世界史、概念史（「翻訳」としての蘭学史）、近世日本対外関係史、近世日本の武家社会"
     },
     {
         "sort": "20",
@@ -533,7 +533,7 @@
         "forename_en": "Yuuki",
         "main": "chusei",
         "also": "",
-        "url": "https://www.hi.u-tokyo.ac.jp/personal/murai/muraihp.html",
+        "url": "http://www.hi.u-tokyo.ac.jp/personal/murai/muraihp.html",
         "list_flag": "",
         "research_map": "",
         "sex": "m",
@@ -789,7 +789,7 @@
         "list_flag": "",
         "research_map": "",
         "sex": "f",
-        "research": "平安時代の政務・儀式"
+        "research": "平安時代の政務・儀式の研究"
     },
     {
         "sort": "1006",
