@@ -34,7 +34,7 @@ title: リンク
   
 - [国立文化財機構](http://www.nich.go.jp/) （[国立文化財機構所蔵品統合検索システム](https://colbase.nich.go.jp/?locale=ja)）
   - [東京国立博物館](http://www.tnm.jp/) （[画像検索](http://webarchives.tnm.jp/imgsearch/)）
-  - [京都国立博物館](http://www.kyohaku.go.jp/jp/) （[館蔵品データベース](http://www.kyohaku.go.jp/jp/syuzou/index.html)）
+  - [京都国立博物館](http://www.kyohaku.go.jp/jp/) （[館蔵品データベース](https://syuweb.kyohaku.go.jp/ibmuseum_public/)）
   - [奈良国立博物館](http://www.narahaku.go.jp/) （[画像データベース](http://imagedb.narahaku.go.jp/archive_search/search/Login.action)）
   - [九州国立博物館](http://www.kyuhaku.jp/) （[収蔵品データベース](https://collection.kyuhaku.jp/advanced/)）
   - [東京文化財研究所](http://www.tobunken.go.jp/index_j.html) （[総合検索](https://www.tobunken.go.jp/archives/?lang=ja)）
