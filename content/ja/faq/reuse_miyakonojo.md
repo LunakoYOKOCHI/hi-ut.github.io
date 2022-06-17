@@ -21,13 +21,15 @@ title: Hi-CAT Plus区分： 史料群：都城島津邸所蔵史料 画像デー
 
 <table class="table04" width="100%" cellspacing="0"> 
 	<tbody><tr> 
-		<th class="mtx" width="30%">所蔵者</th>
-		<th class="mtx" width="35%">画像数</th>
+		<th class="mtx" width="20%">所蔵者</th>
+		<th class="mtx" width="25%">画像数</th>
 		<th class="mtx" width="35%">所蔵機関利用規程<br>（利用についてのお問い合わせ）</th>
+    <th class="mtx" width="20%">画像検索の手引き</th>
 	</tr> 
 	<tr>
 <td class="mtx">都城島津邸</td>
 <td class="mtx">約11,000点<br>（2021年7月時点）</td>
 <td class="mtx"><a href="https://www.city.miyakonojo.miyazaki.jp/site/shimazu/35298.html" target="_blank">機関サイト</a></td>
+<td class="mtx"><a href="https://www.hi.u-tokyo.ac.jp/faq/reuse_miyakonojo/miyakonojo_tebiki_20220617.pdf" target="_blank">PDF</a></td>
 </tr>
 </tbody></table>
