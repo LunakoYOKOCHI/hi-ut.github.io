@@ -122,10 +122,10 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">南北朝期の公家中院通冬（なかのいんみちふゆ、1315～1363）の日記。自筆本と古写本。</div><div class="mtx" style="text-indent: 1em;">（平成29 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB19.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000400',
 'newwin','width=640,height=640')">
 <strong>明国箚付</strong></a>（1 幅）</div>
-<div class="mtx" style="text-indent: 1em;">明の神宗の萬暦23年（文祿4年）2月、神宗が前田玄以に都督僉事の官職を授けた際の辭令書。</div><div class="mtx" style="text-indent: 1em;">（平成29 年指定）</div>
+<div class="mtx" style="text-indent: 1em;">万暦23年（文禄4、1595）2月、明朝の兵部が豊臣玄以（前田玄以）に宛て、都督僉事に任じる旨を通達した文書。</div><div class="mtx" style="text-indent: 1em;">（平成29 年指定）</div>
 <br>
 
 <div class="flex col2 mt2">
