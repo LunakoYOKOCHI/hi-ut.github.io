@@ -1739,6 +1739,10 @@
                         {
                             "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/02/1029/",
                             "label": "29 天正3年3月～5月"
+                        },
+                      　 {
+                            "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/02/1030/",
+                            "label": "30 天正3年5月"
                         }
                     ]
                 },
@@ -2908,6 +2912,10 @@
                         {
                             "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/05/1017/",
                             "label": "17 東寺文書之十七"
+                        },
+                     　 {
+                            "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/05/1018/",
+                            "label": "18 東寺文書之十八"
                         }
                     ]
                 },
@@ -4167,6 +4175,10 @@
                         {
                             "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/07/1026/",
                             "label": "26 細川忠利文書十九"
+                        },
+                   　   {
+                            "@id": "https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/07/1027/",
+                            "label": "27 細川忠利文書二十"
                         }
                     ]
                 },
