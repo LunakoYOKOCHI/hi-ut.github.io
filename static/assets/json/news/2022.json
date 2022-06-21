@@ -1,14 +1,14 @@
 [
     {
         "date": "2022/05/25",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "0",
         "content": "5/31　18：00～24：00　新公開システムへの切り替えのため、データベースを停止します。"
     },
     {
         "date": "2022/05/30",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220530.html\" target=\"_blank\">【公募】東京大学史料編纂所「一般技術職員又は技術専門職員（写真担当）」の募集について</a>"
@@ -22,21 +22,21 @@
     },
     {
         "date": "2022/06/07",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "神奈川県立金沢文庫の公開する<a href=\"https://kanazawabunko-db.pen-kanagawa.ed.jp/\" target=\"_blank\">国宝金沢文庫文書データベース</a>がリニューアルされました。連携事業の一環として本所も協力させていただきました。日本古文書ユニオンカタログとのリンクも実現しております。ぜひご活用ください。"
     },
     {
         "date": "2022/06/06",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/w21/search\" target=\"_blank\">ユニオンカタログDB</a>は2021年3月から22年5月で約53,000件を追加。葛川明王院文書・菅浦文書など近畿地方中世文書が充実。金沢文庫古文書も。"
     },
     {
         "date": "2022/06/01",
-        "featured": "New!",
+        "featured": "",
         "tag": "data",
         "top": "1",
         "content": "本年(2022年)6月1日に\n<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/\" target=\"_blank\">新システム</a>に移行しました。どうぞご利用ください。<br>\nデータベースの不具合などお気づきの点がございましたら、下の「お問い合わせ」フォームにてご一報ください。 "
@@ -101,7 +101,7 @@
         "date": "2022/04/11",
         "featured": "",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "米沢市上杉博物館 「<a href=\"https://www.denkoku-no-mori.yonezawa.yamagata.jp/124kyouto.html\" target=\"_blank\">戦国京都と上杉家</A>」（2022年4月16日～6月19日）に、本所所蔵「足利義昭画像」他が出陳されます。"
     },
     {
