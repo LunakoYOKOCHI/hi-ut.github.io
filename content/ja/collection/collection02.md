@@ -40,13 +40,13 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">鎌倉時代に出来た百科便覧。古写本。（昭和32 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB06.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000289',
 'newwin','width=640,height=640')">
 <strong>和歌真字序集</strong></a>（1 巻）</div>
 <div class="mtx" style="text-indent: 1em;">平安時代末期の和歌集序文を集めたもの。原本。（昭和38 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB07.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000292',
 'newwin','width=640,height=640')">
 <strong>南無阿弥陀仏作善集</strong></a>（1 巻）</div>
 <div class="mtx" style="text-indent: 1em;">大仏再建に尽力した僧重源（1121 ～ 1206）の造寺・造仏記録。自筆本。（昭和41 年指定）</div>
@@ -56,13 +56,13 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">江戸後期の幕臣近藤守重（1771 ～ 1829）の著述稿本など。自筆本。（平成4 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB08.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000460',
 'newwin','width=640,height=640')">
 <strong>実隆公記</strong></a>（106 巻、1 帖、44 冊、1 紙）</div>
 <div class="mtx" style="text-indent: 1em;">室町時代の公家三条西実隆（1455 ～ 1537）の日記。自筆本。（平成7 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB09.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001314',
 'newwin','width=640,height=640')">
 <strong>薩摩国日置北郷下地中分絵図</strong></a>（1 幅）</div>
 <div class="mtx" style="text-indent: 1em;">元亨4 年（1324）、薩摩国日置北郷で実施された下地中分の際の日置北郷に関する絵図。原本。（平成9 年指定）</div>
