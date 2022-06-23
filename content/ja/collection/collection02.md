@@ -29,12 +29,12 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">平安～鎌倉時代の公家三条実房（1147 ～ 1225）の日記。自筆本と古写本。（昭和32 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB04.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000412',
 'newwin','width=640,height=640')"><strong>後愚昧記</strong></a>（30 巻1 冊）</div>
 <div class="mtx" style="text-indent: 1em;">南北朝時代の公家三条公忠（1324 ～ 83）の日記。自筆本と写本。（昭和32 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB05.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000014',
 'newwin','width=640,height=640')">
 <strong>拾芥抄</strong></a>（1 巻）</div>
 <div class="mtx" style="text-indent: 1em;">鎌倉時代に出来た百科便覧。古写本。（昭和32 年指定）</div>
