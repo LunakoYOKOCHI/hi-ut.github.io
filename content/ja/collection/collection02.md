@@ -17,13 +17,13 @@ title: 	貴重書
 
 <h2 class="h03 mt2"><strong>重要文化財</strong></h2>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB02.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000081',
 'newwin','width=640,height=640')">
 <strong>台記</strong></a>（1 巻）</div>
 <div class="mtx" style="text-indent: 1em;">平安時代後期の公家藤原頼長（1120 ～ 56）の日記。古写本。（昭和32 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB03.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000408',
 'newwin','width=640,height=640')">
 <strong>愚昧記</strong></a>（8 巻）</div>
 <div class="mtx" style="text-indent: 1em;">平安～鎌倉時代の公家三条実房（1147 ～ 1225）の日記。自筆本と古写本。（昭和32 年指定）</div>
