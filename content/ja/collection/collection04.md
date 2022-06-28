@@ -8,7 +8,7 @@ title: 	その他の貴重書
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000506',
 'newwin','width=640,height=640')"><strong>入来院家文書</strong></a>（薩摩入来院氏伝来の平安～江戸期の文書、1 帖19 巻20 冊）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM02.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000421',
 'newwin','width=640,height=640')"><strong>小笠原文書</strong></a>（越前勝山小笠原家に伝来の南北朝～戦国期の文書、4 帖）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000554',
 'newwin','width=640,height=640')"><strong>尾張国郡司百姓等解文</strong></a>（平安時代の地方の様子を伝える史料、古写本1 巻）<br>
@@ -36,7 +36,7 @@ title: 	その他の貴重書
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000413',
 'newwin','width=640,height=640')"><strong>倭寇図巻</strong></a>（倭寇の来襲とそれを迎え討つ中国側の情景を描いたもの、絹本1 巻）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM09.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000089',
 'newwin','width=640,height=640')"><strong>たはらかさね耕作絵巻</strong></a>（中世末の農業技術や儀礼を示す史料、紙本1 巻）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM10.html',
 'newwin','width=640,height=640')"><strong>ロシア使節レザノフ来航絵巻</strong></a>（レザノフが長崎に来航した時の光景を描いた絵巻、紙本2 巻）<br>
