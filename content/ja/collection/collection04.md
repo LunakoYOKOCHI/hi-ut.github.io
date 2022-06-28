@@ -6,11 +6,11 @@ title: 	その他の貴重書
 
 <h2 class="h03"><strong>古文書</strong></h2>
 <p class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM01.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000506',
 'newwin','width=640,height=640')"><strong>入来院家文書</strong></a>（薩摩入来院氏伝来の平安～江戸期の文書、1 帖19 巻20 冊）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM02.html',
 'newwin','width=640,height=640')"><strong>小笠原文書</strong></a>（越前勝山小笠原家に伝来の南北朝～戦国期の文書、4 帖）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM03.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000554',
 'newwin','width=640,height=640')"><strong>尾張国郡司百姓等解文</strong></a>（平安時代の地方の様子を伝える史料、古写本1 巻）<br>
 </p>
 
@@ -22,9 +22,9 @@ title: 	その他の貴重書
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM04.html',
 'newwin','width=640,height=640')"><strong>山科家日記</strong></a><br>（公家山科家の歴代のうち、言継・言経・言緒などの日記）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM05.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000180',
 'newwin','width=640,height=640')"><strong>薩戒記</strong></a><br>（室町時代中期の公家中山定親(1401 ～ 59) の日記、自筆本を含む6 巻）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM06.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000082',
 'newwin','width=640,height=640')"><strong>満済准后日記</strong></a><br>（醍醐寺三宝院の門跡、満済(1378 ～ 1435) の日記、自筆本1 巻）<br>
 </p>
 
@@ -34,7 +34,7 @@ title: 	その他の貴重書
 
 <h2 class="h03 mt2"><strong>画像史料</strong></h2>
 <p class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM08.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000413',
 'newwin','width=640,height=640')"><strong>倭寇図巻</strong></a>（倭寇の来襲とそれを迎え討つ中国側の情景を描いたもの、絹本1 巻）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kityousyokaidai/PM09.html',
 'newwin','width=640,height=640')"><strong>たはらかさね耕作絵巻</strong></a>（中世末の農業技術や儀礼を示す史料、紙本1 巻）<br>
