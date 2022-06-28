@@ -65,7 +65,7 @@ title: 	貴重書
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001314',
 'newwin','width=640,height=640')">
 <strong>薩摩国日置北郷下地中分絵図</strong></a>（1 幅）</div>
-<div class="mtx" style="text-indent: 1em;">元亨4 年（1324）、薩摩国日置北郷で実施された下地中分の際の日置北郷に関する絵図。原本。（平成9 年指定）</div>
+<div class="mtx" style="text-indent: 1em;">元亨4 年（1324）、薩摩国日置北郷で実施された下地中分の際の日置北郷に関する絵図。原本。（平成9 年指定、指定名称「薩摩国伊作庄日置北郷下地中分絵図」）</div>
 <br>
 <div class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T43.html',
