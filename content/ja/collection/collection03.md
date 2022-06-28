@@ -23,8 +23,7 @@ title: 特殊蒐書
 <p class="mtx">
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T21.html', 'newwin','width=640,height=640')">
 <strong>益田家文書</strong></a>（中世石見の豪族～近世萩藩永代家老家の史料、約9000点）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T14.html',
- 'newwin','width=640,height=640')"><strong>宗家史料</strong></a>（対馬宗家の江戸藩邸伝来の史料、約3000 点）<br>
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T14.html', 'newwin','width=640,height=640')"><strong>宗家史料</strong></a>（対馬宗家の江戸藩邸伝来の史料、約3000 点）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T47.html', 'newwin','width=640,height=640')">
 <strong>播磨新宮池田家記録</strong></a>（幕臣池田家の史料、約600 点）<br>
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T50.html', 'newwin','width=640,height=640')">
@@ -55,9 +54,9 @@ title: 特殊蒐書
 <a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T60.html','newwin','width=640,height=640')">
 <strong>赤門書庫旧蔵地図</strong></a><br>（旧内務省地理局収集地図を中心にした幕末から明治20年代の地図、約670 点）<br>
 
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/shushokaidai/T66.html','newwin','width=640,height=640')">
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001091','newwin','width=640,height=640')">
 <strong>池田長発請来史料</strong></a><br>（文久3年（1863）、江戸幕府最後の遣欧使節団一員である池田長発がフランスにて購入した洋書類、33 点）<br>
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001143','newwin','width=640,height=640')">
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001130','newwin','width=640,height=640')">
 <strong>諸新聞切張物（西南事件関係）</strong></a><br>（修史館が西南戦争を「征西始末」としてまとめる際、材料として各新聞から西南戦争関係の記事を切り取り作成したスクラップブック、31 点）
 　　ほか</p>
 
