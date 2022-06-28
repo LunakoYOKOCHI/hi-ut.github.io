@@ -74,13 +74,13 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">薩摩藩の史官伊地知季安・季通父子が、薩摩藩関係史料を書写し編年に集成したもの。</div><div class="mtx" style="text-indent: 1em;">自筆稿本。（平成9 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB11.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000551',
 'newwin','width=640,height=640')">
 <strong>台明寺文書</strong></a>（7 巻）</div>
 <div class="mtx" style="text-indent: 1em;">大隅国台明寺の旧蔵文書で、平安・鎌倉時代のものが大半を占める。原本。（平成10 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB12.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00000542',
 'newwin','width=640,height=640')">
 <strong>上井覚兼日記</strong></a>（27 冊、附 伊勢守心得書1 冊、天正四年正月中御規式之日帳1 冊）</div>
 <div class="mtx" style="text-indent: 1em;">島津義久の家老上井覚兼（1545 ～ 89）の日記で、戦国時代の世相や武人の生活を描く。</div><div class="mtx" style="text-indent: 1em;">自筆本。（平成10 年指定）</div>
@@ -104,13 +104,13 @@ title: 	貴重書
 <div class="mtx" style="text-indent: 1em;">薩摩の比志島家に伝わっていた文書群。鎌倉・南北朝時代のものが大半を占める。</div><div class="mtx" style="text-indent: 1em;">（平成20 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB16.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001055',
 'newwin','width=640,height=640')">
 <strong>慈鎮和尚夢想記</strong></a>（1 帖）</div>
 <div class="mtx" style="text-indent: 1em;">平安～鎌倉時代の僧侶慈円（1155～1225）の夢とその考察を記す。古写本。</div><div class="mtx" style="text-indent: 1em;">（平成26 年指定）</div>
 <br>
 <div class="mtx">
-<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships_help/OSIDE/W01/kokuho-jubunkaidai/JB17.html',
+<a href="javascript:void(0)" onclick="window.open('https://wwwap.hi.u-tokyo.ac.jp/ships/w01/detail/commentary/book/00001126',
 'newwin','width=640,height=640')">
 <strong>蒋洲咨文</strong></a>（1 幅）</div>
 <div class="mtx" style="text-indent: 1em;">嘉靖35年（1556）11月3日付で、明朝の使者蒋洲が対馬島宛に倭寇禁圧を求めた咨文。</div><div class="mtx" style="text-indent: 1em;">（平成28 年指定）</div>
