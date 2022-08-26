@@ -1,5 +1,12 @@
 [
     {
+        "date": "2022/08/26",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "<a href=\"https://www.ipsj.or.jp/award/yamashita2022.html\" target=\"_blank\">本所の中村覚助教が情報処理学会の山下記念研究賞を受賞しました。</a>"
+    },
+    {
         "date": "2022/07/11",
         "featured": "New!",
         "tag": "event",
