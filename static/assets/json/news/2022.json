@@ -7,6 +7,13 @@
         "content": "<a href=\"https://www.ipsj.or.jp/award/yamashita2022.html\" target=\"_blank\">本所の中村覚助教が情報処理学会の山下記念研究賞を受賞しました。</a>"
     },
     {
+        "date": "2022/09/02",
+        "featured": "New!",
+        "tag": "data",
+        "top": "1",
+        "content": "<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/w81/search?classification=%E7%A6%81%E8%A3%8F%E5%85%AC%E5%AE%B6%E6%96%87%E5%BA%AB&page=1&itemsperpage=200&sortby=classification_code%20ban&sortdesc=false&sortitem=%E5%8C%BA%E5%88%86%EF%BC%9A%E6%98%87%E9%A0%86\" target=\"_blank\">Hi-CAT Plus</a>より公開している宮内庁書陵部所蔵史料の画像を追加しました。\n最新版の史料名一覧は<a href=\"https://www.hi.u-tokyo.ac.jp/kodai/kinri-kuge-index.html\" target=\"_blank\">こちら</a>。"
+    },
+    {
         "date": "2022/08/30",
         "featured": "New!",
         "tag": "news",
@@ -15,14 +22,14 @@
     },
     {
         "date": "2022/07/11",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "国際研究集会「幕末維新史研究と井伊家史料」事前申し込み制。参加無料。詳細とお申し込みは<a href=\"https://drive.google.com/file/d/10Q79nY277Utk_E1-E8M2D2ssvv9Gw8Kl/view?usp=sharing\" target=\"_blank\">こちら</a>から。"
     },
     {
         "date": "2022/07/27",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "『画像史料解析センター通信』<a href=\"https://www.hi.u-tokyo.ac.jp/gazo/centernewslist.htm\" target=\"_blank\">97号</a>を発行いたしました。"
