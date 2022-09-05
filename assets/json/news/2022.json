@@ -1,12 +1,5 @@
 [
     {
-        "date": "2022/08/26",
-        "featured": "New!",
-        "tag": "news",
-        "top": "1",
-        "content": "<a href=\"https://www.ipsj.or.jp/award/yamashita2022.html\" target=\"_blank\">本所の中村覚助教が情報処理学会の山下記念研究賞を受賞しました。</a>"
-    },
-    {
         "date": "2022/09/02",
         "featured": "New!",
         "tag": "data",
@@ -19,6 +12,13 @@
         "tag": "news",
         "top": "1",
         "content": "鹿児島県歴史・美術センター黎明館企画特別展\n<a href=\"https://www.pref.kagoshima.jp/reimeikan/chanoyu.html\" target=\"_blank\">「茶の湯と薩摩」</a>\n（2022年9月22日～11月6日）に、本所所蔵「上井覚兼日記 : 伊勢守日記」（島津家文書）他が出陳されます。"
+    },
+    {
+        "date": "2022/08/26",
+        "featured": "",
+        "tag": "news",
+        "top": "1",
+        "content": "<a href=\"https://www.ipsj.or.jp/award/yamashita2022.html\" target=\"_blank\">本所の中村覚助教が情報処理学会の山下記念研究賞を受賞しました。</a>"
     },
     {
         "date": "2022/07/11",
