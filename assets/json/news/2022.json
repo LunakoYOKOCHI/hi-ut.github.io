@@ -1,12 +1,5 @@
 [
     {
-        "date": "2022/09/07",
-        "featured": "New!",
-        "tag": "data",
-        "top": "0",
-        "content": "9/14（水）18:00 ～ 19:00　サーバメンテナンスのため、以下のサービスがご利用になれません<br>\r\n・HPへのアクセス<br>\r\n・データベースでの検索"
-    },
-    {
         "date": "2022/09/13",
         "featured": "New!",
         "tag": "data",
@@ -19,6 +12,13 @@
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220916.html\" target=\"_blank\">東京大学史料編纂所助教（古代・中世分野1名）、（近世・維新分野2名）を公募いたします。</a>（締め切り：2022年11月18日（金）必着）"
+    },
+    {
+        "date": "2022/09/21",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "九州国立博物館特集展示<a href=\"https://www.kyuhaku.jp/exhibition/exhibition_pre179.html\" target=\"_blank\">「御所の器－公家山科家伝来の古伊万里」</a>（2022年9月27日～11月20日）に、本所所蔵「言継卿記」他が出陳されます。"
     },
     {
         "date": "2022/09/15",
@@ -47,6 +47,13 @@
         "tag": "news",
         "top": "1",
         "content": "高知県立高知城歴史博物館<a href=\"https://www.kochi-johaku.jp/exhibition/6225/\" target=\"_blank\">「没後150年　山内容堂」</a>（2022年9月17日～12月11日）に、本所所蔵「山内豊信事蹟」他が出陳されます（展示期間：9月17日～10月30日）。"
+    },
+    {
+        "date": "2022/09/07",
+        "featured": "New!",
+        "tag": "data",
+        "top": "0",
+        "content": "9/14（水）18:00 ～ 19:00　サーバメンテナンスのため、以下のサービスがご利用になれません<br>\r\n・HPへのアクセス<br>\r\n・データベースでの検索"
     },
     {
         "date": "2022/09/02",
