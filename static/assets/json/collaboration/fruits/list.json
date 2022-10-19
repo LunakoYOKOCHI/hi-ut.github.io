@@ -71,7 +71,7 @@
     },
     {
         "番号": "11",
-        "成果物": "応答型翻訳支援システム<ul><li><a href=\"https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.xlsx\">Microsoft Excelデータ</a></li><li><a href=\"https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20210802.csv\">CSVデータ</a></li></ul>",
+        "成果物": "応答型翻訳支援システム<ul><li><a href=\"https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20220921.xlsx\">Microsoft Excelデータ</a></li><li><a href=\"https://www.hi.u-tokyo.ac.jp/assets/csv/outougata_20220921.csv\">CSVデータ</a></li></ul>",
         "備考": "応答型翻訳支援システムのMicrosoft Excelデータ（1.6MB）およびCSVデータ（UTF-8形式; 4.7MB）です。利用条件：<a href=\"http://creativecommons.org/licenses/by/4.0/\">CC BY</a>",
         "URL": "",
         "ID": "outougata"
