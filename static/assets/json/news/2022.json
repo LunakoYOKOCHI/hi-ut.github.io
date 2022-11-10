@@ -7,18 +7,25 @@
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220916.html\" target=\"_blank\">東京大学史料編纂所助教（古代・中世分野1名）、（近世・維新分野2名）を公募いたします。</a>（締め切り：2022年11月18日（金）必着）"
     },
     {
-        "date": "2022/11/01",
-        "featured": "New!",
-        "tag": "data",
-        "top": "1",
-        "content": "【お知らせ】ネットワークシステム切り替えのため、下記の日程で公開検索システムを停止します。この間、データベースなどのご利用ができません。ご了承ください。<br>\r\n12/20（火）12：00～13:00"
-    },
-    {
         "date": "2022/10/03",
         "featured": "",
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/kyoten/r05/2023%E5%B9%B4%E6%8B%A0%E7%82%B9%E5%85%AC%E5%8B%9F%E8%A6%81%E9%A0%98.pdf\" target=\"_blank\">東京大学史料編纂所共同利用・共同研究拠点による2023(令和5)年度共同研究員・共同研究課題募集</a>を開始しました（2023年1月12日〆切）。"
+    },
+    {
+        "date": "2022/11/10",
+        "featured": "New!",
+        "tag": "data",
+        "top": "1",
+        "content": "【お知らせ】下記の日程でサーバメンテナンスを実施します。サーバメンテナンス期間中、歴史絵引など「図像をさぐる」に関わる各データベース、および、各史料画像へアクセスできません。ご了承ください。<br>\n11/28（月）18：00～22：00"
+    },
+    {
+        "date": "2022/11/01",
+        "featured": "New!",
+        "tag": "data",
+        "top": "1",
+        "content": "【お知らせ】ネットワークシステム切り替えのため、下記の日程で公開検索システムを停止します。この間、データベースなどのご利用ができません。ご了承ください。<br>\r\n12/20（火）12：00～13:00"
     },
     {
         "date": "2022/11/08",
@@ -29,21 +36,21 @@
     },
     {
         "date": "2022/10/24",
-        "featured": "New!",
+        "featured": "",
         "tag": "event",
         "top": "1",
         "content": "地震史料シンポジウムⅡ　<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/20221223jishin2\" target=\"_blank\">災害史料研究が拓く歴史学の新たな方法</a></br>\n2022年12月23日（金）午後1時～５時半　オンライン開催（Zoom）"
     },
     {
         "date": "2022/10/21",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "壬生町立歴史民俗資料館企画展<a href=\"https://www.mibu-rekimin.jp/news/\" target=\"_blank\">「大名の献立～文化二年壬生御献立帳～」</a>（2022年11月5日～12月18日）に、本所所蔵模写「徳川家康画像」他が出陳されます（展示期間：11月5日～12月4日）。"
     },
     {
         "date": "2022/10/19",
-        "featured": "New!",
+        "featured": "",
         "tag": "news",
         "top": "1",
         "content": "堺市博物館特別展<a href=\"https://www.city.sakai.lg.jp/kanko/hakubutsukan/exhibition/kikaku_tokubetsu/index.html\" target=\"_blank\">「堺と武将　三好一族の足跡」</a>（2022年10月29日～12月11日）に、本所所蔵「三好実休［之康］書状」（村上文書）他が出陳されます。"
