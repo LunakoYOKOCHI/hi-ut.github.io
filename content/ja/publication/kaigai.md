@@ -247,8 +247,8 @@ title: 日本関係海外史料
 <br>-->
 </td>
 <td valign="top">
-<!--<a href="<a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0217/" target="_blank" rel="noopener"> 訳13 1652年1月-1653年11月<BR>慶安四年十一月-承応二年九月）</a>
-<br>-->
+<a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0217/" target="_blank" rel="noopener"> 訳13 1652年<BR>(慶安四年十一月-慶安五年七月）</a>
+<br>
 </td>
 </tr>
 </tbody></table>
