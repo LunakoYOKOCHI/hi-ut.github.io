@@ -69,6 +69,7 @@ title: Nihon Kankei Kaigai Shiryo (Historical Documents in Foreign Languages Rel
 <li><a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0215/" target="_blank" rel="noopener">Volume 10 (1646-1647)</a> ISBN: 978-4-13-092730-7</li>
 <li><a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0216/" target="_blank" rel="noopener">Volume 11 (1647-1649)</a> ISBN: 978-4-13-092781-9</li>
 <li><a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0217/" target="_blank" rel="noopener">Volume 12 (1649-1651)</a> ISBN: 978-4-13-092782-6</li>
+<li><!--<a href="https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/850/8500/58/0217/" target="_blank" rel="noopener">-->Volume 13 Part 1 (1652)</a> ISBN: 978-4-13-092783-3</li>
 </ul>
 
 <br>
