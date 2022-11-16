@@ -4,55 +4,12 @@
       <h1 class="h02">{{ $t('所報') }}</h1>
       <h2 class="h03">{{ title }}</h2>
 
-      <table class="table04 mt2">
-        <tbody>
-          <tr>
-            <td>{{ '標題' }}</td>
-            <td>{{ '著者名' }}</td>
-            <td>{{ '掲載ページ' }}</td>
-          </tr>
-
-          <template v-for="(obj, key) in data">
-            <tr :key="`th-${key}`" :id="key === '史料採訪' ? 'saiho' : ''">
-              <th>{{ key }}</th>
-              <th></th>
-              <th></th>
-            </tr>
-
-            <tr v-for="(item, key2) in obj" :key="`th-${key}-${key2}`">
-              <td>
-                <template v-if="item.url">
-                  <a :href="item.url">{{ item.title }}</a>
-                </template>
-                <template v-else-if="item.id">
-                  <a :href="baseUrl + `/publication/syoho/${vol}/${item.id}/`">
-                    {{ item.title }}
-                  </a>
-                  <!--
-                  <nuxt-link
-                    :to="
-                      localePath({
-                        name: 'publication-syoho-vol-slug',
-                        params: {
-                          vol,
-                          slug: item.id,
-                        },
-                      })
-                    "
-                    >{{ item.title }}
-                  </nuxt-link>
-                  -->
-                </template>
-                <template v-else>
-                  {{ item.title }}
-                </template>
-              </td>
-              <td>{{item.creator}}</td>
-              <td>{{ item.page }}</td>
-            </tr>
-          </template>
-        </tbody>
-      </table>
+      <template v-if="vol < 57">
+        <ListOld :data="data" :vol="vol"></ListOld>
+      </template>
+      <template v-else>
+        <List :data="data" :vol="vol"></List>
+      </template>
     </LayoutPublication>
   </div>
 </template>
@@ -60,10 +17,14 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import LayoutPublication from '~/components/layout/Layout.vue'
+import ListOld from '~/components/publication/syoho/ListOld.vue'
+import List from '~/components/publication/syoho/List.vue'
 
 @Component({
   components: {
     LayoutPublication,
+    ListOld,
+    List
   },
 })
 export default class about extends Vue {
