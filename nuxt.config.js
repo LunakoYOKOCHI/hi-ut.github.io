@@ -409,6 +409,16 @@ export default {
         })
       }
 
+      // 2022-11-17 追加
+
+      pages.push({
+        route: '/publication/syoho/57',
+      })
+
+      pages.push({
+        route: '/en/publication/syoho/57',
+      })
+
       return pages
     },
   },
