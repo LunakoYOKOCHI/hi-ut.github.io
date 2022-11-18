@@ -1,9 +1,9 @@
 [
     {
         "date": "2022/09/16",
-        "featured": "",
+        "featured": "【募集終了】",
         "tag": "news",
-        "top": "1",
+        "top": "0",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220916.html\" target=\"_blank\">東京大学史料編纂所助教（古代・中世分野1名）、（近世・維新分野2名）を公募いたします。</a>（締め切り：2022年11月18日（金）必着）"
     },
     {
@@ -26,6 +26,13 @@
         "tag": "data",
         "top": "1",
         "content": "ネットワークシステム切り替えのため、下記の日程で公開検索システムを停止します。この間、データベースなどのご利用ができません。ご了承ください。<br>\n12/20（火）12：00～13:00"
+    },
+    {
+        "date": "2022/11/18",
+        "featured": "New!",
+        "tag": "event",
+        "top": "1",
+        "content": "12月17日（土）13時30分より、国際研究集会<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/20221217ishin\" target=\"_blank\">「維新史料研究と国際発信」</a>（本所・維新史料研究国際ハブ拠点形成プロジェクト主催）を開催します。お申込みは<a href=\"https://forms.gle/RsrkaSDizCFQyUDf9\" target=\"_blank\">こちら</a>。"
     },
     {
         "date": "2022/11/14",
