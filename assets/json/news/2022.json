@@ -1,24 +1,10 @@
 [
     {
-        "date": "2022/09/16",
-        "featured": "【募集終了】",
-        "tag": "news",
-        "top": "0",
-        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220916.html\" target=\"_blank\">東京大学史料編纂所助教（古代・中世分野1名）、（近世・維新分野2名）を公募いたします。</a>（締め切り：2022年11月18日（金）必着）"
-    },
-    {
         "date": "2022/10/03",
         "featured": "",
         "tag": "news",
         "top": "1",
         "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/collaboration/kyoten/r05/2023%E5%B9%B4%E6%8B%A0%E7%82%B9%E5%85%AC%E5%8B%9F%E8%A6%81%E9%A0%98.pdf\" target=\"_blank\">東京大学史料編纂所共同利用・共同研究拠点による2023(令和5)年度共同研究員・共同研究課題募集</a>を開始しました（2023年1月12日〆切）。"
-    },
-    {
-        "date": "2022/11/18",
-        "featured": "New!",
-        "tag": "event",
-        "top": "1",
-        "content": "12月17日（土）13時30分より、国際研究集会<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/20221217ishin.pdf\" target=\"_blank\">「維新史料研究と国際発信」</a>（本所・維新史料研究国際ハブ拠点形成プロジェクト主催）を開催します。お申込みは<a href=\"https://forms.gle/RsrkaSDizCFQyUDf9\" target=\"_blank\">こちら</a>。"
     },
     {
         "date": "2022/11/10",
@@ -28,11 +14,32 @@
         "content": "下記の日程でサーバメンテナンスを実施します。サーバメンテナンス期間中、歴史絵引など「図像をさぐる」に関わる各データベース、および、各史料画像へアクセスできません。ご了承ください。<br>\n11/28（月）18：00～22：00"
     },
     {
+        "date": "2022/11/18",
+        "featured": "New!",
+        "tag": "event",
+        "top": "1",
+        "content": "12月17日（土）13時30分より、国際研究集会<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/20221217ishin.pdf\" target=\"_blank\">「維新史料研究と国際発信」</a>（本所・維新史料研究国際ハブ拠点形成プロジェクト主催）を開催します。お申込みは<a href=\"https://forms.gle/RsrkaSDizCFQyUDf9\" target=\"_blank\">こちら</a>。"
+    },
+    {
         "date": "2022/11/01",
         "featured": "New!",
         "tag": "data",
         "top": "1",
         "content": "ネットワークシステム切り替えのため、下記の日程で公開検索システムを停止します。この間、データベースなどのご利用ができません。ご了承ください。<br>\n12/20（火）12：00～13:00"
+    },
+    {
+        "date": "2022/11/21",
+        "featured": "New!",
+        "tag": "data",
+        "top": "1",
+        "content": "<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/w03-en/search\" target=\"_blank\">「維新史料綱要データベース」英語版</a>提供のお知らせ：本所維新史料研究国際ハブ拠点形成プロジェクトでは、幕末維新期の政治史年表データベースである維新史料綱要データベースの英訳を進めており、順次データをアップロードしています。どうぞご利用ください。"
+    },
+    {
+        "date": "2022/11/21",
+        "featured": "New!",
+        "tag": "news",
+        "top": "1",
+        "content": "「史談会本」画像公開のお知らせ：本所維新史料研究国際ハブ拠点形成プロジェクトでは、本所所蔵幕末維新期貴重史料のデジタル化を進めており、<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships-web-help/OSIDE/shushokaidai/T17.html\" target=\"_blank\">「史談会本」</a>の高精細画像を順次公開しています。<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/w01/search?expand=true&classificationcoderarebook=%E3%80%80%E5%8F%B2%E8%AB%87%E4%BC%9A%E6%9C%AC&page=1&itemsperpage=200&sortby=classification_code%20request_sign&sortdesc=false&sortitem=%E5%8C%BA%E5%88%86%EF%BC%9A%E6%98%87%E9%A0%86\" target=\"_blank\">所蔵史料目録データベース（Hi-CAT）から是非<a href=\"https://wwwap.hi.u-tokyo.ac.jp/ships/w01/search?expand=true&classificationcoderarebook=%E3%80%80%E5%8F%B2%E8%AB%87%E4%BC%9A%E6%9C%AC&page=1&itemsperpage=200&sortby=classification_code%20request_sign&sortdesc=false&sortitem=%E5%8C%BA%E5%88%86%EF%BC%9A%E6%98%87%E9%A0%86\" target=\"_blank\">ご検索</a>、ご利用ください。"
     },
     {
         "date": "2022/11/14",
@@ -376,6 +383,13 @@
         "tag": "data",
         "top": "0",
         "content": "データベースを新システムへ切り替えるため、下記の時間帯に、データベースを停止しました。<br>\n4月25日（月）　18：00~24：00"
+    },
+    {
+        "date": "2022/09/16",
+        "featured": "【募集終了】",
+        "tag": "news",
+        "top": "0",
+        "content": "<a href=\"https://www.hi.u-tokyo.ac.jp/news/2022/koubo_20220916.html\" target=\"_blank\">東京大学史料編纂所助教（古代・中世分野1名）、（近世・維新分野2名）を公募いたします。</a>（締め切り：2022年11月18日（金）必着）"
     },
     {
         "date": "2022/05/30",
