@@ -78,82 +78,13 @@
                 "page": "25"
             }
         ],
+        "page": "1",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021katsudo.pdf"
     },
     {
         "label": "組織構成",
-        "children": [
-            {
-                "label": "教職員",
-                "index": "1",
-                "page": "32"
-            },
-            {
-                "label": "人事異動",
-                "index": "2",
-                "page": "33"
-            },
-            {
-                "label": "職員海外派遣",
-                "index": "3",
-                "page": "33"
-            },
-            {
-                "label": "客員部門教授",
-                "index": "4",
-                "page": "33"
-            },
-            {
-                "label": "技術補佐員・事務補佐員",
-                "index": "5",
-                "page": "33"
-            },
-            {
-                "label": "特任専門員",
-                "index": "6",
-                "page": "34"
-            },
-            {
-                "label": "特任研究員",
-                "index": "7",
-                "page": "34"
-            },
-            {
-                "label": "学術専門職員",
-                "index": "8",
-                "page": "34"
-            },
-            {
-                "label": "リサーチ・アシスタント",
-                "index": "9",
-                "page": "41"
-            },
-            {
-                "label": "研究員",
-                "index": "10",
-                "page": "42"
-            },
-            {
-                "label": "所内委員会",
-                "index": "11",
-                "page": "43"
-            },
-            {
-                "label": "学内教育担当",
-                "index": "12",
-                "page": "43"
-            },
-            {
-                "label": "学内外委員",
-                "index": "13",
-                "page": "44"
-            },
-            {
-                "label": "東京大学史料編纂所協議会",
-                "index": "14",
-                "page": "45"
-            }
-        ]
+        "children": [],
+        "page": "32"
     },
     {
         "label": "史料編纂",
@@ -243,6 +174,7 @@
                 "page": "72"
             }
         ],
+        "page": "46",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021hensan.pdf"
     },
     {
@@ -404,6 +336,7 @@
                 "page": "103"
             }
         ],
+        "page": "74",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021saihou.pdf"
     },
     {
@@ -455,21 +388,25 @@
                 "page": "195"
             }
         ],
+        "page": "105",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021seikakoukai.pdf"
     },
     {
         "label": "所員研究活動",
         "children": [],
+        "page": "197",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021kenkyukatsudo.pdf"
     },
     {
         "label": "新入架史料",
         "children": [],
+        "page": "238",
         "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/shoho0057/2021sinnnyuukasiryo.pdf"
     },
     {
         "label": "彙報",
-        "children": []
+        "children": [],
+        "page": "244"
     },
     {
         "label": "奥付",
