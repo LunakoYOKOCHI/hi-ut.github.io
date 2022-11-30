@@ -6,8 +6,7 @@
       <nuxt-content class="mb1" :document="document" />
 
       <ul>
-        <li v-for="i of latestSyohoVol" :key="i" v-if="latestSyohoVol - i + 1 < 57">
-          <!-- 11月末まで保留 -->
+        <li v-for="i of latestSyohoVol" :key="i">
           <nuxt-link
             :to="
               localePath({

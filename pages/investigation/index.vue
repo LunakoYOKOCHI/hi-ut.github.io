@@ -6,7 +6,7 @@
       <p>東京大学史料編纂所報掲載の史料調査に関する報告。</p>
 
       <ul>
-        <li v-for="i of latestSyohoVol" :key="i" v-if="latestSyohoVol - i + 1 < 57">
+        <li v-for="i of latestSyohoVol" :key="i">
           <nuxt-link
             :to="
               localePath({
